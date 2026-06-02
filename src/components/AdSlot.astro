@@ -1,0 +1,7 @@
+---
+interface Props { slot: string; }
+const { slot } = Astro.props;
+---
+<div class="my-6 min-h-[90px] flex items-center justify-center border border-dashed border-neutral-200 text-xs text-neutral-400">
+  广告位 {slot}（待 AdSense 审核通过后启用）
+</div>

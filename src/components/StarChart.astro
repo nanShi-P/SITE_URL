@@ -1,0 +1,13 @@
+---
+interface Props { stars: number; forks: number; }
+const { stars, forks } = Astro.props;
+const max = Math.max(stars, forks, 1);
+const sw = Math.round((stars / max) * 200);
+const fw = Math.round((forks / max) * 200);
+---
+<div class="my-4">
+  <div class="text-xs text-neutral-500 mb-1">⭐ Stars: {stars.toLocaleString()}</div>
+  <svg width="220" height="10"><rect x="0" y="0" width={sw} height="10" fill="#f59e0b" /></svg>
+  <div class="text-xs text-neutral-500 mt-2 mb-1">🍴 Forks: {forks.toLocaleString()}</div>
+  <svg width="220" height="10"><rect x="0" y="0" width={fw} height="10" fill="#3b82f6" /></svg>
+</div>

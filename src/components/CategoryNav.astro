@@ -1,0 +1,8 @@
+---
+import { CATEGORIES } from '../../scripts/lib/categories';
+---
+<nav class="flex flex-wrap gap-3 text-sm">
+  {CATEGORIES.filter(c => c.slug !== 'other').map(c => (
+    <a href={`/category/${c.slug}`} class="text-neutral-700 hover:text-blue-600">{c.label}</a>
+  ))}
+</nav>

@@ -1,0 +1,21 @@
+---
+import { formatStars, formatDelta } from '../utils/format';
+import type { Repo, Digest } from '../utils/data';
+interface Props { repo: Repo; digest: Digest | null; }
+const { repo, digest } = Astro.props;
+---
+<article class="bg-white border rounded-lg p-4 hover:shadow-md transition">
+  <div class="flex items-baseline gap-2">
+    <a href={`/repo/${repo.owner}/${repo.name}`} class="text-lg font-semibold text-blue-700 hover:underline">
+      {repo.owner}/{repo.name}
+    </a>
+    <span class="text-sm text-neutral-500">⭐ {formatStars(repo.stars)}</span>
+    {repo.rank_delta !== 0 && (
+      <span class={`text-xs ${repo.rank_delta > 0 ? 'text-green-600' : 'text-red-600'}`}>
+        {formatDelta(repo.rank_delta)}
+      </span>
+    )}
+  </div>
+  {repo.language && <span class="text-xs text-neutral-500">{repo.language}</span>}
+  <p class="mt-2 text-sm text-neutral-700">{digest?.summary_zh ?? repo.description}</p>
+</article>

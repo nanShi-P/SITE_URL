@@ -1,0 +1,13 @@
+---
+interface Item { href?: string; label: string; }
+interface Props { items: Item[]; }
+const { items } = Astro.props;
+---
+<nav class="text-sm text-neutral-600 mb-4">
+  {items.map((it, i) => (
+    <span>
+      {it.href ? <a href={it.href} class="hover:text-blue-600">{it.label}</a> : <span>{it.label}</span>}
+      {i < items.length - 1 && <span class="mx-1">/</span>}
+    </span>
+  ))}
+</nav>
