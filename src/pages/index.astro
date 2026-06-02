@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import RepoCard from '../components/RepoCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { allRepos, getDigest } from '../utils/data';
+import { CATEGORIES } from '../../scripts/lib/categories';
+import { homeTitle, homeDescription } from '../utils/seo';
+
+const top = allRepos.slice(0, 100);
+---
+<Base title={homeTitle()} description={homeDescription()}>
+  <h1 class="text-2xl font-bold mb-2">AI 开源项目中文榜单</h1>
+  <p class="text-neutral-600 mb-6">收录 Top 500 个 GitHub AI 开源项目，每个都有中文一句话简介、适用场景、上手难度。</p>
+
+  <section class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+    {CATEGORIES.filter(c => c.slug !== 'other').map(c => (
+      <a href={`/category/${c.slug}`} class="bg-white border rounded p-3 text-center hover:border-blue-400">
+        {c.label}
+      </a>
+    ))}
+  </section>
+
+  <AdSlot slot="home-top" />
+
+  <h2 class="text-xl font-semibold mb-4">Top 100 总榜</h2>
+  <div class="grid gap-3">
+    {top.map(r => <RepoCard repo={r} digest={getDigest(r.id)} />)}
+  </div>
+</Base>

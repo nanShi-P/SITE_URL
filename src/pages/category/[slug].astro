@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import RepoCard from '../../components/RepoCard.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { reposByCategory, getDigest } from '../../utils/data';
+import { CATEGORIES } from '../../../scripts/lib/categories';
+import { categoryTitle } from '../../utils/seo';
+
+export function getStaticPaths() {
+  return CATEGORIES.map(c => ({ params: { slug: c.slug }, props: { label: c.label } }));
+}
+const { slug } = Astro.params;
+const { label } = Astro.props;
+const repos = reposByCategory(slug!);
+---
+<Base title={categoryTitle(label)} description={`${label}分类下的开源项目榜单，共 ${repos.length} 个。`}>
+  <Breadcrumb items={[{ href: '/', label: '首页' }, { label }]} />
+  <h1 class="text-2xl font-bold mb-2">{label}</h1>
+  <p class="text-neutral-600 mb-6">共 {repos.length} 个项目，按 Star 数排序。</p>
+  <AdSlot slot="category-top" />
+  <div class="grid gap-3">
+    {repos.map(r => <RepoCard repo={r} digest={getDigest(r.id)} />)}
+  </div>
+</Base>

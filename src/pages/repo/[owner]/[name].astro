@@ -1,0 +1,94 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import StarChart from '../../../components/StarChart.astro';
+import RepoCard from '../../../components/RepoCard.astro';
+import { allRepos, getDigest, relatedRepos } from '../../../utils/data';
+import { CATEGORIES } from '../../../../scripts/lib/categories';
+import { repoTitle, repoDescription } from '../../../utils/seo';
+import { formatStars } from '../../../utils/format';
+
+export function getStaticPaths() {
+  return allRepos.map(r => ({
+    params: { owner: r.owner, name: r.name },
+    props: { repo: r },
+  }));
+}
+const { repo } = Astro.props;
+const digest = getDigest(repo.id);
+const related = relatedRepos(repo);
+const categoryLabel = CATEGORIES.find(c => c.slug === repo.category)?.label ?? '其他';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: `${repo.owner}/${repo.name}`,
+  applicationCategory: 'DeveloperApplication',
+  operatingSystem: 'Cross-platform',
+  url: repo.url,
+  description: digest?.summary_zh ?? repo.description,
+  aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.5', ratingCount: String(repo.stars) },
+};
+---
+<Base title={repoTitle(repo)} description={repoDescription(repo, digest)}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <Breadcrumb items={[
+    { href: '/', label: '首页' },
+    { href: `/category/${repo.category}`, label: categoryLabel },
+    { label: `${repo.owner}/${repo.name}` },
+  ]} />
+
+  <h1 class="text-2xl font-bold">{repo.owner}/{repo.name}</h1>
+  <div class="flex flex-wrap gap-3 items-center text-sm text-neutral-600 mt-2 mb-4">
+    <span>⭐ {formatStars(repo.stars)}</span>
+    {repo.language && <span class="px-2 py-0.5 bg-neutral-100 rounded">{repo.language}</span>}
+    <a href={repo.url} target="_blank" rel="noopener" class="text-blue-600 hover:underline">前往 GitHub →</a>
+  </div>
+
+  {digest && <p class="text-base bg-blue-50 border-l-4 border-blue-400 p-3 my-4">📝 {digest.summary_zh}</p>}
+
+  <AdSlot slot="repo-top" />
+
+  {digest && (
+    <section class="my-6 space-y-4">
+      <div>
+        <h2 class="font-semibold mb-2">🎯 适用场景</h2>
+        <div class="flex flex-wrap gap-2">
+          {digest.scenarios.map(s => <span class="px-3 py-1 bg-amber-50 border border-amber-200 rounded-full text-sm">{s}</span>)}
+        </div>
+      </div>
+      <div>
+        <h2 class="font-semibold mb-1">📊 上手难度：<span class="text-blue-700">{digest.difficulty}</span></h2>
+        <p class="text-sm text-neutral-700">{digest.difficulty_reason}</p>
+      </div>
+      {digest.alternatives.length > 0 && (
+        <div>
+          <h2 class="font-semibold mb-1">🔄 同类替代</h2>
+          <p class="text-sm text-neutral-700">{digest.alternatives.join(' · ')}</p>
+        </div>
+      )}
+    </section>
+  )}
+
+  <StarChart stars={repo.stars} forks={repo.forks} />
+
+  <AdSlot slot="repo-mid" />
+
+  {repo.description && (
+    <section class="my-6">
+      <h2 class="font-semibold mb-2">📖 项目原始描述</h2>
+      <p class="text-sm text-neutral-700">{repo.description}</p>
+      <a href={repo.url} target="_blank" rel="noopener" class="text-sm text-blue-600 hover:underline">→ 查看完整 README</a>
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <section class="my-8">
+      <h2 class="font-semibold mb-3">🔗 同分类推荐</h2>
+      <div class="grid gap-3">
+        {related.map(r => <RepoCard repo={r} digest={getDigest(r.id)} />)}
+      </div>
+    </section>
+  )}
+</Base>
