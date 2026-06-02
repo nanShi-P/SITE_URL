@@ -1,0 +1,40 @@
+{
+  "name": "googleadv",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "vitest run",
+    "fetch": "tsx scripts/fetch.ts",
+    "classify": "tsx scripts/classify.ts",
+    "enrich": "tsx scripts/enrich.ts",
+    "update": "npm run fetch && npm run classify && npm run enrich"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.100.1",
+    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/tailwind": "^6.0.2",
+    "@octokit/rest": "^22.0.1",
+    "astro": "^6.4.2",
+    "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@types/node": "^25.9.1",
+    "dotenv": "^17.4.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  }
+}
