@@ -1,0 +1,21 @@
+{
+  "id": "infiniflow/ragflow",
+  "source_hash": "7172a82ee3daf099e4953a4cb867c799af57fa57c9990202769a82219973dbdc",
+  "generated_at": "2026-06-02T17:46:54.292Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "RAGFlow 是一款开源的检索增强生成（RAG）引擎，结合深度文档解析与 Agent 能力，为大模型提供高质量上下文，支持复杂格式文档的智能问答与知识库构建。",
+  "scenarios": [
+    "企业内部知识库问答",
+    "复杂 PDF、表格、扫描件的文档解析与检索",
+    "构建带引用溯源的智能客服",
+    "结合 Agent 工作流的多步推理应用",
+    "法律、医疗等专业领域的资料检索"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 镜像一键部署，但对硬件资源要求较高且涉及多组件配置。",
+  "alternatives": [
+    "Dify",
+    "FastGPT",
+    "AnythingLLM"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "iii-hq/iii",
+  "source_hash": "51c9a26babef011af1a71b732b31f55becd80a454a9e183aef530b7de35fb59d",
+  "generated_at": "2026-06-02T18:14:24.180Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "iii 是一套服务编排运行时，用 Worker、Function、Trigger 三个原语把队列、定时任务、HTTP、状态、可观测性、Agent、沙箱等统一接入，新增 Worker 后其他服务可即时发现并调用，支持多语言 SDK 与实时追踪。",
+  "scenarios": [
+    "统一编排后端中的队列、Cron 与 HTTP 服务",
+    "为 AI Agent 动态扩展并调用新能力",
+    "跨 TS/Python/Rust 微服务的互相发现与调用",
+    "集中观测和追踪分布式服务调用链",
+    "快速搭建带沙箱执行的原型系统"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 与多语言 SDK 易上手，但涉及全新运行时与三原语概念，需理解其架构。",
+  "alternatives": [
+    "Temporal",
+    "Inngest",
+    "Dapr"
+  ]
+}

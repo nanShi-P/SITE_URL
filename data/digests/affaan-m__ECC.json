@@ -1,0 +1,21 @@
+{
+  "id": "affaan-m/ECC",
+  "source_hash": "63c9472d5dc88466876bf02eb90fe309175f1133aaed7387e457eb88b24cfe8e",
+  "generated_at": "2026-06-02T17:44:17.028Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ECC 是一个面向 Claude Code、Cursor、Codex 等 AI 编码代理的增强框架，提供技能模板、记忆机制、安全护栏和研究优先的开发流程，旨在统一不同代理工具的工作方式并提升执行性能。",
+  "scenarios": [
+    "在 Claude Code 中加载技能模板规范代码生成流程",
+    "为 Cursor 代理配置长期记忆和上下文管理",
+    "通过 AgentShield 拦截危险命令保障代理安全",
+    "在多代理工具间共享统一的提示和工作流配置",
+    "团队基于研究优先模式开展 AI 辅助开发"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要熟悉对应 AI 代理工具并配置 npm 包及 GitHub App，存在一定集成成本。",
+  "alternatives": [
+    "BMAD-METHOD",
+    "SuperClaude",
+    "Cline"
+  ]
+}

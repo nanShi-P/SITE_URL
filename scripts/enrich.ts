@@ -35,15 +35,17 @@ async function main() {
   const octokit = createClient(process.env.GITHUB_TOKEN);
   const llm = createLlm();
   const budget = Number(process.env.LLM_CALL_BUDGET ?? '600');
+  const concurrency = Number(process.env.ENRICH_CONCURRENCY ?? '8');
   let calls = 0, hits = 0, fails = 0;
+  let stopped = false;
 
-  for (const r of repos) {
-    if (calls >= budget) { console.log(`Budget ${budget} reached, stopping.`); break; }
+  async function worker(r: any): Promise<void> {
+    if (stopped) return;
+    if (calls >= budget) { stopped = true; return; }
     const readme = await fetchReadme(octokit, r.owner, r.name);
     const hash = sha256(`${r.description ?? ''}|${readme ?? ''}`);
     const cached = await loadCached(r.id);
-    if (!needsRefresh(cached, hash)) { hits++; continue; }
-
+    if (!needsRefresh(cached, hash)) { hits++; return; }
     try {
       const digest = await generateDigest(llm, {
         owner: r.owner, name: r.name, description: r.description, readme,
@@ -54,11 +56,18 @@ async function main() {
       };
       await writeFile(digestPath(r.id), JSON.stringify(out, null, 2), 'utf8');
       calls++;
-      console.log(`[${calls}] ${r.id} ok`);
+      if (calls % 10 === 0) console.log(`Progress: calls=${calls} hits=${hits} fails=${fails}`);
     } catch (e) {
       fails++;
       console.warn(`enrich failed for ${r.id}:`, (e as Error).message);
     }
+  }
+
+  // 简易并发：分块跑
+  for (let i = 0; i < repos.length; i += concurrency) {
+    if (stopped) break;
+    const batch = repos.slice(i, i + concurrency);
+    await Promise.all(batch.map(worker));
   }
   console.log(`Done. calls=${calls} hits=${hits} fails=${fails}`);
 }

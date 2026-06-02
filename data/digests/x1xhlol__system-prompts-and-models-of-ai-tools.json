@@ -1,0 +1,19 @@
+{
+  "id": "x1xhlol/system-prompts-and-models-of-ai-tools",
+  "source_hash": "569542772438e04302f3273d805fc35143491634de5018f09fda2c592da4350f",
+  "generated_at": "2026-06-02T17:45:32.277Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库收集并公开了Cursor、Claude Code、Devin、v0、Windsurf、Manus、Lovable等数十款主流AI编程与Agent工具的系统提示词、内部工具定义及模型配置文件，便于研究者参考学习。",
+  "scenarios": [
+    "研究主流AI编码助手的提示词工程技巧",
+    "为自研AI Agent设计system prompt时参考借鉴",
+    "对比不同厂商工具调用与函数定义的写法",
+    "撰写AI产品安全分析或提示词泄露相关文章"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文本资料集合，无需安装运行，直接阅读Markdown即可。",
+  "alternatives": [
+    "awesome-chatgpt-prompts",
+    "leaked-system-prompts"
+  ]
+}

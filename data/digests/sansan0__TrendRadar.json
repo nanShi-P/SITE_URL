@@ -1,0 +1,21 @@
+{
+  "id": "sansan0/TrendRadar",
+  "source_hash": "ecc66a88d939dae7a7420f7570c3bbaadc5282fbcbe3d6352d9da456b0d17efe",
+  "generated_at": "2026-06-02T17:49:47.559Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "TrendRadar 是一款热点与舆情聚合监控工具，支持多平台热搜抓取和 RSS 订阅，通过关键词过滤与 AI 智能筛选、翻译、简报生成，将结果推送到微信、飞书、钉钉、Telegram、邮件等渠道，可 Docker 部署并支持 MCP 接入 AI 对话分析。",
+  "scenarios": [
+    "运营/市场人员每日追踪行业关键词的全网热点",
+    "自媒体作者快速发现选题与趋势",
+    "企业公关团队监控品牌舆情并接收预警推送",
+    "个人用户精简信息流，只看自己关心的新闻",
+    "结合 MCP 让 AI 助手做情感分析与趋势预测"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 Docker 一键部署与详细中文文档，30 秒即可启动，配置以 YAML 为主。",
+  "alternatives": [
+    "DailyHotApi",
+    "RSSHub",
+    "newsnow"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "leptonai/search_with_lepton",
+  "source_hash": "d42474793d346e35059cf56dc040c08dce6243ee47878eec65b991728ed0fccf",
+  "generated_at": "2026-06-02T18:23:56.359Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Lepton AI 的极简对话式搜索引擎示例，用不到 500 行代码整合大模型与搜索 API（Bing、Google 等），提供带 UI、可分享和缓存的搜索问答体验。",
+  "scenarios": [
+    "快速搭建类 Perplexity 的 AI 搜索问答 Demo",
+    "学习 RAG 与搜索结合的最小实现",
+    "企业内部知识检索原型验证",
+    "作为前后端一体的 AI 应用脚手架二次开发"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置搜索 API Key、Lepton 账户及前端构建，步骤虽清晰但依赖多个外部服务。",
+  "alternatives": [
+    "Perplexica",
+    "LLocalSearch",
+    "FreeAskInternet"
+  ]
+}

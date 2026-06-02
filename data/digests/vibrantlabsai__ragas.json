@@ -1,0 +1,21 @@
+{
+  "id": "vibrantlabsai/ragas",
+  "source_hash": "a74bf26218104d14d16aef4daa9ca0eee0370b1fd651f5fbcfdd4ba691626eeb",
+  "generated_at": "2026-06-02T18:20:40.848Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Ragas 是一个面向大语言模型应用的评估工具包，提供客观指标、自动测试集生成和数据驱动分析，帮助开发者量化 RAG 及 LLM 应用的效果并持续优化。",
+  "scenarios": [
+    "评估 RAG 系统的检索与回答质量",
+    "为 LLM 应用自动生成测试数据集",
+    "在 CI 流程中对 prompt 改动做回归评测",
+    "对比不同模型或检索方案的性能差异",
+    "监控生产环境 LLM 应用的输出质量"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Python 安装简单，但需要配置 LLM API 并理解各项评估指标含义。",
+  "alternatives": [
+    "DeepEval",
+    "TruLens",
+    "Phoenix"
+  ]
+}

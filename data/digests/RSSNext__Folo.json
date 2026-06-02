@@ -1,0 +1,21 @@
+{
+  "id": "RSSNext/Folo",
+  "source_hash": "8a8171c2b4ae2cffeb015a8dddebc50324d30a0e446d134c3fec75e1241453e9",
+  "generated_at": "2026-06-02T17:55:04.198Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Folo 是一款集成 AI 能力的新一代 RSS 阅读器，支持桌面和移动端，可订阅文章、播客、视频、社交动态等多种内容源，提供统一的信息流聚合与阅读体验。",
+  "scenarios": [
+    "每日聚合阅读多个博客和新闻站点",
+    "订阅 YouTube 频道与播客统一管理",
+    "跟踪 Twitter、GitHub 等社交动态",
+    "利用 AI 摘要快速浏览长文",
+    "跨设备同步个人订阅列表"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "普通用户可直接下载客户端使用，但自托管或参与开发需配置 Node 环境与多端构建。",
+  "alternatives": [
+    "Reeder",
+    "NetNewsWire",
+    "Inoreader"
+  ]
+}

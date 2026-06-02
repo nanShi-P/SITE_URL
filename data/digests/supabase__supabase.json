@@ -1,0 +1,21 @@
+{
+  "id": "supabase/supabase",
+  "source_hash": "b1f0e878dc04dbaad6215fc85d9a9b143c04f72ec3431a9c0259f06ff6b94acb",
+  "generated_at": "2026-06-02T17:46:21.925Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Supabase 是基于 Postgres 的开源后端开发平台，对标 Firebase，提供托管数据库、身份认证、自动生成的 REST/GraphQL API、实时订阅、边缘函数、文件存储以及向量/嵌入等 AI 工具，并配套可视化管理面板。",
+  "scenarios": [
+    "快速为 Web 或移动应用搭建带认证和数据库的后端",
+    "构建带向量检索的 AI 应用，如 RAG 知识库",
+    "实现多人协作或聊天类应用的实时数据同步",
+    "为初创项目替代 Firebase，避免被云厂商锁定",
+    "小团队托管文件存储并通过 API 访问"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供云托管和详尽中英文文档，注册即可使用；自托管稍复杂但有官方 Docker 方案。",
+  "alternatives": [
+    "Firebase",
+    "Appwrite",
+    "Pocketbase"
+  ]
+}

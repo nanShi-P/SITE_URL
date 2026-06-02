@@ -1,0 +1,21 @@
+{
+  "id": "BloopAI/vibe-kanban",
+  "source_hash": "2af484b1fcebb7207f66e03a8840df3e05376268eef08a51d6d6da3ba7f573fc",
+  "generated_at": "2026-06-02T18:02:42.900Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于看板的编码代理协作工具，用任务卡片规划工作，为 Claude Code、Codex、Gemini CLI 等代理分配独立工作区（含分支、终端、开发服务器），支持差异审查、行内评论和内置浏览器预览。项目已宣布停止维护。",
+  "scenarios": [
+    "团队规划并分派 AI 编码任务到看板",
+    "为每个任务启动独立分支让 Claude Code 自动执行",
+    "审查代理生成的代码 diff 并留下评论反馈",
+    "在内置浏览器中预览代理改动的前端效果",
+    "在多个编码代理之间切换比较产出"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "通过 npm 安装即可启动，但需配置多种外部编码代理及其 API。",
+  "alternatives": [
+    "Backlog.md",
+    "Claude Squad",
+    "Conductor"
+  ]
+}

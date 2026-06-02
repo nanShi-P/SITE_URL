@@ -1,0 +1,21 @@
+{
+  "id": "bytedance/deer-flow",
+  "source_hash": "b93f7584ca0c3dc9322554dc4771d5e456927b0167c496283521830c8e7dfe39",
+  "generated_at": "2026-06-02T17:48:21.370Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "字节跳动开源的超级智能体框架 DeerFlow 2.0，通过编排子智能体、记忆、沙箱和可扩展技能，处理从分钟到小时级的长程任务，覆盖研究、编码与内容创作场景。2.0 为完全重写版本，与 1.x 不共享代码。",
+  "scenarios": [
+    "深度调研报告自动撰写",
+    "多步骤代码项目生成与执行",
+    "长程内容创作（文章、PPT 等）",
+    "调用工具与子智能体完成复杂工作流",
+    "在沙箱环境中安全执行代码任务"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需 Python 3.12+ 与 Node 22+ 双端环境，依赖沙箱、模型 API 和多组件编排，部署链路较长。",
+  "alternatives": [
+    "LangGraph",
+    "AutoGen",
+    "OpenHands"
+  ]
+}

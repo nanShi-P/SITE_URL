@@ -1,0 +1,21 @@
+{
+  "id": "DayuanJiang/next-ai-draw-io",
+  "source_hash": "5a9b42b3e18aedd93e585e401db6423c60118462f3a9668d2a91d7a3e111613e",
+  "generated_at": "2026-06-02T17:59:31.904Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Next.js 的网页应用，把 AI 对话能力接入 draw.io，用自然语言生成、修改和优化流程图，支持桌面版、Docker 部署，并提供 MCP Server 供 Claude Code 等客户端调用。",
+  "scenarios": [
+    "用自然语言快速绘制业务流程图或架构图",
+    "在 Claude Code CLI 中通过 MCP 让 AI 直接产出 draw.io 图",
+    "对现有 drawio 文件做批量修改和美化",
+    "团队演示中边聊边画，实时可视化想法",
+    "自托管 Docker 部署，作为内部 AI 画图工具"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供在线 Demo 和 Docker 镜像可一键体验，但自部署需配置 Next.js 环境和 LLM API key。",
+  "alternatives": [
+    "excalidraw-claude",
+    "chatgpt-mermaid",
+    "eraser.io"
+  ]
+}

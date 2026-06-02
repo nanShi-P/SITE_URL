@@ -1,0 +1,21 @@
+{
+  "id": "Fosowl/agenticSeek",
+  "source_hash": "ae5a9fdc19ba45721f98c218bbe6ac4e775a5b64153746d480cb2791bfe6bdf6",
+  "generated_at": "2026-06-02T18:03:13.242Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AgenticSeek 是一个完全本地运行的 Manus AI 替代方案，基于本地推理模型提供语音交互、自主浏览网页、编写与运行代码、任务规划等能力，所有数据保留在本机，无需调用云端 API。",
+  "scenarios": [
+    "在个人电脑上离线使用 AI 助手处理日常问答与任务规划",
+    "让智能体自动浏览网页搜索资料并填写表单",
+    "自动生成、调试并运行 Python、Go、Java 等代码",
+    "处理涉及隐私的文件和对话，避免上传云端",
+    "通过语音方式与本地大模型交互完成多步骤任务"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要本地部署大模型、配置硬件资源以及浏览器与多服务依赖，环境搭建复杂。",
+  "alternatives": [
+    "OpenManus",
+    "Open Interpreter",
+    "AutoGPT"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "netdata/netdata",
+  "source_hash": "d8410f4f5811c35302460ecd312b5cb715e7c367ebb6bfdd688e38b0dac2e9eb",
+  "generated_at": "2026-06-02T17:47:30.324Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Netdata 是一款开源的实时基础设施监控工具，每秒采集服务器、容器、应用等各类指标，提供开箱即用的可视化仪表盘、告警与异常检测，并支持分布式部署和云端聚合查看。",
+  "scenarios": [
+    "为单台 Linux 服务器快速搭建实时性能监控",
+    "监控 Kubernetes 集群和容器化应用的资源使用",
+    "对数据库、Nginx 等中间件做秒级指标采集与告警",
+    "小团队替代 Prometheus+Grafana 组合，降低运维成本",
+    "排查线上突发性能问题时进行细粒度指标回溯"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供一键安装脚本和预置仪表盘，无需复杂配置即可运行。",
+  "alternatives": [
+    "Prometheus",
+    "Zabbix",
+    "Grafana"
+  ]
+}

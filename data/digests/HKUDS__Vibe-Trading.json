@@ -1,0 +1,20 @@
+{
+  "id": "HKUDS/Vibe-Trading",
+  "source_hash": "ab6cf68881e84fd2591b0738d2ae30b1fa0d9b50996f92e9fcce69b0d287dc67",
+  "generated_at": "2026-06-02T18:22:51.670Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Vibe-Trading 是港大数据智能实验室开源的个人交易智能体框架，基于 FastAPI 与 React 19 构建，一条命令即可为 AI Agent 接入行情查询、策略分析与下单等完整交易能力，并提供影子账户用于模拟实盘。",
+  "scenarios": [
+    "搭建个人 AI 交易助手，通过自然语言查询行情和下单",
+    "用影子账户对交易策略进行模拟回测和验证",
+    "为已有 LLM Agent 扩展加密货币/股票交易工具能力",
+    "量化爱好者快速原型化自动化交易机器人"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI 包和文档，但涉及前后端部署、API Key 配置及交易所对接，需一定开发经验。",
+  "alternatives": [
+    "FreqTrade",
+    "Hummingbot",
+    "OpenBB"
+  ]
+}

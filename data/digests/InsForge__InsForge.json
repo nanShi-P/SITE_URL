@@ -1,0 +1,21 @@
+{
+  "id": "InsForge/InsForge",
+  "source_hash": "b488cf4db39109e2a7bbe7c18e7127fc23a3005b12cfd5cbdb09177696107d51",
+  "generated_at": "2026-06-02T18:22:08.865Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "InsForge 是一个开源的一体化后端平台，专为 AI 编码助手设计，集成数据库、认证、存储、计算、托管和 AI 网关等能力，让编码 Agent 能够端到端地构建并交付全栈应用。",
+  "scenarios": [
+    "让 Cursor、Claude 等 AI 编码助手自动搭建带数据库和认证的全栈应用",
+    "快速为 AI 生成的原型项目提供文件存储和用户登录功能",
+    "通过统一 AI 网关在应用中调用多家大模型服务",
+    "自托管开源后端替代 Supabase 来部署内部工具",
+    "为 SaaS MVP 提供托管和后端基础设施一站式方案"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "功能模块众多，需配置数据库、认证和部署环境，但提供 SDK 和官方文档可降低上手成本。",
+  "alternatives": [
+    "Supabase",
+    "Appwrite",
+    "Pocketbase"
+  ]
+}

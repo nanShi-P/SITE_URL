@@ -1,0 +1,20 @@
+{
+  "id": "vanna-ai/vanna",
+  "source_hash": "29726fd2c3e9816583708d99870bb3ee32369ec92c66a62ae862c0ddf6fa7bcb",
+  "generated_at": "2026-06-02T18:06:26.227Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Vanna 是基于大语言模型的 Text-to-SQL 框架，通过 RAG 检索数据库结构与示例 SQL，将自然语言问题转换为可执行 SQL 并返回数据表、图表和文字总结，2.0 版本新增用户权限、流式响应和可嵌入的 Web 聊天组件。",
+  "scenarios": [
+    "业务人员用自然语言查询数据库生成报表",
+    "在内部系统嵌入聊天式 BI 助手",
+    "数据分析师快速生成复杂 SQL 草稿",
+    "为 SaaS 产品添加带权限隔离的数据问答功能"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 LLM、向量库和数据库连接并提供训练样本，但官方文档和示例较完整。",
+  "alternatives": [
+    "DB-GPT",
+    "SQLCoder",
+    "Dataherald"
+  ]
+}

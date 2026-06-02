@@ -1,0 +1,21 @@
+{
+  "id": "calesthio/Crucix",
+  "source_hash": "85079d5d99fd0783850c27086e0b52da70a54ac3c5a7a4c619ecc05d1e2869f2",
+  "generated_at": "2026-06-02T18:22:35.422Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Crucix 是一个本地运行的开源情报聚合面板，整合卫星火点、航班、辐射、市场行情、制裁名单、社交舆情等 27 个公开数据源，每 15 分钟并行抓取并在类 Jarvis 仪表盘中展示，可对接 LLM 做变化提醒。",
+  "scenarios": [
+    "OSINT 研究员监控全球突发事件",
+    "记者跟踪冲突与制裁动态",
+    "金融分析师观察大宗商品与市场行情",
+    "安全团队搭建本地态势感知大屏",
+    "极客自建个人情报终端"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "仅依赖 Node.js 22 和 express，提供 Docker，但需自行配置 27 个数据源 API 和可选 LLM。",
+  "alternatives": [
+    "OpenCTI",
+    "Spiderfoot",
+    "Recon-ng"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "VectifyAI/PageIndex",
+  "source_hash": "6ee47e5c3b8184503913dc09f506eb223bf798cdc89b7f6faa8cc3315a8daad5",
+  "generated_at": "2026-06-02T17:58:39.947Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PageIndex 是一种无需向量数据库和分块的 RAG 方案，通过为长文档生成树状目录索引，让大模型像人一样基于推理逐层定位相关章节，适合处理专业长文档的检索问答。",
+  "scenarios": [
+    "对财报、招股书等长文档进行问答",
+    "法律合同条款的精准定位与分析",
+    "学术论文章节级检索与摘要",
+    "构建基于 Agent 的文档分析助手",
+    "跨大规模文档库的语义检索"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行配置 LLM API 并理解树状索引与检索流程，但提供示例和文档可参考",
+  "alternatives": [
+    "LlamaIndex",
+    "RAPTOR",
+    "LangChain"
+  ]
+}

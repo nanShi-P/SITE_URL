@@ -1,0 +1,21 @@
+{
+  "id": "recommenders-team/recommenders",
+  "source_hash": "7bc46469329cd614809836fd67fda002a9f666f542ce266ada1ecc0b4b34ce1b",
+  "generated_at": "2026-06-02T18:08:42.004Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Recommenders 是 Linux AI & Data 基金会下的推荐系统开源项目，汇集经典与前沿推荐算法的实现、示例 notebook 和最佳实践，覆盖数据准备、模型训练、评估到部署的完整流程，方便研究者与开发者快速原型与上线。",
+  "scenarios": [
+    "学习并复现经典与深度学习推荐算法",
+    "在自有数据集上快速搭建推荐系统原型",
+    "对比评估不同推荐模型的效果",
+    "作为生产级推荐系统的参考实现",
+    "高校或培训课程中的推荐系统教学案例"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "依赖较多且涉及深度学习框架，但提供大量 notebook 和文档，按示例上手并不困难。",
+  "alternatives": [
+    "Microsoft DeepCTR",
+    "RecBole",
+    "TensorFlow Recommenders"
+  ]
+}

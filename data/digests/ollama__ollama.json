@@ -1,0 +1,21 @@
+{
+  "id": "ollama/ollama",
+  "source_hash": "13ee7744c89517a4ca4dfff4084ae887333da5b289c63cca105fd45f38ed1ec8",
+  "generated_at": "2026-06-02T17:44:45.833Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Ollama 是一款本地运行开源大模型的工具，支持在 macOS、Windows、Linux 和 Docker 上一键安装，命令行即可下载并运行 Gemma、Qwen、DeepSeek 等模型，也可对接 Claude Code、Codex、Copilot 等编程助手与聊天集成。",
+  "scenarios": [
+    "本地离线运行开源大模型进行对话",
+    "为 Claude Code、Codex 等编程工具提供本地模型后端",
+    "通过 Python/JS SDK 在应用中调用本地 LLM",
+    "在 Docker 中部署私有模型服务",
+    "接入 WhatsApp、Telegram 等聊天平台搭建 AI 助手"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "一行命令即可安装，CLI 上手直观，文档完善",
+  "alternatives": [
+    "LM Studio",
+    "llama.cpp",
+    "LocalAI"
+  ]
+}

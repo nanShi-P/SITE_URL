@@ -1,0 +1,20 @@
+{
+  "id": "udecode/plate",
+  "source_hash": "22ec444291d08aab8e8f1d4cc2f9ee9e053145bde0c010ef15dcc8c8e6978866",
+  "generated_at": "2026-06-02T18:16:12.645Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Plate 是基于 Slate 和 React 的富文本编辑器框架，提供插件化内核、丰富插件包、基于 Radix UI 的无样式原语，以及配合 shadcn/ui 的可定制组件和 AI 能力，便于快速搭建现代化编辑器。",
+  "scenarios": [
+    "在 Next.js 应用中集成所见即所得的文档编辑器",
+    "构建带 AI 续写、改写功能的笔记或写作应用",
+    "实现 Notion 风格的块级编辑器和协作文档",
+    "为 SaaS 产品定制富文本评论或邮件编辑器"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "插件化架构灵活但概念较多，需要熟悉 React、Slate 及 shadcn/ui 才能高效定制。",
+  "alternatives": [
+    "TipTap",
+    "Lexical",
+    "BlockNote"
+  ]
+}

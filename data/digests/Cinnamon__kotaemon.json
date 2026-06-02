@@ -1,0 +1,21 @@
+{
+  "id": "Cinnamon/kotaemon",
+  "source_hash": "9e1b7628f48fc6c5094686005fafd3861fff8245db9b2cf33822c240ba6367b5",
+  "generated_at": "2026-06-02T18:04:28.429Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "kotaemon 是一款开源的 RAG 文档问答 UI 工具，提供干净可定制的网页界面，让用户上传文档后通过大模型进行对话式检索与问答，同时也为开发者提供可扩展的 RAG 流水线框架。",
+  "scenarios": [
+    "企业内部知识库文档问答",
+    "科研人员对论文 PDF 进行检索与摘要",
+    "开发者基于框架二次开发自定义 RAG 应用",
+    "本地私有化部署的合规文档查询",
+    "团队协作时多用户共享文档检索"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 镜像和在线 Demo，但本地部署需配置 Python 环境、模型与向量库，文档较完善但涉及组件较多。",
+  "alternatives": [
+    "AnythingLLM",
+    "RAGFlow",
+    "Quivr"
+  ]
+}

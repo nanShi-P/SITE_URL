@@ -1,0 +1,21 @@
+{
+  "id": "Anionex/banana-slides",
+  "source_hash": "764fdf79097d4c707c9bd69a3d70882e9c0a665ec6e1594d128b54d40891549a",
+  "generated_at": "2026-06-02T18:19:31.208Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 nano banana pro 模型的 AI PPT 生成工具，支持上传模板图和素材，通过一句话、大纲或页面描述自动生成幻灯片，可口头修改指定区域并一键导出为可编辑的 PPT 文件。",
+  "scenarios": [
+    "快速将一段文字大纲转成成稿 PPT",
+    "套用自有品牌模板批量生成风格统一的演示文稿",
+    "上传素材图后让 AI 自动排版生成产品介绍页",
+    "通过自然语言指令局部修改某一页的文字或图片",
+    "导出可编辑 pptx 后在 PowerPoint 中继续精修"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 部署但需自备 nano banana pro 模型 API Key 并进行配置。",
+  "alternatives": [
+    "Gamma",
+    "AiPPT",
+    "ChatPPT"
+  ]
+}

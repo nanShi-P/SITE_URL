@@ -1,0 +1,21 @@
+{
+  "id": "google/adk-go",
+  "source_hash": "4168a6fa41e5307c263bd85a3a5bcd3d60609999aa790e16e9516d56f181378c",
+  "generated_at": "2026-06-02T18:24:06.178Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Google 推出的 Go 语言版 Agent Development Kit，提供代码优先的方式构建、评估和部署 AI 智能体，模块化设计，模型与部署无关，针对 Gemini 优化但兼容其他模型，适合云原生与高并发场景。",
+  "scenarios": [
+    "用 Go 构建多步骤推理的 LLM 智能体",
+    "在云原生环境中部署高并发 Agent 服务",
+    "编排多 Agent 协作完成复杂任务工作流",
+    "对接 Gemini 等大模型开发企业内部工具",
+    "对 Agent 输出效果进行评估与回归测试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "框架本身文档齐全且接口规范，但需具备 Go 与 LLM Agent 开发基础，并配置模型 API 密钥与运行环境。",
+  "alternatives": [
+    "adk-python",
+    "LangChainGo",
+    "Eino"
+  ]
+}

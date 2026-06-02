@@ -1,0 +1,21 @@
+{
+  "id": "BasedHardware/omi",
+  "source_hash": "66148a7830a7001230255c5322c6252f59fce27274d391aac8992499f4ee8e50",
+  "generated_at": "2026-06-02T18:21:23.442Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源的个人 AI 助手，可捕捉屏幕和对话内容并实时转录，自动生成摘要与待办，并提供能记住所见所闻的 AI 聊天，支持桌面、手机及配套可穿戴硬件。",
+  "scenarios": [
+    "会议中实时转录并生成纪要和行动项",
+    "日常工作中通过屏幕监听获取上下文提问 AI",
+    "研究学习时记录长时间对话并事后检索",
+    "开发者自建后端，定制隐私化的个人记忆助手",
+    "佩戴配套硬件随身记录灵感和谈话"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "快速试用一行命令即可，但完整安装涉及 Xcode、Rust、后端配置以及移动端构建，需一定开发环境基础。",
+  "alternatives": [
+    "Rewind.ai",
+    "Friend",
+    "Limitless (Rewind Pendant)"
+  ]
+}

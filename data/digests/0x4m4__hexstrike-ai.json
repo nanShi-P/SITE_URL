@@ -1,0 +1,21 @@
+{
+  "id": "0x4m4/hexstrike-ai",
+  "source_hash": "eb4a78c5ca66013715a95e1ffea5a0c1f426c3007c4cfbd8dde3fb55f6b19e30",
+  "generated_at": "2026-06-02T18:23:14.678Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "HexStrike AI 是一个 MCP 服务端框架，将 Claude、GPT 等大模型与 150 多种渗透测试和安全工具打通，由 12 个自治 AI 代理协同完成漏洞扫描、渗透测试、漏洞赏金和安全研究等任务。",
+  "scenarios": [
+    "让 Claude/GPT 自动调用 Nmap、Nuclei 等工具进行目标侦察与漏洞扫描",
+    "在漏洞赏金项目中由 AI 代理自动化执行子域枚举与漏洞挖掘",
+    "红队渗透测试中编排多工具完成 Web/网络综合评估",
+    "安全研究人员让 LLM 自主复现并验证 CVE",
+    "CTF 比赛中借助 AI 代理协助分析与利用"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需自行部署 MCP 服务端、安装大量第三方安全工具并配置 LLM 客户端，对 Kali 环境与渗透测试知识有较高要求。",
+  "alternatives": [
+    "PentestGPT",
+    "AutoGPT",
+    "Villager"
+  ]
+}

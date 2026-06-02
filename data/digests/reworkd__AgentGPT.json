@@ -1,0 +1,20 @@
+{
+  "id": "reworkd/AgentGPT",
+  "source_hash": "35a2cea92dccbd38ff87c5c3abb89ccf1de94814941aebdd00ed7d214681addf",
+  "generated_at": "2026-06-02T17:56:20.203Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AgentGPT 是一个浏览器端的自主 AI Agent 平台，用户可自定义命名 AI 并设定目标，Agent 会自动拆解任务、执行并根据结果迭代。项目提供官方在线站点和自部署 CLI，支持本地一键配置环境变量与数据库。",
+  "scenarios": [
+    "在浏览器中快速体验自主 AI Agent 完成研究类目标",
+    "为产品创意做自动化市场调研与任务拆解",
+    "学习自主 Agent 的工作流程与提示工程",
+    "本地自部署私有 Agent 平台进行二次开发"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "虽然提供自动化 CLI 和详细文档，但需配置 Node 18+、数据库、OpenAI API Key 等多项依赖。",
+  "alternatives": [
+    "AutoGPT",
+    "BabyAGI",
+    "SuperAGI"
+  ]
+}

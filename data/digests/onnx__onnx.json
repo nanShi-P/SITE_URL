@@ -1,0 +1,21 @@
+{
+  "id": "onnx/onnx",
+  "source_hash": "0c31f8999d069396d7af8e91e02058046e6b16dfb83205467217a72870cf4b26",
+  "generated_at": "2026-06-02T18:09:17.931Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ONNX 是一个开放的机器学习模型交换格式标准，定义了可扩展的计算图模型、内置算子和标准数据类型，使深度学习和传统机器学习模型能在不同框架、工具和硬件之间互通，目前主要聚焦于推理场景。",
+  "scenarios": [
+    "将 PyTorch 训练的模型导出为 ONNX 后在 TensorRT 上部署推理",
+    "在不同推理引擎之间迁移模型而无需重新训练",
+    "使用 ONNX Runtime 在多平台（CPU/GPU/移动端）上统一执行模型",
+    "对模型进行图结构分析、可视化和优化",
+    "跨框架共享和分发预训练模型"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "作为标准与工具库，基础使用简单，但深入理解算子定义、图转换和跨框架兼容性需要一定 ML 工程经验。",
+  "alternatives": [
+    "TensorFlow SavedModel",
+    "TorchScript",
+    "Apache TVM"
+  ]
+}

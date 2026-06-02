@@ -1,0 +1,20 @@
+{
+  "id": "harry0703/MoneyPrinterTurbo",
+  "source_hash": "2eca016c97b035c962d1752fb72f93e8ba3e1ad46ca9fcc0ab96bd0b80060936",
+  "generated_at": "2026-06-02T17:47:46.107Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "输入主题或关键词，自动调用大语言模型生成文案，再匹配素材、语音合成、字幕和背景音乐，一键合成竖屏或横屏高清短视频，支持批量产出，提供 Web 界面和 API 两种使用方式。",
+  "scenarios": [
+    "自媒体作者批量生产抖音、视频号等平台的口播短视频",
+    "跨境营销人员生成中英文双语推广视频",
+    "知识博主将文字话题快速转为带字幕的解说视频",
+    "开发者通过 API 接入自有内容平台实现自动化视频生产"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行配置 Python 环境、LLM API Key 和视频素材源，文档较完整但依赖较多。",
+  "alternatives": [
+    "MoneyPrinter",
+    "ShortGPT",
+    "Reelfy"
+  ]
+}

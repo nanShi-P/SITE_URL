@@ -1,0 +1,21 @@
+{
+  "id": "datawhalechina/self-llm",
+  "source_hash": "7cac6fd0da22b50f3fcbe78becdac7ab6183d0613e47f4f3bbe360dfb1656cdb",
+  "generated_at": "2026-06-02T17:59:25.449Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "面向国内初学者的开源大模型实战教程合集，基于Linux环境，系统讲解LLaMA、ChatGLM、Qwen、InternLM等主流开源LLM和多模态模型的环境配置、本地部署、命令行与Demo调用、LangChain集成，以及LoRA、ptuning、全参数等微调方法。",
+  "scenarios": [
+    "初学者在Linux服务器上首次部署开源大模型",
+    "学生使用LoRA对Qwen、InternLM等模型进行微调实验",
+    "开发者基于LangChain集成本地大模型搭建应用Demo",
+    "研究者快速对比多款国内外开源LLM的部署流程",
+    "高校课程或培训用作开源大模型实操教材"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "内容以step-by-step中文教程为主，文档详尽，但需要一定Linux和GPU环境基础。",
+  "alternatives": [
+    "LLaMA-Factory",
+    "hiyouga/ChatGLM-Efficient-Tuning",
+    "datawhalechina/llm-universe"
+  ]
+}

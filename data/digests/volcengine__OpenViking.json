@@ -1,0 +1,21 @@
+{
+  "id": "volcengine/OpenViking",
+  "source_hash": "4ab49f8b8e8149bef2b336aa260c30bffd6d70f2ee9ca6770896466323f9a938",
+  "generated_at": "2026-06-02T18:04:42.296Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenViking 是火山引擎开源的 AI Agent 上下文数据库，以文件系统范式统一管理 Agent 所需的记忆、资源与技能，支持分层上下文交付与自我进化，可为 openclaw 等 Agent 提供持久化上下文存储。",
+  "scenarios": [
+    "为自研 AI Agent 接入持久化记忆与上下文管理",
+    "在多 Agent 协作中按层级共享技能与资源",
+    "为 openclaw 等编码 Agent 提供项目级上下文存储",
+    "构建支持自我进化、长期学习的 Agent 应用",
+    "统一管理跨会话的对话记忆与外部资源引用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "作为基础设施需自行部署并与 Agent 框架集成，文档体系较完整但概念偏新。",
+  "alternatives": [
+    "Mem0",
+    "Letta",
+    "Zep"
+  ]
+}

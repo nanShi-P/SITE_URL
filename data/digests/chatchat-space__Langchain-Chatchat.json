@@ -1,0 +1,21 @@
+{
+  "id": "chatchat-space/Langchain-Chatchat",
+  "source_hash": "129fb355cd700c926270375773d2963b8185145834b61f21bb114aebb8dc751e",
+  "generated_at": "2026-06-02T17:55:18.281Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Langchain-Chatchat 是基于 Langchain 框架的本地知识库问答应用，支持 ChatGLM、Qwen、Llama 等开源大模型，提供 RAG 检索增强与 Agent 能力，可离线部署，方便企业和个人搭建私有化文档问答系统。",
+  "scenarios": [
+    "企业内部文档知识库问答",
+    "个人本地资料检索与总结",
+    "离线环境下的私有化 LLM 部署",
+    "结合 Agent 调用工具完成自动化任务",
+    "学术论文与技术文档的智能问答"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 Python 环境、向量库及本地或在线大模型，文档较完善但依赖较多。",
+  "alternatives": [
+    "FastGPT",
+    "AnythingLLM",
+    "Dify"
+  ]
+}

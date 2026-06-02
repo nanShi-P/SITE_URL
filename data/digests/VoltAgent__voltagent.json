@@ -1,0 +1,21 @@
+{
+  "id": "VoltAgent/voltagent",
+  "source_hash": "4f45d565907154c848ec9f025f0bafee245e33b4cddd605bbac4da3ec9c73cbc",
+  "generated_at": "2026-06-02T18:23:04.185Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "VoltAgent 是基于 TypeScript 的开源 AI Agent 框架与配套工程平台，提供记忆、RAG、工具调用、MCP、语音、护栏等能力，帮助开发者构建、调试和运行可观测的 AI Agent 应用。",
+  "scenarios": [
+    "用 TypeScript 快速搭建带记忆和工具调用的聊天机器人",
+    "构建基于 RAG 的企业知识问答 Agent",
+    "通过 MCP 集成第三方服务打造自动化工作流 Agent",
+    "开发语音交互的客服或助手类应用",
+    "为已有 Agent 增加 Guardrails 和可观测性调试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 TypeScript/Node 基础和 LLM API 配置，但官方文档与示例较为完善。",
+  "alternatives": [
+    "LangChain.js",
+    "Mastra",
+    "LlamaIndex.TS"
+  ]
+}

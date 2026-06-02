@@ -1,0 +1,21 @@
+{
+  "id": "cocktailpeanut/dalai",
+  "source_hash": "3735407f2e69a7e714b591f98ab8a130275ce81b8389db582364a0238def7e72",
+  "generated_at": "2026-06-02T18:20:59.303Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Dalai 是一个一键在本地电脑运行 LLaMA 和 Alpaca 大模型的工具，基于 llama.cpp 和 alpaca.cpp 封装，支持 Mac、Linux、Windows 三大平台，自带可视化 Web 界面、JavaScript API 和 Socket.io 接口，方便二次开发。",
+  "scenarios": [
+    "在个人电脑离线体验 LLaMA/Alpaca 模型对话",
+    "开发者基于 JS API 快速构建本地 LLM 应用",
+    "通过 Web UI 测试不同规模模型（7B-65B）效果",
+    "在无 GPU 环境下进行轻量级模型推理实验",
+    "教学演示大语言模型本地部署流程"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "一行 npx 命令即可安装运行，跨平台支持完善，文档清晰，但需注意模型下载所需磁盘空间与内存。",
+  "alternatives": [
+    "llama.cpp",
+    "ollama",
+    "text-generation-webui"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "shanraisshan/claude-code-best-practice",
+  "source_hash": "4f3cf75c851d47ff994ec095a0f1c1d8bfb2fe20840916128f30802eee24707c",
+  "generated_at": "2026-06-02T17:50:34.580Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库汇总了使用 Claude Code 的最佳实践，涵盖 Subagents、Commands、Skills 等概念，并提供编排工作流示例和实现案例，帮助开发者从随性编码过渡到面向智能体的工程化开发。",
+  "scenarios": [
+    "学习 Claude Code 的子代理与命令机制",
+    "参考编排工作流搭建多代理协作项目",
+    "查阅社区整理的提示词与技巧",
+    "在团队内推广 Claude Code 的规范用法"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "以文档和示例为主，无需复杂环境配置，按需阅读即可。",
+  "alternatives": [
+    "awesome-claude-code",
+    "claude-code-cookbook"
+  ]
+}

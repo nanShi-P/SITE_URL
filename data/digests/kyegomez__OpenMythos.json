@@ -1,0 +1,19 @@
+{
+  "id": "kyegomez/OpenMythos",
+  "source_hash": "d953585e606a48b6c396d9a5d7d8c595c6aa026bc420a56720cd9339e44f0a48",
+  "generated_at": "2026-06-02T18:20:51.960Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于公开研究文献，对传闻中的 Claude Mythos 架构进行理论性复现的开源 PyTorch 实现，核心是包含 Prelude、循环 Recurrent Block 和 Coda 三阶段的 Recurrent-Depth Transformer (RDT)，可在推理时通过循环深度动态扩展计算量。",
+  "scenarios": [
+    "研究循环深度 Transformer 架构的学术实验",
+    "学习并复现前沿 LLM 架构设计",
+    "对比不同推理深度对模型性能的影响",
+    "作为自定义 LLM 训练的基础骨架"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及前沿且未公开的架构推测，需要扎实的 Transformer 与 PyTorch 训练经验，文档以理论描述为主。",
+  "alternatives": [
+    "nanoGPT",
+    "x-transformers"
+  ]
+}

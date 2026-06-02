@@ -1,0 +1,19 @@
+{
+  "id": "p-e-w/heretic",
+  "source_hash": "039ad4a9a51a8ad6db2f8b57520aa33d798c91c15cf5d45c0630b4755944376a",
+  "generated_at": "2026-06-02T18:06:39.488Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Heretic 是一款自动化去除语言模型安全对齐（审查）的工具，基于方向消融（abliteration）技术，并用 Optuna 的 TPE 优化器自动搜索参数，在最小化拒绝率与 KL 散度间平衡，无需后训练即可得到尽量保留原模型能力的去审查版本，命令行即可使用。",
+  "scenarios": [
+    "对开源对话模型一键去除拒答，用于无限制创作",
+    "研究人员复现和评估 abliteration 方法效果",
+    "本地部署 LLM 时定制更宽松的回答风格",
+    "对多模态或 MoE 模型批量做去审查处理"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "命令行操作较简单，但需要本地 GPU、模型权重及 transformer 推理环境支撑。",
+  "alternatives": [
+    "failspy/abliterator",
+    "TransluceAI/representation-engineering"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "HandsOnLLM/Hands-On-Large-Language-Models",
+  "source_hash": "83e75dbe9464a6d4cb7e633175ff425caf0eb971262ff8796920803f8fa49cc2",
+  "generated_at": "2026-06-02T18:02:50.376Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "O'Reilly 图书《Hands-On Large Language Models》的官方配套代码仓库，由 Jay Alammar 和 Maarten Grootendorst 编写，包含书中各章节示例代码，涵盖大语言模型的原理、使用与实战，配合书籍阅读可系统学习 LLM 相关知识。",
+  "scenarios": [
+    "跟随书籍系统学习大语言模型原理与应用",
+    "学习文本分类、聚类、语义搜索等 NLP 任务的 LLM 实现",
+    "学习 Prompt 工程与文本生成实践",
+    "学习 RAG、微调等 LLM 进阶技术",
+    "作为高校或培训机构的 LLM 教学参考代码"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "以 Jupyter Notebook 形式提供，文档清晰，但需要 Python、深度学习基础和一定的 GPU 资源运行模型示例。",
+  "alternatives": [
+    "LLM-course by Maxime Labonne",
+    "d2l-ai",
+    "llm-cookbook"
+  ]
+}

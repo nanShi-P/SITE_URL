@@ -1,0 +1,21 @@
+{
+  "id": "agentscope-ai/agentscope",
+  "source_hash": "9fe892f6e6042a8ae5652a649f42df247462be66d72c935394f303d816c3b790",
+  "generated_at": "2026-06-02T18:03:44.091Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AgentScope 2.0 是阿里开源的多智能体开发框架，提供模型、工具、记忆等核心抽象，支持可视化追踪与调试，帮助开发者构建可观测、可信赖的生产级 LLM Agent 应用。",
+  "scenarios": [
+    "搭建多智能体协作的对话系统",
+    "开发可调用工具的自主任务执行 Agent",
+    "构建带长期记忆的智能助手",
+    "在企业生产环境部署可追踪监控的 LLM 应用",
+    "研究多智能体仿真与交互"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需 Python 3.11+ 与 LLM API 配置，但官方中英文文档完善、抽象清晰。",
+  "alternatives": [
+    "LangChain",
+    "AutoGen",
+    "CrewAI"
+  ]
+}

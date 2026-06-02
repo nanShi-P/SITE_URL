@@ -1,0 +1,21 @@
+{
+  "id": "e2b-dev/E2B",
+  "source_hash": "18131412a3f7053ab3b36167fadfcc367cc69cd57a217fc87d52e0ba0b1a8c67",
+  "generated_at": "2026-06-02T18:21:21.679Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "E2B 是一套开源云端沙箱基础设施，用于安全隔离地运行 AI 生成的代码，提供 JavaScript 与 Python SDK，便于为 AI Agent 提供可执行命令、文件操作等真实工具环境。",
+  "scenarios": [
+    "让 LLM Agent 在隔离沙箱中安全执行生成的代码",
+    "构建 AI 数据分析助手，运行 Python 脚本处理用户数据",
+    "为 Coding Agent 提供可读写文件的临时开发环境",
+    "在云端运行不可信代码片段以做评测或竞赛判题",
+    "为企业级 Agent 平台提供工具调用执行后端"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "SDK 安装即用，仅需 API Key 即可启动沙箱，文档清晰示例完备。",
+  "alternatives": [
+    "Modal",
+    "Daytona",
+    "CodeSandbox SDK"
+  ]
+}

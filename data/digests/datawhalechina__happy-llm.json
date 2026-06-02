@@ -1,0 +1,21 @@
+{
+  "id": "datawhalechina/happy-llm",
+  "source_hash": "e1dc82083fec2cacfcc1d0dd0730df492042a8a7e9e9aca10a452ced7f22e77d",
+  "generated_at": "2026-06-02T17:59:17.825Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Datawhale 出品的系统性大语言模型中文教程，从 NLP 基础和 Transformer 架构讲起，逐步剖析预训练语言模型原理与主流 LLM 结构，并带读者亲手实现一个 LLaMA2 模型，完整走通预训练、微调到 RAG、Agent 等应用流程。",
+  "scenarios": [
+    "想系统学习 LLM 原理的初学者入门自学",
+    "高校或培训机构作为大模型课程参考教材",
+    "NLP 工程师补齐 Transformer 与预训练机制的理论基础",
+    "动手从零复现 LLaMA2 进行训练实验",
+    "了解 RAG、Agent 等 LLM 应用技术栈"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "内容偏理论与代码实操结合，需要一定 Python 与深度学习基础，但文档为中文且循序渐进。",
+  "alternatives": [
+    "karpathy/nanoGPT",
+    "rasbt/LLMs-from-scratch",
+    "mlabonne/llm-course"
+  ]
+}

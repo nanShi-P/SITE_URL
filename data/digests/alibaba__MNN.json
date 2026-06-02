@@ -1,0 +1,21 @@
+{
+  "id": "alibaba/MNN",
+  "source_hash": "24596fd509275f5e95f25e0ef791263aff244801c8f68b7d5e3ce55cfa06a958",
+  "generated_at": "2026-06-02T18:18:07.528Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "阿里巴巴开源的轻量级深度学习推理引擎，专注端侧部署，支持在手机和边缘设备上高效运行大语言模型、多模态模型及图像生成等 AI 应用，并附带 Android Chat、3D Avatar 等示例 App。",
+  "scenarios": [
+    "在 Android/iOS 手机端本地运行 Qwen 等大语言模型",
+    "边缘设备部署多模态视觉模型做离线推理",
+    "在端侧实现 LLM+TTS+ASR 的离线语音对话 Avatar",
+    "移动端图像编辑与生成（如 Sana 卡通化）",
+    "将训练好的模型转换并优化部署到 IoT 设备"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 C++ 编译、跨平台交叉构建、模型转换量化及端侧集成，对工程能力要求较高。",
+  "alternatives": [
+    "ncnn",
+    "TensorFlow Lite",
+    "llama.cpp"
+  ]
+}

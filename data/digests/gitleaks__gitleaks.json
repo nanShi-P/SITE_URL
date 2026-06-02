@@ -1,0 +1,20 @@
+{
+  "id": "gitleaks/gitleaks",
+  "source_hash": "830c2ec0e2ebfb44c38430ffbd23da34003474f6dfaf42367f512493d251d45a",
+  "generated_at": "2026-06-02T18:01:51.444Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Gitleaks 是一款基于正则的开源密钥扫描工具，可在 Git 仓库历史、文件目录或 stdin 输入中检测密码、API Key、Token 等敏感信息泄露，支持 CI 集成和 pre-commit 钩子。注意作者已停止新功能开发，仅维护安全补丁。",
+  "scenarios": [
+    "在 CI/CD 流水线中扫描代码仓库防止密钥提交",
+    "作为 pre-commit 钩子在本地提交前拦截敏感信息",
+    "审计历史 Git 提交记录排查已泄露的凭证",
+    "对本地目录或文件批量做敏感信息合规检查"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供二进制、Docker 镜像和 GitHub Action，命令行使用直观，文档完善",
+  "alternatives": [
+    "trufflehog",
+    "detect-secrets",
+    "ggshield"
+  ]
+}

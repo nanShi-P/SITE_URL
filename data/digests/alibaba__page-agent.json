@@ -1,0 +1,21 @@
+{
+  "id": "alibaba/page-agent",
+  "source_hash": "339514e9038bbbadf3d050f69d01cc5c077a02933ade35b6420ed6f822a4c429",
+  "generated_at": "2026-06-02T18:12:29.207Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "阿里开源的纯前端 GUI Agent JS 库，嵌入网页后可用自然语言操控页面 DOM，无需浏览器扩展、无需 Python 或无头浏览器，基于文本而非截图，支持自带 LLM，并可选配 Chrome 扩展实现跨页面任务。",
+  "scenarios": [
+    "在已有 Web 应用中嵌入自然语言助手，让用户用对话完成表单填写或操作",
+    "为后台管理系统添加 AI 操作入口，降低复杂界面的使用门槛",
+    "自动化 Web UI 端到端测试，用自然语言描述测试步骤",
+    "为老人或视障用户提供语义化网页操作辅助",
+    "配合 Chrome 扩展执行跨页面的多步任务流程"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "作为 npm 包直接引入页面即可，仅需配置 LLM API，无需额外环境或浏览器依赖。",
+  "alternatives": [
+    "browser-use",
+    "Nanobrowser",
+    "WebLLM Agent"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "langchain4j/langchain4j",
+  "source_hash": "976bd837df46062910027165f88e344a60585a24f63fba552660fa851d50a4b7",
+  "generated_at": "2026-06-02T18:21:28.907Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LangChain4j 是面向 JVM 的开源 Java 库，为 20 多家 LLM 提供商和向量存储封装统一 API，简化工具调用（含 MCP）、智能体与 RAG 的实现，并可无缝集成 Quarkus、Spring Boot 等企业级框架。",
+  "scenarios": [
+    "在 Spring Boot 项目中接入 OpenAI 构建聊天助手",
+    "基于企业知识库实现 RAG 文档问答",
+    "通过工具调用让 LLM 操作内部 API 或数据库",
+    "构建可调用 MCP 服务的 Java 智能体",
+    "在多个 LLM 提供商之间无缝切换做对比测试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "API 抽象清晰、文档完善，但需要 Java 与 LLM 基础知识并配置依赖与 API Key。",
+  "alternatives": [
+    "Spring AI",
+    "LangChain",
+    "Semantic Kernel"
+  ]
+}

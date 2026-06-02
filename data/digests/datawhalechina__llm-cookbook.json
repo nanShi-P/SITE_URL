@@ -1,0 +1,21 @@
+{
+  "id": "datawhalechina/llm-cookbook",
+  "source_hash": "ae61ddeb4d33acce0e338393aee6f06c4859772c4c9c0557ca9535f53557ca27",
+  "generated_at": "2026-06-02T18:05:58.329Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该项目是吴恩达大模型系列课程的中文翻译与代码复现合集，涵盖11门课程，内容包括Prompt工程、RAG、LangChain应用开发、模型微调等，并针对中文语境进行适配，帮助国内开发者系统入门LLM开发。",
+  "scenarios": [
+    "系统学习LLM开发基础知识",
+    "学习Prompt Engineering技巧",
+    "使用LangChain构建大模型应用",
+    "基于私有数据开发RAG问答系统",
+    "学习大模型微调方法"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "内容以教程文档和Notebook为主，只需基础Python能力和OpenAI API即可上手，文档完善且有在线阅读。",
+  "alternatives": [
+    "learn-prompt",
+    "prompt-engineering-guide",
+    "langchain-tutorials"
+  ]
+}

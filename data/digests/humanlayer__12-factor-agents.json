@@ -1,0 +1,20 @@
+{
+  "id": "humanlayer/12-factor-agents",
+  "source_hash": "8bd80940000b73e0f8b0eb4765196899d4a3f1436c8c4015e03f0bbdfa634b60",
+  "generated_at": "2026-06-02T18:07:00.946Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "借鉴12 Factor Apps理念，总结了构建可投入生产的LLM智能体应用的12条工程原则，涵盖上下文管理、提示控制、工具调用、状态处理与人机协作等方面，是一份方法论文档而非可运行代码库。",
+  "scenarios": [
+    "团队启动LLM Agent项目前的架构设计参考",
+    "评估和重构现有Agent代码的可靠性",
+    "技术分享或内部培训材料",
+    "为AI产品制定工程规范与最佳实践"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档型仓库，无需安装依赖，阅读Markdown即可。",
+  "alternatives": [
+    "anthropic-cookbook",
+    "langchain",
+    "OpenAI Agents SDK"
+  ]
+}

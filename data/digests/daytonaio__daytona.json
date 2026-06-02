@@ -1,0 +1,21 @@
+{
+  "id": "daytonaio/daytona",
+  "source_hash": "db9589d9263e22545aa65aec794b7f69a5cca8fdbbd0cc31cb3ad4a497524470",
+  "generated_at": "2026-06-02T17:48:06.018Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Daytona 是一个开源的安全弹性沙箱基础设施，用于运行 AI 生成的代码和智能体工作流。每个沙箱基于 OCI/Docker，拥有独立内核、文件系统和网络，可在 90ms 内启动并执行 Python、TypeScript、JavaScript 代码，通过 SDK 或 API 调用。",
+  "scenarios": [
+    "为 AI Agent 提供隔离的代码执行环境",
+    "在沙箱中安全运行 LLM 生成的 Python/JS 脚本",
+    "并行运行大量短生命周期任务的代码评测",
+    "构建带持久化文件系统的智能体工作流",
+    "替代本地 Docker 为云端 AI 应用提供运行时"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 SDK、API 和较完整文档，但涉及基础设施部署与容器运行时知识，自托管有一定门槛。",
+  "alternatives": [
+    "e2b",
+    "modal",
+    "CodeSandbox SDK"
+  ]
+}

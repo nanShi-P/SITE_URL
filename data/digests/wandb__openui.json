@@ -1,0 +1,21 @@
+{
+  "id": "wandb/openui",
+  "source_hash": "17be5d6c14ae1a1f14ad13073a0ed6792a8f4409334cb31032ae91d717fd6f00",
+  "generated_at": "2026-06-02T18:07:38.151Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenUI 是 W&B 开源的 UI 原型生成工具，用自然语言描述界面即可实时渲染预览，并支持把生成的 HTML 转换为 React、Svelte、Web Components 等框架代码，兼容 OpenAI、Groq、Ollama 等多种模型后端。",
+  "scenarios": [
+    "前端开发者快速生成组件原型并迭代修改",
+    "设计师用自然语言探索 UI 方案并导出代码",
+    "团队基于本地 Ollama 模型搭建私有 UI 生成服务",
+    "将已有 HTML 一键转换为 React 或 Svelte 组件",
+    "作为 LLM 应用原型，演示多模型接入能力"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 API Key 或本地模型环境，并自行部署前后端，但官方文档清晰、提供 Docker 镜像。",
+  "alternatives": [
+    "v0.dev",
+    "screenshot-to-code",
+    "Vercel AI SDK"
+  ]
+}

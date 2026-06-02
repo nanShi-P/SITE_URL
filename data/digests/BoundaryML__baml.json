@@ -1,0 +1,21 @@
+{
+  "id": "BoundaryML/baml",
+  "source_hash": "8ff9f8b967f889814cf60740bf02f36d1f62c90dfa4866f7b212794a87a06aac",
+  "generated_at": "2026-06-02T18:23:49.443Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "BAML 是一种专为提示工程设计的领域特定语言，将提示视为带类型签名的函数，把提示工程变成 schema 工程。它支持流式、重试、类型安全，并可在 Python、TypeScript、Ruby、Go 等多语言中调用，兼容各类模型（即使不支持原生工具调用）。",
+  "scenarios": [
+    "构建可靠的 LLM 智能体和工作流",
+    "对 LLM 输出做结构化抽取并保证类型安全",
+    "在不支持原生 function calling 的模型上实现工具调用",
+    "多语言项目中统一管理和复用提示词",
+    "通过 Prompt Fiddle 在线调试和迭代提示"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需学习一门新的 DSL 语法并集成代码生成工具链，但官方文档、示例和多语言 SDK 较完善。",
+  "alternatives": [
+    "LangChain",
+    "Instructor",
+    "Marvin"
+  ]
+}

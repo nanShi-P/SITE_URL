@@ -1,0 +1,21 @@
+{
+  "id": "rowboatlabs/rowboat",
+  "source_hash": "aeeb433954f19a8f857a2f900482fb35d5574a4117b0cb21600730f35abcc567",
+  "generated_at": "2026-06-02T18:18:57.114Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Rowboat 是一个开源的本地 AI 协作助手，可连接邮件和会议记录，构建长期知识图谱，并基于上下文帮你生成文档、会议简报、跟踪人物或话题等，强调隐私和本地运行。",
+  "scenarios": [
+    "根据知识图谱自动生成季度路线图 PPT/PDF",
+    "会前自动整理与某人相关的历史决策和未决问题作为简报",
+    "持续跟踪某个客户、公司或项目话题的最新动态",
+    "汇总邮件与会议笔记，形成可视化的个人工作知识图谱",
+    "生成语音简报，便于通勤时听取工作要点"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要本地部署并接入邮箱与会议数据源，涉及多服务编排，但提供 Docker 等较完整的安装文档。",
+  "alternatives": [
+    "Khoj",
+    "Reor",
+    "Danswer"
+  ]
+}

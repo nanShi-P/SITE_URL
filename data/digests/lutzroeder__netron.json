@@ -1,0 +1,20 @@
+{
+  "id": "lutzroeder/netron",
+  "source_hash": "da9bcfc51a303475ba33f82f65e98da8843f5927fd15c7595fd4255dcbae0ca0",
+  "generated_at": "2026-06-02T17:58:23.807Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Netron 是一款神经网络与机器学习模型的可视化查看器，支持 ONNX、TensorFlow Lite、PyTorch、Core ML、Keras 等主流格式，可在浏览器、桌面端及 Python 中打开模型文件，直观查看网络结构、层参数和权重。",
+  "scenarios": [
+    "查看 ONNX 模型的网络结构和算子参数",
+    "调试 PyTorch 导出的 TorchScript 模型",
+    "对比不同框架转换前后的模型差异",
+    "在浏览器中快速分享和检查模型文件",
+    "通过 Python 脚本启动可视化辅助模型开发"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供浏览器在线版及各平台一键安装包，pip 也可安装，无需配置环境。",
+  "alternatives": [
+    "TensorBoard",
+    "Zetane Viewer"
+  ]
+}

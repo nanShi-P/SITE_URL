@@ -1,0 +1,21 @@
+{
+  "id": "danny-avila/LibreChat",
+  "source_hash": "9a96b99f8ec90ba54c11d9da496bba2c6b3f7eb24d1b6d6f789a9bb6cd145cee",
+  "generated_at": "2026-06-02T17:55:33.908Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源的多模型聊天前端，类似ChatGPT界面，支持OpenAI、Anthropic、Gemini、DeepSeek等主流大模型及本地模型接入，内置智能体、MCP、代码解释器、DALL·E绘图、消息搜索和多用户认证，可自托管部署。",
+  "scenarios": [
+    "团队或企业自建私有ChatGPT，统一管理多家模型API密钥与用户权限",
+    "开发者在同一界面对比测试不同LLM的回答效果",
+    "通过MCP和OpenAPI Actions接入自定义工具，搭建AI智能体工作流",
+    "个人用户自托管，使用自己的API Key替代付费ChatGPT Plus",
+    "教育或研究场景下提供多模型聊天与代码解释器环境"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供Docker及多平台一键部署模板和完善文档，但涉及多模型密钥、MongoDB、Meilisearch等配置，完整搭建需一定运维基础。",
+  "alternatives": [
+    "Lobe Chat",
+    "Open WebUI",
+    "ChatGPT-Next-Web"
+  ]
+}

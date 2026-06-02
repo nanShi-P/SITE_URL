@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/agent-framework",
+  "source_hash": "22d03f833ea3cdd8205fd7666ad381f34cb7137fae975f00a1b6aa6a3569e623",
+  "generated_at": "2026-06-02T18:22:06.713Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软推出的开源框架，用于构建、编排和部署 AI 智能体及多智能体工作流，同时支持 Python 和 .NET 两种语言生态。",
+  "scenarios": [
+    "搭建单个 AI 智能体处理问答或任务自动化",
+    "编排多个智能体协作完成复杂业务流程",
+    "在 .NET 企业应用中集成 LLM 智能体能力",
+    "用 Python 快速原型化 Agent 工作流并部署到生产",
+    "构建带工具调用和状态管理的对话式智能体系统"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "框架本身封装较完善，但多智能体编排概念和跨语言生态使用需一定 LLM 与工程基础。",
+  "alternatives": [
+    "LangGraph",
+    "AutoGen",
+    "Semantic Kernel"
+  ]
+}

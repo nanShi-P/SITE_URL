@@ -1,0 +1,21 @@
+{
+  "id": "Lightning-AI/pytorch-lightning",
+  "source_hash": "c95ecd1e29a3f8cffaec876d7128eb4e7e3f5e013ca0e643b35754a31be41c04",
+  "generated_at": "2026-06-02T17:59:02.107Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PyTorch Lightning 是基于 PyTorch 的高层深度学习框架，将训练循环、分布式策略、混合精度等工程细节抽象出来，让用户用同一份代码在单卡到上千 GPU/TPU 上预训练和微调任意规模的 AI 模型，并提供更底层的 Fabric 接口供高级用户精细控制。",
+  "scenarios": [
+    "在多 GPU/TPU 集群上预训练大语言模型",
+    "对开源大模型进行微调实验",
+    "学术研究中快速搭建可复现的训练流水线",
+    "将单机 PyTorch 代码无缝扩展到分布式训练",
+    "结合混合精度和梯度累积训练大型视觉模型"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "API 封装良好且文档完善，但需理解 PyTorch、分布式训练和回调机制等概念。",
+  "alternatives": [
+    "Hugging Face Accelerate",
+    "DeepSpeed",
+    "Keras"
+  ]
+}

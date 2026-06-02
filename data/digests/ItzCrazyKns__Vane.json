@@ -1,0 +1,21 @@
+{
+  "id": "ItzCrazyKns/Vane",
+  "source_hash": "9340ab3f318726d0d63914c56a9540b039917738b481ec9b305b033e683aaebe",
+  "generated_at": "2026-06-02T17:56:55.257Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Vane 是一款注重隐私的 AI 问答引擎，可本地部署运行，支持 Ollama 本地模型及 OpenAI、Claude、Gemini、Groq 等云端模型，结合网络检索给出带引用来源的答案，并提供速度、平衡、质量三种搜索模式以及网页、论坛、学术等多种数据源。",
+  "scenarios": [
+    "在本地私有环境下进行带来源引用的联网问答",
+    "使用 Ollama 本地模型搭建无外泄风险的内部知识检索工具",
+    "学术论文检索与深度调研",
+    "团队日常技术问题快速查询",
+    "对比测试不同 LLM 提供商的回答质量"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 镜像便于部署，但需自行配置 LLM、搜索源及 API key，对新手有一定门槛。",
+  "alternatives": [
+    "Perplexica",
+    "FarFalle",
+    "MorphicAI"
+  ]
+}

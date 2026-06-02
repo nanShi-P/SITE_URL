@@ -1,0 +1,20 @@
+{
+  "id": "chatboxai/chatbox",
+  "source_hash": "9c16095e7202bf0d1f4ecb230cd9ba56e2a8d8e85558e0f203fc19912bcf3436",
+  "generated_at": "2026-06-02T17:54:16.293Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Chatbox 是一款跨平台桌面 AI 客户端，支持接入 ChatGPT、Claude 等多种大语言模型，提供本地优先的数据存储和统一对话界面，兼容 Windows、Mac、Linux 三大系统。",
+  "scenarios": [
+    "在桌面端统一管理多家 LLM 的 API Key 并切换使用",
+    "开发者调试不同模型的 Prompt 效果",
+    "团队成员用本地客户端与 AI 进行日常问答和写作",
+    "通过自定义 API 接入私有部署的模型进行对话"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供各平台安装包，开箱即用，无需自行编译或配置复杂环境。",
+  "alternatives": [
+    "LobeChat",
+    "NextChat",
+    "Cherry Studio"
+  ]
+}

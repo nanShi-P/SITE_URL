@@ -1,0 +1,21 @@
+{
+  "id": "langbot-app/LangBot",
+  "source_hash": "6218e0dd0dd1e123af6f5833dd750c9e5da9afea92ea9e00074d8546299b0dd1",
+  "generated_at": "2026-06-02T18:16:20.363Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LangBot 是一个开源的多平台 IM 智能机器人开发平台，支持对接 QQ、微信、Discord、Telegram、飞书、钉钉等主流即时通讯渠道，内置 Agent、知识库、插件系统，并可集成 ChatGPT、DeepSeek、Dify、Claude 等多种大模型与工作流工具。",
+  "scenarios": [
+    "在企业微信或钉钉中部署内部 AI 知识库问答机器人",
+    "为 QQ 群、Discord 社区接入 ChatGPT 聊天助手",
+    "通过 Dify/n8n 编排业务流程并由 IM 机器人触发",
+    "在 Telegram、LINE 上发布个人 AI 助理",
+    "为公众号搭建自动客服回复机器人"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需 Python 3.10+ 或 Docker 部署并配置 IM 渠道与模型 API，文档完善但涉及多平台凭证申请。",
+  "alternatives": [
+    "Dify",
+    "NoneBot",
+    "FastGPT"
+  ]
+}

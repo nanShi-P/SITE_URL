@@ -1,0 +1,21 @@
+{
+  "id": "doocs/md",
+  "source_hash": "a55144f9c7a9e88153a8e9a3dd2d60f2e05793dd32bfb1fd9ad5b23a336d999d",
+  "generated_at": "2026-06-02T18:21:07.442Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一款专注于微信公众号排版的在线 Markdown 编辑器，输入 Markdown 即可即时渲染为美观图文，支持自定义主题、数学公式、Mermaid 图表、多图床上传以及 AI 写作助手，省去反复调整样式的麻烦。",
+  "scenarios": [
+    "公众号作者快速将 Markdown 文稿排版为微信图文",
+    "技术博主同步发布带代码高亮的技术文章到公众号",
+    "团队统一公众号视觉风格，使用自定义主题模板",
+    "插入数学公式或 Mermaid 流程图后导出到公众号",
+    "借助 AI 助手润色和续写公众号文章内容"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供在线版直接使用，自部署也有 npm 和 Docker 镜像，文档清晰。",
+  "alternatives": [
+    "mdnice",
+    "wechat-format",
+    "lovpen"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "agentscope-ai/QwenPaw",
+  "source_hash": "b3b99e4f6b103145b88483695a58733327de6c5967413f0568252c75f294f554",
+  "generated_at": "2026-06-02T18:15:10.182Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "QwenPaw 是基于通义千问的个人 AI 助手框架，可本地或云端部署，支持接入多种聊天应用（如微信、Telegram 等），并提供可扩展的能力插件机制，方便用户打造自己的对话机器人。",
+  "scenarios": [
+    "在本地电脑部署私人 AI 助手处理日常对话",
+    "为 Telegram、微信等聊天应用接入大模型机器人",
+    "通过插件扩展为助手添加自定义工具与技能",
+    "在云服务器上长期托管多用户聊天机器人服务",
+    "开发者基于其框架快速搭建定制化 Agent 应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI 包和文档站，安装较方便，但涉及模型配置与多聊天平台对接，需要一定的 Python 与部署经验。",
+  "alternatives": [
+    "LangBot",
+    "NoneBot",
+    "Chatgpt-on-Wechat"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "google/dopamine",
+  "source_hash": "3811863937dace6f4d27aaafe150f03308aca665e4c9ff1e269e3a767fee24b2",
+  "generated_at": "2026-06-02T18:22:08.865Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Dopamine 是谷歌推出的强化学习研究框架，主打小巧易读的代码库，方便快速原型开发与实验复现，内置 DQN、C51、Rainbow、IQN、SAC、PPO 等经典算法的 JAX 实现，支持 Atari 与 Mujoco 环境。",
+  "scenarios": [
+    "复现 DQN、Rainbow 等经典强化学习算法基准结果",
+    "在 Atari 游戏环境中快速验证新的 RL 研究想法",
+    "基于 JAX 实现自定义智能体进行学术研究",
+    "对比不同分布式价值算法（C51/IQN）的性能",
+    "教学场景下展示强化学习算法核心实现"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需配置 JAX、Atari/Mujoco 等环境依赖，且需要强化学习理论基础才能有效使用。",
+  "alternatives": [
+    "Stable-Baselines3",
+    "RLlib",
+    "Acme"
+  ]
+}

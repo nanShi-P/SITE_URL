@@ -1,0 +1,21 @@
+{
+  "id": "go-vgo/robotgo",
+  "source_hash": "42597d537b451a78546463635a0fa4241f75bcebedc5943077c9f60c4f8c5b45",
+  "generated_at": "2026-06-02T18:22:19.105Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "RobotGo 是基于 Go 的跨平台桌面自动化库，支持 Mac、Windows、Linux（X11），可控制鼠标键盘、读取屏幕像素、操作窗口与进程、处理图像位图，并提供全局事件监听，适用于 RPA、GUI 自动测试及 AI Computer Use 场景。",
+  "scenarios": [
+    "编写跨平台桌面自动化脚本，模拟鼠标键盘操作",
+    "对桌面 GUI 应用进行自动化测试",
+    "截图与图像匹配实现屏幕内容识别",
+    "监听全局键盘鼠标事件构建快捷工具",
+    "为 AI Agent 提供 Computer Use 底层控制能力"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基于 CGO 调用各系统原生 API，需要安装 C 编译器和平台相关依赖，编译环境配置较繁琐。",
+  "alternatives": [
+    "pyautogui",
+    "nut.js",
+    "autoit"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "blakeblackshear/frigate",
+  "source_hash": "2abafb8e0ec467fb79f72dcbe201a56f38f34030dfd3b1c93ad5f5890867feb0",
+  "generated_at": "2026-06-02T17:58:09.564Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Frigate 是一款本地化运行的开源 NVR 系统，专为 IP 摄像头设计，基于 OpenCV 和 TensorFlow 实现实时 AI 物体检测，并与 Home Assistant 深度集成。支持 GPU/AI 加速、运动触发检测、MQTT 通信、24/7 录像、RTSP 转发及 WebRTC 低延迟预览。",
+  "scenarios": [
+    "家庭安防监控并接入 Home Assistant 实现自动化",
+    "利用 Coral TPU 等加速器对多路 IP 摄像头进行本地物体识别",
+    "按检测对象分类录像并设置差异化保留策略",
+    "通过 RTSP 重新推流减少摄像头连接数供多客户端使用",
+    "通过 MQTT 将人/车/包裹检测事件集成到自建智能家居系统"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需自行部署 Docker、配置摄像头流、调优检测器及硬件加速器，对网络与硬件知识要求较高。",
+  "alternatives": [
+    "Shinobi",
+    "ZoneMinder",
+    "MotionEye",
+    "Agent DVR"
+  ]
+}

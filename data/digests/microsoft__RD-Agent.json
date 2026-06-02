@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/RD-Agent",
+  "source_hash": "0214e08347798a454029e7c79c03700ec6f2c6aabd76d756db12533603e042f1",
+  "generated_at": "2026-06-02T18:20:57.950Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软开源的研发自动化智能体框架，聚焦数据与模型相关的研发流程，利用大模型驱动数据驱动型 AI 的迭代，自动完成假设提出、代码实现、实验运行与结果分析等环节。",
+  "scenarios": [
+    "自动化 Kaggle 竞赛建模与迭代",
+    "量化因子挖掘与策略研发",
+    "机器学习模型自动调优与特征工程",
+    "学术论文中模型方法的复现与改进",
+    "企业内部数据分析流程自动化"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需配置 LLM API、Docker 等运行环境，依赖较多且涉及复杂多智能体流程，缺少 README 摘要进一步增加上手难度。",
+  "alternatives": [
+    "AIDE",
+    "MetaGPT",
+    "AutoGen"
+  ]
+}

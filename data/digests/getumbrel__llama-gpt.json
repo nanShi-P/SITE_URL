@@ -1,0 +1,21 @@
+{
+  "id": "getumbrel/llama-gpt",
+  "source_hash": "15569b22083f938bec06b83302985037f7c25bfdccb2338a71a4d97f13451f19",
+  "generated_at": "2026-06-02T18:22:08.163Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Llama 2 的自托管离线聊天机器人，界面类似 ChatGPT，数据全程留在本地。支持 Code Llama 模型与 Nvidia GPU，提供 OpenAI 兼容 API，可在 umbrelOS、M1/M2 Mac、Docker 或 Kubernetes 上一键部署。",
+  "scenarios": [
+    "在家用服务器上搭建私人 ChatGPT 替代品",
+    "离线环境下进行代码补全和问答",
+    "为内部应用提供 OpenAI 兼容的本地推理 API",
+    "在 M1/M2 Mac 上本地体验 Llama 2 对话",
+    "通过 Kubernetes 在企业内网部署私有大模型服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker/umbrelOS 一键安装脚本，但需要较大模型下载和一定硬件资源，本地推理性能调优有一定门槛。",
+  "alternatives": [
+    "ollama",
+    "LocalAI",
+    "text-generation-webui"
+  ]
+}

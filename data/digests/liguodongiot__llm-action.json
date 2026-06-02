@@ -1,0 +1,21 @@
+{
+  "id": "liguodongiot/llm-action",
+  "source_hash": "d968486c985e4a64ae133323cca605c55c51225d09f464b4f3f9ca0150955347",
+  "generated_at": "2026-06-02T18:05:46.956Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个面向中文开发者的大模型技术学习仓库，系统整理了 LLM 训练、微调、推理、压缩、评测、应用开发、国产化适配等方向的原理讲解与实战教程，并配套大量博客与代码示例。",
+  "scenarios": [
+    "系统学习大模型训练与微调原理",
+    "查阅 LoRA、QLoRA 等参数高效微调实战代码",
+    "了解 vLLM、TensorRT 等推理框架与优化技术",
+    "调研大模型量化、剪枝、蒸馏等压缩方案",
+    "准备大模型相关岗位面试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "内容偏知识库与教程汇总，阅读门槛不高，但要跑通各类训练/推理实战需要 GPU 环境和较强的工程基础。",
+  "alternatives": [
+    "Hannibal046/Awesome-LLM",
+    "RUCAIBox/LLMSurvey",
+    "mlabonne/llm-course"
+  ]
+}

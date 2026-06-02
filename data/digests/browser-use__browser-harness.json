@@ -1,0 +1,21 @@
+{
+  "id": "browser-use/browser-harness",
+  "source_hash": "11a0844c53b5964f7a25ad52e1263fac3c0041fedc636c0ce4a7826a8c0c9ff3",
+  "generated_at": "2026-06-02T18:20:42.052Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "通过 CDP 协议把 LLM 直接连到真实 Chrome 浏览器的轻量级可编辑框架，约千行代码。代理在执行任务时自行补写缺失的辅助函数，每次运行都会自我完善，适合需要完全自由度的浏览器自动化任务。",
+  "scenarios": [
+    "让 LLM 代理自动完成网页文件上传等复杂操作",
+    "在真实浏览器中执行需要登录态的自动化任务",
+    "通过 Browser Use 云端浏览器进行隐身或无头部署",
+    "让代理自行编写并积累领域技能脚本",
+    "结合 Claude Code 或 Codex 完成浏览器端业务流程"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 Chrome 远程调试和 CDP 连接，但提供了 install.md 和一键安装提示词。",
+  "alternatives": [
+    "browser-use",
+    "Playwright",
+    "Skyvern"
+  ]
+}

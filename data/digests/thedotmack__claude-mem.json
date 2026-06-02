@@ -1,0 +1,21 @@
+{
+  "id": "thedotmack/claude-mem",
+  "source_hash": "66ce0aa88305c29a8405814c4b3471b149a561c82ac9c69f1a9bdbe9ec4b5256",
+  "generated_at": "2026-06-02T17:47:08.800Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "claude-mem 为各类 AI 编码代理提供跨会话的持久记忆：自动捕获会话内容，用 AI 压缩归纳，并在新会话开始时注入相关上下文，支持 Claude Code、Codex、Gemini、Copilot 等多种代理。",
+  "scenarios": [
+    "在 Claude Code 中跨天延续同一项目的开发上下文",
+    "切换不同 AI 代理时共享同一份项目记忆",
+    "长期维护大型代码库时让代理记住此前决策",
+    "团队成员复用历史会话总结快速上手项目",
+    "在多个会话间保留调试过程和已尝试方案"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 CLI 一键安装并自动接入主流代理，使用门槛低。",
+  "alternatives": [
+    "mem0",
+    "Letta",
+    "cursor-memory-bank"
+  ]
+}

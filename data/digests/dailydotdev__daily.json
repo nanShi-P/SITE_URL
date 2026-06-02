@@ -1,0 +1,21 @@
+{
+  "id": "dailydotdev/daily",
+  "source_hash": "a7eeff0fc212e02b70ef2bb972477fda3f10915975b5cd86c03926ff60f44f45",
+  "generated_at": "2026-06-02T18:10:28.760Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "daily.dev 是面向开发者的专业社区与资讯聚合平台，通过浏览器扩展和 Web 应用提供个性化技术新闻流、开发者圈子和搜索功能，帮助开发者发现优质内容、交流协作并共同成长。",
+  "scenarios": [
+    "在新标签页获取个性化的技术资讯和博客推荐",
+    "加入特定技术方向的 Squad 与其他开发者讨论交流",
+    "跟踪前端、AI 等领域的最新趋势和热门文章",
+    "收藏并整理感兴趣的技术文章供后续阅读",
+    "本地部署贡献代码或自托管开发者社区"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "作为终端用户使用极简单，但本仓库为整体项目入口，自行部署涉及多服务依赖。",
+  "alternatives": [
+    "Hacker News",
+    "Refind",
+    "Feedly"
+  ]
+}

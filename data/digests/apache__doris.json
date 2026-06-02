@@ -1,0 +1,21 @@
+{
+  "id": "apache/doris",
+  "source_hash": "f3ca3f011addca38862bc7d7069d1acc166ecf84703c0758dd368680dbf753e1",
+  "generated_at": "2026-06-02T18:17:54.402Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Apache Doris 是一款开源 MPP 架构的实时分析型数据库，兼容 MySQL 协议，支持高并发查询、实时数据写入和湖仓一体分析，适用于报表、用户行为分析等多种 OLAP 场景。",
+  "scenarios": [
+    "企业级实时数据报表与 BI 可视化分析",
+    "用户行为日志的实时分析与漏斗、留存计算",
+    "数据湖（Iceberg/Hudi）联邦查询与湖仓一体",
+    "高并发的对外数据服务接口",
+    "Ad-hoc 即席查询与多维分析"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "分布式数据库部署涉及 FE/BE 多组件、系统参数调优和编译依赖，运维门槛较高。",
+  "alternatives": [
+    "ClickHouse",
+    "StarRocks",
+    "Apache Pinot"
+  ]
+}

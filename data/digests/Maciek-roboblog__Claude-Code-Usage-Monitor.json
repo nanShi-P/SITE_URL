@@ -1,0 +1,20 @@
+{
+  "id": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+  "source_hash": "b09118bdf483ce22f81c5319a5a1962730a6c10c653ae90c2d4933734e8366af",
+  "generated_at": "2026-06-02T18:23:56.752Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于终端的 Claude Code token 使用实时监控工具，提供消耗速率、成本分析和会话限额智能预测，使用 Rich 库渲染美观界面，并支持多种订阅计划的额度跟踪与预警。",
+  "scenarios": [
+    "实时查看 Claude Code 当前会话的 token 消耗情况",
+    "预测会话是否会在到期前耗尽额度并发出预警",
+    "分析每日/每月 API 使用成本与消耗速率",
+    "为 Pro/Max 等不同订阅计划设置自定义额度监控",
+    "团队或个人优化 Claude 使用习惯避免超额"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "已发布到 PyPI，通过 pip 或 uv 一行命令即可安装运行，文档完善。",
+  "alternatives": [
+    "ccusage",
+    "claude-usage-tracker"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "JOYCEQL/magic-resume",
+  "source_hash": "595410002e4417da9cc147587b922f13ff10284191a3e356a76b796509a44896",
+  "generated_at": "2026-06-02T18:23:47.604Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 TanStack Start 和 Framer Motion 的在线简历编辑器，支持实时预览、自定义主题、深色模式、PDF 导出与本地自动保存，数据存于本地。",
+  "scenarios": [
+    "求职者快速制作个性化简历",
+    "在本地私有部署保护简历隐私",
+    "团队基于模板二次开发简历工具",
+    "学生制作并导出 PDF 投递简历"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "标准前端项目，pnpm 安装或 Docker Compose 一键启动，文档清晰。",
+  "alternatives": [
+    "OpenResume",
+    "Reactive-Resume"
+  ]
+}

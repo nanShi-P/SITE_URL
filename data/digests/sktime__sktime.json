@@ -1,0 +1,21 @@
+{
+  "id": "sktime/sktime",
+  "source_hash": "69d6c8407c83b80a61128b5b4e8dc95113d24dfcc590dfff9c6d1f8b85121942",
+  "generated_at": "2026-06-02T18:22:42.136Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "sktime 是一个基于 Python 的时间序列机器学习统一框架，提供与 scikit-learn 兼容的接口，覆盖预测、分类、聚类、异常与变点检测等任务，内置丰富算法，并支持模型构建、调参与验证。",
+  "scenarios": [
+    "对销售或流量数据进行时间序列预测",
+    "对传感器信号进行分类识别",
+    "对设备运行数据做异常检测与变点检测",
+    "对多条时间序列进行聚类分析",
+    "构建并交叉验证时间序列机器学习管道"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "API 与 sklearn 风格一致且文档教程齐全，但概念覆盖广，需理解时间序列任务建模思路。",
+  "alternatives": [
+    "darts",
+    "tslearn",
+    "statsforecast"
+  ]
+}

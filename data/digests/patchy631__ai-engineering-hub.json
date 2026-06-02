@@ -1,0 +1,20 @@
+{
+  "id": "patchy631/ai-engineering-hub",
+  "source_hash": "ed54e8e35608571e55d9fb694cfbccd043fa4f56c31e60bb70aa7f8842040435",
+  "generated_at": "2026-06-02T17:56:48.221Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个面向AI工程师的实战教程合集，包含93+个分难度的项目示例，涵盖LLM、RAG、智能体及实际AI应用的搭建与部署。",
+  "scenarios": [
+    "系统学习LLM与RAG开发的入门路径",
+    "参考现成示例快速搭建AI Agent原型",
+    "进阶练习模型微调与生产化部署",
+    "为团队培训准备分级别的实战案例"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "项目数量多且依赖各异，需自行配置环境，但提供分级路线和文档说明。",
+  "alternatives": [
+    "awesome-llm-apps",
+    "llm-course",
+    "GenAI_Agents"
+  ]
+}

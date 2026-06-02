@@ -1,0 +1,21 @@
+{
+  "id": "evilsocket/pwnagotchi",
+  "source_hash": "ecedcd462c6532cee9021e5b88b2381bc3d0bd8550e6613109fdbd12a74be1e0",
+  "generated_at": "2026-06-02T18:23:15.793Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 A2C 强化学习的 WiFi 抓包小玩具，驱动 bettercap 在周围环境中自动学习并最大化捕获可破解的 WPA 握手和 PMKID，结果保存为 hashcat 可用的 PCAP 文件，常运行在树莓派加电子墨水屏的便携设备上。",
+  "scenarios": [
+    "树莓派上自建便携 WiFi 握手抓取设备",
+    "渗透测试人员在外勤中被动收集 WPA 握手包",
+    "安全研究者学习强化学习在无线攻击中的应用",
+    "DIY 爱好者制作带电子墨水屏的极客玩具",
+    "WiFi 安全审计中批量采集 PMKID 供 hashcat 离线破解"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要特定硬件（树莓派+兼容无线网卡+屏幕）、刷写定制镜像并配置 bettercap，对硬件和无线安全知识有较高要求。",
+  "alternatives": [
+    "wifite2",
+    "airgeddon",
+    "bettercap"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "huggingface/datasets",
+  "source_hash": "9d9985c80eb224c70f238ac81b7824ed92d377765d1831cb1d5191f465e8a205",
+  "generated_at": "2026-06-02T18:08:49.354Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Hugging Face 出品的数据集加载与处理库，提供一行代码下载数千个公开数据集的能力，基于 Apache Arrow 实现高效内存映射和流式读取，并内置统一的预处理接口，可无缝配合 PyTorch、TensorFlow、JAX、Pandas 等框架使用。",
+  "scenarios": [
+    "训练大模型时快速加载和预处理大规模文本/图像/音频数据集",
+    "NLP 研究中复现论文实验，统一获取 GLUE、SQuAD 等标准基准",
+    "通过流式加载处理超出内存的 TB 级数据集",
+    "将自定义数据上传到 Hugging Face Hub 与团队共享",
+    "在 PyTorch/TF 训练管道中做高效 map、filter、shuffle"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 一行安装，API 直观且官方文档与教程非常完善",
+  "alternatives": [
+    "TensorFlow Datasets",
+    "torchvision.datasets",
+    "WebDataset"
+  ]
+}

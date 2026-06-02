@@ -1,0 +1,21 @@
+{
+  "id": "idosal/git-mcp",
+  "source_hash": "88428d95dcf9162999eb19fde32af51a2216a39ebe704bf3014bf19237f451a1",
+  "generated_at": "2026-06-02T18:23:57.850Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "GitMCP 是一个免费开源的远程 MCP 服务器，可将任意 GitHub 仓库或 GitHub Pages 转换为文档中心，让 Cursor 等 AI 工具实时获取项目最新文档和代码，消除大模型生成代码时的幻觉问题。",
+  "scenarios": [
+    "在 Cursor 中接入指定开源库的最新文档辅助编码",
+    "让 Claude 等 AI 助手准确回答某 GitHub 项目的 API 用法",
+    "为团队常用依赖库搭建专属文档检索服务",
+    "在 AI Agent 工作流中提供可信的代码参考来源",
+    "快速浏览陌生开源项目时获得基于文档的问答"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "作为托管的远程 MCP 服务，只需在客户端填入 URL 即可使用，无需自行部署。",
+  "alternatives": [
+    "Context7",
+    "DeepWiki",
+    "Cursor Docs"
+  ]
+}

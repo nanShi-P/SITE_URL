@@ -1,0 +1,20 @@
+{
+  "id": "Orchestra-Research/AI-Research-SKILLs",
+  "source_hash": "ed796e6e5c4e432f07e98548e847d573c39e2ccb068ee01b26a75af262d05021",
+  "generated_at": "2026-06-02T18:23:13.781Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源的 AI 研究技能库，涵盖 23 个类别、98 个可复用技能包，覆盖建模、训练、推理、RAG、多模态、评测等环节，安装后可让 Claude Code、Codex、Gemini 等 AI 编码代理获得完整的 AI 研究工作流能力。",
+  "scenarios": [
+    "为 Claude Code 加载技能包，让其自主完成从选题到论文撰写的研究流程",
+    "在 Codex/Gemini 代理中调用微调与后训练技能完成模型训练任务",
+    "构建 RAG 或多模态原型时复用现成技能模板",
+    "团队内部统一 AI 研究工程的最佳实践和提示词规范",
+    "学习者按类别查阅各项 AI 研究环节的标准化操作"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "通过 npm 安装较简单，但需配合 Claude Code 等代理使用，且涉及大量 AI 研究领域知识才能发挥效果。",
+  "alternatives": [
+    "awesome-claude-prompts",
+    "anthropic-cookbook"
+  ]
+}

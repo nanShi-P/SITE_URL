@@ -1,0 +1,20 @@
+{
+  "id": "RUCAIBox/LLMSurvey",
+  "source_hash": "b3a1768a4a30ee9cac7d2ae442b51ba390d0d1e598b99fc1de90c5c45483f07d",
+  "generated_at": "2026-06-02T18:21:30.215Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "中国人民大学团队发布的大语言模型综述论文配套仓库，系统整理了 LLM 相关论文、资源、时间线及实验数据，并配有中文书籍版本，覆盖预训练、微调、推理（含长链推理）等主题。",
+  "scenarios": [
+    "快速了解大语言模型领域的研究全貌",
+    "学生入门 LLM 时查阅论文清单和中文教材",
+    "研究者撰写论文时查找参考文献和分类框架",
+    "跟踪 LLM 时间线及新兴方向如长链思维推理",
+    "教学课程中作为 LLM 综述参考材料"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯论文与资源整理仓库，无需安装或运行代码，阅读即可。",
+  "alternatives": [
+    "Hannibal046/Awesome-LLM",
+    "Mooler0410/LLMsPracticalGuide"
+  ]
+}

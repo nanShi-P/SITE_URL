@@ -1,0 +1,21 @@
+{
+  "id": "nari-labs/dia",
+  "source_hash": "6eeb2e4743b58ffeaa0d7364dd9435988ea2c8d6ecc48b3237e7d8289ea326ab",
+  "generated_at": "2026-06-02T18:11:12.505Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Nari Labs 开源的 1.6B 参数英文文本转语音模型，可一次性生成高度逼真的多角色对话，支持音频条件控制情绪语调，并能生成笑声、咳嗽等非语言声音。已集成至 Hugging Face Transformers。",
+  "scenarios": [
+    "为播客或有声书生成多角色对话音频",
+    "游戏 NPC 对白配音原型制作",
+    "短视频或动画的英文配音",
+    "TTS 与语音合成相关学术研究",
+    "AI 助手语音情感表达实验"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 GPU 与 PyTorch 环境运行 1.6B 模型，但有 HuggingFace 权重和 Transformers 集成，文档清晰。",
+  "alternatives": [
+    "ElevenLabs",
+    "CosyVoice",
+    "ChatTTS"
+  ]
+}

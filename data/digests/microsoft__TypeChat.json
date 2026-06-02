@@ -1,0 +1,20 @@
+{
+  "id": "microsoft/TypeChat",
+  "source_hash": "76a4adcd0bc4f12e376ca76bc2363edb996a91cd6e66574fd6635e9570076486",
+  "generated_at": "2026-06-02T18:23:29.078Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "TypeChat 是微软开源的库，利用 TypeScript 类型定义来约束大语言模型的输出结构，让自然语言请求被转换为符合预期类型的 JSON 数据，简化自然语言接口的开发。",
+  "scenarios": [
+    "将用户自然语言指令解析为结构化命令",
+    "为聊天机器人定义可校验的回复 schema",
+    "构建自然语言驱动的 API 调用层",
+    "在应用内实现自然语言查询转 JSON"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要熟悉 TypeScript 类型系统和 LLM API 配置，概念清晰但缺少 README 信息增加上手成本。",
+  "alternatives": [
+    "LangChain",
+    "Instructor",
+    "Guidance"
+  ]
+}

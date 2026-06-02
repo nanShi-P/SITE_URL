@@ -1,0 +1,21 @@
+{
+  "id": "zoicware/RemoveWindowsAI",
+  "source_hash": "45ca0e1e297f6c1d7700ff40cae5f6a11e823c61eed70d42060f48f457e29828",
+  "generated_at": "2026-06-02T18:21:37.620Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一款针对 Windows 11（含 25H2 及后续版本）的 PowerShell 脚本，用于彻底移除或禁用 Copilot、Recall、AI Actions、Click to Do 等系统内置 AI 组件，包括清理注册表、Appx 包、CBS 商店中的隐藏包，并防止 Windows 更新后重新安装。",
+  "scenarios": [
+    "注重隐私的用户彻底关闭 Recall 屏幕记录功能",
+    "企业 IT 管理员批量精简 Windows 11 系统中的 AI 组件",
+    "系统精简爱好者制作无 AI 的 Win11 母盘",
+    "禁用 Office、Edge、Paint 等应用中的 Copilot 集成",
+    "防止 Windows 更新后 AI 包被自动重新安装"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要管理员权限运行 PowerShell 脚本并改动系统底层组件，存在系统不稳定风险，但脚本本身一键执行、文档清晰。",
+  "alternatives": [
+    "Win11Debloat",
+    "ChrisTitusTech/winutil",
+    "Talon"
+  ]
+}

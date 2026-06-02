@@ -1,0 +1,21 @@
+{
+  "id": "intel/ipex-llm",
+  "source_hash": "9701cea6db4919117d7577cdd83ee4cd07dad1e3e97cf355f2df0879df0e896f",
+  "generated_at": "2026-06-02T18:23:23.705Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Intel 推出的 LLM 加速库，可在 Intel GPU、NPU 和 CPU（如集显、Arc 独显）上加速本地大模型推理与微调，支持 70+ 主流模型，并与 llama.cpp、Ollama、vLLM、HuggingFace 等主流框架无缝集成。注意：项目已归档，不再维护。",
+  "scenarios": [
+    "在配备 Intel Arc 独显的 PC 上本地运行 DeepSeek、Qwen 等大模型推理",
+    "利用 Intel 集显或 NPU 在轻薄本上跑 Llama、ChatGLM 等模型",
+    "通过 Ollama/llama.cpp 在 Intel 硬件上部署低比特量化模型",
+    "在 Intel GPU 上对 LLM 进行 LoRA/QLoRA 微调",
+    "在 Intel Flex/Max 数据中心 GPU 上用 vLLM 部署多卡推理服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档与示例丰富，但依赖特定 Intel 硬件与 oneAPI 驱动环境，配置门槛不低，且项目已归档无后续支持。",
+  "alternatives": [
+    "llama.cpp",
+    "vLLM",
+    "intel-extension-for-pytorch"
+  ]
+}

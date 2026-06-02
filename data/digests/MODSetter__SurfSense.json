@@ -1,0 +1,21 @@
+{
+  "id": "MODSetter/SurfSense",
+  "source_hash": "da2df3a41973cb7bc59723d3222655194cc817f8efe90961867318fa680ecd61",
+  "generated_at": "2026-06-02T18:20:33.031Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "SurfSense 是开源、注重隐私的 NotebookLM 替代品，面向团队场景，无数据量限制，可自由配置 LLM、TTS、STT 等模型，支持 25+ 外部数据源接入，便于构建自有知识库与 AI 研究助手。",
+  "scenarios": [
+    "团队搭建私有化 AI 知识库进行内部资料检索问答",
+    "对接 Slack、Notion 等多种数据源汇总信息生成研究报告",
+    "在本地部署自选 LLM 模型处理敏感文档避免数据外泄",
+    "学生或研究人员管理大量论文文献并进行跨源总结",
+    "内容创作者整理网页、视频、音频等多模态素材辅助写作"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需自托管部署、配置数据库与多种 LLM/TTS/STT 模型及众多第三方数据源集成，环境搭建复杂。",
+  "alternatives": [
+    "NotebookLM",
+    "Khoj",
+    "Quivr"
+  ]
+}

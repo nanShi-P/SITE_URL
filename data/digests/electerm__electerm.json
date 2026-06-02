@@ -1,0 +1,21 @@
+{
+  "id": "electerm/electerm",
+  "source_hash": "42ade9bf1bf7663911e74e71170a53e63d31aff43b8dd863127b4e27890adfc6",
+  "generated_at": "2026-06-02T18:20:41.348Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "electerm 是一款基于 Electron 的开源跨平台终端工具，集成 SSH、SFTP、FTP、Telnet、串口、RDP、VNC、Spice 等多种远程连接协议，支持 Linux、macOS 和 Windows，提供统一的图形化客户端体验。",
+  "scenarios": [
+    "运维人员通过 SSH 管理多台 Linux 服务器",
+    "开发者使用 SFTP/FTP 在本地与远端服务器间传输文件",
+    "通过 RDP/VNC 远程连接 Windows 或图形化桌面",
+    "使用串口工具调试嵌入式硬件设备",
+    "替代多款独立客户端，在一个软件内统一管理各类远程会话"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供各平台安装包和应用商店分发，开箱即用，无需自行编译或配置环境。",
+  "alternatives": [
+    "Termius",
+    "MobaXterm",
+    "Tabby"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "Kong/kong",
+  "source_hash": "ec4b9f32f5cca82b9ed60e3d77c220c111899e34be09ad4b82578d1a712fae2e",
+  "generated_at": "2026-06-02T17:53:24.322Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Kong 是一款云原生、高性能、可扩展的 API 网关，支持微服务流量代理、路由、负载均衡、健康检查与认证等功能，并通过插件机制扩展。新版增强了 AI 网关能力，支持多 LLM 接入、语义安全和 MCP 流量治理，可原生运行于 Kubernetes。",
+  "scenarios": [
+    "统一管理和路由微服务 API 流量",
+    "在 Kubernetes 集群中作为 Ingress 网关使用",
+    "为多家 LLM 服务提供统一接入与流量治理",
+    "对外暴露 API 时做认证、限流和监控",
+    "MCP 协议流量的安全管控与分析"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基于 OpenResty/Lua，部署上手不算复杂但插件配置和生产调优需要一定学习成本，好在官方文档完善。",
+  "alternatives": [
+    "APISIX",
+    "Tyk",
+    "Traefik"
+  ]
+}

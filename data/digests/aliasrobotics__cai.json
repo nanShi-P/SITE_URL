@@ -1,0 +1,21 @@
+{
+  "id": "aliasrobotics/cai",
+  "source_hash": "92ec58ab12eb5833e572f56127c71e097d504a599cfa33ed605a7a50afe43460",
+  "generated_at": "2026-06-02T18:23:23.526Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CAI 是面向网络安全的 AI 智能体框架，提供可编排的 Agent、工具与工作流，用于自动化漏洞挖掘、渗透测试、CTF 解题及安全评估，跨 Linux/macOS/Windows/Android 平台运行。",
+  "scenarios": [
+    "自动化渗透测试与红队演练",
+    "CTF 比赛中辅助解题与漏洞利用",
+    "对目标系统进行漏洞扫描与安全评估",
+    "构建自定义安全 AI Agent 工作流",
+    "安全研究人员快速复现攻击链"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 pip 安装包和较完善文档，但需配置 LLM API、安全工具环境，并具备网络安全基础。",
+  "alternatives": [
+    "PentestGPT",
+    "HackingBuddyGPT",
+    "AutoGPT"
+  ]
+}

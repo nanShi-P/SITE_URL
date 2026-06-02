@@ -1,0 +1,21 @@
+{
+  "id": "CopilotKit/CopilotKit",
+  "source_hash": "8801ca05c336136d2f779d4af814ba1cc957c6bb9f301fbfe5a8483848276be3",
+  "generated_at": "2026-06-02T17:58:39.570Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CopilotKit 是一套前端框架，帮助 React/Angular 开发者在应用中嵌入 AI 智能体，支持生成式 UI、共享状态和人类介入工作流，并提供 AG-UI 协议规范智能体与前端通信。",
+  "scenarios": [
+    "在 SaaS 应用中嵌入侧边栏式 AI 助手",
+    "构建可操控应用状态的 Copilot 智能体",
+    "实现需人工审核的 AI 工作流",
+    "为 LangGraph/CrewAI 等智能体提供前端交互界面",
+    "开发具备生成式 UI 的对话式应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档完善且有 React 组件封装，但需理解智能体协议与后端集成。",
+  "alternatives": [
+    "Vercel AI SDK",
+    "assistant-ui",
+    "LangChain.js"
+  ]
+}

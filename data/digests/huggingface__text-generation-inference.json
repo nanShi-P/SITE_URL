@@ -1,0 +1,20 @@
+{
+  "id": "huggingface/text-generation-inference",
+  "source_hash": "93c2587191a19945da3cf3c585b9f5a4fa1ec883fe67849fa3e3c901b6be7c47",
+  "generated_at": "2026-06-02T18:22:07.841Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Hugging Face 出品的大语言模型推理服务，基于 Rust、Python 和 gRPC 构建，支持张量并行、连续批处理、量化等优化，曾用于 Hugging Chat 和 Inference Endpoints 生产环境。目前已进入维护模式，官方推荐转向 vLLM 或 SGLang。",
+  "scenarios": [
+    "在自有服务器上通过 Docker 部署开源 LLM 提供 API 服务",
+    "为聊天应用搭建高并发的文本生成后端",
+    "在生产环境中以张量并行方式跑多卡推理",
+    "对接 Hugging Face 私有模型做企业内部部署"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供官方 Docker 镜像和较完善文档，但涉及 GPU、CUDA、模型权重等环境配置，需一定运维经验。",
+  "alternatives": [
+    "vLLM",
+    "SGLang",
+    "llama.cpp"
+  ]
+}

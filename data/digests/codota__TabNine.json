@@ -1,0 +1,21 @@
+{
+  "id": "codota/TabNine",
+  "source_hash": "72ced61bdfc74c4548f897c4143b4c3cec0127b1c1824582bd2fbdc87e09a6bd",
+  "generated_at": "2026-06-02T18:22:18.027Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "TabNine 后端配置仓库，提供跨编辑器的全语言 AI 代码自动补全服务，后端为闭源，此处仅维护语言识别与分词等配置文件，并集中接收功能建议与各编辑器客户端的链接索引。",
+  "scenarios": [
+    "在 VS Code 中编写多语言项目时获得智能补全",
+    "Vim/Sublime 用户安装对应客户端提升编码效率",
+    "为 Lisp 等特殊语法语言定制分词规则",
+    "让 .h 与 .c 文件共享标识符补全",
+    "开发者自行编写新编辑器的 TabNine 客户端"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "普通用户只需在编辑器中安装插件即可使用，无需自行编译后端。",
+  "alternatives": [
+    "GitHub Copilot",
+    "Codeium",
+    "Kite"
+  ]
+}

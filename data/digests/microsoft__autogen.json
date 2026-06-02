@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/autogen",
+  "source_hash": "ea6246bf9ec83d83b50b109c6e151985fdaca12a92cc727cf161a1d03f55e821",
+  "generated_at": "2026-06-02T17:49:52.676Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软开源的多智能体编程框架，用于构建可对话协作、能调用工具与代码执行的 AI Agent 应用，支持多模型与人机协同。",
+  "scenarios": [
+    "搭建多 Agent 协作完成复杂任务的工作流",
+    "自动化代码生成、执行与调试",
+    "构建带工具调用的企业级聊天机器人",
+    "研究 LLM Agent 协作与评测",
+    "实现人机协同的数据分析助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Python 环境配置较简单，但理解多 Agent 编排概念和调优需要一定 LLM 开发经验。",
+  "alternatives": [
+    "LangGraph",
+    "CrewAI",
+    "MetaGPT"
+  ]
+}

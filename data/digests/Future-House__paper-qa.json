@@ -1,0 +1,21 @@
+{
+  "id": "Future-House/paper-qa",
+  "source_hash": "a46803c10bc29294979dd98dec4f3a4cc48e6f61c1e77d80583b083f729aaeeb",
+  "generated_at": "2026-06-02T18:23:31.253Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PaperQA2 是一个面向科学文献的高精度 RAG 工具包，可对 PDF、文本、Office 文档及源码进行检索增强问答，自动生成带引用的答案，支持智能体式检索、多种 LLM 与本地嵌入模型，并提供命令行和 Python 库两种使用方式。",
+  "scenarios": [
+    "科研人员对一批论文 PDF 进行带引用的问答",
+    "文献综述中自动总结与对比多篇论文观点",
+    "检测科学文献之间的矛盾或不一致结论",
+    "在企业内部知识库上构建带引用来源的问答系统",
+    "学生阅读教材和论文时快速定位答案出处"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装简单且文档详尽，但需要配置 LLM、嵌入模型与 API key，本地部署还涉及更多依赖。",
+  "alternatives": [
+    "LlamaIndex",
+    "LangChain",
+    "PrivateGPT"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "assafelovic/gpt-researcher",
+  "source_hash": "7ef4a08c2b9287134c6bf73ddc37af7399146c235dcdde3c196eaa5fe7b70bd7",
+  "generated_at": "2026-06-02T18:01:44.642Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "GPT Researcher 是一个开源的自主研究智能体，可基于任意 LLM 在网络或本地文档上执行多步深度调研，自动生成带引用的事实性研究报告，支持 Python 库、Docker 及 Web 界面多种使用方式。",
+  "scenarios": [
+    "撰写行业分析或市场调研报告",
+    "学术文献检索与综述生成",
+    "针对本地 PDF/文档库进行问答与汇总",
+    "竞品调研与技术选型对比",
+    "新闻事件背景的深度梳理"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 LLM 与搜索引擎 API Key 并安装 Python 或 Docker 环境，但官方文档完善、示例丰富。",
+  "alternatives": [
+    "STORM",
+    "AutoGPT",
+    "Perplexity"
+  ]
+}

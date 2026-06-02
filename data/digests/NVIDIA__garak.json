@@ -1,0 +1,21 @@
+{
+  "id": "NVIDIA/garak",
+  "source_hash": "bd2e0f786a0f137bdb610b7c1a96a1686e41dadf205cb04c3b076b5f2768d007",
+  "generated_at": "2026-06-02T18:24:05.728Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "garak 是 NVIDIA 开源的大语言模型漏洞扫描工具，通过静态、动态和自适应探针检测 LLM 在幻觉、数据泄露、提示注入、越狱、有害内容生成等方面的安全弱点，类似面向 LLM 的 nmap 或 Metasploit。",
+  "scenarios": [
+    "对自研或第三方 LLM 上线前做安全红队评估",
+    "测试模型是否容易被提示注入或越狱攻击",
+    "检查聊天机器人是否会泄露训练数据或生成有害内容",
+    "在 CI 流程中定期回归扫描模型安全性",
+    "学术研究中对比不同模型的鲁棒性"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 pip 包和较完善文档，但需配置模型 API、理解探针体系并解读扫描报告。",
+  "alternatives": [
+    "PyRIT",
+    "giskard",
+    "promptfoo"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "googleapis/mcp-toolbox",
+  "source_hash": "cad3533d55113484531878bafe4f83c507b4357d0ff3097c82baf0f8456789ea",
+  "generated_at": "2026-06-02T18:17:41.554Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个开源的 MCP 服务器，作为统一中间层将 AI 智能体、IDE 和应用连接到各种企业级数据库，提供数据库工具的注册、发现与调用能力，并配套多语言 SDK（Python、JS、Go、Java）。",
+  "scenarios": [
+    "让 Claude、Cursor 等支持 MCP 的客户端直接查询 PostgreSQL、MySQL 等数据库",
+    "为 AI Agent 配置可复用的 SQL 工具并统一管理权限",
+    "在 IDE 中通过自然语言生成并执行数据库查询",
+    "在企业内部署统一的数据库访问网关给多个 LLM 应用调用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要部署 Go 服务、编写工具配置文件并对接数据库与 MCP 客户端，但官方文档和多语言 SDK 较完善。",
+  "alternatives": [
+    "mcp-server-postgres",
+    "Dataline",
+    "Vanna"
+  ]
+}

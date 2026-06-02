@@ -1,0 +1,21 @@
+{
+  "id": "cube-js/cube",
+  "source_hash": "d3674cef1f4c9144ad143e6b86ea9cdc28a38b29cadf23262188cc6c44b73340",
+  "generated_at": "2026-06-02T18:10:14.429Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Cube Core 是开源的语义层，开发者用代码统一定义指标、维度、关联和权限，通过 SQL、REST、GraphQL 接口供 BI 工具、应用和 AI 代理调用，内置缓存引擎以保证低延迟和高并发，本身无 UI，适合嵌入式分析场景。",
+  "scenarios": [
+    "为多个 BI 工具统一指标口径，避免数据不一致",
+    "在 SaaS 产品中嵌入面向客户的分析功能",
+    "为 AI 代理或 LLM 提供结构化的业务数据查询接口",
+    "在 Snowflake、BigQuery 等数仓上加一层缓存以降低查询成本",
+    "通过 REST/GraphQL 向自研前端应用暴露分析数据"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "概念清晰、文档完善，但涉及数据建模、数据源接入和缓存配置，初次部署有一定学习成本。",
+  "alternatives": [
+    "dbt Metrics",
+    "MetricFlow",
+    "Lightdash"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "siyuan-note/siyuan",
+  "source_hash": "f0c58a52e9b13e2fc49adf17e7498e926c70f3d39a89feac4cbf6c29adf1bf1f",
+  "generated_at": "2026-06-02T17:53:08.340Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "思源笔记是一款隐私优先、可自托管的开源个人知识管理软件，基于块级结构组织内容，支持双向链接、关系图谱、富文本块编辑等，使用 TypeScript 和 Go 编写，可在桌面、移动端及 Docker 部署。",
+  "scenarios": [
+    "搭建个人本地知识库进行长期笔记积累",
+    "通过 Docker 自托管，多设备同步访问笔记",
+    "写作时利用块引用和双链构建主题网络",
+    "整理读书笔记并生成关系图谱辅助回顾",
+    "团队或个人在内网部署私密文档管理系统"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "桌面端有现成安装包易上手，但自托管、同步配置及块级编辑概念需要一定学习成本。",
+  "alternatives": [
+    "Obsidian",
+    "Logseq",
+    "AppFlowy"
+  ]
+}

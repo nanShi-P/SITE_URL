@@ -1,0 +1,20 @@
+{
+  "id": "fishaudio/Bert-VITS2",
+  "source_hash": "eb4dcdd432131261c84d4aa6c3709c73392450c2f26a0e770aa898c4f7998e08",
+  "generated_at": "2026-06-02T18:23:34.714Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于VITS2架构并融合多语种BERT的文本转语音项目，支持中日英多语言语音合成与声音克隆，提供WebUI便于训练与推理。官方已停止维护，推荐迁移至Fish-Speech。",
+  "scenarios": [
+    "训练个人或角色专属的TTS语音模型",
+    "为视频、直播制作AI配音",
+    "多语种有声内容合成",
+    "游戏/虚拟角色语音生成"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需GPU环境、自备数据集和较多依赖，且项目已停止维护、文档以代码自学为主。",
+  "alternatives": [
+    "fish-speech",
+    "GPT-SoVITS",
+    "so-vits-svc"
+  ]
+}

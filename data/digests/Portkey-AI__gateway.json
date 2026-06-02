@@ -1,0 +1,21 @@
+{
+  "id": "Portkey-AI/gateway",
+  "source_hash": "6c09c574af352a9892a3b1d9e99746c24fa1b39c1ebebfe0e9a7909cc102be3a",
+  "generated_at": "2026-06-02T18:21:37.334Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Portkey AI Gateway 是一个开源的高性能 LLM 网关，通过统一 API 接入 250+（宣称 1600+）大模型提供商，并集成 50+ 安全护栏，支持路由、负载均衡、重试、回退和可观测性。",
+  "scenarios": [
+    "在应用中以统一接口调用 OpenAI、Anthropic、Bedrock 等多家 LLM",
+    "为生产环境配置失败重试、回退与负载均衡，提高稳定性",
+    "通过内置护栏对 LLM 输入输出做合规与安全检查",
+    "集中收集多模型调用的日志、成本与延迟指标",
+    "企业自建部署在 EC2/K8s，统一管理多团队的 AI 调用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Node 服务部署本身不复杂，但要发挥路由、护栏和可观测能力需熟悉配置和多家 LLM 接入。",
+  "alternatives": [
+    "LiteLLM",
+    "OpenRouter",
+    "Kong AI Gateway"
+  ]
+}

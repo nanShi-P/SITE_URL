@@ -1,0 +1,20 @@
+{
+  "id": "LAION-AI/Open-Assistant",
+  "source_hash": "07f4a514f58e492a8fcca83916fd3ef087915614ad65f34da2aeed4a34e6e355",
+  "generated_at": "2026-06-02T17:55:40.015Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LAION 发起的开源对话助手项目，目标是打造可理解任务、调用第三方系统并动态检索信息的 ChatGPT 替代方案，已于 2023 年结项，留下开放的 oasst1/oasst2 对话数据集与训练代码。",
+  "scenarios": [
+    "下载 oasst2 数据集用于微调自己的对话模型",
+    "研究 RLHF 人类反馈数据收集流程",
+    "作为开源 ChatGPT 替代方案进行本地部署体验",
+    "学术论文中作为对话数据基线引用"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及前后端、数据库、模型推理多组件 Docker 部署，且项目已停止维护、文档零散。",
+  "alternatives": [
+    "FastChat",
+    "OpenChatKit",
+    "ChatRWKV"
+  ]
+}

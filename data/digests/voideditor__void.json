@@ -1,0 +1,21 @@
+{
+  "id": "voideditor/void",
+  "source_hash": "603252d7d7b5ebca7ad6143d0e7414aec23517cbbffe26159288e29571c0d811",
+  "generated_at": "2026-06-02T18:00:20.716Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Void 是基于 VS Code 二次开发的开源 AI 编辑器，支持在代码库上运行 AI 代理、对变更进行检查点和可视化，并可接入任意云端或本地模型，消息直发供应商不留存数据。项目目前已停止维护，仓库主要作为 fork VS Code 的参考实现保留。",
+  "scenarios": [
+    "想 fork VS Code 并集成 React/Tailwind 时参考其构建管线",
+    "在本地用 Ollama 等模型搭建私有 AI 编程助手",
+    "研究如何为 VS Code 添加自定义 Service 与 IPC",
+    "学习给 fork 版编辑器做签名、打包和自动更新",
+    "构建支持 FIM 自动补全的自定义 AI Provider"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "项目已废弃且涉及 VS Code 源码级二次开发，构建链复杂、文档有限。",
+  "alternatives": [
+    "Cursor",
+    "Continue",
+    "Cline"
+  ]
+}

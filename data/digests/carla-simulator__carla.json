@@ -1,0 +1,21 @@
+{
+  "id": "carla-simulator/carla",
+  "source_hash": "5a73b474ce4e4d969fa1f1205c1334a4e62a7e341feecab806b51cf7326d3698",
+  "generated_at": "2026-06-02T18:20:43.385Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CARLA 是面向自动驾驶研究的开源仿真器，基于虚幻引擎构建，提供城市场景、车辆、行人等数字资产，支持自定义传感器配置与多变天气环境，可用于自动驾驶算法的开发、训练与验证。",
+  "scenarios": [
+    "训练和评估端到端自动驾驶模型",
+    "验证感知、规划与控制算法在复杂城市场景下的表现",
+    "生成带标注的合成驾驶数据集",
+    "进行多智能体交通行为仿真研究",
+    "高校自动驾驶相关课程教学与实验"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "对硬件（高端 NVIDIA GPU、32GB+ 内存）和系统版本有严格要求，且基于虚幻引擎，编译与环境配置复杂。",
+  "alternatives": [
+    "LGSVL Simulator",
+    "AirSim",
+    "Autoware"
+  ]
+}

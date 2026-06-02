@@ -1,0 +1,21 @@
+{
+  "id": "pydantic/pydantic-ai",
+  "source_hash": "049f03885112ee6e9330fcd87a551b0f17785f8b3b49251b10d1dd15614edb29",
+  "generated_at": "2026-06-02T18:14:32.025Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Pydantic 团队推出的 Python AI Agent 框架，基于 Pydantic 的类型校验能力，让开发者用类似 FastAPI 的方式构建生产级 LLM 应用，支持结构化输出、工具调用和多模型切换。",
+  "scenarios": [
+    "构建带结构化输出的 LLM 智能体",
+    "开发多步骤的 AI 工作流和工具调用链",
+    "在企业生产环境中部署可靠的 GenAI 应用",
+    "快速切换 OpenAI、Anthropic 等不同模型供应商",
+    "为聊天机器人添加类型安全的函数调用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Python 类型注解和 LLM 基础知识，但文档完善、API 设计直观。",
+  "alternatives": [
+    "LangChain",
+    "LlamaIndex",
+    "Instructor"
+  ]
+}

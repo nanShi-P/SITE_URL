@@ -1,0 +1,20 @@
+{
+  "id": "tirth8205/code-review-graph",
+  "source_hash": "15e2900faba3bffa8bb7b9cd6c838011ecbbbc2fb003dfc09c21e5e5a1498e85",
+  "generated_at": "2026-06-02T18:13:32.537Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "本地优先的代码智能图谱工具，用 Tree-sitter 解析代码库构建持久化结构图，供 MCP 和 CLI 调用，让 AI 编码助手只读取相关上下文，减少代码审查和大仓库场景下的 token 消耗。",
+  "scenarios": [
+    "在 Claude/Cursor 等 MCP 客户端中接入以精准定位相关代码",
+    "CLI 中对大型代码库做代码审查时缩减上下文",
+    "为 AI 助手提供函数调用关系和依赖图查询",
+    "CI 中分析改动影响范围"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Python 3.10+ 环境与 MCP 客户端配置，但有 PyPI 包和多语言文档。",
+  "alternatives": [
+    "Aider RepoMap",
+    "Sourcegraph",
+    "Serena"
+  ]
+}

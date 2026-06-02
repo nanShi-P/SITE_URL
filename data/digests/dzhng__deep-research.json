@@ -1,0 +1,21 @@
+{
+  "id": "dzhng/deep-research",
+  "source_hash": "4d32a13f384872046b373c23b4a361eb3ba7984397f3c425e8bd9bb1c324e938",
+  "generated_at": "2026-06-02T18:11:39.458Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个开源的 AI 深度研究助手，结合搜索引擎、网页抓取和大语言模型，对给定话题进行多轮迭代式检索：自动生成查询、提取要点、衍生新方向，并最终输出 Markdown 研究报告。代码量控制在 500 行以内，便于阅读和二次开发。",
+  "scenarios": [
+    "撰写行业调研或竞品分析报告",
+    "学术论文前期文献与背景调研",
+    "技术选型时收集多方资料并归纳",
+    "作为学习 AI Agent 迭代式研究模式的参考实现",
+    "快速生成某话题的结构化知识简报"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行配置 OpenAI、Firecrawl 等多个 API Key 及 Node 环境，但代码精简、文档清晰。",
+  "alternatives": [
+    "gpt-researcher",
+    "stanford-storm",
+    "perplexity"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "open-webui/open-webui",
+  "source_hash": "f4a99f0871b50f8c511d224b6873896fa446c6171ebadd49294824a73487e8e6",
+  "generated_at": "2026-06-02T17:45:26.254Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Open WebUI 是一个可自托管、可完全离线运行的 AI 对话界面，兼容 Ollama、OpenAI 等多种 LLM 后端，内置 RAG 推理能力，并支持插件扩展，提供类 ChatGPT 的网页交互体验。",
+  "scenarios": [
+    "在本地用 Ollama 跑开源大模型并通过浏览器聊天",
+    "团队私有部署 ChatGPT 替代品，统一管理用户和模型",
+    "结合本地文档做 RAG 知识库问答",
+    "通过 OpenAI 兼容 API 接入多家模型供应商统一界面",
+    "离线环境下搭建内网 AI 助手"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供 Docker 一键部署，文档完善，但需自行准备模型后端。",
+  "alternatives": [
+    "LobeChat",
+    "LibreChat",
+    "AnythingLLM"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "nadermx/backgroundremover",
+  "source_hash": "15eed31cbec6c0fa6da380febf72a46a1fee219defd3b99b0ac064accd4adc0e",
+  "generated_at": "2026-06-02T18:24:12.738Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于AI的命令行工具，可去除图片和视频背景，内置U2Net等模型，支持透明背景、绿幕替换、视频合成等输出，开源免费，适合开发者本地批处理或集成到自有服务中。",
+  "scenarios": [
+    "批量去除电商商品图背景",
+    "为视频人物抠像生成绿幕素材",
+    "制作带透明通道的GIF动图",
+    "集成到自建图像处理服务后端",
+    "为短视频创作替换背景"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行安装PyTorch、ffmpeg及对应Python开发包，命令行使用，对非技术用户有一定门槛。",
+  "alternatives": [
+    "rembg",
+    "RemBG-CLI",
+    "U-2-Net"
+  ]
+}

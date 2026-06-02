@@ -1,0 +1,21 @@
+{
+  "id": "koala73/worldmonitor",
+  "source_hash": "3aec8765e371ac3ba0c4eb5577b1a99747450344a2414449f3607f78ae9376e1",
+  "generated_at": "2026-06-02T17:50:48.212Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个实时全球态势感知仪表盘，聚合多源新闻并借助 AI 进行地缘政治与基础设施监控，提供科技、金融、大宗商品等多个垂直变体的统一可视化界面。",
+  "scenarios": [
+    "关注地缘政治动态的分析师查看全球新闻热点",
+    "科技从业者通过 tech 变体追踪行业资讯",
+    "金融交易员实时监控市场和宏观事件",
+    "研究机构搭建自有情报监控面板",
+    "媒体编辑快速浏览跨地区突发事件"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基于 TypeScript 的 Web 应用，可直接访问在线版本，但自部署需配置 AI 接口和多数据源。",
+  "alternatives": [
+    "Feedly",
+    "GDELT Project",
+    "Ground News"
+  ]
+}

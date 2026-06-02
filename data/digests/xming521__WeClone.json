@@ -1,0 +1,20 @@
+{
+  "id": "xming521/WeClone",
+  "source_hash": "304c780f9f2b34c8ee8b6bdb5a950ccbb39f6545b8fd49fd230d93646fff10b0",
+  "generated_at": "2026-06-02T18:13:10.985Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "WeClone 是一个一站式数字分身方案，利用微信等聊天记录对大语言模型进行微调，让模型学习你的说话风格，并可绑定到聊天机器人上，实现一个能模仿你日常对话的 AI 替身。",
+  "scenarios": [
+    "用导出的微信聊天记录微调本地 LLM，打造个人风格化模型",
+    "将微调后的模型接入 QQ/微信机器人，代替本人闲聊回复",
+    "制作纪念性数字分身，留存亲友的语言风格",
+    "研究个人语料微调对模型对话风格的影响"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及聊天记录导出清洗、LLM 微调环境配置和 GPU 资源，对普通用户门槛较高。",
+  "alternatives": [
+    "MyGO",
+    "SomeoneAI",
+    "ChatHaruhi"
+  ]
+}

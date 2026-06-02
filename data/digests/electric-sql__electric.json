@@ -1,0 +1,21 @@
+{
+  "id": "electric-sql/electric",
+  "source_hash": "4175e2f6de09a9247c6881c83fc7a14cbbc3b8279d12911b82957575e14cbf07",
+  "generated_at": "2026-06-02T18:22:35.416Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Electric 是基于 Postgres 的实时同步引擎，通过 HTTP API 将数据库中的数据子集（Shape）增量同步到客户端或其他系统，用于构建本地优先、实时协作及 AI 代理类应用。",
+  "scenarios": [
+    "为前端应用提供 Postgres 数据的实时订阅与本地缓存",
+    "构建本地优先（local-first）的协作编辑应用",
+    "将 Postgres 数据同步到边缘节点或微服务以降低读取延迟",
+    "为 AI Agent 提供实时数据上下文",
+    "跨多端实时同步业务状态如仪表盘、聊天"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需部署 Postgres 与 Electric 服务并理解 Shape 同步模型，但官方文档和 Quickstart 较完善。",
+  "alternatives": [
+    "PowerSync",
+    "Replicache",
+    "Zero"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tensorzero/tensorzero",
+  "source_hash": "998dc0ff6667325e6772dcaff3f512802e158e7114f66bc5574a74ab4c392cad",
+  "generated_at": "2026-06-02T18:21:44.602Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "TensorZero 是一个开源 LLMOps 平台，将统一 LLM 网关、可观测性、评估、优化和实验功能整合在一起，支持对接主流 LLM 提供商和 OpenAI SDK，可按需采用各个模块来构建和迭代生产级大模型应用。",
+  "scenarios": [
+    "为多家 LLM 提供商提供统一 API 网关，实现低延迟调用与故障切换",
+    "将推理记录与用户反馈存入数据库，做线上观测和数据分析",
+    "利用启发式规则或 LLM 评审对 Prompt 和工作流进行批量评测",
+    "基于反馈数据持续优化 Prompt、模型选择和推理策略",
+    "在生产环境进行 A/B 测试、流量路由和模型实验"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "功能模块较多，需要部署网关与数据库并接入现有 LLM 工作流，但官方文档和快速开始指南较完善。",
+  "alternatives": [
+    "LangSmith",
+    "Langfuse",
+    "Helicone"
+  ]
+}

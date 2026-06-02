@@ -1,0 +1,20 @@
+{
+  "id": "EleutherAI/gpt-neo",
+  "source_hash": "2a262ba90bbd193ed9adf448445ae4f38bccc036be923b58f44114f60a20c632",
+  "generated_at": "2026-06-02T18:23:49.573Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于mesh-tensorflow实现的GPT-2/GPT-3风格大模型训练框架，支持模型与数据并行，主要面向TPU，也兼容GPU；额外提供局部注意力、线性注意力、专家混合和轴向位置编码等特性，并发布了在The Pile上预训练的1.3B和2.7B模型。项目已于2021年8月停止维护。",
+  "scenarios": [
+    "在TPU上从零预训练GPT-3风格的大语言模型",
+    "加载1.3B/2.7B预训练权重进行文本生成实验",
+    "研究Mixture of Experts、局部/线性注意力等架构改进",
+    "作为学术论文的复现基线对比新方法"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "依赖mesh-tensorflow和TPU环境，配置复杂且项目已停止维护，缺少持续支持。",
+  "alternatives": [
+    "GPT-NeoX",
+    "Megatron-LM",
+    "HuggingFace Transformers"
+  ]
+}

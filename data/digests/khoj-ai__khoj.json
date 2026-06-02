@@ -1,0 +1,21 @@
+{
+  "id": "khoj-ai/khoj",
+  "source_hash": "55392aff1b1c156420b383afb24b1c26a836bd1c50f3fb25184a2a50aac971ee",
+  "generated_at": "2026-06-02T17:57:02.048Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Khoj 是一款可自托管的个人 AI 助手，支持接入本地或在线大模型（GPT、Claude、Gemini、Llama 等），可基于网页和个人文档（PDF、Markdown、Word、Notion 等）回答问题，并提供自定义智能体、定时自动化和深度研究等功能。",
+  "scenarios": [
+    "在本地搭建私有知识库，对 PDF、Markdown 笔记进行语义检索和问答",
+    "结合联网搜索做深度调研并生成报告",
+    "用 Ollama 等本地模型构建离线隐私 AI 助手",
+    "创建定时自动化任务，如每日新闻摘要推送",
+    "为团队部署企业级第二大脑，统一查询内部文档"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 与 pip 安装和较完善的官方文档，但自托管涉及向量库、模型与索引配置，有一定运维门槛。",
+  "alternatives": [
+    "AnythingLLM",
+    "Danswer",
+    "Quivr"
+  ]
+}

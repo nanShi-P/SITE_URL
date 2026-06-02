@@ -1,0 +1,21 @@
+{
+  "id": "hacksider/Deep-Live-Cam",
+  "source_hash": "1ebe3d47dfe3c528a14a2b8e99af47891574634cdd393b6aa32b805f3155a03f",
+  "generated_at": "2026-06-02T17:46:41.270Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于单张图片即可实现实时摄像头换脸和视频深度伪造的开源工具，提供一键操作的图形界面，并内置敏感内容检测以限制不当用途。",
+  "scenarios": [
+    "主播或视频创作者实时换脸直播",
+    "为动画角色快速生成面部表演",
+    "影视后期制作中的人脸替换试验",
+    "数字人或虚拟形象演示",
+    "AI 媒体相关研究与教学演示"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Python 环境、下载模型并安装 GPU 加速依赖，文档较完善但对新手仍有一定门槛。",
+  "alternatives": [
+    "faceswap",
+    "Roop",
+    "SimSwap"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ai-collection/ai-collection",
+  "source_hash": "29457e3e6aa2c586f3d61861ad8ea228ecec6b0dd24e933160622c0c49875503",
+  "generated_at": "2026-06-02T18:23:23.322Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库是一份精选的生成式 AI 应用清单，收录了 3000 多个跨 86 个类别的工具，涵盖文本、图像、音视频、代码、营销等领域，方便开发者和用户按场景查找合适的 AI 产品。",
+  "scenarios": [
+    "快速查找特定领域的生成式 AI 工具",
+    "调研 AI 市场了解竞品和分类",
+    "为内容创作挑选合适的 AI 写作或绘图应用",
+    "开发者寻找 AI API 与平台参考",
+    "撰写 AI 相关文章或报告时查阅资料"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档型 Awesome 清单，无需安装或配置，直接浏览即可。",
+  "alternatives": [
+    "steven2358/awesome-generative-ai",
+    "mahseema/awesome-ai-tools",
+    "ai-tools-inc/awesome-ai-tools"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "google-research/google-research",
+  "source_hash": "0a1633c0c1129aecf1fe3db2db5d1e84e5f5a6a9f62fd1352e0036c1d16fe217",
+  "generated_at": "2026-06-02T17:55:25.891Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Google Research 团队公开发布的研究代码合集仓库，包含大量论文配套的实现、实验脚本与数据集，覆盖机器学习、NLP、CV 等多个方向，按子目录组织，便于按需下载单个项目使用。",
+  "scenarios": [
+    "复现某篇 Google Research 论文的实验结果",
+    "查阅特定算法或模型的官方参考实现",
+    "在自己的研究中借鉴其数据处理或训练代码",
+    "作为学习前沿机器学习方法的代码案例库"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "仓库体积庞大、子项目众多，依赖和文档各异，需要按具体子目录单独配置环境且无统一说明。",
+  "alternatives": [
+    "facebookresearch",
+    "deepmind/deepmind-research",
+    "microsoft/unilm"
+  ]
+}

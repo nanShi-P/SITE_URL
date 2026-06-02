@@ -1,0 +1,21 @@
+{
+  "id": "mlflow/mlflow",
+  "source_hash": "c2172f951285a73a02473fe6bb68ed73d64ba96dc9c77dcc6ee720a652d28def",
+  "generated_at": "2026-06-02T18:03:38.226Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "MLflow 是开源的 AI 工程平台，覆盖传统机器学习模型与大模型、智能体应用的全生命周期管理，提供实验跟踪、模型注册、追踪调试、评估监控、提示词管理与优化，以及统一管控成本和访问的 AI 网关。",
+  "scenarios": [
+    "机器学习实验的参数、指标与产物跟踪",
+    "LLM 应用的链路追踪与调试",
+    "智能体与提示词的评估与持续优化",
+    "模型注册与版本化部署管理",
+    "通过 AI Gateway 统一管控多模型调用与成本"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基础用法 pip 安装即可，但完整部署 Tracking Server、模型注册及生产级监控涉及较多组件配置。",
+  "alternatives": [
+    "Weights & Biases",
+    "Kubeflow",
+    "ClearML"
+  ]
+}

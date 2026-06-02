@@ -1,0 +1,21 @@
+{
+  "id": "modelscope/ms-swift",
+  "source_hash": "c3f0af01e455a314aa6512d28e60d20e03f136ee0b520c4b1a995989413c6e11",
+  "generated_at": "2026-06-02T18:20:47.942Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "魔搭社区出品的大模型训练框架，支持对 600+ LLM 和 300+ 多模态模型进行 LoRA/PEFT 或全参数的预训练、SFT、DPO、GRPO 等多种微调与对齐，并涵盖推理、评测和部署全流程。",
+  "scenarios": [
+    "对 Qwen、DeepSeek、Llama 等开源 LLM 进行领域 SFT",
+    "用 LoRA 低成本微调多模态模型如 Qwen-VL、InternVL",
+    "使用 DPO/GRPO 做 RLHF 风格的偏好对齐训练",
+    "在企业内部对自有数据做继续预训练 CPT",
+    "微调后一键部署推理服务并进行基准评测"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档齐全且封装良好，但涉及分布式训练与 GPU 环境配置，需要一定深度学习基础。",
+  "alternatives": [
+    "LLaMA-Factory",
+    "axolotl",
+    "unsloth"
+  ]
+}

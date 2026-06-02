@@ -1,0 +1,21 @@
+{
+  "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
+  "source_hash": "d8d47c57500643be16ef592d6ba9c74a5b2fb1ab3caf9728cb4be2be58b2a6ef",
+  "generated_at": "2026-06-02T18:21:45.634Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ARIS 是一套纯 Markdown 形式的轻量级 Agent 技能集，面向自动化机器学习研究，提供跨模型评审循环、论文创意挖掘和实验自动化等工作流，无需框架依赖，可在 Claude Code、Codex CLI 等任意 LLM Agent 中直接调用。",
+  "scenarios": [
+    "夜间无人值守地让 Claude Code 自动跑 ML 实验",
+    "用多模型交叉评审的方式打磨论文初稿",
+    "从最新 arXiv 论文中批量挖掘可落地的研究 idea",
+    "在 Codex CLI 中复用 Markdown 技能完成科研流程",
+    "组织小型科研团队共享统一的 Agent 工作流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "技能本身只是 Markdown 文件，但需要熟悉 Claude Code/Codex 等 Agent 工具并具备 ML 研究背景才能用好。",
+  "alternatives": [
+    "AI-Scientist",
+    "aider",
+    "awesome-agent-skills"
+  ]
+}

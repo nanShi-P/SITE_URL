@@ -1,0 +1,21 @@
+{
+  "id": "AstrBotDevs/AstrBot",
+  "source_hash": "7ea21fb65ebec1bb8570e60ce31da4192116b8c4f22c1ae8996d6056d0a01e83",
+  "generated_at": "2026-06-02T17:57:32.718Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AstrBot 是一个多平台聊天机器人与 AI Agent 开发框架，集成 QQ、微信、Telegram 等 IM 平台和多种大模型，支持插件扩展、知识库与可视化管理面板，可用于快速搭建对话机器人。",
+  "scenarios": [
+    "在 QQ 群或微信中部署接入 ChatGPT 等大模型的智能问答机器人",
+    "为 Telegram、Discord 等社群搭建带人格设定的聊天助手",
+    "通过插件机制扩展机器人功能，如定时任务、图片生成",
+    "基于知识库构建企业内部客服或 FAQ 机器人",
+    "开发者用作多平台消息适配的 LLM 应用底座"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 与可视化面板降低使用门槛，但涉及 IM 平台账号配置、LLM API 接入和插件调试，需要一定运维与开发基础。",
+  "alternatives": [
+    "NoneBot2",
+    "Koishi",
+    "LangBot"
+  ]
+}

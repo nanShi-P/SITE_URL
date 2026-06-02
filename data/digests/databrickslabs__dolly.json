@@ -1,0 +1,20 @@
+{
+  "id": "databrickslabs/dolly",
+  "source_hash": "4f19ac5760cfbe4a7dcbf75e316ee507654c800809ba573f365b32b00734d59f",
+  "generated_at": "2026-06-02T18:22:18.349Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Databricks 开源的指令微调大语言模型 Dolly，基于 EleutherAI 的 Pythia-12b，使用约 1.5 万条由员工编写的指令数据微调而成，可商用，覆盖问答、生成、摘要、信息抽取等任务，并附带训练代码和数据集。",
+  "scenarios": [
+    "在企业内部部署可商用的开源大模型做问答助手",
+    "基于自有数据微调 Pythia 等基础模型的参考实现",
+    "研究指令微调数据集构建方法",
+    "用作 LLM 教学和实验的开源样例"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要多卡 GPU 环境训练或推理 12B 模型，对硬件和深度学习工程能力要求较高。",
+  "alternatives": [
+    "Stanford Alpaca",
+    "Vicuna",
+    "OpenAssistant"
+  ]
+}

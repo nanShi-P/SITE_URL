@@ -1,0 +1,21 @@
+{
+  "id": "langchain-ai/deepagents",
+  "source_hash": "0dfd09cebc11d5ca667a913a182d26d6d3bf35dfd80782a8e6cd6a0deff62c8c",
+  "generated_at": "2026-06-02T18:06:05.470Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LangChain 推出的开箱即用智能体框架，基于 LangGraph 构建，预设了适合长程多步任务的子代理、文件系统、上下文管理等能力，支持任意可调用工具的 LLM，可扩展替换各组件，并配套 LangSmith 用于追踪与部署。",
+  "scenarios": [
+    "搭建可执行长程多步研究任务的 AI 助手",
+    "通过子代理隔离上下文以并行处理复杂工作流",
+    "为代理接入本地或远程文件系统进行读写检索",
+    "在生产环境部署带流式与持久化的 LLM 智能体",
+    "快速原型验证不同模型的代理表现"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI 包和默认配置可快速上手，但深度定制需熟悉 LangGraph 与 LangSmith 生态。",
+  "alternatives": [
+    "CrewAI",
+    "AutoGen",
+    "OpenAI Swarm"
+  ]
+}

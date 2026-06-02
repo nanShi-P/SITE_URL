@@ -1,0 +1,21 @@
+{
+  "id": "rohitg00/ai-engineering-from-scratch",
+  "source_hash": "b940f26141b9246a27a525b7d263021459b0f4eea782a071be11c6cacf413645",
+  "generated_at": "2026-06-02T18:02:12.932Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一套开源免费的AI工程系统化课程，包含503节课、20个阶段，约320小时内容，涵盖Python、TypeScript、Rust、Julia四种语言，从线性代数到自主智能体逐步手写实现，每节课产出可复用成果。",
+  "scenarios": [
+    "想系统学习AI工程而非零散教程的自学者",
+    "希望补齐数学与底层原理的应用开发者",
+    "准备从传统软件转向AI方向的工程师",
+    "高校或培训机构作为教学大纲参考",
+    "团队内训搭建AI能力路线图"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "内容量巨大（503节课约320小时），涉及四种语言与底层数学实现，对学习者投入和基础要求很高。",
+  "alternatives": [
+    "fast.ai",
+    "llm-course",
+    "Full Stack Deep Learning"
+  ]
+}

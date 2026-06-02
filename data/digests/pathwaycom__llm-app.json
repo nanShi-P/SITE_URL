@@ -1,0 +1,21 @@
+{
+  "id": "pathwaycom/llm-app",
+  "source_hash": "2384523144dff929a748bacde8f04eaca3a9c71cf2bc56cdd9797b5b472b72ed",
+  "generated_at": "2026-06-02T17:49:32.423Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Pathway 官方提供的一组开箱即用 LLM 应用模板，用于搭建可上生产的 RAG、AI 流水线和企业搜索；内置向量/混合/全文索引，并能与本地文件、Google Drive、SharePoint、S3、Kafka、PostgreSQL 等数据源实时同步，支持 Docker 部署到主流云或本地。",
+  "scenarios": [
+    "在企业内部文档上搭建实时同步的 RAG 问答助手",
+    "对 SharePoint/Google Drive 中的合同、报告做语义检索",
+    "基于 Kafka 实时数据流构建告警与摘要管道",
+    "在 S3 文档库上提供高准确度的企业搜索接口",
+    "快速在 AWS/GCP/Azure 部署 LLM 应用 PoC"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "模板和 Docker 化降低了上手门槛，但涉及数据源接入、向量索引与云部署配置，仍需一定工程经验。",
+  "alternatives": [
+    "langchain-ai/langchain",
+    "run-llama/llama_index",
+    "danswer-ai/danswer"
+  ]
+}

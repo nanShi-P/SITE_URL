@@ -1,0 +1,21 @@
+{
+  "id": "upstash/context7",
+  "source_hash": "66e24a7ec385f8f6c9d9cce9be6371294d074218d2d51e2422b10a2b486bfbd1",
+  "generated_at": "2026-06-02T17:50:28.426Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Context7 是 Upstash 推出的 MCP 服务，为 LLM 和 AI 代码编辑器实时注入各类开源库的最新版本文档与示例代码，避免模型给出过时或臆造的 API 用法，可一键接入 Cursor 等支持 MCP 的工具。",
+  "scenarios": [
+    "在 Cursor 中编码时调用 Context7 获取最新框架 API 文档",
+    "让 Claude/ChatGPT 等 LLM 基于真实版本文档生成代码",
+    "排查因依赖升级导致的过时用法问题",
+    "为团队 AI 助手补充指定开源库的权威参考",
+    "在 Windsurf、Cline 等 MCP 客户端中作为文档检索后端"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供托管 MCP 服务和一键安装链接，按文档配置即可使用，无需自建环境。",
+  "alternatives": [
+    "DevDocs",
+    "GitMCP",
+    "Ref MCP"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "modular/modular",
+  "source_hash": "3cdf10a6cbce811909c9e10489ef70233e6c7ba4704c9e7f0d11d53cc619e16b",
+  "generated_at": "2026-06-02T18:03:31.108Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Modular 平台整合 MAX 推理框架与 Mojo 语言，提供开放的 AI 模型服务与部署工具链，屏蔽底层硬件差异，可在 NVIDIA、AMD GPU 及 CPU 上高性能运行主流开源大模型，并暴露 OpenAI 兼容 REST API。",
+  "scenarios": [
+    "本地或服务器上一键部署 Llama 等开源大模型推理服务",
+    "通过 OpenAI 兼容 API 接入现有 LLM 应用",
+    "在 Kubernetes 集群中使用 MAX 容器进行 GenAI 规模化部署",
+    "使用 Mojo 编写高性能 GPU/CPU 算子",
+    "跨 NVIDIA 与 AMD GPU 的统一推理基准测试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 pip/conda 包和容器镜像，文档完善，但涉及 GPU 环境配置与模型服务部署，对新手有一定门槛。",
+  "alternatives": [
+    "vLLM",
+    "TensorRT-LLM",
+    "Ollama"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "microsoft/agent-lightning",
+  "source_hash": "2e2ea7693ca526d1829a924d68ca0751f6d1980a030cbee4a5625ae7bed0b5b4",
+  "generated_at": "2026-06-02T18:14:55.794Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软开源的 AI Agent 训练框架，旨在为各类智能体提供统一的训练与优化能力，帮助开发者快速迭代和提升 Agent 的表现。",
+  "scenarios": [
+    "对基于 LLM 的智能体进行强化学习微调",
+    "批量评测和优化多步 Agent 工作流",
+    "为自定义 Agent 接入统一训练管线",
+    "研究 Agent 行为策略的实验平台"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 Agent 训练与强化学习，依赖复杂且缺少 README 说明，上手门槛较高。",
+  "alternatives": [
+    "TRL",
+    "OpenRLHF",
+    "AutoGen"
+  ]
+}

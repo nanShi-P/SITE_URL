@@ -1,0 +1,21 @@
+{
+  "id": "kortix-ai/suna",
+  "source_hash": "ac6a809610f4cac6bf70e333fd4ca5d049ee1195332165a9b6b812cd23528516",
+  "generated_at": "2026-06-02T18:10:44.865Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Kortix（即 Suna）是一个把整家公司当成 Git 仓库来管理的 AI 智能体平台：用一份 kortix.toml 配置定义代理、技能和运行时，通过 CLI 一键初始化并部署到云端，让 AI 代理协作完成实际工作，支持会话、变更请求评审等流程。",
+  "scenarios": [
+    "自动汇总本周代码提交并发起变更请求",
+    "用自然语言指令让代理处理重复性运营任务",
+    "团队共享可版本化的 AI 工作流配置",
+    "在终端中与会话代理对话执行任务",
+    "将公司业务流程沉淀为可克隆复用的代码库"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 CLI 一键安装和云端托管，但理解 agent/skills 配置和自托管运行时仍需一定学习成本。",
+  "alternatives": [
+    "AutoGen",
+    "CrewAI",
+    "Dify"
+  ]
+}

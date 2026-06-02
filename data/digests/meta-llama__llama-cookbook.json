@@ -1,0 +1,21 @@
+{
+  "id": "meta-llama/llama-cookbook",
+  "source_hash": "21ee7637b75a01fcf17103230e58f82c623ead1218c738c5083a1f8771d07c36",
+  "generated_at": "2026-06-02T18:12:21.352Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Meta 官方的 Llama 模型实战教程仓库，覆盖推理、微调、RAG 以及端到端应用案例，并演示如何在各类云服务上使用 Llama 系列模型，配套示例代码和文档。",
+  "scenarios": [
+    "学习如何对 Llama 模型进行本地或云端推理",
+    "基于自有数据对 Llama 进行 LoRA/全参微调",
+    "构建基于 Llama 的 RAG 问答系统",
+    "参考端到端示例开发聊天机器人或 Agent 应用",
+    "在 AWS、Azure 等云厂商上部署 Llama 服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档与示例齐全，但需具备 PyTorch、GPU 环境和 LLM 基础知识才能顺利跑通微调示例。",
+  "alternatives": [
+    "huggingface/transformers",
+    "hiyouga/LLaMA-Factory",
+    "artidoro/qlora"
+  ]
+}

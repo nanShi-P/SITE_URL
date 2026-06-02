@@ -1,0 +1,21 @@
+{
+  "id": "lobehub/lobehub",
+  "source_hash": "fb3e05ae43d929814c4fc17f4be3b99bbca341e9b5b35eb97d76b67eae832df9",
+  "generated_at": "2026-06-02T17:47:50.883Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LobeHub 定位为「首席智能体运营官」，帮助用户像管理团队一样招募、调度并监督多个 AI Agent，实现 7×24 小时自动化运行，让用户无需常驻在线即可掌控整个 AI 工作流。",
+  "scenarios": [
+    "搭建多智能体协作完成日常运营任务",
+    "定时调度 AI 完成内容生产或数据处理",
+    "对一组 Agent 的执行情况进行汇总报告",
+    "团队共享并管理多个 AI 助手角色",
+    "离线托管 AI 工作流，定期查看产出"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Vercel 与 Docker 部署，但多智能体配置和模型接入需要一定运维与 AI 使用经验。",
+  "alternatives": [
+    "LobeChat",
+    "Dify",
+    "AutoGen Studio"
+  ]
+}

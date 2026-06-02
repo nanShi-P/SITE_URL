@@ -1,0 +1,20 @@
+{
+  "id": "openclaw/openclaw",
+  "source_hash": "a5c2c903347846d321b568c3c1ef724268ff995647aa4d96a3181898113166f0",
+  "generated_at": "2026-06-02T17:44:10.429Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenClaw 是一款可自托管的个人 AI 助手，通过 Gateway 控制层接入 WhatsApp、Telegram、Slack、Discord、iMessage、微信、QQ 等二十多种聊天渠道，并支持 macOS/iOS/Android 上的语音收发与可交互 Canvas 渲染，定位为单用户、本地化、常在线的私人助理。",
+  "scenarios": [
+    "在常用 IM 中随时向个人 AI 提问与对话",
+    "通过手机语音与助手进行听说交互",
+    "用 Canvas 实时展示和操作助手生成的内容",
+    "将多渠道消息统一汇聚到一个个人助手处理"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需自行部署 Gateway 并配置多种第三方聊天平台凭证，跨端集成复杂。",
+  "alternatives": [
+    "Matrix Bot",
+    "Huginn",
+    "LibreChat"
+  ]
+}

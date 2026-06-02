@@ -1,0 +1,21 @@
+{
+  "id": "JushBJJ/Mr.-Ranedeer-AI-Tutor",
+  "source_hash": "1edab8b28c0ec8dd3fb78635631a695e1f17fbc45769002b9883a1cf7a88985f",
+  "generated_at": "2026-06-02T17:59:56.992Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Mr. Ranedeer 是一个面向 GPT-4 的可定制 AI 家教提示词，通过设定知识深度、学习风格、表达方式等参数，为用户生成个性化的教学内容与课程安排。项目已停止维护，仅提供 Prompt 文本和使用指南。",
+  "scenarios": [
+    "在 ChatGPT Plus 中加载该 Prompt 进行个性化自学辅导",
+    "按指定深度学习数学、编程等学科知识",
+    "让 AI 规划某门课程的学习大纲与章节",
+    "使用 /test 命令进行随堂测验和评估",
+    "为不同语言/年龄段的学习者定制教学风格"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "只需复制 Prompt 到 GPT-4 即可使用，无需安装环境，文档与示例齐全。",
+  "alternatives": [
+    "AutoGPT",
+    "Khanmigo",
+    "LearnGPT"
+  ]
+}

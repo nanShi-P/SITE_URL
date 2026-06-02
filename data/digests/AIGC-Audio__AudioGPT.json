@@ -1,0 +1,20 @@
+{
+  "id": "AIGC-Audio/AudioGPT",
+  "source_hash": "51cd2ebc722100771cb49ec5aeb4dd193da6b8455da4d01db9afac62985cf034",
+  "generated_at": "2026-06-02T18:22:33.866Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AudioGPT 把 ChatGPT 与多种音频基础模型连接起来，用自然语言对话完成语音、音乐、声音及说话人头像的理解与生成任务，涵盖 TTS、语音识别、风格迁移、歌声合成、音频生成、口型视频等多种功能。",
+  "scenarios": [
+    "通过对话生成语音、歌声或背景音乐",
+    "对上传音频做识别、增强、分离或翻译",
+    "根据文本生成带口型动画的虚拟人视频",
+    "研究多模态音频任务的统一交互框架"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需配置多个音频基础模型及大量权重，依赖复杂、显存要求高，部署门槛较大。",
+  "alternatives": [
+    "HuggingGPT",
+    "Bark",
+    "WhisperX"
+  ]
+}

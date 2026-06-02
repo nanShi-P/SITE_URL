@@ -1,0 +1,21 @@
+{
+  "id": "neuml/txtai",
+  "source_hash": "93a5a3dfd61b7cd003811616e655efae178f4d604a0676dba876100fdcd7994d",
+  "generated_at": "2026-06-02T18:21:22.558Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "txtai 是一个一体化 AI 框架，核心是融合稀疏/稠密向量索引、图网络与关系数据库的嵌入式数据库，支持语义搜索、RAG、LLM 编排以及构建自主智能体和语言模型工作流。",
+  "scenarios": [
+    "在企业文档或知识库上搭建语义搜索引擎",
+    "为大模型应用提供 RAG 检索增强生成的知识源",
+    "编排多步骤的 LLM 工作流并构建自主智能体",
+    "结合向量与图网络做关联数据的混合检索",
+    "快速原型化基于嵌入的问答与推荐系统"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Python 安装较简单，但功能模块广、概念较多，深入使用需理解嵌入、向量索引与 LLM 编排。",
+  "alternatives": [
+    "LangChain",
+    "LlamaIndex",
+    "Haystack"
+  ]
+}

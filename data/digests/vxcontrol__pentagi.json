@@ -1,0 +1,21 @@
+{
+  "id": "vxcontrol/pentagi",
+  "source_hash": "ce271f26afb7a74e5b16223aa1cff20df46510319a87438f0d6a9ffbfa618d3e",
+  "generated_at": "2026-06-02T18:14:41.426Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PentAGI 是一个全自动的 AI Agent 系统，专为渗透测试场景设计，可调度多个智能体在 Docker 隔离环境中完成漏洞探测、信息收集与漏洞利用等复杂任务，支持 OpenAI、Anthropic、Gemini、Ollama 等多种 LLM 后端，并集成 Langfuse 监控和知识图谱。",
+  "scenarios": [
+    "安全研究人员自动化执行 CTF 或靶场渗透任务",
+    "红队对目标系统进行自动化漏洞探测与利用",
+    "企业内部进行自动化安全评估和漏洞复现",
+    "使用本地 Ollama 模型在隔离环境中开展安全测试",
+    "结合 Langfuse 观测和调优 LLM Agent 执行链路"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需 Docker 编排、配置多家 LLM Provider 及 Langfuse、OAuth 等组件，涉及安全场景，部署和调试门槛较高。",
+  "alternatives": [
+    "PentestGPT",
+    "HackingBuddyGPT",
+    "AutoGPT"
+  ]
+}

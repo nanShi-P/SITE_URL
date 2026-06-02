@@ -1,0 +1,21 @@
+{
+  "id": "kubesphere/kubesphere",
+  "source_hash": "d1b675bd6d9e22811a435488b4295b388854ab8a45591ebedbeafbe1f1b1876b",
+  "generated_at": "2026-06-02T18:20:28.678Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "KubeSphere 是基于 Kubernetes 内核的分布式云原生应用管理平台，提供多租户、可视化 Web 控制台和插件化架构，覆盖多云、数据中心与边缘场景，集成 DevOps、可观测性、应用商店等能力，降低 K8s 使用门槛。",
+  "scenarios": [
+    "企业搭建统一的多集群、多云 Kubernetes 管理平台",
+    "通过可视化界面替代 kubectl 管理工作负载和命名空间",
+    "为团队提供多租户隔离的容器化开发测试环境",
+    "集成 DevOps 流水线实现 CI/CD 自动化交付",
+    "边缘计算节点与中心集群的统一纳管"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 Kubernetes 集群部署及众多组件，对运维基础和资源要求较高。",
+  "alternatives": [
+    "Rancher",
+    "OpenShift",
+    "Rafay"
+  ]
+}

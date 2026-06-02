@@ -1,0 +1,21 @@
+{
+  "id": "BerriAI/litellm",
+  "source_hash": "40071b451cd6cdabcabb443006c26dd8af5db426573f3213e5da7be29e48c393",
+  "generated_at": "2026-06-02T17:51:57.051Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LiteLLM 是开源的 AI 网关与 Python SDK，可用统一的 OpenAI 兼容格式调用 100 多家大模型服务（OpenAI、Azure、Bedrock、Vertex、Anthropic 等），并提供代理服务器、负载均衡、成本追踪、日志记录和访问护栏等能力，方便自托管和企业化部署。",
+  "scenarios": [
+    "在应用中用一套代码切换多家 LLM 提供商，避免厂商锁定",
+    "团队自建 AI 网关，统一管理 API Key、配额与调用日志",
+    "对多模型调用进行成本核算和使用量监控",
+    "在多个模型或区域之间做负载均衡与故障切换",
+    "通过护栏和审计满足企业合规要求后再接入生产业务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "SDK 调用上手简单，但作为代理网关自托管时涉及配置文件、数据库、各家厂商凭证与部署运维，有一定复杂度。",
+  "alternatives": [
+    "OpenRouter",
+    "Portkey",
+    "One API"
+  ]
+}

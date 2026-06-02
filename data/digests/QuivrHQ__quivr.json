@@ -1,0 +1,21 @@
+{
+  "id": "QuivrHQ/quivr",
+  "source_hash": "8ee957fd523ccda6763aac22672979af64401cede7b001c56c7e8ffbb6e07929",
+  "generated_at": "2026-06-02T17:54:57.915Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Quivr 是一个开箱即用的 RAG 框架，封装了文档解析、向量检索与大模型问答流程，支持任意 LLM（OpenAI、Anthropic、Mistral 等）和多种向量库、文件格式，方便开发者快速把生成式 AI 能力集成进自己的应用，无需从零搭建检索增强系统。",
+  "scenarios": [
+    "在企业内部知识库上构建问答助手",
+    "为 SaaS 产品快速接入文档问答功能",
+    "搭建个人第二大脑，对 PDF/Markdown 笔记提问",
+    "基于私有数据做客服或技术支持机器人",
+    "原型验证不同 LLM 与向量库组合的 RAG 效果"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 pip 安装的 quivr-core 包和完善文档，几行代码即可跑通基本 RAG 流程。",
+  "alternatives": [
+    "LangChain",
+    "LlamaIndex",
+    "Haystack"
+  ]
+}

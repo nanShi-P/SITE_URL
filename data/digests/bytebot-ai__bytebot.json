@@ -1,0 +1,21 @@
+{
+  "id": "bytebot-ai/bytebot",
+  "source_hash": "392cfb46114eece258e28c018c4c3e58e04718a9b648184f1df12e8b5a5c870b",
+  "generated_at": "2026-06-02T18:21:53.074Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "自托管的开源 AI 桌面代理，在容器化 Linux 虚拟桌面中运行，可通过自然语言指令操作浏览器、办公软件、IDE 等任意应用，完成下载文件、填表、跨应用流程自动化等任务。",
+  "scenarios": [
+    "用自然语言让 AI 代你在网页上批量填写表单或抓取数据",
+    "让代理在虚拟桌面中下载文件、整理到本地目录",
+    "自动化跨应用办公流程，如从邮件提取附件并录入表格",
+    "让 AI 在隔离桌面里登录账号执行重复性操作，避免污染本机",
+    "作为 RPA 替代方案，自托管在内网处理敏感任务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 一键部署和 Railway 模板，但需自备 LLM API Key 并理解容器化桌面环境配置。",
+  "alternatives": [
+    "Self-Operating-Computer",
+    "OpenAdapt",
+    "Anthropic Computer Use"
+  ]
+}

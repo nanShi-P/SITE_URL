@@ -1,0 +1,21 @@
+{
+  "id": "Open-LLM-VTuber/Open-LLM-VTuber",
+  "source_hash": "190ccbd2af7f27a2cf8af4086bc83d904650caf97e4e9dcbe174518c183b308b",
+  "generated_at": "2026-06-02T18:24:04.415Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个跨平台运行的本地 LLM 语音对话伴侣，支持免提语音交互、打断对话与 Live2D 虚拟形象表情联动，可接入多种 LLM、ASR 和 TTS 后端，打造个性化 AI VTuber 桌宠。",
+  "scenarios": [
+    "在桌面端搭建带 Live2D 形象的个人 AI 聊天伙伴",
+    "本地部署隐私优先的语音助手，离线与大模型对话",
+    "为直播或视频创作搭建可互动的虚拟主播形象",
+    "学习 LLM、ASR、TTS 多模块集成的开源参考项目",
+    "作为陪伴型桌宠在工作时进行随时语音交流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行配置 LLM、ASR、TTS 等多个后端及 Live2D 前端，但官方文档完善并提供 Docker 镜像。",
+  "alternatives": [
+    "AIVTuber",
+    "neuro-sama-fan-projects",
+    "amica"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "RightNow-AI/openfang",
+  "source_hash": "e5921e17d69ee8e497721f25e4e4ea6d4290402afed5f5cca424fdf6208c5638",
+  "generated_at": "2026-06-02T18:14:02.474Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenFang 是用 Rust 从零构建的开源 Agent 操作系统，包含 14 个 crate、13 万多行代码和数千项测试，提供单一二进制的自主智能体运行时，而非简单的 LLM 封装或多智能体编排框架。",
+  "scenarios": [
+    "部署长时间自主运行的 AI Agent 后台服务",
+    "构建无需人工触发的事件驱动智能体工作流",
+    "在生产环境中以单一 Rust 二进制运行多智能体系统",
+    "研究 Agent OS 的架构与调度实现",
+    "替代 Python 系智能体框架以获得更高性能与稳定性"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "Rust 编写、规模庞大且 pre-1.0 版本间存在破坏性变更，对部署和调试要求较高。",
+  "alternatives": [
+    "AutoGPT",
+    "LangGraph",
+    "CrewAI"
+  ]
+}

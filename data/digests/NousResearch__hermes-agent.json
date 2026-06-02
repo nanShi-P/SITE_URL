@@ -1,0 +1,21 @@
+{
+  "id": "NousResearch/hermes-agent",
+  "source_hash": "9ab811ba633a88cae70dae5907c5fc953b21103310d124806185bd3086f99d95",
+  "generated_at": "2026-06-02T17:44:40.304Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Nous Research 出品的自我进化型 AI Agent，具备从经验中沉淀技能、检索历史对话、跨会话建立用户画像的学习循环；支持多种主流大模型后端，可部署在低价 VPS、GPU 集群或 Serverless 上，并能通过 Telegram 等远程交互。",
+  "scenarios": [
+    "搭建一个跨会话记忆的私人长期助理",
+    "在云端 VM 上运行并通过 Telegram 远程驱动 Agent 执行任务",
+    "用同一 Agent 切换 OpenRouter、NIM、Kimi 等不同模型做对比",
+    "让 Agent 在使用中自动积累并复用技能脚本",
+    "低成本 VPS 上托管常驻自动化助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要自行配置模型 API、部署环境与可选的 Telegram 等外部集成，但官方提供文档和 CLI 工具。",
+  "alternatives": [
+    "Open Interpreter",
+    "AutoGPT",
+    "SuperAGI"
+  ]
+}

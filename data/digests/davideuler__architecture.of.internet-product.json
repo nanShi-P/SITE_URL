@@ -1,0 +1,20 @@
+{
+  "id": "davideuler/architecture.of.internet-product",
+  "source_hash": "32d9d3b04e490a929a77ba3b97fe2ed16d2054336e78313fcd2b482578786c62",
+  "generated_at": "2026-06-02T18:09:29.211Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "汇总国内外知名互联网公司经典技术架构文档与PPT的资料库，按公司和主题分目录整理，涵盖微信、阿里、美团、Google、Facebook等架构资料，方便架构师学习参考。",
+  "scenarios": [
+    "架构师学习大厂系统设计思路",
+    "准备互联网公司技术面试时参考架构案例",
+    "团队内部分享高并发与分布式架构方案",
+    "撰写技术文章或课程时收集资料"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档资料集合，直接浏览阅读即可，无需任何环境配置。",
+  "alternatives": [
+    "architect-awesome",
+    "system-design-primer",
+    "awesome-scalability"
+  ]
+}

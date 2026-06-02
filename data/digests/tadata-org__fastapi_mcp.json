@@ -1,0 +1,19 @@
+{
+  "id": "tadata-org/fastapi_mcp",
+  "source_hash": "9470805ab9b38d5e8e836a44b1877f853f66fe7d08e6a5212264f2baa83748da",
+  "generated_at": "2026-06-02T18:21:35.875Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个将 FastAPI 接口直接暴露为 Model Context Protocol (MCP) 工具的库，原生兼容 FastAPI，支持复用已有的认证依赖、请求/响应模型与文档，几乎零配置即可让 LLM 客户端调用现有 API。",
+  "scenarios": [
+    "将已有 FastAPI 后端快速接入 Claude、Cursor 等 MCP 客户端",
+    "为内部 API 增加 LLM 调用入口，复用原有 OAuth/JWT 鉴权",
+    "构建带身份认证的企业级 AI Agent 工具集",
+    "在开发阶段调试 MCP 工具的请求与响应 schema"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "已有 FastAPI 项目时只需几行代码挂载，文档清晰、依赖少。",
+  "alternatives": [
+    "fastapi-mcp-server",
+    "mcp-openapi-proxy"
+  ]
+}

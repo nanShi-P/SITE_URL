@@ -1,0 +1,20 @@
+{
+  "id": "GeeeekExplorer/nano-vllm",
+  "source_hash": "496c0ebf32960cda4850d258519760af4f2cd8e91a1ba405465c0ec49a5824cc",
+  "generated_at": "2026-06-02T18:20:49.316Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Nano-vLLM 是从零实现的轻量级 vLLM，仅约 1200 行 Python 代码，提供与 vLLM 接近的离线推理速度，并支持前缀缓存、张量并行、Torch 编译和 CUDA 图等优化，API 也基本兼容 vLLM。",
+  "scenarios": [
+    "学习大模型推理引擎的内部实现原理",
+    "在单卡或多卡 GPU 上做离线批量文本生成",
+    "作为研究人员定制和魔改推理优化策略的基础代码",
+    "在本地跑 Qwen 等开源模型做性能基准测试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 GPU 环境和 PyTorch 基础，文档较简，但 API 类似 vLLM 上手并不复杂。",
+  "alternatives": [
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM"
+  ]
+}

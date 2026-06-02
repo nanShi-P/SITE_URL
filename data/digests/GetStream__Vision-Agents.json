@@ -1,0 +1,21 @@
+{
+  "id": "GetStream/Vision-Agents",
+  "source_hash": "f77e44189e30154d9a98e4130627ff616524aa301418a705a7f3ab3a029c38ce",
+  "generated_at": "2026-06-02T18:24:12.781Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Stream 出品的开源多模态 AI 代理框架，用于快速构建能听会看的实时语音与视频代理，支持接入 YOLO、Roboflow、Gemini、OpenAI 等模型，并借助 Stream 边缘网络实现低延迟音视频传输。",
+  "scenarios": [
+    "搭建实时视频问答助手",
+    "直播流中进行物体检测与智能解说",
+    "视频会议中的语音转写与智能交互",
+    "健身或运动姿态实时分析反馈",
+    "客服场景下的视频客户智能应答"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Stream API 密钥及多家模型服务商，涉及实时音视频与多模态集成，有一定门槛但官方文档较完善。",
+  "alternatives": [
+    "LiveKit Agents",
+    "Pipecat",
+    "Ultravox"
+  ]
+}

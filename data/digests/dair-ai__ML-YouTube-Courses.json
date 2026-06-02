@@ -1,0 +1,21 @@
+{
+  "id": "dair-ai/ML-YouTube-Courses",
+  "source_hash": "4a3fd0fff8490802339a70827ef0290577c6ff062454306765aad9290c1d0d2f",
+  "generated_at": "2026-06-02T18:15:02.549Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库汇总并分类整理了 YouTube 上优质的机器学习与人工智能公开课，涵盖机器学习、深度学习、NLP、强化学习、大模型等方向，附带课程链接和简要说明，方便系统化自学。",
+  "scenarios": [
+    "自学者寻找系统化的机器学习入门课程",
+    "研究生补充深度学习或强化学习相关知识",
+    "开发者快速了解大语言模型与 LLMOps 实践",
+    "教师整理教学参考资料和课程链接",
+    "求职者按主题查漏补缺 AI 知识体系"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "本质是一份课程链接清单，无需安装或运行代码，按目录点击观看即可。",
+  "alternatives": [
+    "Awesome-Deep-Learning",
+    "awesome-machine-learning",
+    "Awesome-AI-Courses"
+  ]
+}

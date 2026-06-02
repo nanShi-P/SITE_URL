@@ -1,0 +1,21 @@
+{
+  "id": "n8n-io/n8n",
+  "source_hash": "0f5d1b8dcb7ab59f4454313f17b06e4825296b2ddee7d2c643dc5af8f93ba59c",
+  "generated_at": "2026-06-02T17:44:26.096Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "n8n 是一个面向技术团队的工作流自动化平台，支持可视化编排与自定义 JavaScript/Python 代码结合，内置基于 LangChain 的 AI 能力，提供 400+ 集成，可自托管或使用云服务，采用 fair-code 许可。",
+  "scenarios": [
+    "跨 SaaS 系统的数据同步与业务流程自动化",
+    "搭建基于 LangChain 的 AI Agent 与 RAG 工作流",
+    "定时抓取数据并写入数据库或发送通知",
+    "企业内部自托管的审批、告警和运维自动化",
+    "快速对接 API 构建轻量级后端集成服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "npx 或 Docker 即可快速启动，但要发挥完整能力需理解节点编排、自托管部署与凭证配置。",
+  "alternatives": [
+    "Zapier",
+    "Make",
+    "Node-RED"
+  ]
+}

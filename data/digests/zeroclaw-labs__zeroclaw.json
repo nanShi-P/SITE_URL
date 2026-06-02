@@ -1,0 +1,21 @@
+{
+  "id": "zeroclaw-labs/zeroclaw",
+  "source_hash": "0578352af83fd6d3247b5250bdb19394ba31c4e13125e87e2f365f8c5fcf0590",
+  "generated_at": "2026-06-02T17:58:47.510Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ZeroClaw 是一个用 Rust 编写的自托管 AI 个人助理运行时，单一二进制即可部署，支持接入 Anthropic、OpenAI、Ollama 等约 20 种 LLM，并通过 Discord、Telegram、Matrix、邮件、语音等 30 多种渠道交互，强调数据与机器自主可控。",
+  "scenarios": [
+    "在自有服务器上搭建私有 AI 助手处理日常事务",
+    "通过 Discord/Telegram 机器人接入团队协作",
+    "用本地 Ollama 模型实现离线对话与自动化",
+    "将助手接入邮件和 webhook 自动响应消息",
+    "跨平台部署个人语音助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供单一 Rust 二进制和文档，但需自行配置 LLM 提供商、渠道凭据和运行环境。",
+  "alternatives": [
+    "LibreChat",
+    "OpenDevin",
+    "Khoj"
+  ]
+}

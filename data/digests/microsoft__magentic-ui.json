@@ -1,0 +1,20 @@
+{
+  "id": "microsoft/magentic-ui",
+  "source_hash": "6f21efc37ed20785daa338947309be37e59e04c88a962927fbc41029e69a4b41",
+  "generated_at": "2026-06-02T18:22:40.561Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软推出的实验性智能体项目，能够在浏览器和本地文件系统中执行任务，帮助用户完成跨环境的自动化操作。",
+  "scenarios": [
+    "让智能体自动浏览网页并抓取信息",
+    "在本地文件系统中批量整理或处理文件",
+    "结合浏览器操作与本地数据进行端到端工作流自动化",
+    "研究人机协作型 AI 智能体的交互方式"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "实验性微软项目，缺少 README 说明，环境搭建和使用方式不明确。",
+  "alternatives": [
+    "AutoGPT",
+    "OpenInterpreter",
+    "browser-use"
+  ]
+}

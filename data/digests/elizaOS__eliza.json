@@ -1,0 +1,21 @@
+{
+  "id": "elizaOS/eliza",
+  "source_hash": "9eda687c68fbd31cc0a72b3c8b5af6405597cb99543123b5bd0e34b50800feda",
+  "generated_at": "2026-06-02T18:12:06.683Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "elizaOS 是一个开源的智能体框架，提供模块化架构、CLI 和 Web 管理界面，支持接入 Discord、Telegram 等平台，兼容 OpenAI、Anthropic、Llama 等主流模型，可用于构建聊天机器人、自动化业务代理及多智能体协作系统，并支持文档 RAG 与插件扩展。",
+  "scenarios": [
+    "搭建接入 Discord/Telegram 的 AI 聊天机器人",
+    "构建多个专业化智能体协同处理业务流程",
+    "基于内部文档实现 RAG 问答助手",
+    "为游戏开发智能 NPC 角色",
+    "通过插件扩展自定义智能体能力"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 CLI 与 Web UI 降低上手门槛，但涉及多模型配置、插件体系与多智能体编排，需要一定开发经验。",
+  "alternatives": [
+    "LangChain",
+    "AutoGen",
+    "CrewAI"
+  ]
+}

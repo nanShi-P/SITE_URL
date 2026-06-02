@@ -1,0 +1,21 @@
+{
+  "id": "svc-develop-team/so-vits-svc",
+  "source_hash": "9236b0125b9715ca30ce4b45a363c8de08c5f5ec637be1d4064871bc73471579",
+  "generated_at": "2026-06-02T18:01:21.421Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于SoftVC与VITS的歌声转换项目，可将一段歌声的音色替换为目标说话人/角色的音色，常用于让虚拟角色翻唱歌曲，支持训练自定义模型并提供Colab脚本，目前仓库已进入归档状态。",
+  "scenarios": [
+    "将已有歌曲转换为虚拟角色音色用于二创翻唱",
+    "为同人作品制作特定角色演唱的歌曲demo",
+    "训练个人音色模型进行歌声转换实验",
+    "配合voice-changer实现实时变声直播",
+    "音频研究者学习SVC模型结构与训练流程"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要GPU环境、数据预处理与模型训练，依赖较多且文档偏技术化，对新手不友好。",
+  "alternatives": [
+    "so-vits-svc-fork",
+    "RVC",
+    "DiffSinger"
+  ]
+}

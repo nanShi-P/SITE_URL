@@ -1,0 +1,20 @@
+{
+  "id": "activeloopai/deeplake",
+  "source_hash": "1eee97709b3f038e2c4d940bd996a11990095dc721fca064b56066d14987b9e6",
+  "generated_at": "2026-06-02T18:23:14.408Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Deep Lake 是面向 AI 的多模态数据库，提供针对深度学习优化的存储格式，支持向量检索、数据集版本管理，并能将图像、视频、文本等数据流式传输到 PyTorch、TensorFlow 训练，也可作为 LLM 应用的向量库使用。",
+  "scenarios": [
+    "构建 LLM 应用时存储与检索文本向量",
+    "管理大规模图像、视频等多模态训练数据集",
+    "将云端数据集流式喂入 PyTorch/TensorFlow 训练",
+    "对训练数据进行版本管理与协作"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "pip 安装即可上手，但涉及云存储、向量检索与深度学习框架集成，需一定数据工程经验。",
+  "alternatives": [
+    "LanceDB",
+    "Milvus",
+    "Weaviate"
+  ]
+}

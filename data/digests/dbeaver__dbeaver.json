@@ -1,0 +1,21 @@
+{
+  "id": "dbeaver/dbeaver",
+  "source_hash": "da86e1a28d34d70dd70cf1e7829a115504a7607d122cd181109d767f9c55fc63",
+  "generated_at": "2026-06-02T17:51:36.596Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DBeaver 是一款免费开源的跨平台通用数据库管理工具和 SQL 客户端，支持 MySQL、PostgreSQL、Oracle 等 100 多种数据库，提供 SQL 编辑、数据浏览编辑、ER 图、数据导入导出迁移、执行计划分析以及 AI 智能补全等功能。",
+  "scenarios": [
+    "开发者日常连接和查询多种数据库",
+    "DBA 进行数据库管理与性能分析",
+    "数据分析师导出、迁移数据",
+    "通过 ER 图查看和设计数据库结构",
+    "查看地理空间(GIS)数据"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供各平台安装包，开箱即用，无需自行编译。",
+  "alternatives": [
+    "DataGrip",
+    "HeidiSQL",
+    "Navicat"
+  ]
+}

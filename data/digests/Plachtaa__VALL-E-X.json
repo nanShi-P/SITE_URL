@@ -1,0 +1,20 @@
+{
+  "id": "Plachtaa/VALL-E-X",
+  "source_hash": "f8a3b1f304a411b007afd329efe38d1fb2a3d2dcdaa54bbcf1e42dee43738110",
+  "generated_at": "2026-06-02T18:24:05.339Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软 VALL-E X 零样本多语种语音合成模型的开源复现，提供预训练权重，支持中英日跨语言 TTS、声音克隆、长文本生成和情感迁移，可通过 Python 调用。",
+  "scenarios": [
+    "用少量样本克隆指定说话人声音生成语音",
+    "为视频或有声书制作多语种配音",
+    "跨语言保留原说话人音色的语音翻译",
+    "TTS 与零样本语音合成相关学术研究"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Python 3.10、CUDA 与 PyTorch 环境并下载较大预训练模型，但安装步骤和文档较清晰。",
+  "alternatives": [
+    "Bark",
+    "TortoiseTTS",
+    "XTTS"
+  ]
+}

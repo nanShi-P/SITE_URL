@@ -1,0 +1,21 @@
+{
+  "id": "botpress/botpress",
+  "source_hash": "0bfeca0d8597e637acc4da554f4a470d94caac1a4486ee6e545d53bb26c0294c",
+  "generated_at": "2026-06-02T18:19:38.820Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Botpress 是一个用于构建和部署基于 GPT/LLM 的聊天机器人与智能助手的开源平台，提供云端工作室、CLI、SDK 以及大量官方集成和插件，方便开发者快速搭建对话式 AI 应用。",
+  "scenarios": [
+    "为企业网站搭建客服问答机器人",
+    "在 WhatsApp、Slack 等渠道部署 LLM 助手",
+    "用代码方式开发并版本化管理对话流程",
+    "集成第三方 API 实现自动化业务流程",
+    "构建内部知识库问答助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需注册 Botpress Cloud 并掌握 CLI/SDK 及 LLM 相关概念，但文档完善、生态成熟。",
+  "alternatives": [
+    "Rasa",
+    "Dify",
+    "Flowise"
+  ]
+}

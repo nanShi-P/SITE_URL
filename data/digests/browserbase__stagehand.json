@@ -1,0 +1,21 @@
+{
+  "id": "browserbase/stagehand",
+  "source_hash": "ea96330eb08e83c803470930477cc0d8c37dbec4c437349beda256179245a14f",
+  "generated_at": "2026-06-02T18:07:07.314Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Stagehand 是 Browserbase 推出的 AI 浏览器自动化框架，基于 Playwright 提供 act、extract、observe 等高层 API，可用自然语言指令驱动浏览器操作，同时保留底层代码控制能力，适合构建浏览器智能体。",
+  "scenarios": [
+    "用自然语言编写网页自动化测试",
+    "构建抓取动态网站结构化数据的爬虫",
+    "开发自动下单、填表的浏览器 Agent",
+    "让 LLM 应用调用浏览器完成在线任务",
+    "在 Browserbase 云端无头浏览器中部署 AI 工作流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Node/Playwright 基础并配置 LLM 与 Browserbase 的 API Key，但官方文档与示例较完善。",
+  "alternatives": [
+    "browser-use",
+    "Skyvern",
+    "Playwright"
+  ]
+}

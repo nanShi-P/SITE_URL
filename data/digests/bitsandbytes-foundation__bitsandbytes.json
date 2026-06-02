@@ -1,0 +1,20 @@
+{
+  "id": "bitsandbytes-foundation/bitsandbytes",
+  "source_hash": "dd4805bb0f5c1bd7b03dfe04ef6f29d0f4c4df5d834575d11a91da82e6b820d5",
+  "generated_at": "2026-06-02T18:23:49.835Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "bitsandbytes 是 PyTorch 的 k-bit 量化库，提供 8-bit 优化器、LLM.int8() 推理和 4-bit QLoRA 训练等能力，可大幅降低大模型推理与微调的显存占用，是 Hugging Face Transformers 量化加载的底层依赖。",
+  "scenarios": [
+    "在消费级 GPU 上以 4-bit 加载并推理 LLaMA、Qwen 等大模型",
+    "使用 QLoRA 对大模型进行低显存微调",
+    "用 8-bit AdamW 等优化器训练大模型以节省显存",
+    "在 Transformers 中通过 load_in_8bit/4bit 加速部署"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装依赖 CUDA 版本匹配，多硬件后端配置容易踩坑，但官方文档完善且与 Transformers 集成成熟。",
+  "alternatives": [
+    "AutoGPTQ",
+    "AutoAWQ",
+    "llama.cpp"
+  ]
+}

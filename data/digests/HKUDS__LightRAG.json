@@ -1,0 +1,20 @@
+{
+  "id": "HKUDS/LightRAG",
+  "source_hash": "ba9522a7879485961c0547c9f6c77320670d80e1631a90e2119eaebf3d6f1aae",
+  "generated_at": "2026-06-02T17:56:26.989Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LightRAG 是港大数据智能实验室开源的检索增强生成框架，结合知识图谱与向量检索，对文档进行实体关系抽取并支持多种查询模式，相比传统 RAG 在多跳问答上效果更好，提供 Python 库、API 服务和 Web UI。",
+  "scenarios": [
+    "搭建企业内部文档智能问答系统",
+    "对大量论文或研报构建知识图谱并进行多跳检索",
+    "为客服机器人提供基于知识库的回答能力",
+    "学术研究中复现并对比新型 RAG 方法"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 pip 包和 Web UI，文档较完整，但需配置 LLM、向量库及理解知识图谱构建流程。",
+  "alternatives": [
+    "GraphRAG",
+    "Haystack",
+    "LlamaIndex"
+  ]
+}

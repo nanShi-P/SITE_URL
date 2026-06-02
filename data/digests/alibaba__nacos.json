@@ -1,0 +1,21 @@
+{
+  "id": "alibaba/nacos",
+  "source_hash": "4ef9f8b3daabaf368f2a38854a8a200af9035fcd0dc4510d0360d9089741f998",
+  "generated_at": "2026-06-02T17:58:30.499Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Nacos 是阿里巴巴开源的动态服务发现、配置管理和服务管理平台，支持 Dubbo、Spring Cloud、gRPC、Kubernetes 等多种服务体系，帮助开发者构建云原生应用和微服务架构。",
+  "scenarios": [
+    "微服务架构中作为注册中心进行服务注册与发现",
+    "Spring Cloud 应用的统一配置中心，实现配置动态推送",
+    "Dubbo 服务治理和实例健康检查",
+    "Kubernetes 集群中跨服务的元数据管理",
+    "多环境配置隔离与灰度发布"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 JVM 环境和一定的微服务知识，但官方文档完善、部署脚本齐全。",
+  "alternatives": [
+    "Consul",
+    "Eureka",
+    "Apollo"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "mukul975/Anthropic-Cybersecurity-Skills",
+  "source_hash": "ee32c6cc5e9ce2554b86b16179068a6077e57587ffe20caf2fae443f5cdcb1bf",
+  "generated_at": "2026-06-02T18:20:51.069Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "面向 AI 代理的开源网络安全技能库，收录 754 个结构化技能，覆盖 26 个安全领域，并映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF 五大框架，遵循 agentskills.io 标准，可在 Claude Code、Copilot、Cursor 等 20 多个平台中调用。",
+  "scenarios": [
+    "为 Claude Code 等 AI 助手补充安全攻防知识",
+    "红队/蓝队基于 MITRE ATT&CK 编排自动化操作",
+    "安全合规团队按 NIST CSF 2.0 生成评估清单",
+    "AI 安全研究人员参考 ATLAS 框架开展对抗测试",
+    "在 Cursor 中调用技能完成漏洞分析与修复建议"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "以结构化技能文件形式提供，按 agentskills.io 标准接入主流 AI 工具即可使用，无复杂部署。",
+  "alternatives": [
+    "awesome-prompts-cybersecurity",
+    "PentestGPT"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "upscayl/upscayl",
+  "source_hash": "dd3bd7aefee152a72dd4b97a4f2ac933c5439f1f3d78a7199f315923121be7ee",
+  "generated_at": "2026-06-02T17:52:46.370Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Upscayl 是一款基于 AI 的开源图片无损放大桌面应用，支持 Linux、macOS 和 Windows，使用 Real-ESRGAN 等模型，可在本地离线将低分辨率图片放大并增强清晰度。",
+  "scenarios": [
+    "将老照片放大并去除模糊后打印",
+    "为电商或网页素材提升小尺寸图片分辨率",
+    "修复低清动漫或插画用于壁纸",
+    "批量处理摄影作品以输出高清版本",
+    "本地离线处理隐私敏感图片，避免上传云端"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 Windows/macOS/Linux 安装包，下载即用，无需配置环境或命令行。",
+  "alternatives": [
+    "Real-ESRGAN",
+    "waifu2x",
+    "chaiNNer"
+  ]
+}

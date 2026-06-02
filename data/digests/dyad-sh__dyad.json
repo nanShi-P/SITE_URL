@@ -1,0 +1,21 @@
+{
+  "id": "dyad-sh/dyad",
+  "source_hash": "7963558159cd742b7d08807b841286db5166485cd0f143747f6fa434c3db6fd5",
+  "generated_at": "2026-06-02T18:09:59.306Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Dyad 是一款本地运行的开源 AI 应用构建工具，类似 v0、Lovable、Bolt 等在线产品，但完全运行在本地，支持自带 API Key，强调隐私和无厂商锁定，跨平台兼容 Mac 与 Windows。",
+  "scenarios": [
+    "在本地通过自然语言快速生成 Web 应用原型",
+    "使用自己的 OpenAI/Claude API Key 构建私有 AI 编程助手",
+    "离线或对数据敏感的环境下进行 AI 辅助开发",
+    "替代 v0、Lovable 等云端服务的自托管方案",
+    "个人开发者快速搭建小型全栈项目"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 Mac/Windows 安装包，下载即用，无需注册或复杂配置。",
+  "alternatives": [
+    "bolt.new",
+    "Lovable",
+    "v0"
+  ]
+}

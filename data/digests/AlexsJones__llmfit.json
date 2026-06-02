@@ -1,0 +1,20 @@
+{
+  "id": "AlexsJones/llmfit",
+  "source_hash": "c7d9ec6028140a1e8de554beec266f1feffb7b8ba95c4f7ca9a9af9158ea1448",
+  "generated_at": "2026-06-02T18:02:21.541Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一款终端工具，自动检测本机 CPU、内存和 GPU，从数百个 LLM 模型中评估质量、速度、显存占用和上下文长度，告诉你哪些模型能在你的硬件上跑得动，支持 Ollama、llama.cpp、MLX、LM Studio 等本地运行时，并提供社区性能榜单参考。",
+  "scenarios": [
+    "在购买新显卡前查看社区实测数据，对比不同 GPU 跑特定模型的吞吐量",
+    "本地开发者快速筛选适合自家 Mac 或 PC 的开源模型与量化版本",
+    "多 GPU 工作站上选择合适的 MoE 模型并估算推理速度",
+    "对比 Ollama、llama.cpp、LM Studio 等不同本地运行时的可用模型",
+    "为团队推荐符合显存与上下文需求的模型部署方案"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "Rust 编写的命令行工具，已发布到 crates.io，提供交互 TUI，安装运行即可使用。",
+  "alternatives": [
+    "can-it-run-llm",
+    "LLM Explorer"
+  ]
+}

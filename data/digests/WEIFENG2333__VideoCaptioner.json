@@ -1,0 +1,21 @@
+{
+  "id": "WEIFENG2333/VideoCaptioner",
+  "source_hash": "2463ad025979977a9295af2c4716d56716ca4211220796be177da31bc5ea92be",
+  "generated_at": "2026-06-02T18:19:11.567Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于大语言模型的视频字幕一站式处理工具，集成语音识别、字幕断句优化、翻译和视频合成烧录，支持 CLI 和 GUI 两种使用方式，内置必剪、Whisper、必应/谷歌翻译等免费引擎。",
+  "scenarios": [
+    "将本地视频自动转录生成中文字幕",
+    "为 YouTube 下载视频生成双语字幕并烧录",
+    "用 LLM 优化 Whisper 转录结果的断句和标点",
+    "批量将英文字幕翻译为日语并合成到视频",
+    "为短视频创作者快速生成可发布的硬字幕成片"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 一键安装，免费引擎开箱即用，仅 LLM 高级功能需配置 API Key。",
+  "alternatives": [
+    "Buzz",
+    "Subtitle Edit",
+    "whisper-ui"
+  ]
+}

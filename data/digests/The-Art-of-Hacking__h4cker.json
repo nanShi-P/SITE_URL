@@ -1,0 +1,21 @@
+{
+  "id": "The-Art-of-Hacking/h4cker",
+  "source_hash": "02cb140172aaccae433392ec6205b059dc8d57fc35ccdeb28b326847ca83b55d",
+  "generated_at": "2026-06-02T18:02:59.524Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "由Omar Santos维护的网络安全学习资源大全，收录了涵盖道德黑客、漏洞赏金、数字取证与应急响应、AI安全、漏洞研究、逆向工程等领域的数千个参考资料、脚本、工具、实验和培训内容，可作为其书籍和课程的配套素材。",
+  "scenarios": [
+    "准备OSCP、CISSP等安全认证时查找学习路线",
+    "自学渗透测试、红蓝对抗等攻防技能",
+    "搭建本地安全实验环境和靶场",
+    "查阅AI安全与LLM相关安全资料",
+    "作为安全教学或培训的参考素材库"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯资源索引型仓库，按目录浏览即可，无需安装配置，但内容庞杂需自行筛选。",
+  "alternatives": [
+    "awesome-hacking",
+    "PayloadsAllTheThings",
+    "awesome-pentest"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "coleam00/Archon",
+  "source_hash": "4c269a5923bf8af5325bbd3975bc5148e2f9c84f7419abb7619efc540edcab75",
+  "generated_at": "2026-06-02T18:08:07.289Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Archon 是一个面向 AI 编码代理的开源工作流引擎，用 YAML 定义规划、实现、验证、代码评审、PR 创建等开发流程，让 AI 编码过程可重复、可确定；每次运行使用独立 git worktree，支持多任务并行无冲突。",
+  "scenarios": [
+    "将团队的代码评审与 PR 模板流程固化为 AI 自动执行",
+    "并行跑多个 bug 修复任务且互不干扰",
+    "为新功能开发强制执行规划-实现-测试-提交的标准化流水线",
+    "在多个项目间复用统一的 AI 编码工作流",
+    "为 AI 代理添加验证关卡，确保跑测试和符合规范"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要理解 YAML 工作流定义、git worktree 及 AI 代理配置，但有官方文档站支持。",
+  "alternatives": [
+    "n8n",
+    "aider",
+    "SWE-agent"
+  ]
+}

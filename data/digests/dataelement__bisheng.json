@@ -1,0 +1,21 @@
+{
+  "id": "dataelement/bisheng",
+  "source_hash": "7823a33456d3643774c7541513c5a3b94b46d3a5326ef14d259cf090f62078f6",
+  "generated_at": "2026-06-02T18:21:45.302Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "BISHENG 是面向企业场景的开源 LLM 应用 DevOps 平台，提供 GenAI 工作流、RAG、Agent、统一模型管理、评测、SFT、数据集管理、企业级系统管理与可观测性等能力，用于构建和运营生成式 AI 应用。",
+  "scenarios": [
+    "企业内部知识库问答与文档检索",
+    "搭建合同/报告等文档审查类 Agent 工作流",
+    "对接私有化大模型进行统一管理与调用",
+    "面向业务流程的 RAG 应用开发与上线",
+    "模型微调(SFT)与效果评测管理"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 部署和较完善文档，但涉及模型、向量库等多组件依赖，企业级配置有一定门槛。",
+  "alternatives": [
+    "Dify",
+    "FastGPT",
+    "Langflow"
+  ]
+}

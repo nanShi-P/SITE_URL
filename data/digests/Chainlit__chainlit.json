@@ -1,0 +1,21 @@
+{
+  "id": "Chainlit/chainlit",
+  "source_hash": "c7115ed40a0d4f285100aeaf1a89cb361bd1f2b0bc8c4afa6371605653c9f0d0",
+  "generated_at": "2026-06-02T18:21:29.445Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Chainlit 是一个 Python 框架，用于快速构建可投入生产的对话式 AI 应用，内置聊天界面、消息流、文件上传、用户反馈等功能，可与 LangChain、LlamaIndex、OpenAI 等主流 LLM 工具链集成。目前由社区维护。",
+  "scenarios": [
+    "快速搭建基于 LLM 的聊天机器人原型",
+    "为 RAG 应用提供前端交互界面",
+    "内部团队部署带反馈收集的 AI 助手",
+    "展示 LangChain/LlamaIndex Agent 的执行过程",
+    "构建可上传文档并对话问答的应用"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 安装即用，装饰器写法简单，文档完善，但需基础 Python 与 LLM API 知识。",
+  "alternatives": [
+    "Streamlit",
+    "Gradio",
+    "Reflex"
+  ]
+}

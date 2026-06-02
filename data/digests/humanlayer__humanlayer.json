@@ -1,0 +1,21 @@
+{
+  "id": "humanlayer/humanlayer",
+  "source_hash": "55b3996bd847196859444a5d290c9522d54d37d62827ee0f00159220d8241a16",
+  "generated_at": "2026-06-02T18:22:09.139Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CodeLayer 是基于 Claude Code 构建的开源 IDE，用于编排多个 AI 编码代理并行处理大型复杂代码库中的难题，提供键盘优先工作流、上下文工程方法和 git worktree、远程云端执行等能力。",
+  "scenarios": [
+    "在大型遗留代码库中让 AI 代理拆解并完成复杂重构",
+    "并行运行多个 Claude Code 会话处理不同任务",
+    "团队协作下统一管理 AI 编码工作流和上下文",
+    "通过 git worktree 同时推进多分支特性开发",
+    "将编码代理任务下放到远程云端 worker 执行"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "依赖 Claude Code 与 API key，需熟悉 IDE 与代理化工作流，但有现成开源 IDE 可直接安装。",
+  "alternatives": [
+    "Cursor",
+    "Aider",
+    "Cline"
+  ]
+}

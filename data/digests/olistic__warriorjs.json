@@ -1,0 +1,21 @@
+{
+  "id": "olistic/warriorjs",
+  "source_hash": "6e5dc2b08d0e3e62f2ccf068aa8f76d489d6e4f3dd284549b717238b78adde95",
+  "generated_at": "2026-06-02T18:22:53.744Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "WarriorJS 是一款通过编写 JavaScript 或 TypeScript 代码操控勇士闯关的编程益智游戏，每层关卡都是一道逻辑谜题，需要用代码战斗、躲避、救人并抵达楼梯，适合在实战中练习编程思维。",
+  "scenarios": [
+    "初学者通过游戏化方式练习 JavaScript 基础语法",
+    "训练编程逻辑思维和算法设计能力",
+    "编程课程或训练营的趣味教学辅助工具",
+    "团队内部举办编程比赛和挑战活动",
+    "学习 TypeScript 并练习重构与优化代码"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "只需安装 Node.js 和一个 npm 全局 CLI 即可启动，文档完善，上手门槛低。",
+  "alternatives": [
+    "CodeCombat",
+    "Screeps",
+    "Elevator Saga"
+  ]
+}

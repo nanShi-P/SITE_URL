@@ -1,0 +1,20 @@
+{
+  "id": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "source_hash": "64160dd7d6eaccad7d593aa79d5acf5750207984ab9ddf6d8143aeb78f30e9a1",
+  "generated_at": "2026-06-02T17:59:50.485Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AIHawk 是一个开源的 AI 求职自动化代理，可根据用户简历批量、定制化地向大量招聘岗位投递申请，旨在简化求职流程。当前仓库已移除第三方平台插件，仅保留核心架构。",
+  "scenarios": [
+    "求职者批量投递 LinkedIn 等平台岗位",
+    "根据职位描述自动生成定制化简历和求职信",
+    "开发者基于核心框架扩展自有招聘平台插件",
+    "研究 AI 在招聘自动化中的应用案例"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Python 环境、LLM API Key 和简历数据，且第三方平台插件已被移除需自行实现。",
+  "alternatives": [
+    "LazyApply",
+    "Sonara",
+    "JobGPT"
+  ]
+}

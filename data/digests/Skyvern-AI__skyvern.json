@@ -1,0 +1,21 @@
+{
+  "id": "Skyvern-AI/skyvern",
+  "source_hash": "b4cc4230962568fd0df05ad7200f46bdc44be97b53daa6de5593db604a52a507",
+  "generated_at": "2026-06-02T18:08:35.294Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Skyvern 利用大语言模型和计算机视觉自动化浏览器工作流，提供兼容 Playwright 的 SDK 和无代码工作流编辑器，让技术与非技术用户都能在任意网站上替代脆弱的传统脚本自动化方案。",
+  "scenarios": [
+    "批量填写保险或贷款报价表单获取报价",
+    "抓取政府或电商网站结构多变的数据",
+    "自动完成招聘网站的职位投递流程",
+    "对接内部系统执行重复的后台操作",
+    "为 QA 团队生成基于自然语言的端到端测试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 LLM API Key、Postgres 及 Playwright 环境，但官方文档与 Docker 部署较完善。",
+  "alternatives": [
+    "browser-use",
+    "LaVague",
+    "Multi-On"
+  ]
+}

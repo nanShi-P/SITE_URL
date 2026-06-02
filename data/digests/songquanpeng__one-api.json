@@ -1,0 +1,21 @@
+{
+  "id": "songquanpeng/one-api",
+  "source_hash": "cb3b07f1d55c48414e5a273621fa49989bf4ff183a298f288b9dc0c28facca39",
+  "generated_at": "2026-06-02T17:57:11.308Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "One API 是一个用 Go 编写的大模型 API 网关，将 OpenAI、Azure、Claude、Gemini、DeepSeek、文心、通义等众多厂商的接口统一为 OpenAI 格式，并提供用户、令牌、配额、计费和渠道管理功能，适合团队内部统一调用与二次分发 Key。单文件可执行，提供 Docker 镜像，部署便捷。",
+  "scenarios": [
+    "团队内部聚合多家大模型 API 并统一计费",
+    "将自有 API Key 二次分发给下游用户或客户",
+    "为应用统一接入 OpenAI 兼容接口，方便切换底层模型",
+    "在多渠道间做负载均衡与故障自动切换",
+    "作为中转代理解决国内访问 OpenAI 等服务的网络问题"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供单可执行文件与 Docker 镜像，文档详尽，一键部署即可使用。",
+  "alternatives": [
+    "new-api",
+    "FastGPT",
+    "LiteLLM"
+  ]
+}

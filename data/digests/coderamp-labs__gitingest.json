@@ -1,0 +1,21 @@
+{
+  "id": "coderamp-labs/gitingest",
+  "source_hash": "bce2b19dbf710a2dccd6ce4d3ed981da23f243317c4dc0c630ecb2b5fb46a9b9",
+  "generated_at": "2026-06-02T18:19:24.631Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Gitingest 把任意 Git 仓库转换为适合大模型阅读的纯文本摘要，只需将 GitHub URL 中的 hub 替换为 ingest 即可在线生成，也提供 Python 包和命令行工具，方便本地批量提取代码结构和内容。",
+  "scenarios": [
+    "把开源项目代码打包喂给 ChatGPT 或 Claude 做代码问答",
+    "为 LLM 生成项目上下文以辅助代码审查",
+    "快速生成仓库概览文档供新成员阅读",
+    "在 RAG 流水线中批量预处理代码库",
+    "离线分析私有仓库结构与文件内容"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供网页版即开即用，CLI 通过 pip 安装一行命令即可运行，依赖少文档清晰。",
+  "alternatives": [
+    "repomix",
+    "code2prompt",
+    "files-to-prompt"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "onlook-dev/onlook",
+  "source_hash": "48f115c8eec9f542473ee88d917cc486edf63c371640100a0dbb650cb2b0f6fc",
+  "generated_at": "2026-06-02T18:03:59.021Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Onlook 是一款开源的 AI 优先可视化设计工具，面向设计师和前端开发者，可在浏览器中直接以可视化方式构建、调整样式并编辑 React 应用，并借助 AI 协助生成与修改代码，类似为设计师打造的 Cursor。",
+  "scenarios": [
+    "设计师无需写代码，直接通过可视化界面修改 React 项目的布局和样式",
+    "前端开发者借助 AI 快速生成组件并调整 Tailwind 样式",
+    "团队在已有 React/Next.js 项目中进行所见即所得的迭代",
+    "用 AI 提示批量重构页面 UI 或生成新页面原型",
+    "教学与演示中向设计师展示 React 组件结构与样式联动"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要本地搭建 Node 环境、配置 AI Key 并运行 React 项目，但官方文档较完善。",
+  "alternatives": [
+    "v0.dev",
+    "Builder.io",
+    "Locofy"
+  ]
+}

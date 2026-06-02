@@ -1,0 +1,20 @@
+{
+  "id": "steipete/CodexBar",
+  "source_hash": "428fecba36fef229628eef3e94670f3362b8df715204897ae462bfa463d3a247",
+  "generated_at": "2026-06-02T18:20:43.486Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "macOS 14+ 菜单栏小工具，集中显示 Codex、Claude、Cursor、Gemini、Copilot 等 40 多家 AI 编程服务的用量额度、重置倒计时和余额，无需登录账号，每个服务一个状态项或合并图标显示。",
+  "scenarios": [
+    "同时订阅多家 AI 编程服务时随时查看剩余额度",
+    "在 Claude/Codex 周窗口重置前规划长任务执行时机",
+    "监控 OpenAI、Cursor 等账户的消费和余额变化",
+    "通过菜单栏快速感知 AI 服务的故障与状态异常",
+    "团队评估各 AI 编程订阅的实际使用率"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 Homebrew 安装的现成 macOS 应用，无需配置开发环境。",
+  "alternatives": [
+    "ccusage",
+    "claude-code-usage-monitor"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "huggingface/tokenizers",
+  "source_hash": "64f62e7cbf849c420aa3a7b91568ab11957f0489ca7cbcde458319c4999a0829",
+  "generated_at": "2026-06-02T18:22:17.921Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Hugging Face 出品的高性能分词器库，用 Rust 实现并提供 Python、Node.js、Ruby 等多语言绑定，支持训练和使用 BPE、WordPiece 等主流分词算法，处理一 GB 文本仅需 20 秒，并自带截断、填充、特殊符号添加及对齐追踪等预处理功能。",
+  "scenarios": [
+    "为大模型训练自定义词表",
+    "在生产环境中高速批量分词文本",
+    "NLP 研究中复现或对比不同分词算法",
+    "构建需要原文对齐信息的文本标注工具",
+    "在 Node.js 或 Ruby 后端集成分词能力"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "Python 包 pip 一行安装，API 简洁且文档完善，普通用户开箱即用。",
+  "alternatives": [
+    "tiktoken",
+    "sentencepiece",
+    "subword-nmt"
+  ]
+}

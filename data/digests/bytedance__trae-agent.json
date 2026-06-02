@@ -1,0 +1,21 @@
+{
+  "id": "bytedance/trae-agent",
+  "source_hash": "50bc27fc956535fdb551b54823798102869aafb6a407cfe4ffaea1fd7be2a9fa",
+  "generated_at": "2026-06-02T18:21:43.421Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "字节跳动开源的基于大语言模型的通用软件工程智能体，提供命令行界面，能理解自然语言指令并调用多种工具和 LLM 完成复杂开发任务，架构透明模块化，便于研究者扩展和分析。",
+  "scenarios": [
+    "通过自然语言指令自动完成代码修改、调试等软件工程任务",
+    "研究 AI Agent 架构并进行消融实验",
+    "对比测试不同 LLM 提供商在编码任务上的表现",
+    "作为基础框架二次开发自定义 Agent 能力",
+    "在 CLI 中执行多步骤的自动化开发工作流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Python 3.12+ 环境并配置 LLM API key，文档完善但涉及 Agent 框架理解。",
+  "alternatives": [
+    "OpenHands",
+    "SWE-agent",
+    "Aider"
+  ]
+}

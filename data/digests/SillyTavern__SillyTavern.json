@@ -1,0 +1,21 @@
+{
+  "id": "SillyTavern/SillyTavern",
+  "source_hash": "a2ff1cac06f033ac581d51f29c7362a321edeffd82e05ae15bf6db5a2e0fb240",
+  "generated_at": "2026-06-02T18:00:27.450Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "SillyTavern 是一款本地部署的聊天前端，统一接入 OpenAI、Claude、KoboldAI、NovelAI 等多种 LLM API，并集成图像生成、TTS、世界书、角色卡、扩展插件等功能，面向追求高度自定义提示词与角色扮演体验的进阶用户。",
+  "scenarios": [
+    "与本地或云端 LLM 进行多角色扮演聊天",
+    "通过世界书(WorldInfo)构建长期记忆和复杂设定",
+    "接入 Automatic1111/ComfyUI 在对话中生成插图",
+    "使用 TTS 让角色语音朗读回复",
+    "通过第三方扩展定制 UI 和增强提示词工作流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行安装 Node.js 环境并配置各类 LLM API 密钥，学习曲线较陡，但官方文档完善。",
+  "alternatives": [
+    "TavernAI",
+    "Risu AI",
+    "Agnaistic"
+  ]
+}

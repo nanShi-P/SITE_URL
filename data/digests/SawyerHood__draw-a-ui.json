@@ -1,0 +1,20 @@
+{
+  "id": "SawyerHood/draw-a-ui",
+  "source_hash": "9816c9ecb73e54601ea353d91b7dca99d6d211f8b429234ec0aa36bd2e07319b",
+  "generated_at": "2026-06-02T18:20:51.486Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 tldraw 画板与 GPT-4 Vision 的演示项目，用户手绘网页线框图后，应用将画布转为 PNG 发送给大模型，自动生成使用 Tailwind 的单文件 HTML 原型，方便快速把草图变成可预览页面。",
+  "scenarios": [
+    "产品经理快速将手绘线框变成可演示的 HTML 原型",
+    "设计师向开发交付前快速验证页面布局",
+    "前端学习者体验 AI 辅助生成 Tailwind 代码",
+    "Hackathon 中快速搭建 Demo 页面"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "标准 Next.js 项目，仅需配置 OpenAI Key 并 npm install 即可运行，文档清晰。",
+  "alternatives": [
+    "screenshot-to-code",
+    "vercel/v0",
+    "make-real"
+  ]
+}

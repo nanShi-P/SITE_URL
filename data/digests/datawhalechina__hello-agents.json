@@ -1,0 +1,20 @@
+{
+  "id": "datawhalechina/hello-agents",
+  "source_hash": "de7a29888541175cfe0eeedd2a8637c82e5c3b111495f1c47320a3d63ff63deb",
+  "generated_at": "2026-06-02T17:50:41.557Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Datawhale 出品的中文系统性教程，带你从原理到实战，从零构建 AI 原生智能体，涵盖核心架构、经典范式与多智能体应用开发，区别于 Dify/Coze 这类流程驱动方案。",
+  "scenarios": [
+    "初学者系统学习智能体基础理论",
+    "开发者动手实现单/多智能体应用",
+    "高校或社区开设 Agent 相关课程参考教材",
+    "从 LLM 使用者进阶为智能体系统构建者",
+    "研究 ReAct、Reflection 等经典 Agent 范式"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "内容以教程文档为主，循序渐进，但需要具备 Python 与大语言模型基础才能跟上实战部分。",
+  "alternatives": [
+    "microsoft/AI-Agents-for-Beginners",
+    "datawhalechina/llm-cookbook"
+  ]
+}

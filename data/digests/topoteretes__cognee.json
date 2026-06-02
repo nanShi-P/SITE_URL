@@ -1,0 +1,20 @@
+{
+  "id": "topoteretes/cognee",
+  "source_hash": "24aaa0bc0226fb8c1f2e2ed3665eaf2e5093d67bdbc8a319fbf488f132ae4b98",
+  "generated_at": "2026-06-02T18:14:08.340Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Cognee 是一个面向 AI Agent 的记忆平台，通过几行代码即可将文档、对话等数据摄取并构建为知识图谱与向量存储，供 Agent 查询和复用上下文，替代传统 RAG 流程。",
+  "scenarios": [
+    "为 LLM 聊天机器人添加跨会话长期记忆",
+    "将企业文档构建成可检索的知识图谱",
+    "为多 Agent 系统提供共享上下文存储",
+    "在 RAG 应用中替代或增强向量检索"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基础调用仅需几行代码，但涉及 LLM、向量库、图数据库等多组件配置，生产部署需要一定经验。",
+  "alternatives": [
+    "Mem0",
+    "Letta",
+    "Zep"
+  ]
+}

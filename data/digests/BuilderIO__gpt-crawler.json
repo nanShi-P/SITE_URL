@@ -1,0 +1,20 @@
+{
+  "id": "BuilderIO/gpt-crawler",
+  "source_hash": "00be1d30c04d336ee28679176dfe9de96e7f5de5dfe85e977290523b881fe3a2",
+  "generated_at": "2026-06-02T18:07:54.193Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个基于 Node.js 的网站爬虫工具，可根据给定 URL 抓取页面内容并生成结构化知识文件，用于上传到 OpenAI 创建自定义 GPT 或 Assistant。支持本地运行、Docker 容器和 API 三种方式。",
+  "scenarios": [
+    "抓取产品文档生成知识库，制作官方文档问答 GPT",
+    "爬取公司内部 Wiki 构建专属 AI 助手",
+    "将博客或新闻站点内容转为 OpenAI Assistant 的训练素材",
+    "为开源项目文档创建可对话的智能客服"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "配置文件简单清晰，提供 Docker 和 API 多种运行方式，文档完善，只需基本 Node.js 环境。",
+  "alternatives": [
+    "Firecrawl",
+    "Scrapy",
+    "crawl4ai"
+  ]
+}

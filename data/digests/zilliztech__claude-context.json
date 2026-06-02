@@ -1,0 +1,21 @@
+{
+  "id": "zilliztech/claude-context",
+  "source_hash": "215d30a417511f7f42535f2b821b9e3454cf4e463a16bce12ab9c9bc5bef17fe",
+  "generated_at": "2026-06-02T18:21:44.520Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Claude Context 是一个 MCP 插件，为 Claude Code 等 AI 编程助手提供基于向量检索的语义代码搜索能力，将整个代码库作为上下文，避免逐文件读取，提升大型项目中的代码理解与问答效率。",
+  "scenarios": [
+    "在大型单体仓库中让 Claude Code 快速定位相关函数",
+    "为 Cursor、Windsurf 等 AI 编辑器接入跨文件语义搜索",
+    "结合 Milvus/Zilliz 向量库索引私有代码库",
+    "团队代码知识检索与新成员上手辅助",
+    "在 VS Code 中通过官方扩展进行语义代码搜索"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 MCP 客户端、嵌入模型 API Key 以及向量数据库（如 Zilliz Cloud），但有 npm 包和文档支持。",
+  "alternatives": [
+    "Sourcegraph Cody",
+    "Continue",
+    "Aider"
+  ]
+}

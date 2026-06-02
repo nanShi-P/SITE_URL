@@ -1,0 +1,20 @@
+{
+  "id": "dice2o/BingGPT",
+  "source_hash": "d762287a6a3da88ebeaadadb2dbb8cbd6cc58c3aeb9fa20ed0908c395d718e0a",
+  "generated_at": "2026-06-02T18:23:23.612Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "BingGPT 是基于 Electron 的新版必应 AI 聊天桌面客户端，支持 Windows、macOS 和 Linux，免去在浏览器里打开必应聊天的麻烦，登录微软账号即可直接对话，支持导出聊天记录、快捷键和多语言界面。",
+  "scenarios": [
+    "在桌面端直接使用必应 AI 聊天，无需打开浏览器",
+    "将与 AI 的对话导出为 Markdown、PDF 或图片保存",
+    "通过快捷键快速唤起 AI 助手辅助写作和翻译",
+    "学习或工作时随时向 AI 提问获取答案"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供各平台安装包，下载后登录微软账号即可使用，无需配置环境。",
+  "alternatives": [
+    "ChatGPT-Desktop",
+    "EdgeGPT",
+    "Chatbox"
+  ]
+}

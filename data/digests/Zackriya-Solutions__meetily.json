@@ -1,0 +1,21 @@
+{
+  "id": "Zackriya-Solutions/meetily",
+  "source_hash": "94b83c6190f230c82473bc9351eb498f49fc008a781993fb64753d959df8cbfd",
+  "generated_at": "2026-06-02T18:21:21.597Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Meetily 是一款隐私优先的本地 AI 会议助手，基于 Rust 构建，集成 Parakeet/Whisper 实时转录、说话人分离和 Ollama 本地摘要，全程离线处理，支持 macOS 与 Windows，适合自托管的会议记录与纪要生成。",
+  "scenarios": [
+    "在 macOS 上离线记录并自动生成会议纪要",
+    "企业内部敏感会议的本地化转录与摘要",
+    "多人会议的说话人区分与发言归属整理",
+    "结合本地 Ollama 模型生成行动项和决策清单",
+    "Windows 用户自托管替代 Otter.ai 等云端服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供预编译安装包可直接使用，但要发挥全部功能需自行安装 Ollama、本地模型并配置后端服务。",
+  "alternatives": [
+    "Otter.ai",
+    "Granola",
+    "Vibe"
+  ]
+}

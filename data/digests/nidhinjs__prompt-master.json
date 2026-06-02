@@ -1,0 +1,20 @@
+{
+  "id": "nidhinjs/prompt-master",
+  "source_hash": "55183520d3a8c3378126051557c87f4d4d88f253657ce866cccddf5bd5c1ca34",
+  "generated_at": "2026-06-02T18:23:29.539Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个 Claude Skill，用于为各类 AI 工具（ChatGPT、Cursor、Midjourney 等）生成精准、紧凑的提示词，减少反复试错带来的额度浪费，并保持上下文记忆。",
+  "scenarios": [
+    "为 Cursor 生成重构代码模块的提示词",
+    "让 Claude Code 构建 REST API 前先生成结构化提示",
+    "为 Midjourney/Stable Diffusion 生成图像提示",
+    "优化已有的低质量 GPT 提示词",
+    "为图像局部编辑撰写参考提示"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "只需下载 ZIP 上传到 Claude 或克隆到 skills 目录即可，无需配置环境。",
+  "alternatives": [
+    "PromptPerfect",
+    "Awesome-ChatGPT-Prompts"
+  ]
+}

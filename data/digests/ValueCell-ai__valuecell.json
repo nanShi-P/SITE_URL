@@ -1,0 +1,20 @@
+{
+  "id": "ValueCell-ai/valuecell",
+  "source_hash": "9b18a9d409cdac104efbda54a7f5807e4f60cc5ee73d3765f26c848d2b318812",
+  "generated_at": "2026-06-02T18:22:19.739Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ValueCell 是一个社区驱动的多智能体（multi-agent）金融应用平台，基于 Python 3.12+ 构建，目前主打 A 股深度研究与市场分析等场景，旨在让开发者协作搭建面向投资和金融分析的 AI Agent 应用。",
+  "scenarios": [
+    "对 A 股个股进行多智能体协同的深度基本面研究",
+    "实时跟踪市场动态并生成结构化分析报告",
+    "构建个人量化投资助理或选股代理",
+    "作为开源框架二次开发自定义金融 Agent"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Python 3.12+ 环境并搭建多 Agent 系统，涉及金融数据接入和 LLM 配置，对普通用户有一定门槛。",
+  "alternatives": [
+    "TradingAgents",
+    "FinGPT",
+    "OpenBB"
+  ]
+}

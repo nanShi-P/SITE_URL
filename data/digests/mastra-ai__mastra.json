@@ -1,0 +1,21 @@
+{
+  "id": "mastra-ai/mastra",
+  "source_hash": "fef1745d5610cbd5f8cc2bd3191ab9761977cedfd7c57c522349044747e94e56",
+  "generated_at": "2026-06-02T18:05:17.471Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Mastra 是面向 TypeScript 的 AI 应用与智能体开发框架，内置模型路由、Agent、工作流等能力，支持 40+ 模型提供商，可独立部署或集成进 React、Next.js、Node 等前后端项目，覆盖从原型到生产的全流程。",
+  "scenarios": [
+    "用 TypeScript 快速搭建可调用工具的自主 Agent",
+    "在 Next.js 应用中集成多模型聊天与 RAG 功能",
+    "编排多步骤的 AI 工作流处理业务自动化",
+    "统一接口切换 OpenAI、Anthropic、Gemini 等模型",
+    "部署独立 AI 服务作为后端供多端调用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要熟悉 TypeScript 与 LLM 应用基础概念，但官方文档完善、示例丰富。",
+  "alternatives": [
+    "LangChain.js",
+    "Vercel AI SDK",
+    "LlamaIndex.TS"
+  ]
+}

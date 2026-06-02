@@ -1,0 +1,21 @@
+{
+  "id": "Significant-Gravitas/AutoGPT",
+  "source_hash": "f988ab23e1143766981cfee1a3322190093e99036b64502124bb4da2c441b7d4",
+  "generated_at": "2026-06-02T17:44:32.039Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AutoGPT 是一个开源 AI Agent 平台，提供可视化构建、部署和运行持续性智能体的能力，能将复杂工作流自动化。支持自托管或加入云端 Beta 候补名单，适合开发者搭建自动化任务流。",
+  "scenarios": [
+    "搭建自动化内容生成与发布流水线",
+    "构建持续运行的数据抓取与分析智能体",
+    "定制企业内部办公自动化机器人",
+    "快速原型化基于 LLM 的多步骤工作流",
+    "为客户搭建可复用的 AI 自动化服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "自托管涉及 Docker、WSL2 等环境配置，硬件要求较高，但官方文档完善。",
+  "alternatives": [
+    "LangChain",
+    "Flowise",
+    "n8n"
+  ]
+}

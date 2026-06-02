@@ -1,0 +1,21 @@
+{
+  "id": "LlamaChinese/Llama-Chinese",
+  "source_hash": "a95f987e75b62086e691fe0b2b4c85744c49a7d07f606327eb4e4acb77a971da",
+  "generated_at": "2026-06-02T18:19:46.482Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Llama中文社区围绕Meta Llama系列模型构建的中文开源生态，汇总Llama2/3/4及自研Atom中文预训练模型，提供模型下载、中文微调、量化部署、推理加速等全流程教程与脚本，并整理学习资料和应用案例。",
+  "scenarios": [
+    "下载Llama3/4或Atom中文模型用于本地推理",
+    "基于LoRA或全参数微调Llama做中文领域任务",
+    "使用llama.cpp、vLLM、TensorRT-LLM部署加速Llama服务",
+    "通过Gradio或API快速搭建中文Llama对话应用",
+    "学习Llama相关中文资料和参与社区交流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供详细的环境、微调、部署文档，但涉及GPU算力和大模型相关依赖，对初学者仍有一定门槛。",
+  "alternatives": [
+    "Chinese-LLaMA-Alpaca",
+    "Firefly",
+    "ChatGLM"
+  ]
+}

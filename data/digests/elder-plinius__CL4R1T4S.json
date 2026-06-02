@@ -1,0 +1,21 @@
+{
+  "id": "elder-plinius/CL4R1T4S",
+  "source_hash": "4ed7e2e089252843b639fe82d402fa0695d8c57bce4739c528f2fb388fbf0bdc",
+  "generated_at": "2026-06-02T18:03:21.130Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库收集并公开了 ChatGPT、Claude、Gemini、Grok、Perplexity、Cursor、Replit 等主流 AI 模型与编程助手的系统提示词（System Prompt），通过逆向与泄露手段还原其隐藏指令、人设规则和工具配置，旨在提升 AI 系统的透明度，让用户理解模型背后的真实约束与行为框架。",
+  "scenarios": [
+    "研究 AI 安全与对齐策略时参考各厂商真实提示词",
+    "提示词工程师学习大厂如何组织 System Prompt 结构",
+    "对比不同模型的内容审查与拒答机制",
+    "为自研 Agent 设计提示词时借鉴行业范式",
+    "记者或学者调查 AI 价值观偏向与隐性政策"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文本资料仓库，无需安装运行，直接阅读 Markdown 文件即可。",
+  "alternatives": [
+    "awesome-chatgpt-prompts",
+    "leaked-system-prompts",
+    "system-prompts-and-models-of-ai-tools"
+  ]
+}

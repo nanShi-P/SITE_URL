@@ -1,0 +1,21 @@
+{
+  "id": "MervinPraison/PraisonAI",
+  "source_hash": "01408eb1e69fe8fedc8e093ea69e417a0c4a6e36e397bf26505a2f80a59ab039",
+  "generated_at": "2026-06-02T18:24:05.783Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PraisonAI 是一个多智能体框架，用几行代码即可搭建可研究、规划、编码并执行任务的自治 AI 团队，内置记忆、RAG 能力，支持 100+ 大模型，并兼容 MCP 协议。",
+  "scenarios": [
+    "搭建自动化研究与报告生成的智能体团队",
+    "为业务流程编排多智能体协作完成代码生成与执行",
+    "结合 RAG 构建带长期记忆的企业知识问答助手",
+    "通过 MCP 接入外部工具，自动化日常运维任务",
+    "快速原型验证多 LLM 协同工作流"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "一行 curl 即可安装，文档示例丰富，5 行代码可跑通最小用例。",
+  "alternatives": [
+    "CrewAI",
+    "AutoGen",
+    "LangGraph"
+  ]
+}

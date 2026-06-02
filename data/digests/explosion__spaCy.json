@@ -1,0 +1,21 @@
+{
+  "id": "explosion/spaCy",
+  "source_hash": "768540729967bc248e2efcba45d66bc1f09f25d20b6b5a3ce2e4f9598cf40233",
+  "generated_at": "2026-06-02T17:57:47.040Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "spaCy 是一款面向工业生产的 Python 自然语言处理库，基于 Cython 实现，提供 70 多种语言的分词、词性标注、句法分析、命名实体识别和文本分类等预训练模型，并支持 BERT 等 Transformer 集成、模型训练与打包部署。",
+  "scenarios": [
+    "从新闻或文档中抽取人名、地名、机构等命名实体",
+    "构建文本分类或情感分析的生产级流水线",
+    "对多语种语料做分词、词性标注和依存句法分析",
+    "基于预训练 Transformer 微调自定义 NLP 模型并打包部署",
+    "为搜索、问答或知识图谱系统做文本预处理"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装和基础调用简单，但要训练自定义模型、配置 Transformer 流水线需理解其 config 体系和 ML 基础。",
+  "alternatives": [
+    "NLTK",
+    "Stanza",
+    "Hugging Face Transformers"
+  ]
+}

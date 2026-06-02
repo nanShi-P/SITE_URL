@@ -1,0 +1,21 @@
+{
+  "id": "MemTensor/MemOS",
+  "source_hash": "b2e5091a8a65b34bd8e20c33bae96f2a40ac08917a6b7342872f16c21f7d9752",
+  "generated_at": "2026-06-02T18:22:52.736Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "MemOS 是面向大模型和 AI Agent 的记忆操作系统，提供长期持久化记忆、混合检索和跨任务技能复用能力，宣称相比 OpenAI Memory 准确率提升 43.7%，节省 35.24% 的 token 消耗。",
+  "scenarios": [
+    "为聊天机器人构建跨会话的长期用户记忆",
+    "让 AI Agent 在多任务间复用已习得技能",
+    "构建个性化推荐和偏好理解系统",
+    "降低长上下文场景下的 token 成本",
+    "知识库问答中的混合检索增强"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供完整文档和论文，但涉及向量库、检索与 LLM 集成等依赖配置。",
+  "alternatives": [
+    "Mem0",
+    "Letta",
+    "Zep"
+  ]
+}

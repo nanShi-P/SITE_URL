@@ -1,0 +1,20 @@
+{
+  "id": "danielmiessler/Personal_AI_Infrastructure",
+  "source_hash": "a5641ca7ef604444c5f5b6b0b6beb237d536a4b3f9d771c1831a047f3bc6b4ee",
+  "generated_at": "2026-06-02T18:20:12.104Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Daniel Miessler 推出的个人 AI 基础设施框架，基于 Claude Code 等代理工具搭建一套可扩展的“生活操作系统”，通过预设代理、命令和上下文配置，让 AI 协助处理日常工作、写作、研究等个人事务。",
+  "scenarios": [
+    "搭建个人 AI 助理统一管理日程、邮件和笔记",
+    "构建写作与内容创作的代理工作流",
+    "用于安全研究与情报分析的自动化任务",
+    "作为学习如何组织 Claude Code 代理项目的模板"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "依赖 Claude Code 等外部工具并需自行配置环境与上下文，但作者提供较完整的目录结构与说明。",
+  "alternatives": [
+    "fabric",
+    "OpenInterpreter",
+    "SuperAGI"
+  ]
+}

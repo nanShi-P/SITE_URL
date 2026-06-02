@@ -1,0 +1,20 @@
+{
+  "id": "spmallick/learnopencv",
+  "source_hash": "7951948aa3b8039441bc748e2baaa78a052671cf3fa6d6f93ef5660a05e8fb7f",
+  "generated_at": "2026-06-02T18:06:54.476Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LearnOpenCV.com 博客的配套代码仓库，汇集大量计算机视觉、深度学习和 AI 主题的 C++ 与 Python 示例，涵盖 YOLO 系列、目标检测分割、多模态模型、跟踪等前沿话题，每篇博客对应一个独立子目录。",
+  "scenarios": [
+    "跟随博客教程学习 OpenCV 与深度学习",
+    "查阅 YOLO、DETR 等最新模型的可运行示例",
+    "快速获取多目标跟踪、姿态估计等任务的参考代码",
+    "作为计算机视觉课程或培训的案例库"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "代码按文章分散在各子目录，每个项目依赖和环境不同，需结合对应博客阅读才能顺利运行。",
+  "alternatives": [
+    "PyImageSearch",
+    "opencv/opencv_contrib",
+    "roboflow/notebooks"
+  ]
+}

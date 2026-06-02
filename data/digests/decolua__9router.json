@@ -1,0 +1,21 @@
+{
+  "id": "decolua/9router",
+  "source_hash": "95c35f49b87eb0ca0255295fb486c2d0914a4969e3594871d8bde4b4a44c5b47",
+  "generated_at": "2026-06-02T18:16:49.648Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "9Router 是一个本地 AI 路由代理，把 Claude Code、Cursor、Copilot、Cline 等编码工具统一接入 40+ 模型供应商，支持额度跟踪、失败自动切换，并通过压缩 tool_result 内容节省 20-40% token。",
+  "scenarios": [
+    "将 Claude Code 接入免费或低价的 GPT、Gemini 模型继续使用",
+    "订阅额度快用尽时自动切换到备用供应商不中断编码",
+    "通过 RTK 压缩 git diff、grep 等工具输出以节省 token",
+    "在 Cursor、Cline 等多种 IDE 工具间共用同一套模型路由配置",
+    "团队统一管理多家 AI 供应商 Key 并监控用量"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 npm 和 Docker 安装较便捷，但需配置多家供应商 Key 并对接各类编码客户端，存在一定学习成本。",
+  "alternatives": [
+    "claude-code-router",
+    "LiteLLM",
+    "one-api"
+  ]
+}

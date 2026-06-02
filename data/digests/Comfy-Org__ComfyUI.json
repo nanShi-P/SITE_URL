@@ -1,0 +1,21 @@
+{
+  "id": "Comfy-Org/ComfyUI",
+  "source_hash": "c7734fdde7efdca823840e2b36bc292039a97452be39e8a77bca655710beae57",
+  "generated_at": "2026-06-02T17:45:54.397Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ComfyUI 是一个基于节点图的扩散模型 GUI 与后端，支持以可视化方式搭建 Stable Diffusion、Flux 等模型的图像、视频、音频生成工作流，并提供 API 调用能力。",
+  "scenarios": [
+    "搭建可复用的文生图/图生图工作流",
+    "本地部署 SDXL、Flux 等模型进行批量生成",
+    "视频和音频扩散模型的实验与生成",
+    "作为后端为自研 AIGC 应用提供 API",
+    "研究人员调试自定义采样器与节点"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供桌面安装包较易上手，但模型下载、显卡环境与节点配置对新手仍有门槛。",
+  "alternatives": [
+    "Automatic1111 WebUI",
+    "InvokeAI",
+    "SD.Next"
+  ]
+}

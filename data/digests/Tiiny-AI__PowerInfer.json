@@ -1,0 +1,21 @@
+{
+  "id": "Tiiny-AI/PowerInfer",
+  "source_hash": "841e5a2652ea94cac1299fbd8ef17c57a43b9b8d58adacc6fb07ee5ec6e834f8",
+  "generated_at": "2026-06-02T18:23:05.057Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PowerInfer 是一个面向消费级 GPU 的 CPU/GPU 混合 LLM 推理引擎，利用神经元激活的局部性，将高频激活的'热神经元'放在 GPU、冷神经元留在 CPU，从而在单卡环境下实现接近服务器级的本地大模型推理速度。",
+  "scenarios": [
+    "在单张消费级显卡上本地运行数十亿参数级别的 LLM",
+    "在个人电脑离线部署聊天助手或代码补全服务",
+    "研究稀疏激活与 CPU/GPU 协同推理的性能优化",
+    "在手机等端侧设备上部署 TurboSparse 等稀疏化模型",
+    "为隐私敏感场景搭建本地化问答系统"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基于 llama.cpp 的构建流程较成熟，但需配置 CUDA 环境并下载特定稀疏化模型权重，对新手有一定门槛。",
+  "alternatives": [
+    "llama.cpp",
+    "vLLM",
+    "ollama"
+  ]
+}

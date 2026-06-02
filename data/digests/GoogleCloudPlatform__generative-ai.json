@@ -1,0 +1,21 @@
+{
+  "id": "GoogleCloudPlatform/generative-ai",
+  "source_hash": "f3c58f7f9fbb11c590da4bc9dc58f7c9bd610fe684cff6edc532b5cdb42e26a1",
+  "generated_at": "2026-06-02T18:15:33.697Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Google Cloud 官方的生成式 AI 示例库，汇集 Gemini、Vertex AI、Agent Platform、Agent Search 等服务的 Notebook、代码样例和示例应用，覆盖模型调用、函数调用、RAG、检索与智能体开发等常见用法，便于在 GCP 上快速上手和参考。",
+  "scenarios": [
+    "学习 Gemini API 调用与函数调用",
+    "在 Vertex AI 上构建 RAG 检索增强应用",
+    "使用 Agent Search 搭建企业级搜索",
+    "参考示例开发智能体并部署到 GCP",
+    "团队培训与生成式 AI 方案 PoC"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "代码示例丰富且文档完善，但需要 GCP 账号、付费服务及 Vertex AI 配置经验。",
+  "alternatives": [
+    "Azure-Samples/azure-search-openai-demo",
+    "aws-samples/amazon-bedrock-workshop",
+    "openai/openai-cookbook"
+  ]
+}

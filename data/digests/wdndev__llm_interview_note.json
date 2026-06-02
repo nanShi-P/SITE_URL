@@ -1,0 +1,21 @@
+{
+  "id": "wdndev/llm_interview_note",
+  "source_hash": "0f7e038efe8cc857fb34f3cc047a703cbdeb7afe606574f4b127687c70348d42",
+  "generated_at": "2026-06-02T18:20:42.340Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库整理了大语言模型算法与应用工程师方向的面试知识点和真题，涵盖语言模型基础、分词与词向量、Transformer架构、训练微调、RAG、Agent等主题，并配套提供从零实现小型中文LLM、RAG、MCP等动手实践项目链接，便于系统复习。",
+  "scenarios": [
+    "准备大模型算法岗或应用工程师岗位面试",
+    "系统梳理LLM相关知识体系查漏补缺",
+    "结合动手项目学习大模型预训练与微调",
+    "作为团队培训或技术分享的参考资料",
+    "撰写LLM相关博客或课程的素材来源"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯Markdown文档仓库，可直接在线阅读，无需安装环境或依赖。",
+  "alternatives": [
+    "DA-southampton/NLP_ability",
+    "km1994/LLMs_interview_notes",
+    "datawhalechina/llm-cookbook"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "jlcodes99/cockpit-tools",
+  "source_hash": "1609dc7be0fce1f84c6fac53b295d65bbd9aa5ca4097c9b890897de41e5f3e8e",
+  "generated_at": "2026-06-02T18:22:42.444Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一款桌面端 AI IDE 账号管理工具，统一管理 Antigravity、Codex、Copilot、Cursor、Windsurf、Kiro、Gemini CLI、CodeBuddy 等十余款 AI 编程工具的多账号，提供一键切号、配额监控、定时唤醒、设备指纹和多实例并行运行能力。",
+  "scenarios": [
+    "同时持有多个 Cursor/Copilot 账号需频繁切换使用",
+    "监控各 AI IDE 剩余配额避免超额",
+    "定时唤醒账号以触发配额重置周期",
+    "在同一台机器上并行运行多个 IDE 实例",
+    "通过设备指纹隔离降低多账号风控风险"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 macOS/Windows/Linux 安装包，开箱即用的图形界面，无需自行编译",
+  "alternatives": []
+}

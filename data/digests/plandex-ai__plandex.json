@@ -1,0 +1,21 @@
+{
+  "id": "plandex-ai/plandex",
+  "source_hash": "e8922489ef280d85d59820c13619ecb5c68414853ae489bbb07806b52191f7ea",
+  "generated_at": "2026-06-02T18:17:47.286Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Plandex 是一款开源的命令行 AI 编程代理，专注于大型代码库和真实工程任务，支持多步骤规划、版本化变更管理，可云端使用或本地自托管。",
+  "scenarios": [
+    "在大型代码库中让 AI 分多步实现新功能",
+    "批量重构或迁移老旧项目代码",
+    "通过沙箱化变更审查 AI 生成的修改",
+    "本地自托管搭建私有 AI 编程助手",
+    "结合多种 LLM 模型完成复杂调试任务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供一键安装脚本，但涉及 CLI 配置、模型 API key 或自托管服务部署，需一定开发环境基础。",
+  "alternatives": [
+    "Aider",
+    "Cursor",
+    "Continue"
+  ]
+}

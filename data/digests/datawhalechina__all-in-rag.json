@@ -1,0 +1,20 @@
+{
+  "id": "datawhalechina/all-in-rag",
+  "source_hash": "4fe7c7349d048a17b5f820e86edaca9f4bd26014378e870d593107eb090999be",
+  "generated_at": "2026-06-02T18:23:58.463Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Datawhale 出品的 RAG 技术全栈中文教程，从理论到实战系统讲解检索增强生成的各个环节，包括文档解析、向量化、检索、生成等模块，并配套代码示例和在线阅读站点，适合想入门或系统梳理 RAG 的开发者学习。",
+  "scenarios": [
+    "系统学习 RAG 技术体系并构建知识框架",
+    "参考代码示例搭建自己的 RAG 问答应用",
+    "作为团队内部培训或读书会的教学材料",
+    "准备大模型应用开发相关面试的复习资料"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "教程结构清晰、有在线阅读，但需要一定 Python 与大模型基础，且涉及向量库、嵌入模型等环境配置。",
+  "alternatives": [
+    "llm-cookbook",
+    "tiny-universe",
+    "LLMs-from-scratch"
+  ]
+}

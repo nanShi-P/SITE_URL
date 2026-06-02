@@ -1,0 +1,21 @@
+{
+  "id": "1Panel-dev/MaxKB",
+  "source_hash": "c819e4895398a74a04ef1aa8ac68011a90446c0c478a92cb7b1bca2ca3367d6c",
+  "generated_at": "2026-06-02T18:09:10.148Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "MaxKB 是基于 RAG 与工作流的开源企业级智能体平台，支持文档上传、自动爬取、向量化检索、MCP 工具调用，可快速搭建知识问答与业务自动化应用。",
+  "scenarios": [
+    "搭建企业内部知识库问答系统",
+    "构建智能客服机器人",
+    "高校与科研机构的资料检索助手",
+    "教育培训领域的智能答疑",
+    "结合 MCP 工具构建业务自动化智能体"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供 Docker 镜像一键部署，文档完善，对非开发者也友好。",
+  "alternatives": [
+    "Dify",
+    "FastGPT",
+    "RAGFlow"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "datawhalechina/llm-universe",
+  "source_hash": "e1e8ce8ed495eefd9310d8a4484770be63d8a3d1e7f3ec4a5c3a166caa8e8391",
+  "generated_at": "2026-06-02T18:20:59.981Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "面向零基础开发者的大模型应用开发中文教程，围绕个人知识库助手项目，系统讲解大模型概念、国内外主流LLM API调用、知识库与向量库搭建、基于LangChain的RAG检索问答链构建以及Streamlit部署与评估迭代，配有Notebook源码和在线文档。",
+  "scenarios": [
+    "初学者系统入门LLM应用开发",
+    "使用LangChain接入文心、星火、智谱等国产大模型API",
+    "搭建基于个人文档的RAG知识库问答助手",
+    "用Streamlit快速部署LLM应用Demo",
+    "高校或社团组织大模型开发学习小组"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "教程结构清晰、文档完善并提供在线阅读和Notebook源码，仅需Python基础和大模型API密钥即可上手。",
+  "alternatives": [
+    "liaokongVFX/LangChain-Chinese-Getting-Started-Guide",
+    "chatchat-space/Langchain-Chatchat",
+    "datawhalechina/self-llm"
+  ]
+}

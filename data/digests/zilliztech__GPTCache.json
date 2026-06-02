@@ -1,0 +1,20 @@
+{
+  "id": "zilliztech/GPTCache",
+  "source_hash": "e95c453eb9b400f33724dba3afc8c97d35cdd35785e59f1a7128359a772480a4",
+  "generated_at": "2026-06-02T18:24:04.543Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "GPTCache 是一个面向大语言模型的语义缓存库，通过向量相似度匹配复用历史问答结果，从而降低 API 调用成本并提升响应速度。支持与 LangChain、llama_index 集成，并提供 Docker 服务端供任意语言调用。",
+  "scenarios": [
+    "在生产环境中为 ChatGPT 等 LLM 应用缓存常见问答，降低调用费用",
+    "为 LangChain 构建的问答机器人加速重复查询响应",
+    "通过 Docker 服务端在非 Python 项目中接入语义缓存",
+    "开发测试阶段减少对 OpenAI API 的真实调用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需理解向量检索与缓存机制，并配置嵌入模型和存储后端，但官方文档与示例较为完善。",
+  "alternatives": [
+    "Helicone",
+    "LangChain Cache",
+    "Canonical AI"
+  ]
+}

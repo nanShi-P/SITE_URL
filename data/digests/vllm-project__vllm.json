@@ -1,0 +1,20 @@
+{
+  "id": "vllm-project/vllm",
+  "source_hash": "79680b6703ee80202e170b24e313c905655f8655e3c897507038d9139cee6ac0",
+  "generated_at": "2026-06-02T17:47:02.086Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "vLLM 是一个面向大语言模型的高吞吐、低显存推理与服务引擎，核心采用 PagedAttention 管理 KV 缓存，支持连续批处理、前缀缓存、多种量化方案和主流加速内核，可通过 OpenAI 兼容 API 部署各类开源模型。",
+  "scenarios": [
+    "在自有 GPU 服务器上部署 OpenAI 兼容的 LLM API 服务",
+    "为聊天机器人、RAG 应用提供高并发推理后端",
+    "批量离线生成或评测大模型输出",
+    "对量化模型进行高效推理以降低显存占用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装与基础使用文档完善，但需要合适的 GPU 环境、CUDA 版本及对模型与显存调优有一定理解。",
+  "alternatives": [
+    "TGI",
+    "SGLang",
+    "TensorRT-LLM"
+  ]
+}

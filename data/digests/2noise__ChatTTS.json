@@ -1,0 +1,21 @@
+{
+  "id": "2noise/ChatTTS",
+  "source_hash": "118e3790323547269f1ac1aab1f7a4b91e57b2b91b670b35fff2f26ba4372f44",
+  "generated_at": "2026-06-02T17:54:44.987Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ChatTTS 是一款面向对话场景的生成式语音合成模型，支持中英双语，可为 LLM 助手等应用生成自然流畅的口语化语音，并提供说话人采样、韵律控制等能力，附带 PyPI 包和 Colab 示例便于上手。",
+  "scenarios": [
+    "为 LLM 聊天助手生成自然口语化语音回复",
+    "制作中英文播客或有声内容demo",
+    "为视频配音生成对话音频",
+    "语音交互类应用的 TTS 模块研究与原型开发",
+    "学术研究中对话式语音合成的对比基线"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI 包和 Colab，但需要 GPU 与 PyTorch 环境，模型下载与参数调节对新手仍有一定门槛。",
+  "alternatives": [
+    "GPT-SoVITS",
+    "CosyVoice",
+    "Bark"
+  ]
+}

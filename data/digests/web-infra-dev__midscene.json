@@ -1,0 +1,21 @@
+{
+  "id": "web-infra-dev/midscene",
+  "source_hash": "7c8c2e4f90f66fa4ecadca5ca879c6cc61beb9f0d781767141f25af29a91d5c2",
+  "generated_at": "2026-06-02T18:20:50.375Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Midscene.js 是一款基于视觉大模型的 UI 自动化框架，可用自然语言驱动浏览器、Android 等多端界面操作、断言与数据抽取，支持多种主流多模态模型，并提供调试可视化报告。",
+  "scenarios": [
+    "用自然语言编写 Web 端 E2E 测试",
+    "抓取动态网页的结构化数据",
+    "自动化 Android 应用回归测试",
+    "RPA 流程脚本快速搭建",
+    "UI 走查与可视化调试报告生成"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装使用简单，但需配置可用的多模态大模型 API Key 及理解 Prompt 调优。",
+  "alternatives": [
+    "Playwright",
+    "Browser-use",
+    "Appium"
+  ]
+}

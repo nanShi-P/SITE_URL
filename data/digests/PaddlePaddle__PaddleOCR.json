@@ -1,0 +1,21 @@
+{
+  "id": "PaddlePaddle/PaddleOCR",
+  "source_hash": "6be703fc48b4a6d5922cc1b89b8d7796648ee8107460648609d4d12289e3f2fe",
+  "generated_at": "2026-06-02T17:47:23.124Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PaddleOCR 是百度飞桨推出的开源 OCR 工具库，支持 100 多种语言的文字识别、版面分析、表格与公式识别，可将 PDF 或图片转为结构化数据，方便接入大模型用于文档理解。",
+  "scenarios": [
+    "批量识别扫描版 PDF 并提取文本",
+    "票据、证件等结构化信息抽取",
+    "为 RAG/LLM 应用提供文档解析前处理",
+    "表格和公式的数字化转换",
+    "多语言图片文字翻译与检索"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装依赖 PaddlePaddle 框架，GPU 环境配置稍复杂，但官方文档完善、示例丰富。",
+  "alternatives": [
+    "Tesseract",
+    "MinerU",
+    "Surya"
+  ]
+}

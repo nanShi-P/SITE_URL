@@ -1,0 +1,21 @@
+{
+  "id": "qualcomm/nexa-sdk",
+  "source_hash": "424c9884f9ce64af75777933200ebada5024d65189a7c27a266c6873a6ccd7f6",
+  "generated_at": "2026-06-02T18:23:55.552Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "NexaSDK 是一个本地推理框架，支持在 NPU、GPU、CPU 上跨 Android、iOS、Windows、Linux 运行最新的大语言和多模态模型，提供 Python/C++ API，主打对 Qwen3-VL、Gemma3n、Granite-4 等新模型的零日支持。",
+  "scenarios": [
+    "在高通 Hexagon NPU 设备上部署多模态模型",
+    "Android/iOS 移动端集成本地 LLM 推理",
+    "PC 桌面应用调用本地大模型实现离线问答",
+    "Arm64/x86 Linux IoT 设备上运行视觉语言模型",
+    "边缘设备做 OCR 与图像理解"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "跨平台与硬件后端较多，文档较完善但需处理设备适配和模型转换。",
+  "alternatives": [
+    "llama.cpp",
+    "Ollama",
+    "MLC-LLM"
+  ]
+}

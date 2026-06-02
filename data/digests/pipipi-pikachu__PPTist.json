@@ -1,0 +1,21 @@
+{
+  "id": "pipipi-pikachu/PPTist",
+  "source_hash": "3e1a6983dca3bb0a68471797244434e218f26eda4505c2076072988152a01fca",
+  "generated_at": "2026-06-02T18:23:23.044Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Vue 3 和 TypeScript 的网页版 PowerPoint，复刻了微软 PPT 的大部分常用功能，支持文本、图片、形状、图表、表格、音视频、公式等元素的在线编辑与演示，并集成 AIPPT 智能生成能力。",
+  "scenarios": [
+    "在浏览器中在线制作和演示幻灯片，无需安装桌面软件",
+    "企业内部搭建自有的在线 PPT 协作编辑平台",
+    "集成 AI 一键生成 PPT 的 SaaS 产品底座",
+    "导入导出 pptx 文件进行跨平台演示文稿处理",
+    "作为前端学习 Canvas/复杂编辑器实现的参考项目"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Vue3 + TS 项目结构清晰、文档较完善，但代码量大、涉及复杂编辑器逻辑，二次开发有一定门槛。",
+  "alternatives": [
+    "reveal.js",
+    "Slidev",
+    "impress.js"
+  ]
+}

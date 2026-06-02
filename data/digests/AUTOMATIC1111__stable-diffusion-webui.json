@@ -1,0 +1,21 @@
+{
+  "id": "AUTOMATIC1111/stable-diffusion-webui",
+  "source_hash": "346a5dd3976b61edac72a71655cd3e0fb22aeb04fe2eb6186590492b249d5be3",
+  "generated_at": "2026-06-02T17:44:53.774Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Gradio 的 Stable Diffusion 网页界面，集成文生图、图生图、修复、扩展绘制、放大、人脸修复、Textual Inversion 训练等常用功能，并支持丰富的插件与模型管理，是本地运行 SD 模型的主流可视化工具。",
+  "scenarios": [
+    "在本地用文字提示词生成 AI 图像",
+    "对已有图片进行局部重绘或扩展绘制",
+    "使用 ESRGAN/GFPGAN 等模型放大并修复人脸",
+    "训练自定义 Textual Inversion 嵌入或加载 LoRA",
+    "通过 X/Y/Z 图表批量对比不同参数下的出图效果"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供一键安装脚本，但仍需自行配置 Python、Git、显卡驱动并下载模型权重。",
+  "alternatives": [
+    "ComfyUI",
+    "InvokeAI",
+    "Fooocus"
+  ]
+}

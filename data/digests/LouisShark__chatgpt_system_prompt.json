@@ -1,0 +1,20 @@
+{
+  "id": "LouisShark/chatgpt_system_prompt",
+  "source_hash": "e18b88c6eb320de4ae5d6ca71f7ee4b4ae2f0fbd80f9f9278878fac999b3ee57",
+  "generated_at": "2026-06-02T18:22:25.075Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "汇集大量 ChatGPT 及自定义 GPT 的系统提示词，并整理提示注入与提示泄露相关知识，方便学习如何编写 system prompt 和构建定制 GPT。",
+  "scenarios": [
+    "学习编写高质量 system prompt",
+    "参考主流 GPTs 的提示词设计思路",
+    "研究提示注入与防御技巧",
+    "为自建 AI 助手快速套用模板",
+    "教学与分享 prompt 工程经验"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文本资料库，无需安装运行，直接阅读复制即可使用。",
+  "alternatives": [
+    "awesome-chatgpt-prompts",
+    "leaked-system-prompts"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "crewAIInc/crewAI",
+  "source_hash": "e9c98808041c6c3354357234894f08fcf22b4deae144a98e0a38764c269f8081",
+  "generated_at": "2026-06-02T17:51:23.975Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CrewAI 是一个用于编排多角色自主 AI 智能体协作的 Python 框架，让多个智能体扮演不同角色、分工配合完成复杂任务，独立于 LangChain 等框架，支持本地运行与云端部署。",
+  "scenarios": [
+    "搭建多智能体协作完成市场调研与竞品分析报告",
+    "自动化撰写、审稿与发布博客内容流水线",
+    "构建客服或销售助理团队，分工处理用户咨询",
+    "数据分析任务中由不同 Agent 分别承担取数、清洗、可视化",
+    "开发科研助手，多个 Agent 协作检索文献并总结"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Python 与 LLM API 基础，文档完善但要理解 Agent/Task/Crew 等抽象概念及配置。",
+  "alternatives": [
+    "AutoGen",
+    "LangGraph",
+    "MetaGPT"
+  ]
+}

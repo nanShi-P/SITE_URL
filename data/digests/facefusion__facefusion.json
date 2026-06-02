@@ -1,0 +1,21 @@
+{
+  "id": "facefusion/facefusion",
+  "source_hash": "416fcfd00e20f110e310006ed9b96972be4c4a537d9f669d90ac3658a9f7443e",
+  "generated_at": "2026-06-02T18:00:40.919Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "FaceFusion 是一个开源的人脸操作平台，支持图片和视频中的换脸、人脸增强等处理，提供图形界面、命令行、批处理及任务队列等多种运行模式。",
+  "scenarios": [
+    "对照片或视频进行换脸创作",
+    "提升旧照片或低清视频中的人脸清晰度",
+    "批量处理多段视频的换脸任务",
+    "以无头模式集成到自动化流水线中",
+    "为短视频内容制作特效素材"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "依赖较多、需要 GPU 环境和模型下载，官方也提示安装需要一定技术能力。",
+  "alternatives": [
+    "Roop",
+    "DeepFaceLab",
+    "SimSwap"
+  ]
+}

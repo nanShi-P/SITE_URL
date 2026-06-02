@@ -1,0 +1,20 @@
+{
+  "id": "run-llama/llama_index",
+  "source_hash": "069d345d809aa4282480ec76cbc52e24ea107cac64446e108d0654448d1d5dbe",
+  "generated_at": "2026-06-02T17:51:42.865Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LlamaIndex 是面向大语言模型的数据框架，提供文档解析、索引构建、检索与智能体编排能力，便于将私有数据接入 LLM 构建 RAG 与文档智能应用。",
+  "scenarios": [
+    "基于企业内部文档构建问答机器人",
+    "对 PDF、扫描件进行 OCR 解析并结构化提取",
+    "搭建检索增强生成（RAG）的知识库系统",
+    "构建多步骤文档处理与分析的智能体工作流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Python 包安装简单，但涉及向量库、LLM、嵌入模型等多种外部依赖，进阶用法需要一定工程经验。",
+  "alternatives": [
+    "LangChain",
+    "Haystack",
+    "Dify"
+  ]
+}

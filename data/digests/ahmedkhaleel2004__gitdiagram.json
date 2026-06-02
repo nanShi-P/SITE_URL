@@ -1,0 +1,21 @@
+{
+  "id": "ahmedkhaleel2004/gitdiagram",
+  "source_hash": "05f31f1e9ced1d1fe511b1a0f16d0d296fbfb3ad5ad5e92eac8654501a81f550",
+  "generated_at": "2026-06-02T18:17:09.389Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "将任意 GitHub 仓库一键转换为可交互的系统架构图，支持点击组件跳转源码、导出 Mermaid 代码或 PNG 图片，基于 GPT-5 系列模型生成，把 URL 中 hub 换成 diagram 即可访问。",
+  "scenarios": [
+    "快速了解陌生开源项目的整体架构",
+    "代码评审前梳理模块依赖关系",
+    "技术分享或文档中嵌入架构图",
+    "新成员入职熟悉代码库结构",
+    "为自己的项目生成可视化说明图"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "自托管需配置 Next.js、FastAPI、Cloudflare R2、Upstash Redis 及 OpenAI/OpenRouter 等多项服务，依赖较多。",
+  "alternatives": [
+    "CodeSee",
+    "Sourcegraph",
+    "Repomix"
+  ]
+}

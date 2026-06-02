@@ -1,0 +1,21 @@
+{
+  "id": "hpcaitech/ColossalAI",
+  "source_hash": "8d63a4580576cf073733777192a53f2d86eff0344d25e9efd4c840270b144b8b",
+  "generated_at": "2026-06-02T17:53:54.896Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Colossal-AI 是一个面向大模型训练与推理的分布式深度学习框架，集成张量并行、流水线并行、ZeRO 等多种并行策略，帮助开发者以更低的显存和成本完成 LLM、扩散模型等大规模模型的预训练、微调与部署。",
+  "scenarios": [
+    "在多卡或多机环境下预训练 LLaMA、GPT 等大语言模型",
+    "使用 LoRA 或全参数方式微调开源大模型",
+    "部署大模型推理服务并降低显存占用",
+    "训练 Stable Diffusion 等扩散模型",
+    "在有限 GPU 资源下复现 ChatGPT 类 RLHF 流程"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及分布式训练、CUDA 环境与并行策略配置，对硬件和工程经验要求较高。",
+  "alternatives": [
+    "DeepSpeed",
+    "Megatron-LM",
+    "FairScale"
+  ]
+}

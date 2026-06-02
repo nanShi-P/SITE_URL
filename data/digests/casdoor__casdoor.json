@@ -1,0 +1,21 @@
+{
+  "id": "casdoor/casdoor",
+  "source_hash": "85ae35ab698076e3af4068469952568fc288238065138b50a6ab5cea42b5ea2f",
+  "generated_at": "2026-06-02T18:20:50.919Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Casdoor 是一款开源的身份与访问管理（IAM）及 MCP 网关，带 Web 管理界面，支持 OAuth2、OIDC、SAML、CAS、LDAP、SCIM、WebAuthn、TOTP、多因素认证及人脸识别，并可对接 Google Workspace、Azure AD 等主流身份源，适合做统一登录和 AI Agent 鉴权。",
+  "scenarios": [
+    "为企业内部多个系统搭建统一单点登录（SSO）",
+    "为自研 SaaS 应用接入第三方社交/企业身份登录",
+    "作为 LLM Agent / MCP 服务的鉴权与访问网关",
+    "对接 LDAP/Azure AD 实现用户同步与多因素认证",
+    "为移动或 Web 应用提供 WebAuthn、Face ID 等无密码登录"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 镜像和详细文档，但涉及数据库配置与多种协议对接，需一定运维和身份认证知识。",
+  "alternatives": [
+    "Keycloak",
+    "Authentik",
+    "Ory Hydra"
+  ]
+}

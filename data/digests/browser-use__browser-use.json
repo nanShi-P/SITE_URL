@@ -1,0 +1,21 @@
+{
+  "id": "browser-use/browser-use",
+  "source_hash": "4d74a93432aa8e2af5ffd8fb32bd061912db9d0c3f1c7e1b5752ca35e6ff2c12",
+  "generated_at": "2026-06-02T17:46:28.588Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于大语言模型的浏览器自动化框架，让 AI Agent 像人一样操作网页，完成搜索、填表、抓取、下单等任务，支持多种 LLM 后端并提供云端服务。",
+  "scenarios": [
+    "让 AI 自动在电商网站比价并下单",
+    "批量抓取需要登录或交互的网页数据",
+    "自动化填写表单与提交申请流程",
+    "用自然语言指令完成日常网页操作（订机票、查信息）",
+    "为 RPA 流程接入 LLM 智能决策能力"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Python 环境、浏览器驱动及 LLM API Key，但官方文档完善、示例丰富。",
+  "alternatives": [
+    "LaVague",
+    "Skyvern",
+    "AutoGPT"
+  ]
+}

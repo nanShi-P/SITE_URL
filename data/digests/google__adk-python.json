@@ -1,0 +1,21 @@
+{
+  "id": "google/adk-python",
+  "source_hash": "f6b868044e71a14bb93ef988a2f0d8667715470b513663c7e5de5fb37da7581d",
+  "generated_at": "2026-06-02T18:10:21.073Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Google 开源的代码优先 Python 框架，用于构建、评估和部署复杂的 AI Agent，2.0 版引入基于图的工作流运行时和结构化的 Task API，支持路由、循环、重试、人机协同及多 Agent 委派等能力。",
+  "scenarios": [
+    "构建多智能体协作系统处理复杂业务流程",
+    "为 Gemini 等大模型 Agent 编写可评估测试用例",
+    "将 Agent 部署到生产环境并接入人工审核环节",
+    "用工作流编排实现带状态和重试的确定性任务流",
+    "原型设计涉及多轮委派的对话型 AI 应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Python 3.11+ 和大模型 API，2.0 有破坏性变更，但官方文档和示例较完善。",
+  "alternatives": [
+    "LangGraph",
+    "CrewAI",
+    "AutoGen"
+  ]
+}

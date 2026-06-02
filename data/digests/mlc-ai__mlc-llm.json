@@ -1,0 +1,21 @@
+{
+  "id": "mlc-ai/mlc-llm",
+  "source_hash": "6832d300bb1119efc3f12996bb382100b0e076fbad953442e207df1ab9b60b21",
+  "generated_at": "2026-06-02T18:07:16.079Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "MLC LLM 是基于机器学习编译技术的通用大语言模型部署引擎，可将模型编译并高性能运行在多种硬件和平台上，包括 NVIDIA/AMD/Apple/Intel GPU、iOS、Android 及 WebGPU 浏览器环境，提供统一的 MLCEngine 推理后端。",
+  "scenarios": [
+    "在 iPhone、Android 手机上本地运行 LLM 推理",
+    "在浏览器中通过 WebGPU 部署无服务端的聊天应用",
+    "在 AMD、Intel GPU 上跨平台高性能推理 LLM",
+    "在 Apple Silicon Mac 上使用 Metal 加速本地大模型",
+    "为边缘设备定制并编译优化后的轻量 LLM"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 ML 编译栈、跨平台 GPU 后端配置与模型转换，环境搭建和调试门槛较高。",
+  "alternatives": [
+    "llama.cpp",
+    "vLLM",
+    "ollama"
+  ]
+}

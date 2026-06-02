@@ -1,0 +1,21 @@
+{
+  "id": "firecrawl/firecrawl",
+  "source_hash": "fc30f769151474fa0b65dac68d4ef28d7127f78b85335b64149bfebd3f158dba",
+  "generated_at": "2026-06-02T17:45:47.135Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Firecrawl 是一个开源的网页抓取与搜索 API，能批量爬取网站并将内容转换为干净的 Markdown 或结构化数据，方便喂给大模型和 AI Agent 使用，同时提供官方托管服务。",
+  "scenarios": [
+    "为 RAG 应用批量抓取网站并转成 Markdown 作为知识库",
+    "让 AI Agent 实时搜索和提取网页信息",
+    "按 Schema 从网页中抽取结构化数据",
+    "爬取竞品或新闻站点用于数据分析",
+    "为 LLM 训练或微调准备清洗后的网页语料"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "自托管涉及多服务依赖与浏览器环境配置，但有完善文档和官方云服务可直接调用 API。",
+  "alternatives": [
+    "Crawl4AI",
+    "ScrapeGraphAI",
+    "Jina Reader"
+  ]
+}

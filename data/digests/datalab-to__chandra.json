@@ -1,0 +1,20 @@
+{
+  "id": "datalab-to/chandra",
+  "source_hash": "7ec0c08f3e4e5acd6dfa525bf501d387f551437088e5bc0941393c93c2364fa9",
+  "generated_at": "2026-06-02T18:22:27.730Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Chandra OCR 2 是 Datalab 推出的文档智能 OCR 模型，可将图片和 PDF 转换为保留版面信息的 HTML、Markdown 或 JSON，支持复杂表格、表单和手写内容识别。",
+  "scenarios": [
+    "将扫描 PDF 批量转为 Markdown 用于 RAG 知识库",
+    "识别含复杂表格的财报或论文并输出结构化 HTML",
+    "处理手写病历、问卷等表单的数字化",
+    "抽取发票、合同的版面化 JSON 数据"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需下载大模型权重并配置 GPU 环境，但官方提供文档、托管服务和 Playground，上手相对顺畅。",
+  "alternatives": [
+    "Marker",
+    "MinerU",
+    "olmOCR"
+  ]
+}

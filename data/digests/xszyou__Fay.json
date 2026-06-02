@@ -1,0 +1,21 @@
+{
+  "id": "xszyou/Fay",
+  "source_hash": "49bf03ca6f4e27ddb5393e60c9df55fb63697f557d256aadf01b386bba59ef6c",
+  "generated_at": "2026-06-02T18:21:08.040Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Fay是一个开源数字人代理框架，向上对接2.5D/3D/网页/移动等各类数字人前端，向下接入OpenAI兼容大模型及可替换的ASR/TTS，提供文字、语音、驱动、播报、意图等接口，支持MCP工具调用、知识库、记忆、多用户并发，便于将数字人接入业务系统。",
+  "scenarios": [
+    "搭建虚拟主播或新闻自动播报系统",
+    "为线下大屏部署可对话的虚拟接待/讲解员",
+    "在App或网站中集成语音问答数字人客服",
+    "对接单片机实现语音交互机器人",
+    "通过MCP让数字人调用业务系统工具完成任务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Python环境与依赖安装较直接，但要打通数字人前端、LLM、TTS/ASR和业务接口需阅读较多文档并自行配置key。",
+  "alternatives": [
+    "VirtualWife",
+    "LiveTalking",
+    "metahuman-stream"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "lukasmasuch/best-of-ml-python",
+  "source_hash": "f2e965c5e18f2e2c12c9b989934706483c01faac6d103f6e8ca7d55a7d17ac2b",
+  "generated_at": "2026-06-02T18:06:12.810Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该项目是一份每周更新的机器学习 Python 开源库精选榜单，收录 920 个项目、共 510 万星标，按自动计算的质量评分排序，并划分为 34 个分类，便于开发者查找和比较各类机器学习工具。",
+  "scenarios": [
+    "挑选适合项目的机器学习框架或库",
+    "了解某一细分领域的主流工具及其活跃度",
+    "跟踪 Python 机器学习生态的最新趋势",
+    "为团队技术选型提供参考数据",
+    "学习者按分类系统性探索 ML 工具链"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档型仓库，直接浏览 README 即可使用，无需安装环境或代码依赖。",
+  "alternatives": [
+    "awesome-machine-learning",
+    "awesome-python",
+    "best-of-web-python"
+  ]
+}

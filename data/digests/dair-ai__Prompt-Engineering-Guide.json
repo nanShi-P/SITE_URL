@@ -1,0 +1,21 @@
+{
+  "id": "dair-ai/Prompt-Engineering-Guide",
+  "source_hash": "08b159c608e2722f5d7dfd075886bfeb3aaf003d3475d7f5d06d148c924f7894",
+  "generated_at": "2026-06-02T17:47:58.980Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DAIR.AI 维护的提示工程学习指南，汇集提示词、上下文工程、RAG 与 AI Agent 相关的论文、教程、示例笔记本和工具资源，提供配套网站与多语言版本，方便系统性学习和查阅。",
+  "scenarios": [
+    "初学者系统学习提示工程基础知识",
+    "开发者查阅各类提示技巧与论文参考",
+    "团队内部培训 LLM 应用开发",
+    "研究人员追踪 RAG 与 Agent 最新进展",
+    "撰写提示词时查找模板和案例"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档与笔记本资源，无需复杂环境，可直接在线阅读。",
+  "alternatives": [
+    "openai-cookbook",
+    "llm-course",
+    "Awesome-Prompt-Engineering"
+  ]
+}

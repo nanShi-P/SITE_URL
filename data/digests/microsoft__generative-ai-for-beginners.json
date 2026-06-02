@@ -1,0 +1,20 @@
+{
+  "id": "microsoft/generative-ai-for-beginners",
+  "source_hash": "fc02cd50fee1bd604d0dae103c77b948ca08bf0dd965b594fe4e03b40eb3afd1",
+  "generated_at": "2026-06-02T17:46:00.820Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软出品的生成式 AI 入门课程，包含 21 节课，从基础概念到 Prompt 工程、RAG、智能体等内容，配有代码示例和视频，帮助初学者系统学习如何用大模型构建应用。",
+  "scenarios": [
+    "自学生成式 AI 基础知识",
+    "高校或培训机构作为课程教材",
+    "开发者快速上手 Prompt 工程与 RAG",
+    "团队内部组织 AI 学习分享"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "内容循序渐进、文档完善，仅需基础 Python 和 API Key 即可跟练。",
+  "alternatives": [
+    "microsoft/AI-For-Beginners",
+    "openai/openai-cookbook",
+    "dair-ai/Prompt-Engineering-Guide"
+  ]
+}

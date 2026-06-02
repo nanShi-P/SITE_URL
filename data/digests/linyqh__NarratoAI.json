@@ -1,0 +1,20 @@
+{
+  "id": "linyqh/NarratoAI",
+  "source_hash": "40ca4c85b203d5bc9524626b609d4f2da87cc4c11e38316d00a123c5509040f4",
+  "generated_at": "2026-06-02T18:22:51.751Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "NarratoAI 是一款基于大语言模型的一站式 AI 影视解说与自动剪辑工具，可自动完成文案撰写、视频剪辑、配音和字幕生成，支持短剧混剪、纪录片逐帧分析、语音克隆等功能，提供本地开源部署和云端托管两种方式。",
+  "scenarios": [
+    "自媒体博主批量制作影视解说短视频",
+    "短剧二次创作与混剪发布",
+    "纪录片精彩片段自动剪辑与配音解说",
+    "利用语音克隆生成个性化解说配音",
+    "为长视频一键生成字幕和解说文案"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需本地部署 Python 环境并配置大模型 API Key 和 TTS 服务，官方文档较完善但依赖较多。",
+  "alternatives": [
+    "MoneyPrinterTurbo",
+    "ClipsAI"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1Panel-dev/1Panel",
+  "source_hash": "58c4fd81dc034dce35369143761d5e2ed8c3b3c014f125b35c9f1f87e47ced97",
+  "generated_at": "2026-06-02T17:56:42.466Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "1Panel 是一款开源的 Linux 服务器与 VPS 管理面板，提供网站、数据库、容器、文件等可视化运维能力，并原生集成 AI Agent，可调用 Ollama 本地模型和 OpenClaw 智能体辅助管理服务器。",
+  "scenarios": [
+    "个人开发者通过 Web 面板托管和管理多个网站",
+    "使用 Docker 应用商店一键部署常用服务",
+    "集中管理 MySQL、Redis 等数据库实例",
+    "结合本地 Ollama 模型让 AI 辅助执行运维命令",
+    "在 VPS 上进行文件、计划任务和防火墙的可视化配置"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供一键安装脚本和中文文档，Web 界面友好，对 Linux 新手也较易上手。",
+  "alternatives": [
+    "宝塔面板",
+    "Cockpit",
+    "CasaOS"
+  ]
+}

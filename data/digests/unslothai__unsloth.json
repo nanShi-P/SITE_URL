@@ -1,0 +1,21 @@
+{
+  "id": "unslothai/unsloth",
+  "source_hash": "326fd487e82b039bec47666c36e836640e96bd7c4f572cc15961ebe2039f0003",
+  "generated_at": "2026-06-02T17:48:56.358Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Unsloth Studio 是一个本地化大模型训练与推理的 Web UI，支持在 Windows、Linux、macOS 上下载、运行、微调和导出 Gemma、Qwen、DeepSeek、gpt-oss 等开源模型，覆盖文本、视觉、语音和嵌入等多种模态。",
+  "scenarios": [
+    "在本地搜索并一键下载 GGUF 或 safetensors 模型进行推理",
+    "对 Llama、Qwen 等开源模型进行 LoRA 微调",
+    "将训练好的模型导出为 GGUF 或 16-bit 格式部署",
+    "微调视觉或语音模型用于多模态任务",
+    "在消费级显卡上低成本训练自定义大模型"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供一键安装脚本和图形界面降低了门槛，但本地训练大模型仍需 GPU 环境和一定的模型微调知识。",
+  "alternatives": [
+    "LM Studio",
+    "Axolotl",
+    "text-generation-webui"
+  ]
+}

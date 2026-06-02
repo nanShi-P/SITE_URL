@@ -1,0 +1,21 @@
+{
+  "id": "zai-org/CogVideo",
+  "source_hash": "d60db495a2d670dacedf3bcf0f4a039cee1274b3ef4b20edf6dc1bf185dd1982",
+  "generated_at": "2026-06-02T18:21:06.948Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "清华智谱开源的文本/图像到视频生成模型，包含 CogVideo（ICLR 2023）与 CogVideoX 系列（含 1.5-5B 等版本），提供推理、LoRA 微调、DDIM 反演等代码，并配套 diffusers 集成与在线体验。",
+  "scenarios": [
+    "根据文本提示生成短视频用于创意内容制作",
+    "基于单张图像生成动态视频用于广告或社交媒体",
+    "在自有数据上用 LoRA 微调定制风格视频模型",
+    "研究者复现论文并探索视频扩散模型",
+    "通过 diffusers 集成到自有 AIGC 产品中"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "模型体量大、显存要求高，需配置 CUDA 与 diffusers 等深度学习环境，微调与推理调参门槛较高。",
+  "alternatives": [
+    "Open-Sora",
+    "HunyuanVideo",
+    "Mochi-1"
+  ]
+}

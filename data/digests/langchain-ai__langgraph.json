@@ -1,0 +1,21 @@
+{
+  "id": "langchain-ai/langgraph",
+  "source_hash": "23df96a83cee64e58dea0a47fc12c0d4594126fac337a33f8470f4c0a3b352a7",
+  "generated_at": "2026-06-02T17:57:40.415Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LangGraph 是 LangChain 团队推出的低层级编排框架，用于构建有状态、可长时间运行的 AI Agent 工作流，通过图结构组织节点与状态，支持持久化、断点续跑、人工介入和多 Agent 协作。",
+  "scenarios": [
+    "构建带记忆和多轮状态的对话型 Agent",
+    "开发需要人工审核介入的复杂业务工作流",
+    "实现多 Agent 协作与任务分发系统",
+    "搭建可断点续跑的长时间运行任务流水线",
+    "为 RAG 应用编排检索、推理、调用工具的复杂流程"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装简单但需理解图、状态、检查点等抽象概念，并熟悉 LangChain 生态。",
+  "alternatives": [
+    "CrewAI",
+    "AutoGen",
+    "Llama Index Workflows"
+  ]
+}

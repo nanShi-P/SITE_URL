@@ -1,0 +1,20 @@
+{
+  "id": "tanweai/pua",
+  "source_hash": "0a876008a339e367b028175ba7f940a408aecec87ac823f3888a0299d22e9b02",
+  "generated_at": "2026-06-02T18:13:42.016Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一份给 Claude Code、Codex 等 AI 编程助手用的 prompt/skill 配置，用 PIP 绩效考核式的高压话术给 AI 施压，号称能提升其执行力和输出质量，属于半玩梗半实用的提示词工程项目。",
+  "scenarios": [
+    "在 Claude Code 中加载该 skill，让 AI 更严格地完成编码任务",
+    "用 Codex CLI 跑长任务时减少摸鱼和敷衍式回复",
+    "Cursor / Kiro 等 IDE 中作为系统提示提升代码生成质量",
+    "团队内部统一 AI 编程助手的工作态度和输出规范"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "本质是 prompt 文件，复制到对应 AI 工具的配置目录即可使用，无需额外依赖。",
+  "alternatives": [
+    "claude-code-prompts",
+    "awesome-cursor-rules",
+    "CLAUDE.md"
+  ]
+}

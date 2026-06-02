@@ -1,0 +1,21 @@
+{
+  "id": "OpenGVLab/InternVL",
+  "source_hash": "4886ac5d439e97960aa2e749b4a3d7f16ae098c4a4bd869ccf72b20d820dff2c",
+  "generated_at": "2026-06-02T18:22:34.822Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "InternVL 是上海AI实验室OpenGVLab推出的开源多模态大模型家族，对标GPT-4o/GPT-5，提供从轻量到241B规模的视觉-语言模型，支持图像、视频理解与多轮对话，并开放训练、微调与推理代码。",
+  "scenarios": [
+    "在本地部署开源多模态模型进行图文问答和视觉对话",
+    "基于自有数据微调InternVL用于行业视觉理解任务",
+    "视频内容理解、OCR与文档图像分析",
+    "构建替代GPT-4V的私有化AI助手或API服务",
+    "学术研究中作为多模态基线模型对比实验"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "模型体量大、对GPU显存和分布式训练环境要求高，依赖配置和微调流程较复杂。",
+  "alternatives": [
+    "Qwen-VL",
+    "LLaVA",
+    "MiniCPM-V"
+  ]
+}

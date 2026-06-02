@@ -1,0 +1,20 @@
+{
+  "id": "ConardLi/easy-dataset",
+  "source_hash": "994489201f6fe3e182adf691e3c6a7aaf92d629705e9b69bf828ad19053da7e6",
+  "generated_at": "2026-06-02T18:20:25.720Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Easy Dataset 是一款用于构建大语言模型数据集的可视化工具，集成文档解析、智能分块、数据清洗与增强功能，可将 PDF、Word 等领域文档转换为结构化问答数据，适用于模型微调、RAG 和评测场景。",
+  "scenarios": [
+    "将企业内部 PDF 文档转换为微调用的问答数据集",
+    "为垂直领域模型构建 RAG 知识库语料",
+    "批量生成模型评测用的 Eval 数据",
+    "教学场景下快速演示数据集构建流程"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供桌面客户端和一键启动方式，界面可视化，文档完善，无需复杂配置。",
+  "alternatives": [
+    "LLaMA-Factory",
+    "Label Studio",
+    "Doccano"
+  ]
+}

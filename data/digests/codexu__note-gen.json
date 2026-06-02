@@ -1,0 +1,21 @@
+{
+  "id": "codexu/note-gen",
+  "source_hash": "d485ce45bdb5f2ee2824cfee4e2f638fdbbcb8181f5fb2baeffd079f3630d3f6",
+  "generated_at": "2026-06-02T18:21:29.470Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "NoteGen 是一款基于 Tauri 的跨平台 Markdown 笔记软件，结合 AI 能力帮助用户从碎片记录到整理成文，支持多端同步、标签管理和自定义模型接入。",
+  "scenarios": [
+    "日常学习中快速记录碎片化知识并由 AI 整理成文",
+    "技术博客或文档写作的 Markdown 编辑环境",
+    "截图标注后生成笔记的资料收集场景",
+    "通过自定义 AI 模型润色和翻译笔记内容",
+    "跨设备同步个人知识库到 GitHub/Gitee"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供各平台安装包，开箱即用，无需自行编译或复杂配置",
+  "alternatives": [
+    "Obsidian",
+    "Logseq",
+    "AFFiNE"
+  ]
+}

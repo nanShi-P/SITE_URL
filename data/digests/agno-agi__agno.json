@@ -1,0 +1,21 @@
+{
+  "id": "agno-agi/agno",
+  "source_hash": "a02c5a2334177f5f7ed4907a617181ba94c57b2f4ba8afc84ea7d61fb282c1a5",
+  "generated_at": "2026-06-02T17:54:09.778Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Agno 是一个用于构建、运行和管理 Agent 平台的 Python SDK，支持使用任意框架开发智能体，并以生产级服务方式运行，提供追踪、调度、RBAC 权限管理及统一控制台 UI，可部署在自有云上以保留对数据、工具与上下文的完整控制。",
+  "scenarios": [
+    "在 Slack 中部署与团队协作的代码助手",
+    "构建可基于多层上下文回答问题的企业数据查询 Agent",
+    "跨 Slack 与 Google Drive 检索信息的知识 Agent",
+    "搭建带自我改进循环的内部 Agent 平台",
+    "在私有云中统一管理多个生产环境智能体服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档完整、提供 20 行入门示例，但涉及生产部署、RBAC、追踪等平台级配置，需要一定工程经验。",
+  "alternatives": [
+    "LangGraph Platform",
+    "Dify",
+    "CrewAI"
+  ]
+}

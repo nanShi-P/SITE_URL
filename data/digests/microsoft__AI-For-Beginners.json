@@ -1,0 +1,20 @@
+{
+  "id": "microsoft/AI-For-Beginners",
+  "source_hash": "4f5cd1290439684a337737f54ef66ac78170016c66424a1312a88c541c152ed3",
+  "generated_at": "2026-06-02T17:52:04.095Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软出品的人工智能入门课程，包含为期12周、共24节课的系统化教学内容，覆盖AI基础概念、神经网络、计算机视觉、自然语言处理等主题，配有讲义、代码示例和实验作业，面向零基础学习者。",
+  "scenarios": [
+    "高校学生系统学习人工智能基础知识",
+    "开发者转型AI方向的自学路线",
+    "教师备课设计AI入门课程",
+    "技术团队组织内部AI培训"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "内容覆盖广且涉及深度学习实操，需要一定Python和数学基础，但课程结构清晰、文档完善。",
+  "alternatives": [
+    "fast.ai",
+    "d2l-ai/d2l-zh",
+    "microsoft/ML-For-Beginners"
+  ]
+}

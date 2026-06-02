@@ -1,0 +1,21 @@
+{
+  "id": "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
+  "source_hash": "fb39b8c363b6977f69a021c41fdde3ec24e81673df5ea6399c328e0b09ab6b83",
+  "generated_at": "2026-06-02T18:21:21.955Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Pocket Flow 框架的 AI 智能体项目，可爬取 GitHub 仓库源码，自动分析核心抽象与模块交互关系，并生成带可视化图示的初学者友好教程文档，帮助快速理解陌生代码库。",
+  "scenarios": [
+    "快速上手陌生开源项目，生成入门导读",
+    "团队新成员熟悉内部代码库",
+    "技术博主批量产出代码解析文章",
+    "为开源项目自动补充教程类文档",
+    "学习大型框架的架构设计思路"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 LLM API Key 与 GitHub 访问权限，并理解 Pocket Flow 框架，但文档与示例较为完整。",
+  "alternatives": [
+    "GPT-Engineer",
+    "Sweep",
+    "Cursor"
+  ]
+}

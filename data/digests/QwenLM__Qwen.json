@@ -1,0 +1,21 @@
+{
+  "id": "QwenLM/Qwen",
+  "source_hash": "4cd030f1c5b58558c38856f6569b9a1ee6817ad99416f1dfb641a66524cb9a74",
+  "generated_at": "2026-06-02T18:09:02.321Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "阿里云通义千问第一代大语言模型的官方仓库，提供 Qwen 基座模型与 Qwen-Chat 对话模型（含 Int4/Int8 量化版本）的权重、推理与微调示例代码，已被 Qwen2 取代，不再积极维护。",
+  "scenarios": [
+    "本地部署 Qwen-Chat 进行中文对话问答",
+    "在消费级显卡上加载 Int4/Int8 量化模型做推理",
+    "基于 Qwen 基座模型进行 LoRA 或全参微调",
+    "作为研究中文大模型架构和能力的对比基线",
+    "通过 API 或 demo 集成到聊天应用中"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 GPU 环境和一定的 PyTorch/Transformers 使用经验，但官方文档完善且有量化版本降低门槛。",
+  "alternatives": [
+    "ChatGLM",
+    "Baichuan",
+    "InternLM"
+  ]
+}

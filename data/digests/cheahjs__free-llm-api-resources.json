@@ -1,0 +1,20 @@
+{
+  "id": "cheahjs/free-llm-api-resources",
+  "source_hash": "72d760c0633779f8838c58a9d3282b6945518f5d28048a988226c5a93da96957",
+  "generated_at": "2026-06-02T18:07:23.647Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "汇总各类可通过 API 免费调用的大语言模型服务清单，涵盖 OpenRouter、Google AI Studio、Groq、Cerebras、Cloudflare 等免费提供商及 Fireworks、Nebius 等提供试用额度的平台，并标注各家速率限制与可用模型。",
+  "scenarios": [
+    "开发者寻找免费 LLM API 进行原型验证",
+    "学生或个人项目低成本接入大模型",
+    "对比不同厂商免费额度与模型能力",
+    "构建多供应商 fallback 的 AI 应用",
+    "薅试用额度跑批量推理实验"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档清单，无需安装，直接照链接申请 API Key 即可使用。",
+  "alternatives": [
+    "awesome-free-chatgpt",
+    "LLM-Pricing"
+  ]
+}

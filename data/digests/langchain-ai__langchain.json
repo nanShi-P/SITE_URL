@@ -1,0 +1,21 @@
+{
+  "id": "langchain-ai/langchain",
+  "source_hash": "935dbb979ebc4c6983edf50ab55ae50176d1bfc1ceffa0509b86b5657b28006e",
+  "generated_at": "2026-06-02T17:45:38.576Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LangChain 是一个用于构建大模型应用和智能体的 Python 框架，提供统一的模型接口、可组合组件和大量第三方集成，帮助开发者把 LLM、工具、记忆、检索等模块串联起来，快速搭建可演进的 AI 应用。",
+  "scenarios": [
+    "快速接入 OpenAI、Anthropic 等多家模型并统一调用",
+    "构建带工具调用和记忆的对话式智能体",
+    "实现基于向量库的 RAG 文档问答系统",
+    "编排多步骤 LLM 工作流，如内容生成与数据抽取",
+    "为企业应用集成 LLM 能力的原型开发"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装简单但概念抽象、API 迭代快，需理解链式编排与各类集成配置。",
+  "alternatives": [
+    "LlamaIndex",
+    "Haystack",
+    "Semantic Kernel"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bentoml/BentoML",
+  "source_hash": "4011d89dc2325edba28c0fffa80dc92290926b35009fb6e6d8185b766745226c",
+  "generated_at": "2026-06-02T18:23:30.782Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "BentoML 是一个 Python 模型服务框架，用几行代码就能把任意 AI/ML 模型推理脚本封装成 REST API，并自动生成 Docker 镜像，支持动态批处理、多模型组合、任务队列和 LLM 应用部署。",
+  "scenarios": [
+    "将自训练模型快速封装为生产可用的推理 API",
+    "部署开源 LLM 并对外提供 OpenAI 兼容接口",
+    "构建多模型组合的推理流水线（如检索+生成）",
+    "为批量推理任务搭建异步 Job 队列服务",
+    "统一管理模型版本与依赖并打包成 Docker 镜像"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "API 设计直观、文档完善，但涉及 Docker、模型部署和服务优化等概念，需要一定 Python 与后端基础。",
+  "alternatives": [
+    "Ray Serve",
+    "KServe",
+    "NVIDIA Triton Inference Server"
+  ]
+}

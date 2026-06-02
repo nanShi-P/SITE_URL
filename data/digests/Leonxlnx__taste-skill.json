@@ -1,0 +1,21 @@
+{
+  "id": "Leonxlnx/taste-skill",
+  "source_hash": "8f48965cd77019c6353b5fe0c5ab1f62bbc8ae52f4219555b9550dcbbf70ad41",
+  "generated_at": "2026-06-02T17:58:55.518Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一套可移植的 Agent Skills 提示词集合，用于提升 AI 生成前端界面的审美水准，改善布局、排版、动效和间距，避免千篇一律的模板感；同时附带生成网页、移动端和品牌参考图板的图像生成技能，可配合 Codex、Cursor、Claude Code 等工具使用。",
+  "scenarios": [
+    "用 Cursor 或 Claude Code 生成更精致的落地页 UI",
+    "为移动端 App 生成参考设计板再交给 AI 实现",
+    "快速产出品牌视觉风格 kit 作为设计起点",
+    "让 AI 编码助手避免输出模板化的样板界面",
+    "设计师与 AI 协作搭建高质量原型"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "本质是 prompt/skills 文件，按说明导入对应 Agent 工具即可，无复杂依赖。",
+  "alternatives": [
+    "awesome-claude-prompts",
+    "v0",
+    "shadcn/ui"
+  ]
+}

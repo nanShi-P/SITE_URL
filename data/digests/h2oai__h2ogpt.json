@@ -1,0 +1,21 @@
+{
+  "id": "h2oai/h2ogpt",
+  "source_hash": "91fccbf733ea61fff6907f865f799c2c679378c73e3dd5602aab462ddc2d2942",
+  "generated_at": "2026-06-02T18:21:37.513Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "h2oGPT 是一个 Apache 2.0 开源项目，支持在本地用私有大模型（LLaMa、Mistral、Mixtral 等）对 PDF、Word、图片、音视频等文档进行问答和摘要，内置向量数据库与 Gradio 界面，可离线运行并兼容 GPU/CPU。",
+  "scenarios": [
+    "在本地搭建私有知识库，对企业内部文档进行问答",
+    "离线总结大量 PDF、Word 报告",
+    "对图片、视频帧、YouTube 音频进行多模态问答",
+    "通过 Gradio 界面与本地 LLM 聊天",
+    "作为 OpenAI API 的私有化替代方案集成到内部系统"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "功能庞杂、依赖众多，需要熟悉 GPU 环境、模型权重与向量库配置，安装和调优门槛较高。",
+  "alternatives": [
+    "PrivateGPT",
+    "LocalGPT",
+    "AnythingLLM"
+  ]
+}

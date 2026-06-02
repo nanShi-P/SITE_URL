@@ -1,0 +1,21 @@
+{
+  "id": "pinpoint-apm/pinpoint",
+  "source_hash": "d3395b77494ad3135ade0056ba2c70f24f331f0ff7aac75e937bf54b3ca409b1",
+  "generated_at": "2026-06-02T18:20:54.205Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Pinpoint 是一款面向大规模分布式系统的开源 APM 工具，受 Google Dapper 启发，通过字节码注入无需改代码即可追踪跨应用调用链，提供应用拓扑图、实时监控和代码级事务可视化，主要支持 Java，同时兼容 PHP、Python。",
+  "scenarios": [
+    "监控基于 Spring Boot 的微服务集群性能",
+    "排查跨服务调用慢请求和异常根因",
+    "可视化复杂分布式系统的服务依赖拓扑",
+    "实时观察 JVM 指标和数据库调用情况",
+    "为运维团队搭建统一的应用性能监控平台"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需部署 HBase、Collector、Web 等多组件，依赖较重且对大规模生产环境调优有一定门槛。",
+  "alternatives": [
+    "SkyWalking",
+    "Zipkin",
+    "Jaeger"
+  ]
+}

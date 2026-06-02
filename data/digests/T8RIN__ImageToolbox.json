@@ -1,0 +1,21 @@
+{
+  "id": "T8RIN/ImageToolbox",
+  "source_hash": "1650eb999d387716d9570b0e88fb5660fbad23d12d929fe577c27ac20b556caa",
+  "generated_at": "2026-06-02T18:20:58.171Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一款基于 Jetpack Compose 和 Material You 的安卓图像处理工具箱，集成裁剪、绘制、滤镜、OCR、格式转换、压缩等数十种功能，可对图片进行全方位本地编辑处理。",
+  "scenarios": [
+    "批量调整图片尺寸和压缩以节省手机存储",
+    "对照片应用滤镜、绘图标注后分享",
+    "使用 OCR 从图片中提取文字",
+    "在不同格式间转换图片（如 HEIC 转 JPG）",
+    "裁剪、拼接或为图片添加水印"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "作为终端用户应用直接安装即可使用，无需配置环境。",
+  "alternatives": [
+    "Photok",
+    "Fossify Gallery",
+    "GIMP"
+  ]
+}

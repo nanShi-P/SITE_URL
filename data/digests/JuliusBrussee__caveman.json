@@ -1,0 +1,20 @@
+{
+  "id": "JuliusBrussee/caveman",
+  "source_hash": "e7bce7ef19283fb8c2db7281df9b5ff8f48f98eaa6aea2bf162e485be6c7b2e9",
+  "generated_at": "2026-06-02T17:48:42.812Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个让 Claude Code 等 AI 编程助手用'原始人'风格简短作答的插件/skill，通过精简措辞砍掉约 65%-75% 的输出 token，同时保留技术准确性，兼容 Codex、Gemini、Cursor、Cline、Copilot 等 30 多种工具。",
+  "scenarios": [
+    "在 Claude Code 中长时间编码以降低 token 消耗和 API 费用",
+    "Cursor/Windsurf 用户希望 AI 回答更精炼直接",
+    "团队批量调用 LLM 时压缩输出成本",
+    "面向高级开发者，去除客套话只看技术要点",
+    "在上下文有限场景下塞入更多有效信息"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "本质是 prompt/skill 配置，按官方 INSTALL 文档加载即可，无需复杂环境。",
+  "alternatives": [
+    "awesome-claude-prompts",
+    "Cursor Rules"
+  ]
+}

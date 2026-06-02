@@ -1,0 +1,20 @@
+{
+  "id": "code-yeongyu/oh-my-openagent",
+  "source_hash": "83aacac1570da5283f068c051f548a595e2e57d1f29a65d7f7f15b63a5349a97",
+  "generated_at": "2026-06-02T17:49:24.962Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "omo 是一个面向复杂代码库的智能体配置框架，通过预设提示词、规则与工作流增强 Codex CLI、OpenCode 等 AI 编码助手，让其在大型工程中表现更稳定，并内置计算机操作型 QA 能力。",
+  "scenarios": [
+    "在大型遗留代码库中使用 Codex CLI 完成重构任务",
+    "为团队统一配置 AI 编码助手的提示与规则",
+    "在复杂工程中借助 AI 自动完成开发并自检",
+    "快速一键初始化 Codex 工作环境，免去手写 JSON 配置"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "通过 npx 一行命令即可安装，无需复杂配置，但需自备 Codex CLI 等底层工具。",
+  "alternatives": [
+    "aider",
+    "continue",
+    "cursor-rules"
+  ]
+}

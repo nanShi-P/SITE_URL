@@ -1,0 +1,21 @@
+{
+  "id": "agent0ai/agent-zero",
+  "source_hash": "594d83d219c3c2652596715fc3311fa5437c79c7d4251f0939f1ee1ac0890181",
+  "generated_at": "2026-06-02T18:13:24.706Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Agent Zero 是一个开源的动态智能体框架，通过单个 Docker 容器为 AI agent 提供完整的 Linux 桌面系统和插件中心，agent 可借助 Skills 自主扩展能力，并通过 Web UI 配置 LLM 使用。",
+  "scenarios": [
+    "让 AI agent 在隔离的 Linux 环境中执行命令、运行脚本",
+    "构建可自主调用工具和编写代码完成复杂任务的智能体",
+    "通过 A0 CLI 让 agent 操作宿主机进行开发辅助",
+    "搭建多 agent 协作的自动化工作流",
+    "开发自定义 Skills 扩展插件供 agent 调用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供一键安装脚本和 Docker 镜像，部署简单，但需自备 LLM API 并理解 agent 框架配置。",
+  "alternatives": [
+    "AutoGPT",
+    "OpenInterpreter",
+    "Devika"
+  ]
+}

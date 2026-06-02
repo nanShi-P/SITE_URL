@@ -1,0 +1,22 @@
+{
+  "id": "Kilo-Org/kilocode",
+  "source_hash": "87bb7630f7a1cc4880a726bdae338891728378297d4e52337a50087eb675afad",
+  "generated_at": "2026-06-02T18:10:50.779Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Kilo 是一款开源 AI 编程代理，以 VS Code 插件和 CLI 形式提供，可在编辑器中自动生成代码、执行多步任务，并接入多家大模型，帮助开发者更快完成构建与迭代。",
+  "scenarios": [
+    "在 VS Code 中让 AI 自动编写和重构代码",
+    "通过 CLI 在终端执行多步编程任务",
+    "对接多种 LLM 模型进行对比和选型",
+    "为新项目快速生成原型代码",
+    "团队共享统一的 AI 编码工作流"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "直接通过 VS Code 商店一键安装，配置 API Key 即可使用，文档完善。",
+  "alternatives": [
+    "Cline",
+    "Roo Code",
+    "Cursor",
+    "Continue"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "AgriciDaniel/claude-seo",
+  "source_hash": "eb8cb93e0e30667641a36202e51139f7391b35675a8d581b8489f21a99173a74",
+  "generated_at": "2026-06-02T18:24:05.160Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "为 Claude Code 打造的开源 SEO 分析插件，集成 25 个子技能和 18 个专家代理，并行覆盖技术 SEO、E-E-A-T、Schema 标记、AI 搜索优化、本地与电商及国际 SEO，输出带优先级的可执行审计报告。",
+  "scenarios": [
+    "对网站做全面技术 SEO 审计并生成行动清单",
+    "为页面生成和校验 Schema.org 结构化数据",
+    "针对 AI 搜索（GEO/AEO）优化内容",
+    "本地商家及 Google Maps SEO 分析",
+    "电商或多语言国际站点 SEO 诊断"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需安装 Claude Code 并配置多个 MCP 服务和可选 API（DataForSEO、Firecrawl 等），但文档详尽、测试齐全。",
+  "alternatives": [
+    "Screaming Frog",
+    "Sitebulb",
+    "Ahrefs"
+  ]
+}

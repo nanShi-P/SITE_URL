@@ -1,0 +1,21 @@
+{
+  "id": "simonw/llm",
+  "source_hash": "fa351395f781ecdcc2bdba0b64c4aabf9b87a186ec0528a54fe47fd6491323a1",
+  "generated_at": "2026-06-02T18:21:35.738Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个命令行工具与 Python 库，统一接口调用 OpenAI、Claude、Gemini、Llama 等主流大模型，支持远程 API 和本地模型，可在终端运行 prompt、管理对话历史、嵌入向量并通过插件扩展。",
+  "scenarios": [
+    "在终端快速向 ChatGPT、Claude 等模型提问",
+    "通过脚本批量处理文本并调用 LLM",
+    "保存与检索历史对话记录",
+    "生成文本嵌入用于语义搜索",
+    "通过插件接入本地 Llama 等开源模型"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 或 brew 一键安装，配置 API key 即可使用，文档完善。",
+  "alternatives": [
+    "aichat",
+    "shell-gpt",
+    "ollama"
+  ]
+}

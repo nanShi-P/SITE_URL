@@ -1,0 +1,21 @@
+{
+  "id": "ClickHouse/ClickHouse",
+  "source_hash": "65000de1142855c600e0e3f5db7f2e746f3e872ebeca5b95f0232d7923e50cd4",
+  "generated_at": "2026-06-02T17:52:11.048Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ClickHouse 是一款开源的列式数据库管理系统，专为实时分析场景设计，能在海量数据上以亚秒级响应执行聚合查询和生成报表。",
+  "scenarios": [
+    "网站和应用的实时用户行为分析",
+    "日志与可观测性数据存储查询",
+    "商业智能报表与数据仓库",
+    "广告点击流和营销数据分析",
+    "物联网时序数据存储与聚合"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装一行命令即可，但集群部署、调优和 SQL 方言学习对运维和开发者有一定门槛。",
+  "alternatives": [
+    "Apache Doris",
+    "StarRocks",
+    "DuckDB"
+  ]
+}

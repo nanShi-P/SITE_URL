@@ -1,0 +1,21 @@
+{
+  "id": "yamadashy/repomix",
+  "source_hash": "c0d12c3ec28c618af4c1370863a0486935e9e0ca50756b721e67a986b073f068",
+  "generated_at": "2026-06-02T18:03:51.669Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Repomix 是一个命令行工具，可将整个代码仓库打包成单个结构化文件（XML/Markdown 等），方便喂给 Claude、ChatGPT、Gemini 等大模型进行代码分析、问答或重构。支持文件过滤、Token 统计和远程仓库抓取。",
+  "scenarios": [
+    "把项目源码整体丢给 ChatGPT 让其理解架构并答疑",
+    "为 Claude 等长上下文模型生成精简的代码快照用于代码审查",
+    "抓取 GitHub 远程仓库打包后做技术调研",
+    "在 LLM 辅助重构前生成完整代码上下文",
+    "为 AI 编程 Agent 准备项目知识库输入"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "npx 一行命令即可运行，无需复杂配置，文档完善。",
+  "alternatives": [
+    "gitingest",
+    "code2prompt",
+    "ai-digest"
+  ]
+}

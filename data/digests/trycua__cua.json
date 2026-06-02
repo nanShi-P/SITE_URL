@@ -1,0 +1,21 @@
+{
+  "id": "trycua/cua",
+  "source_hash": "29213a5cf6062467f2de5e3aa91de085681ba60c6a8e97e0f15e23f3adb63366",
+  "generated_at": "2026-06-02T18:14:32.418Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源的电脑使用智能体（Computer-Use Agent）基础设施，提供跨平台（macOS、Linux、Windows）的桌面沙箱、SDK 和评测基准，用于训练、运行并评估能够操控整个桌面的 AI 代理。",
+  "scenarios": [
+    "在隔离沙箱中让 LLM 自动完成网页浏览、表单填写等桌面任务",
+    "训练并微调具备 GUI 操作能力的 Computer-Use Agent",
+    "使用统一基准对不同视觉/操作模型进行评测对比",
+    "在 macOS 虚拟机中后台运行 AI 助手执行办公自动化",
+    "为 RPA 或 QA 自动化测试搭建可编程的桌面环境"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及虚拟机/沙箱、跨平台桌面控制及模型集成，环境依赖重、配置链路长。",
+  "alternatives": [
+    "OpenInterpreter",
+    "Self-Operating-Computer",
+    "Anthropic Computer Use"
+  ]
+}

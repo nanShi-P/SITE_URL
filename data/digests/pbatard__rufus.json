@@ -1,0 +1,21 @@
+{
+  "id": "pbatard/rufus",
+  "source_hash": "f081cf37dcd8d28bfcecd5b49b1a969c60a68a939c512a924cfb42dda0a50ba6",
+  "generated_at": "2026-06-02T17:56:13.681Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Rufus 是一款轻量的 Windows 工具，用于格式化 U 盘并制作可启动 USB 启动盘，支持从 ISO 镜像创建 BIOS/UEFI 启动盘，可绕过 Windows 11 安装限制。",
+  "scenarios": [
+    "制作 Windows 10/11 系统安装 U 盘",
+    "用 Linux 发行版 ISO 制作 Live USB",
+    "创建 FreeDOS 启动盘以刷新 BIOS",
+    "格式化 U 盘为 FAT32/NTFS/exFAT 等文件系统",
+    "绕过 TPM/账户限制安装 Windows 11"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供现成的 Windows 可执行文件，图形界面操作直观，无需配置环境。",
+  "alternatives": [
+    "Ventoy",
+    "balenaEtcher",
+    "UNetbootin"
+  ]
+}

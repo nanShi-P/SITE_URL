@@ -1,0 +1,21 @@
+{
+  "id": "zai-org/Open-AutoGLM",
+  "source_hash": "f2279fe640b84f0f52704a8dfa213392dd0806591ce230cfec4cf49f9c31a85b",
+  "generated_at": "2026-06-02T18:04:35.598Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 AutoGLM 视觉语言模型的开源手机智能体框架，通过 ADB 控制安卓设备，结合屏幕理解与任务规划，让用户用自然语言指令自动完成手机操作，如打开应用、搜索内容等，并支持远程调试与敏感操作人工接管。",
+  "scenarios": [
+    "用自然语言指令自动操作手机完成日常任务，如点外卖、发消息",
+    "为视障或不便操作手机的用户提供语音驱动的辅助交互",
+    "手机 App 的 UI 自动化测试与回归",
+    "开发者研究多模态 GUI Agent 与视觉语言模型",
+    "通过远程 ADB 实现云手机或群控场景下的自动化"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要配置 ADB、安卓设备、视觉语言模型推理环境，依赖多且涉及移动端调试，对新手门槛较高。",
+  "alternatives": [
+    "AppAgent",
+    "Mobile-Agent",
+    "Midscene.js"
+  ]
+}

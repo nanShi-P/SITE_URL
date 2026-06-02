@@ -1,0 +1,21 @@
+{
+  "id": "babysor/MockingBird",
+  "source_hash": "5e711fc079e8f571d55aad2d5a5b47c731cc8aa9974095d82c39902944ce47eb",
+  "generated_at": "2026-06-02T17:55:53.334Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于PyTorch的中文语音克隆开源项目，通过预训练编码器和声码器，仅需5秒音频样本即可克隆指定人声并实时合成任意中文语音，支持多个主流中文语音数据集，可在Windows、Linux和M1 macOS上运行，并提供Web服务接口。",
+  "scenarios": [
+    "为短视频或有声书生成特定人声的中文配音",
+    "为虚拟主播或游戏NPC定制个性化语音",
+    "语音合成相关的学术研究与模型实验",
+    "为无障碍应用生成熟悉亲人嗓音的朗读",
+    "搭建自有的语音克隆Web服务接口"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需配置Python、PyTorch、ffmpeg及GPU环境，并涉及数据集准备和模型训练，原作者已停止维护。",
+  "alternatives": [
+    "Real-Time-Voice-Cloning",
+    "coqui-ai/TTS",
+    "PaddleSpeech"
+  ]
+}

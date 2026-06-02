@@ -1,0 +1,21 @@
+{
+  "id": "puckeditor/puck",
+  "source_hash": "f8fc1f8170aefe4fb324f8b7259c812ea21327d05d7c1e8c8adb3b7f5bc9b08d",
+  "generated_at": "2026-06-02T18:21:06.768Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Puck 是一个基于 React 的开源可视化编辑器，开发者可用自己的 React 组件搭建拖拽式页面编辑体验，数据完全自有，适配 Next.js 等环境，采用 MIT 协议。",
+  "scenarios": [
+    "为 CMS 后台集成可视化页面搭建功能",
+    "在 Next.js 项目中实现拖拽式落地页编辑器",
+    "企业内部低代码工具的页面编辑模块",
+    "营销团队自助编辑活动页面",
+    "为 SaaS 产品提供给客户的内容编辑界面"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "作为 React 组件易于集成，但需要自行定义组件配置和数据持久化逻辑。",
+  "alternatives": [
+    "Builder.io",
+    "Plasmic",
+    "GrapesJS"
+  ]
+}

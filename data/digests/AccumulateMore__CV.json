@@ -1,0 +1,21 @@
+{
+  "id": "AccumulateMore/CV",
+  "source_hash": "76116fd19a2e834cbcddbf381ae2f77719244ed81674db39c123abc5ca1f7874",
+  "generated_at": "2026-06-02T18:08:55.850Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "汇总土堆PyTorch、李沐动手学深度学习、吴恩达深度学习以及大模型Agent四套热门视频课程的中文Jupyter Notebook学习笔记，并附配套数据集下载，方便自学者按章节跟课复习。",
+  "scenarios": [
+    "跟随B站土堆视频系统入门PyTorch",
+    "学习李沐《动手学深度学习》时对照笔记复习",
+    "刷吴恩达深度学习课程做章节总结",
+    "准备深度学习面试时快速回顾知识点",
+    "了解大模型与Agent相关基础概念"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯Markdown/Notebook笔记，本地用Jupyter打开即可，无需复杂环境配置。",
+  "alternatives": [
+    "d2l-zh",
+    "Dive-into-DL-PyTorch",
+    "deeplearning.ai-notes"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "willwulfken/MidJourney-Styles-and-Keywords-Reference",
+  "source_hash": "0036d53563ac0ba651f5f7f010d235ad04687dcc1f46e987d35668c661993bc1",
+  "generated_at": "2026-06-02T18:21:28.469Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "这是一个面向 MidJourney AI 用户的风格与关键词参考手册，整理了大量风格示例、关键词对比、分辨率差异、图像权重等可视化效果，方便用户在写 prompt 时直观挑选合适的描述词。",
+  "scenarios": [
+    "撰写 MidJourney prompt 时查找合适的艺术风格关键词",
+    "对比不同关键词生成效果以优化出图质量",
+    "学习图像权重、分辨率参数对生成结果的影响",
+    "作为 AI 绘画教学和分享的参考资料"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档类仓库，无需安装环境，浏览图片和说明即可使用。",
+  "alternatives": [
+    "awesome-chatgpt-prompts",
+    "PromptHero",
+    "Lexica"
+  ]
+}

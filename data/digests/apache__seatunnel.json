@@ -1,0 +1,21 @@
+{
+  "id": "apache/seatunnel",
+  "source_hash": "fe8df2efc252e6d5de7d2cd4ea25da4f7ea39698d21604be4381842305a48a8c",
+  "generated_at": "2026-06-02T18:23:05.053Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Apache SeaTunnel 是一款分布式高性能数据集成工具，支持 160+ 连接器，可在 Zeta、Flink、Spark 引擎上运行，覆盖批处理、流式、CDC 及整库同步，适用于结构化和非结构化等多模态数据的大规模迁移与同步。",
+  "scenarios": [
+    "将 MySQL 数据通过 CDC 实时同步到数据仓库",
+    "跨异构数据库的整库迁移与表结构同步",
+    "构建数据湖时批量导入图片、视频等非结构化数据",
+    "将业务库数据定时同步到 ClickHouse 用于分析",
+    "多源数据汇聚到 Kafka 构建实时数据管道"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "分布式部署、多引擎选型与连接器配置复杂，对运维和大数据栈经验要求较高。",
+  "alternatives": [
+    "Apache NiFi",
+    "Airbyte",
+    "DataX"
+  ]
+}

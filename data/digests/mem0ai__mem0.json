@@ -1,0 +1,21 @@
+{
+  "id": "mem0ai/mem0",
+  "source_hash": "d09d0ccc9af31e31584cb3428bcbd2ac34c79a4fb82a56cd6023de9eb826ea19",
+  "generated_at": "2026-06-02T17:50:21.913Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Mem0 是面向 AI Agent 的通用记忆层，为 LLM 应用提供持久化、个性化的长期记忆能力，支持多用户、多会话场景下的记忆存取与检索，相比长上下文方案显著降低 token 消耗与延迟，提供 Python/Node SDK 及托管服务。",
+  "scenarios": [
+    "为聊天机器人添加跨会话的用户偏好记忆",
+    "构建个性化 AI 助手记住用户历史交互",
+    "客服 Agent 留存客户上下文以连续服务",
+    "RAG 系统中作为长期记忆补充向量检索",
+    "多 Agent 协作时共享与同步知识状态"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 pip/npm 包和清晰文档，但需配置 LLM、向量库等依赖，集成到实际 Agent 仍需一定工程经验。",
+  "alternatives": [
+    "Zep",
+    "Letta",
+    "LangMem"
+  ]
+}

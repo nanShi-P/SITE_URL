@@ -1,0 +1,21 @@
+{
+  "id": "sigoden/aichat",
+  "source_hash": "38ed8c09b4ee7ec4b135b78f7de9ff5305e581d42a59b3b89204bcd6d0a5b080",
+  "generated_at": "2026-06-02T18:22:33.903Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AIChat 是一款用 Rust 编写的命令行 LLM 工具，统一接入 OpenAI、Claude、Gemini、Ollama 等 20 多家模型服务，提供 Shell 助手、交互式 REPL、RAG 检索、AI 工具与 Agent 等功能，适合在终端中完成多场景的 AI 任务。",
+  "scenarios": [
+    "在终端用自然语言生成并执行 Shell 命令",
+    "通过 REPL 与多家 LLM 进行交互式对话与调试",
+    "对本地文档构建 RAG 知识库进行问答",
+    "在脚本中调用统一接口对接不同模型服务",
+    "构建自定义 AI Agent 调用工具完成自动化任务"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供多种包管理器和预编译二进制，安装即用，仅需配置 API Key。",
+  "alternatives": [
+    "llm",
+    "shell_gpt",
+    "mods"
+  ]
+}

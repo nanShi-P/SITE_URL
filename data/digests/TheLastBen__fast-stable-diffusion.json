@@ -1,0 +1,21 @@
+{
+  "id": "TheLastBen/fast-stable-diffusion",
+  "source_hash": "0e783d13e8025a15316a78f7a1ec97954cc08e67568fe732cc7a7e47b2353d8c",
+  "generated_at": "2026-06-02T18:24:06.122Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "在 Colab 上一键部署加速版 Stable Diffusion 环境的 Notebook 集合，涵盖 AUTOMATIC1111 WebUI、ComfyUI 以及 DreamBooth 微调，免去本地配置依赖的繁琐过程。",
+  "scenarios": [
+    "在 Colab 上快速启动 AUTOMATIC1111 WebUI 出图",
+    "使用 ComfyUI 节点式工作流进行图像生成",
+    "通过 DreamBooth 微调出个人专属人物或风格模型",
+    "无本地 GPU 用户白嫖云端跑 SD",
+    "快速测试不同 SD 模型与插件"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供现成 Colab Notebook，点击即跑，无需本地环境配置。",
+  "alternatives": [
+    "camenduru/stable-diffusion-webui-colab",
+    "AUTOMATIC1111/stable-diffusion-webui",
+    "kohya-ss/sd-scripts"
+  ]
+}

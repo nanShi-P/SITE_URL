@@ -1,0 +1,21 @@
+{
+  "id": "opendataloader-project/opendataloader-pdf",
+  "source_hash": "e5d3d51945276213073fa4405de90f79d624fc9ce845834757dee1eb33ab9c59",
+  "generated_at": "2026-06-02T18:07:30.608Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源 PDF 解析工具，将 PDF 转换为 Markdown、JSON、HTML 或带标签的 Tagged PDF，支持版面分析、阅读顺序识别和带坐标的元素输出，可用于 RAG/LLM 数据准备，并提供 PDF 无障碍自动标注能力，提供 Python、Node.js、Java 三种 SDK。",
+  "scenarios": [
+    "为 RAG 或大模型训练管线批量提取 PDF 结构化文本与表格",
+    "解析扫描或数字 PDF 并输出带坐标框的 JSON 供下游标注",
+    "自动生成 Tagged PDF 以加速 PDF/UA 无障碍合规改造",
+    "在企业文档系统中将合同、报告转为 Markdown 入库",
+    "学术论文表格抽取与版面分析研究"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 PyPI、npm、Maven 多语言包，仅需 Java 11+ 环境，文档完整",
+  "alternatives": [
+    "unstructured",
+    "marker",
+    "docling"
+  ]
+}

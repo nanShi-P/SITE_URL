@@ -1,0 +1,20 @@
+{
+  "id": "Max-Eee/NeoPass",
+  "source_hash": "dd1e997c3614e8a01823452ef7c6944cd4e45021642d10dfc2548829b95656c7",
+  "generated_at": "2026-06-02T18:04:49.503Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一款 Chrome 扩展，伪装成 NeoExamShield，用于在 Iamneo、HackerRank、NPTEL 等在线考试平台绕过监考限制，并集成 AI（OpenAI、Gemini、Claude 等）辅助答题、解 MCQ、屏蔽切屏与粘贴检测。",
+  "scenarios": [
+    "在 Iamneo 平台参加编程考试时调用 AI 搜索代码答案",
+    "NPTEL 野生生态学等课程测验时查询答案",
+    "HackerRank 测试中绕过切屏检测",
+    "选中 MCQ 题目快速获取 AI 解答",
+    "通过隐身聊天框与 AI 交互辅助考试"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "Chrome 扩展直接安装，仅需自备 AI API Key 在设置中配置即可使用。",
+  "alternatives": [
+    "EditThisCookie",
+    "Crworm"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "MemPalace/mempalace",
+  "source_hash": "e349cd6955addec49e3a2925819d92127203e79c0df70668e7879a36c575f33f",
+  "generated_at": "2026-06-02T17:51:09.059Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "MemPalace 是一款本地优先的开源 AI 记忆系统，将对话原文逐字存储，通过语义检索调用，并按人物/项目/主题分层索引；默认使用 ChromaDB 后端，可替换，数据不出本机，在 LongMemEval 基准上 R@5 达 96.6%。",
+  "scenarios": [
+    "为 Claude Code 等会话保留长期记忆，避免 30 天过期",
+    "本地构建私人聊天历史知识库并做语义检索",
+    "为 AI Agent 提供可插拔的长程记忆后端",
+    "按项目/人物分域管理多线对话上下文"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI 包和文档，但需自行配置后端、嵌入模型及与客户端的集成钩子。",
+  "alternatives": [
+    "mem0",
+    "Letta",
+    "Zep"
+  ]
+}

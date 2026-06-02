@@ -1,0 +1,21 @@
+{
+  "id": "nanobrowser/nanobrowser",
+  "source_hash": "8eb7d31eaccb65a43c22340f36566b0b6d3550a719124cba012dc20ce5755d11",
+  "generated_at": "2026-06-02T18:20:59.743Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Nanobrowser 是一款开源 Chrome 扩展，通过多智能体系统（规划者+导航者）在本地浏览器中实现 AI 网页自动化，用户可自带 LLM API Key，是 OpenAI Operator 的免费替代方案。",
+  "scenarios": [
+    "自动抓取并汇总多个网站的信息",
+    "让 AI 代为完成表单填写和电商下单流程",
+    "定时巡检网页内容变化并生成报告",
+    "研究人员批量调研竞品资料",
+    "结合自有 LLM Key 测试不同模型的网页操作能力"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "可直接从 Chrome 应用商店安装，仅需配置 LLM API Key 即可使用。",
+  "alternatives": [
+    "browser-use",
+    "Skyvern",
+    "OpenAI Operator"
+  ]
+}

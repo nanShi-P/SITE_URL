@@ -1,0 +1,21 @@
+{
+  "id": "Hmbown/CodeWhale",
+  "source_hash": "b0d547f64621798468c001d7a53977b1f810e366d66b5c3f89f2275f57f648fd",
+  "generated_at": "2026-06-02T17:56:07.304Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CodeWhale 是一个运行在终端的编码代理，基于 DeepSeek V4 与 MiMo 模型，支持流式推理输出、带审批确认的本地工作区编辑，并提供自动模式按对话轮次选择模型和思考强度。",
+  "scenarios": [
+    "在终端中让 AI 辅助阅读和修改本地代码仓库",
+    "通过审批门控安全地让代理执行文件编辑操作",
+    "利用自动模式根据任务复杂度自动切换模型与思考层级",
+    "在 Docker 容器内运行隔离的 AI 编码助手",
+    "以命令行方式集成 DeepSeek API 进行日常开发问答"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 npm、Cargo、Docker 等多种安装方式，但需配置 DeepSeek API Key 并理解模型与审批机制。",
+  "alternatives": [
+    "Aider",
+    "Claude Code",
+    "OpenAI Codex CLI"
+  ]
+}

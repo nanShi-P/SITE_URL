@@ -1,0 +1,21 @@
+{
+  "id": "lyogavin/airllm",
+  "source_hash": "09ca11a43934e394142e957bde121b1fa2d6141132c4ac2095d2e45541463de4",
+  "generated_at": "2026-06-02T18:12:00.226Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AirLLM 通过逐层加载等推理内存优化技术，让 70B 大模型可在单张 4GB 显存的 GPU 上推理，甚至能在 8GB 显存上运行 Llama3.1 405B，无需量化、蒸馏或剪枝。",
+  "scenarios": [
+    "在仅有 4GB 显存的消费级显卡上本地推理 Llama 70B",
+    "在 8GB 显存机器上尝试运行 Llama 3.1 405B 超大模型",
+    "显存受限环境下做大模型评测与对比实验",
+    "个人开发者本地离线部署大模型做问答与生成",
+    "MacOS 设备上体验大模型推理"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装通过 pip 即可，但需要理解显存与磁盘换入换出机制，推理速度较慢且对环境配置有一定要求。",
+  "alternatives": [
+    "llama.cpp",
+    "vLLM",
+    "DeepSpeed-Inference"
+  ]
+}

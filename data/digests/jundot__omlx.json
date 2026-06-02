@@ -1,0 +1,20 @@
+{
+  "id": "jundot/omlx",
+  "source_hash": "44314f65bfcb8a8346eb4c204fe7b831caf52216902a1c1fe0d03dd20dfa32b6",
+  "generated_at": "2026-06-02T18:17:02.918Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "面向 Apple Silicon 的本地 LLM 推理服务器，支持连续批处理与内存/SSD 分层 KV 缓存，可从 macOS 菜单栏管理常驻模型、按需切换及上下文配置。",
+  "scenarios": [
+    "在 Mac 上本地运行 MLX 模型提供 OpenAI 兼容 API",
+    "多模型并发推理时通过持续批处理提升吞吐",
+    "利用 SSD 缓存复用长上下文 KV，减少重复计算",
+    "开发者通过菜单栏一键启停和切换本地模型"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "仅支持 Apple Silicon，需 Python 3.10+ 与 MLX 环境，但文档完善并提供菜单栏 GUI。",
+  "alternatives": [
+    "LM Studio",
+    "Ollama",
+    "mlx-server"
+  ]
+}

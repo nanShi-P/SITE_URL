@@ -1,0 +1,21 @@
+{
+  "id": "treeverse/dvc",
+  "source_hash": "c8f5d57bb362cde73af0319151969f3d7054f06a05268571f003e6ea1e2aba75",
+  "generated_at": "2026-06-02T18:17:15.396Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DVC 是基于 Git 的命令行工具与 VS Code 扩展，用于机器学习项目的数据和模型版本管理、轻量级流水线、实验追踪与对比分享，数据存于云端而版本信息存于 Git 仓库。",
+  "scenarios": [
+    "对训练数据集和模型文件进行版本化管理",
+    "构建可复现的 ML 流水线，仅重跑受影响步骤",
+    "在本地 Git 仓库追踪和对比多组实验",
+    "与团队共享实验结果并一键复现",
+    "对比不同实验的参数、指标与图表"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装简单且文档完善，但需理解 Git 与云存储配置，并掌握 DVC 的流水线概念。",
+  "alternatives": [
+    "MLflow",
+    "Pachyderm",
+    "Weights & Biases"
+  ]
+}

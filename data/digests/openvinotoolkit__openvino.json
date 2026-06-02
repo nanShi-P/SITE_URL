@@ -1,0 +1,20 @@
+{
+  "id": "openvinotoolkit/openvino",
+  "source_hash": "a1db88c4b566fba2a9e04264b4706c1408bc5b453dbf989e8d5dbeaa8ff73939",
+  "generated_at": "2026-06-02T18:22:27.082Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenVINO 是 Intel 开源的深度学习推理优化与部署工具包，支持将 PyTorch、TensorFlow、ONNX 等框架训练的模型在 CPU、GPU、NPU 等硬件上高效运行，覆盖计算机视觉、语音识别、生成式 AI 和大语言模型等场景。",
+  "scenarios": [
+    "在 Intel CPU/GPU 上加速部署 YOLO 等视觉模型",
+    "本地运行 Hugging Face 上的 LLM 推理",
+    "边缘设备上部署语音识别模型",
+    "将 PyTorch 模型转换为 IR 格式以优化推理性能"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "pip 安装便捷，但模型转换、硬件适配和性能调优有一定学习成本。",
+  "alternatives": [
+    "ONNX Runtime",
+    "TensorRT",
+    "TVM"
+  ]
+}

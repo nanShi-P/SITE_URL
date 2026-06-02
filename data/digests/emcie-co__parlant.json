@@ -1,0 +1,20 @@
+{
+  "id": "emcie-co/parlant",
+  "source_hash": "e211eb2ea4a8fe6d5930746b4b5f6fa14fb9b92ab83d4963e746369eef2f6912",
+  "generated_at": "2026-06-02T18:12:55.940Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Parlant 是一个面向客户的 AI 智能体交互控制框架，通过规则化的对话约束机制让 LLM 输出更可控、一致且可预测，适合构建生产级对话机器人。",
+  "scenarios": [
+    "搭建银行或电商的客服聊天机器人",
+    "构建需遵守合规话术的医疗咨询助手",
+    "开发受控话术的销售线索对话代理",
+    "为企业内部知识库构建可审计的问答助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI 安装和快速入门文档，但需理解其交互控制范式和接入 LLM 配置。",
+  "alternatives": [
+    "Rasa",
+    "LangGraph",
+    "Botpress"
+  ]
+}

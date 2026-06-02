@@ -1,0 +1,21 @@
+{
+  "id": "jina-ai/reader",
+  "source_hash": "6b2dec8f2e1be40145ae36ac381ab746aaf4fbcf46b8ab5356c5a8fec932ac37",
+  "generated_at": "2026-06-02T18:22:11.915Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Reader 是 Jina AI 开源的网页转 LLM 友好文本服务，给任意 URL 加上 r.jina.ai 前缀即可抓取并转换为干净的 Markdown，另提供 s.jina.ai 搜索接口，方便 RAG 和 Agent 获取网页内容与最新信息。",
+  "scenarios": [
+    "为 RAG 系统抓取网页正文作为知识库输入",
+    "让 LLM Agent 实时联网搜索获取最新信息",
+    "批量将 PDF、Word 等文档转为 Markdown 喂给大模型",
+    "替代复杂的爬虫和正文提取流程，快速构建问答应用",
+    "自部署私有化网页阅读服务，配合 S3 缓存使用"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供免费托管 API，加前缀即可用；自部署也有 docker compose 一键方案。",
+  "alternatives": [
+    "Firecrawl",
+    "trafilatura",
+    "Mercury Parser"
+  ]
+}

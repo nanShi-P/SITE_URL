@@ -1,0 +1,21 @@
+{
+  "id": "YaoFANGUK/video-subtitle-remover",
+  "source_hash": "f1389489d64d44cf2bda4ccd7c5b2b0c18060193e42e88607e4c55a274af04b7",
+  "generated_at": "2026-06-02T18:21:54.012Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一款基于AI的本地化视频硬字幕和图片文本水印去除工具，使用深度学习算法对去除区域进行像素填充，可保持原分辨率无损输出，支持自定义字幕位置、全自动检测以及图片批量处理，无需调用任何第三方API。",
+  "scenarios": [
+    "去除影视剧、综艺等视频中烧录的硬字幕以便重新翻译压制",
+    "批量清除图片素材上的文字水印用于二次创作",
+    "处理录屏教学视频中固定位置的字幕或台标",
+    "为短视频搬运者去除原视频中的水印文字",
+    "配合字幕提取工具实现字幕替换工作流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供Windows预构建包可直接解压使用，但源码部署需配置CUDA、Paddle、Torch等深度学习环境，对显卡和Python版本有要求。",
+  "alternatives": [
+    "Remove-Video-Subtitle-Tool",
+    "VideoSubFinder",
+    "Lama-Cleaner"
+  ]
+}

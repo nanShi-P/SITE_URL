@@ -1,0 +1,21 @@
+{
+  "id": "bentoml/OpenLLM",
+  "source_hash": "6c420c50a5da467636d9297b27b33f90995f4e1878584b5e1d4e0652a9a374b9",
+  "generated_at": "2026-06-02T18:21:29.368Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenLLM 让开发者用一条命令把 Llama、DeepSeek、Qwen 等开源大模型或自定义模型部署为 OpenAI 兼容的 API 服务，内置聊天界面和高性能推理后端，并支持 Docker、Kubernetes 及 BentoCloud 云端部署。",
+  "scenarios": [
+    "在本地或私有服务器自托管开源 LLM 提供 OpenAI 兼容接口",
+    "将自定义微调模型快速包装成 API 供应用调用",
+    "通过 BentoCloud/K8s 部署企业级 LLM 推理服务",
+    "使用内置 Chat UI 快速测试不同开源模型效果",
+    "替换 OpenAI API 以降低成本或满足数据合规要求"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装命令简单且文档清晰，但运行大模型需要相应 GPU 资源和云部署知识。",
+  "alternatives": [
+    "Ollama",
+    "vLLM",
+    "LocalAI"
+  ]
+}

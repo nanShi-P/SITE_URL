@@ -1,0 +1,21 @@
+{
+  "id": "Mail-0/Zero",
+  "source_hash": "4b26c0f64aac1c566165647818b8926e7228831571f1c4d05944fb64f7a58461",
+  "generated_at": "2026-06-02T18:22:27.315Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Zero 是一款开源的 AI 邮件客户端，作为 Gmail 替代方案支持自托管，可统一接入 Gmail、Outlook 等多家邮箱服务，强调数据隐私不收集用户数据，并通过 AI 代理增强邮件处理体验。",
+  "scenarios": [
+    "自建私有邮件客户端，避免邮件数据被第三方收集",
+    "统一管理 Gmail、Outlook 等多个邮箱账户",
+    "利用 AI 代理自动总结、分类和回复邮件",
+    "团队或开发者基于其代码二次开发定制邮件功能",
+    "注重隐私的个人用户替代主流邮件客户端"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需自托管部署，涉及 Next.js、PostgreSQL、Google OAuth 等多项配置，对环境和运维有一定要求。",
+  "alternatives": [
+    "Inbox Zero",
+    "Skiff Mail",
+    "Proton Mail"
+  ]
+}

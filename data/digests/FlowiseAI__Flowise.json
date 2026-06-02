@@ -1,0 +1,21 @@
+{
+  "id": "FlowiseAI/Flowise",
+  "source_hash": "220fa5da751aa622312e7cce569f18ba2c9e6059b8e155ae1327a92f1e594ce7",
+  "generated_at": "2026-06-02T17:51:16.967Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Flowise 是一个开源的可视化 AI 智能体与 LLM 应用搭建平台，通过拖拽节点的方式编排对话流、RAG 检索、多智能体协作等工作流，并可一键部署为 API 或嵌入式聊天组件。",
+  "scenarios": [
+    "快速搭建基于私有文档的问答机器人",
+    "可视化设计多智能体协作的自动化工作流",
+    "为企业内部系统集成对话式 AI 接口",
+    "教学演示 LLM 应用开发流程",
+    "原型验证 RAG、Agent 等 AI 方案"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 npm 全局安装和 Docker 部署，文档完善，无需编码即可上手。",
+  "alternatives": [
+    "Langflow",
+    "Dify",
+    "n8n"
+  ]
+}

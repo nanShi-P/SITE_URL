@@ -1,0 +1,21 @@
+{
+  "id": "TEN-framework/ten-framework",
+  "source_hash": "51986d5937bcba8a05e36fe96082a7ca2c6bbdeb9809be2a75a67a17b142cd95",
+  "generated_at": "2026-06-02T18:22:25.641Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "TEN 是一个开源的实时多模态对话式 AI 框架，专注于构建语音 AI Agent，提供 VAD、Agent 示例等完整生态，支持本地、Codespaces 和 Docker 等多种部署方式。",
+  "scenarios": [
+    "搭建实时语音对话 AI 助手",
+    "开发多模态交互的客服或陪伴机器人",
+    "快速试验语音 Agent 原型并部署到云端",
+    "集成 VAD 实现语音活动检测的应用",
+    "基于示例二次开发企业语音应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供完整文档、多语言 README 与 Docker 部署示例，但涉及实时音频与多组件集成，需一定工程基础。",
+  "alternatives": [
+    "LiveKit Agents",
+    "Pipecat",
+    "Vocode"
+  ]
+}

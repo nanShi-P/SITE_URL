@@ -1,0 +1,20 @@
+{
+  "id": "PeterL1n/RobustVideoMatting",
+  "source_hash": "096c09f1053c4e08b0975bd11ea441945093c32ecea108f3167b54c45d5a3cdd",
+  "generated_at": "2026-06-02T18:23:05.176Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "字节跳动开源的鲁棒视频人像抠图模型，基于循环神经网络利用时序信息处理视频，无需额外输入即可实时分离前景人物，GTX 1080 Ti 上可达 4K 76FPS、HD 104FPS，提供 PyTorch、TensorFlow、TF.js、ONNX、CoreML 多框架权重。",
+  "scenarios": [
+    "视频会议或直播实时去除背景",
+    "短视频后期人像抠像与背景替换",
+    "网页端通过 TF.js 实现浏览器内实时抠图",
+    "移动端 App 使用 CoreML 集成人像分割功能"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供预训练模型和 Colab 演示便于上手，但实际部署涉及多框架推理和视频处理环节，需一定深度学习与工程经验。",
+  "alternatives": [
+    "MODNet",
+    "BackgroundMattingV2",
+    "RemBG"
+  ]
+}

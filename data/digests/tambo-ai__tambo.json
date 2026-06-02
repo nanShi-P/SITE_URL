@@ -1,0 +1,20 @@
+{
+  "id": "tambo-ai/tambo",
+  "source_hash": "9b10d24ebf9aa853601f938951ad5295a8cabef3209f1c6b6bfdfd0f7c785ed9",
+  "generated_at": "2026-06-02T18:21:52.577Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Tambo 是一款面向 React 的开源生成式 UI SDK，让 AI 代理能根据对话动态渲染你已有的 React 组件，内置流式输出、状态管理和 MCP 协议支持，免去自行拼装这些底层能力。",
+  "scenarios": [
+    "在 SaaS 产品中嵌入 AI 助手，按用户意图动态展示表单、图表等组件",
+    "构建对话式数据看板，让 LLM 实时调用业务组件呈现结果",
+    "为电商或客服场景开发可生成卡片、列表的智能聊天界面",
+    "通过 MCP 接入外部工具，搭建带 UI 反馈的 React 代理应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要熟悉 React 与 LLM/MCP 概念并接入云端服务，但官方提供 SDK、文档和示例，上手门槛适中。",
+  "alternatives": [
+    "Vercel AI SDK",
+    "CopilotKit",
+    "assistant-ui"
+  ]
+}

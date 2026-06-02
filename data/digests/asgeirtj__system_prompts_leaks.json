@@ -1,0 +1,21 @@
+{
+  "id": "asgeirtj/system_prompts_leaks",
+  "source_hash": "752c05946a4fc8f4e4a13b0628f78d64ccc6dc5c877953fb8a18fc102041f19a",
+  "generated_at": "2026-06-02T17:54:02.673Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库收集并持续更新各大主流 AI 产品被泄露或提取出的系统提示词，涵盖 Anthropic Claude、OpenAI ChatGPT/Codex、Google Gemini、xAI Grok、GitHub Copilot、Perplexity 等，按厂商分目录存放为 Markdown 文件，方便查阅与对照研究。",
+  "scenarios": [
+    "研究主流大模型的提示工程写法与风格",
+    "对比不同厂商对安全、工具调用的约束方式",
+    "为自建 Agent 或应用设计系统提示词时参考借鉴",
+    "学术论文或博客撰写时引用真实提示词样本",
+    "AI 安全与越狱研究的素材库"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯 Markdown 文档仓库，无需任何环境依赖，直接浏览即可。",
+  "alternatives": [
+    "jujumilk3/leaked-system-prompts",
+    "linexjlin/GPTs",
+    "0xeb/TheBigPromptLibrary"
+  ]
+}

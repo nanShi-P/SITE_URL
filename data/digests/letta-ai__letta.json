@@ -1,0 +1,21 @@
+{
+  "id": "letta-ai/letta",
+  "source_hash": "7cb0d95e5519f2c8885d6f947419971463a90467b2d31f0348cac952e124810c",
+  "generated_at": "2026-06-02T18:06:47.448Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Letta（原 MemGPT）是一个用于构建有状态 AI 智能体的平台，提供持久化记忆能力，让智能体能够跨会话学习并自我改进，支持 CLI 本地运行和 API/SDK 集成到自有应用中。",
+  "scenarios": [
+    "在终端通过 Letta Code CLI 调用具备长期记忆的本地编码助手",
+    "通过 Python/TypeScript SDK 在产品中嵌入带记忆的客服或陪伴型 Agent",
+    "构建可持续学习用户偏好的个性化推荐或助理应用",
+    "为多轮长对话场景提供超出上下文窗口的记忆管理",
+    "搭建带 skills 与 subagents 的多智能体协作系统"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 CLI 与 SDK 且文档完善，但要发挥有状态记忆与多智能体能力需理解 memory blocks 等概念并接入模型 API。",
+  "alternatives": [
+    "LangGraph",
+    "mem0",
+    "CrewAI"
+  ]
+}

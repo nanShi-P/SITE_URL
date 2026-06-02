@@ -1,0 +1,21 @@
+{
+  "id": "ShishirPatil/gorilla",
+  "source_hash": "a9afa41314d660d1e06752ccd8f08df6afb3568424a1d201dab144b71b2ae765",
+  "generated_at": "2026-06-02T18:21:07.196Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Gorilla 是伯克利推出的研究项目，用于训练和评测大语言模型调用 API 与工具的能力，配套发布了 Berkeley Function Calling Leaderboard（BFCL）基准、数据集及微调模型，覆盖多轮、Agent、Web 搜索等真实场景。",
+  "scenarios": [
+    "评测自有 LLM 在 function calling 任务上的准确率",
+    "对比不同模型的工具调用能力以选型",
+    "研究 Agent 多轮工具使用和记忆管理",
+    "基于 Gorilla 模型为应用集成 API 调用能力",
+    "学术论文中作为函数调用基准引用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "代码与文档较完整，但需配置 LLM API key、安装多依赖并理解评测流程，对新手有一定门槛。",
+  "alternatives": [
+    "ToolBench",
+    "NexusRaven",
+    "API-Bank"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "huggingface/peft",
+  "source_hash": "9a90d95d9e6428e5b73c29a166458f6226fe08a9a04b2e6a3659a4977aab9688",
+  "generated_at": "2026-06-02T18:09:10.894Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PEFT 是 Hugging Face 推出的参数高效微调库，集成 LoRA、Prefix Tuning、Prompt Tuning 等主流方法，只需训练少量额外参数即可适配大模型，大幅降低显存和存储开销，并与 Transformers、Diffusers、Accelerate 深度整合，支持分布式训练与推理。",
+  "scenarios": [
+    "在消费级 GPU 上用 LoRA 微调 LLaMA、Qwen 等大语言模型",
+    "为 Stable Diffusion 等扩散模型训练和切换多个风格 LoRA 适配器",
+    "在有限算力下对大模型做特定领域（如医疗、法律）指令微调",
+    "训练多个任务适配器，共享同一基座模型进行多任务部署",
+    "结合 Accelerate/DeepSpeed 对超大模型进行分布式高效微调"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "API 封装良好且文档丰富，但需要理解大模型微调流程及 Transformers 生态，对 GPU 环境有一定要求。",
+  "alternatives": [
+    "LLaMA-Factory",
+    "axolotl",
+    "unsloth"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "xcanwin/KeepChatGPT",
+  "source_hash": "1e652163c1fb04e66c973320c9d4bd65e1998aaa2925a28c082c690d431f7f17",
+  "generated_at": "2026-06-02T18:18:49.123Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一款基于油猴的ChatGPT网页端浏览器脚本，集成自动刷新、保持活跃、取消审计、克隆对话、净化页面、宽屏显示、拦截跟踪等多项实用增强功能，旨在减少报错与警告，让ChatGPT使用更顺畅、安全和高效。",
+  "scenarios": [
+    "长时间使用ChatGPT避免掉线和频繁报错",
+    "隐藏邮箱等个人信息以保护隐私",
+    "一键克隆对话以绕过审计或继续中断的会话",
+    "将聊天界面宽屏化提升阅读体验",
+    "屏蔽官方跟踪请求减少数据上报"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "通过Tampermonkey一键安装油猴脚本，无需配置任何环境。",
+  "alternatives": [
+    "ChatGPT-Next-Web",
+    "ChatHub"
+  ]
+}

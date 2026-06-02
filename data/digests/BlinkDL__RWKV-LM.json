@@ -1,0 +1,21 @@
+{
+  "id": "BlinkDL/RWKV-LM",
+  "source_hash": "90dd6971d5125ba31fa334a53b42b3d082bdbc9bb33a0936b7ea5a74befc33f4",
+  "generated_at": "2026-06-02T18:20:19.769Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "RWKV 是一种线性时间、常数空间、无 KV cache 的纯 RNN 大模型架构，但可像 Transformer 那样并行训练，性能对标主流 LLM。当前主版本为 RWKV-7 \"Goose\"，支持长上下文、快速推理与多模态扩展，已成为 Linux 基金会 AI 项目，仓库提供训练代码、权重和推理示例。",
+  "scenarios": [
+    "研究新型 RNN/线性注意力架构并复现 RWKV-7",
+    "在显存有限的设备上部署长上下文 LLM 推理",
+    "从零训练或微调自有 RWKV 语言模型",
+    "将已有 Transformer 模型迁移升级为 RWKV-7",
+    "用作多模态或嵌入式场景的轻量基础模型"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及自研架构、CUDA 算子和大模型训练，文档分散且偏研究向，对深度学习与工程能力要求高。",
+  "alternatives": [
+    "Mamba",
+    "RetNet",
+    "Mistral"
+  ]
+}

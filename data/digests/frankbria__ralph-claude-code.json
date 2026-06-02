@@ -1,0 +1,21 @@
+{
+  "id": "frankbria/ralph-claude-code",
+  "source_hash": "1feec860b5be95dbb093ecb255138e9f4e407119d2ba9804a40c89f87e34e7bb",
+  "generated_at": "2026-06-02T18:23:13.688Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Ralph 为 Claude Code 提供自主开发循环脚本，让其反复迭代改进项目，直到检测到完成信号才退出，内置速率限制、断路器和会话续传等防失控机制，安装后可在任意目录作为全局命令使用。",
+  "scenarios": [
+    "让 Claude Code 在夜间无人值守地持续完善某个代码库",
+    "自动化迭代修复测试失败直到全部通过",
+    "按需求文档自动生成并打磨原型项目",
+    "在限定 API 调用预算内进行长时间自动重构",
+    "断点续跑此前中断的自主开发会话"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需安装并配置 Claude Code CLI 及理解循环参数，但文档详尽、命令化使用。",
+  "alternatives": [
+    "aider",
+    "SWE-agent",
+    "OpenDevin"
+  ]
+}

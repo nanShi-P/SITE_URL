@@ -1,0 +1,20 @@
+{
+  "id": "X-PLUG/MobileAgent",
+  "source_hash": "c3cf1fa436a903a06f9d29205f4b16bde4555287a2ddbb5c1a0fe2d9a4590856",
+  "generated_at": "2026-06-02T18:23:23.884Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "阿里通义实验室出品的 GUI 智能体项目，基于自研 GUI-Owl 视觉语言模型，可在手机和电脑上理解屏幕并自动执行点击、输入等操作完成任务，提供多版本模型与在线 Demo。",
+  "scenarios": [
+    "让手机自动完成订外卖、点咖啡等多步骤 App 操作",
+    "在 PC 上自动操控浏览器和办公软件完成重复任务",
+    "作为 GUI Agent 研究的基线模型用于学术评测",
+    "二次开发企业内部的自动化办公助手"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要部署大模型、配置 ADB 或桌面环境，并对 Agent 框架有一定理解。",
+  "alternatives": [
+    "AppAgent",
+    "OpenAdapt",
+    "Anthropic Computer Use"
+  ]
+}

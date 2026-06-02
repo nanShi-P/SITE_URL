@@ -1,0 +1,20 @@
+{
+  "id": "rockbenben/ChatGPT-Shortcut",
+  "source_hash": "90ae8930646bfbd12a124da645820f9810e0e65c0e1afc15d6c3bfaecaebe08d",
+  "generated_at": "2026-06-02T18:23:47.525Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AiShort 是一个开源的 AI 提示词管理与分享平台，基于 Docusaurus 搭建，提供多语言的提示词收集、分类、搜索和一键复制功能，并支持社区分享，帮助用户更高效地复用 ChatGPT 等大模型的常用指令。",
+  "scenarios": [
+    "快速查找并复制写作、翻译、编程等场景的优质提示词",
+    "团队内部沉淀和管理常用 Prompt 模板",
+    "在社区中分享和发现新的 AI 玩法",
+    "自部署一个多语言的提示词站点供公司或个人使用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基于 Docusaurus + React 的前端项目，本地运行需 Node 环境和一定的前端基础，但文档较完善。",
+  "alternatives": [
+    "awesome-chatgpt-prompts",
+    "FlowGPT",
+    "PromptHero"
+  ]
+}

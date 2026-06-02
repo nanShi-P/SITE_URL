@@ -1,0 +1,21 @@
+{
+  "id": "promptfoo/promptfoo",
+  "source_hash": "a4dfc63408659b32383b70aa23b49a5f04cca7827be2850de9878d5ee63dd8f9",
+  "generated_at": "2026-06-02T18:08:28.998Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "promptfoo 是一个用于评测和红队测试大语言模型应用的命令行工具与库，支持通过声明式 YAML 配置对 GPT、Claude、Gemini、DeepSeek 等多家模型的 prompt、Agent 和 RAG 进行对比测试，并可集成到 CI/CD 中扫描安全漏洞。",
+  "scenarios": [
+    "对比不同模型在同一 prompt 下的输出质量",
+    "对 RAG 应用做回归测试，防止改动导致效果下降",
+    "在 CI 流水线中自动评估 prompt 改动",
+    "对 LLM 应用做红队渗透，发现越狱和注入漏洞",
+    "评估 Agent 在多场景下的稳定性"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "npm/brew/pip 一键安装，自带示例和详细文档，仅需配置 API key 即可开跑",
+  "alternatives": [
+    "LangSmith",
+    "DeepEval",
+    "Ragas"
+  ]
+}

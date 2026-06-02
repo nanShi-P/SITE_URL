@@ -1,0 +1,21 @@
+{
+  "id": "zhayujie/CowAgent",
+  "source_hash": "9c549c7a986cafb06ed5f392a0da8b2dc3eafd5c1187cef9e2d4eef73d26c044",
+  "generated_at": "2026-06-02T17:52:54.200Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CowAgent 是一个开源的通用 AI 助理与 Agent 框架，支持任务规划、工具调用、技能扩展、长期记忆和个人知识库，可对接多种大模型，部署到网页或主流 IM 平台 7×24 运行。",
+  "scenarios": [
+    "搭建私人 AI 助理处理日常任务",
+    "在微信、飞书等 IM 平台接入智能客服机器人",
+    "基于技能市场扩展自定义自动化工作流",
+    "结合知识库构建企业问答助手",
+    "在个人电脑上长期运行的 Agent 自动操作"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供一键安装与详细文档，但涉及大模型配置、渠道接入与技能扩展，需一定工程基础。",
+  "alternatives": [
+    "Dify",
+    "LangChain",
+    "AutoGPT"
+  ]
+}

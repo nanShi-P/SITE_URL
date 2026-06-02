@@ -1,0 +1,21 @@
+{
+  "id": "FunAudioLLM/SenseVoice",
+  "source_hash": "99769f88ef982caed0aabfbb7207cb8eb0f87e097442e83f65be8564efeec899",
+  "generated_at": "2026-06-02T18:23:39.401Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "SenseVoice 是阿里 FunAudioLLM 推出的多语种语音理解基础模型，集成语音识别、语种识别、情感识别和音频事件检测四项能力，支持 50 多种语言，采用非自回归架构，10 秒音频仅需 70ms 推理，速度约为 Whisper 的 15 倍。",
+  "scenarios": [
+    "多语种语音转写与字幕生成",
+    "客服通话情感分析与质检",
+    "会议录音中检测掌声、笑声等事件",
+    "语音助手的低延迟前端识别",
+    "跨语言短视频内容理解与标注"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供预训练模型和示例代码，但需配置 PyTorch/FunASR 环境并下载较大模型权重。",
+  "alternatives": [
+    "Whisper",
+    "FunASR",
+    "Paraformer"
+  ]
+}

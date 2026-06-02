@@ -1,0 +1,21 @@
+{
+  "id": "TheR1D/shell_gpt",
+  "source_hash": "8f1e55f0bbbd80fe9f51c4f70947dd4c79775a81a8d5d105cfd97b6d5d33a500",
+  "generated_at": "2026-06-02T18:21:29.100Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ShellGPT 是一款基于大语言模型的命令行助手，可在终端中直接生成 shell 命令、代码片段和文档，支持 Linux/macOS/Windows 及主流 Shell，兼容 OpenAI API 和 Ollama 等本地模型后端。",
+  "scenarios": [
+    "在终端里用自然语言生成并执行 shell 命令",
+    "通过 git diff 管道自动生成提交信息",
+    "快速查询技术概念或命令用法，替代 Google 搜索",
+    "分析日志、配置文件等文本输入",
+    "生成代码片段或简单文档"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 一键安装，仅需配置 API Key 即可使用，文档清晰。",
+  "alternatives": [
+    "aichat",
+    "tgpt",
+    "github-copilot-cli"
+  ]
+}

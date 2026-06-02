@@ -1,0 +1,21 @@
+{
+  "id": "alibaba/zvec",
+  "source_hash": "9fc99b78cd13053be84c7c4c87426551006948d0cd9b5ec1b9bed4314b45da32",
+  "generated_at": "2026-06-02T18:22:51.834Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "阿里巴巴开源的轻量级进程内向量数据库，无需独立服务即可嵌入应用使用，提供 Python 和 Node.js 包，主打低延迟和高性能的向量检索能力。",
+  "scenarios": [
+    "在 Python 应用中嵌入向量检索功能，无需部署独立数据库",
+    "为 Node.js 应用添加本地语义搜索能力",
+    "RAG 应用的本地向量存储与召回",
+    "边缘设备或资源受限环境下的小规模向量索引",
+    "原型开发与离线测试中替代重型向量数据库"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "以 pip/npm 包形式提供，进程内嵌入式使用，无需部署服务端，官方文档和快速入门齐全。",
+  "alternatives": [
+    "chroma",
+    "sqlite-vec",
+    "faiss"
+  ]
+}

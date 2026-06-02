@@ -1,0 +1,20 @@
+{
+  "id": "tmc/langchaingo",
+  "source_hash": "dd5710f61831a3737a4f9ab734988660a781068c5851ff6ee53794cddbd95f8c",
+  "generated_at": "2026-06-02T18:23:04.071Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LangChain 的 Go 语言实现，提供调用大模型、组合提示、链式调用、向量存储和 Agent 等能力，方便 Go 开发者用熟悉的语法构建基于 LLM 的应用，避免再去依赖 Python 生态。",
+  "scenarios": [
+    "在 Go 后端服务里集成 OpenAI、Ollama 等模型做文本生成",
+    "基于向量数据库实现文档问答（RAG）",
+    "用 Agent 和工具调用编排多步骤任务",
+    "为已有 Go 微服务添加聊天机器人或摘要功能"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Go API 直观且文档与示例齐全，但需要理解 LLM/链/向量库等概念并自行配置模型密钥与依赖。",
+  "alternatives": [
+    "langchain",
+    "llamaindex",
+    "genkit"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "huginn/huginn",
+  "source_hash": "ab66dd023b3401818354e63db686afd910ddc3a174d83be746b74187931549de",
+  "generated_at": "2026-06-02T17:51:49.376Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Huginn 是一个自托管的自动化代理平台，可创建在网络上监控信息、抓取数据、响应事件并代你执行操作的智能体，类似可自由定制的 IFTTT 或 Zapier，数据完全掌握在自己手中。",
+  "scenarios": [
+    "抓取网站内容变更并邮件通知",
+    "监控天气、航班或购物优惠并推送提醒",
+    "跟踪 Twitter 关键词热度变化并发送告警",
+    "通过 Webhook 串联多个服务实现自定义工作流",
+    "定时聚合 RSS、IMAP 等多源信息生成每日摘要邮件"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基于 Ruby on Rails，需要自行部署数据库和运行环境，但官方提供 Docker 镜像与较完善文档。",
+  "alternatives": [
+    "n8n",
+    "Node-RED",
+    "Apache NiFi"
+  ]
+}

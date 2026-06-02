@@ -1,0 +1,21 @@
+{
+  "id": "langfuse/langfuse",
+  "source_hash": "1f267b4216dd7049bc16fb87bb764d184f70687e5c650cd5deb06fc2a35606e2",
+  "generated_at": "2026-06-02T18:00:54.807Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Langfuse 是一个开源的 LLM 应用工程平台，提供链路追踪、指标监控、评估、提示词管理、Playground 和数据集等功能，兼容 OpenTelemetry、Langchain、OpenAI SDK、LiteLLM 等主流框架，支持云服务和自托管部署。",
+  "scenarios": [
+    "调试和追踪基于 LLM 的应用调用链路",
+    "管理和版本化生产环境的提示词",
+    "对模型输出进行人工或自动化评估",
+    "收集真实用户数据构建评测数据集",
+    "监控 LLM 应用的成本、延迟和质量指标"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "SDK 接入较简单，但自托管涉及 Postgres、ClickHouse、Redis 等多组件部署，需要一定运维能力。",
+  "alternatives": [
+    "LangSmith",
+    "Helicone",
+    "Phoenix (Arize)"
+  ]
+}

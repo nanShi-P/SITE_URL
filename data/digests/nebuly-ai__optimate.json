@@ -1,0 +1,20 @@
+{
+  "id": "nebuly-ai/optimate",
+  "source_hash": "e53e04b222dc13b9021b158088cfd308327d7aea4cbca45eae8ba32d4d8eec96",
+  "generated_at": "2026-06-02T18:23:49.416Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Nebuly 开源的 AI 模型优化工具合集，包含 Speedster（推理加速）、Nos（Kubernetes GPU 集群利用率优化）和 ChatLLaMA（RLHF 微调优化）三个子项目，目前已停止维护，仅作为历史代码归档保留。",
+  "scenarios": [
+    "在 GPU/CPU 上对深度学习模型进行推理加速以降低成本",
+    "在 Kubernetes 集群中动态分配 GPU 资源提高利用率",
+    "使用 RLHF 方法低成本微调 LLaMA 类大模型",
+    "研究模型优化与推理加速的开源实现"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "项目已停止维护，依赖陈旧，子库涉及 GPU 编译器、K8s 与 RLHF 训练，环境配置复杂且缺乏官方支持。",
+  "alternatives": [
+    "NVIDIA TensorRT",
+    "BentoML OpenLLM",
+    "DeepSpeed-Chat"
+  ]
+}

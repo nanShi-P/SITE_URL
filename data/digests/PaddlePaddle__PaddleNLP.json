@@ -1,0 +1,21 @@
+{
+  "id": "PaddlePaddle/PaddleNLP",
+  "source_hash": "b201102dfe4b55e8504d670e69bdfe8c8456778e5799b4b95d1a39d3c15f2f76",
+  "generated_at": "2026-06-02T18:20:58.719Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于飞桨深度学习框架的大语言模型开发套件，覆盖大模型训练、压缩与高性能推理全流程，支持多种国产及主流硬件，内置丰富的预训练模型库，方便开发者进行 LLM 的微调、部署与产业落地。",
+  "scenarios": [
+    "在国产硬件（昇腾、昆仑芯等）上训练和部署大语言模型",
+    "对 LLaMA、Qwen 等开源大模型进行 SFT/LoRA 微调",
+    "使用量化与压缩技术降低大模型推理成本",
+    "搭建企业内部的高性能 LLM 推理服务",
+    "研究中文 NLP 任务的预训练与下游应用"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "深度绑定飞桨框架，环境配置复杂，大模型训练与分布式推理对硬件和工程经验要求较高。",
+  "alternatives": [
+    "Hugging Face Transformers",
+    "ModelScope",
+    "LLaMA-Factory"
+  ]
+}

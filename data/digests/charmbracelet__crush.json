@@ -1,0 +1,21 @@
+{
+  "id": "charmbracelet/crush",
+  "source_hash": "65c0f22dcf60347f38ff3644c8227db7c8cd2e355c26025713541ad474e60ae9",
+  "generated_at": "2026-06-02T18:04:57.820Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Crush 是 Charm 团队推出的终端 AI 编程助手，支持多种 LLM 自由切换、会话上下文保留、LSP 增强与 MCP 扩展，跨平台运行于各类终端中，让你在命令行里完成 AI 辅助编码。",
+  "scenarios": [
+    "在终端里用 AI 辅助阅读和修改项目代码",
+    "会话中途切换不同 LLM 模型继续工作",
+    "通过 MCP 接入自定义工具扩展 AI 能力",
+    "在 Windows、macOS、Linux、BSD 等多平台终端统一使用",
+    "为同一项目维护多个并行的编码会话上下文"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 Homebrew、npm、winget 等多种包管理器一键安装，配置 API Key 即可使用。",
+  "alternatives": [
+    "aider",
+    "OpenCode",
+    "Claude Code"
+  ]
+}

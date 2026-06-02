@@ -1,0 +1,21 @@
+{
+  "id": "aaif-goose/goose",
+  "source_hash": "57ae729143dbafe7b50a246f669e299fa909329f14463bca8c191256d7a3c206",
+  "generated_at": "2026-06-02T17:52:40.041Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "goose 是一款本地运行的开源通用 AI 智能体，提供桌面应用、CLI 和 API 三种形态，用 Rust 构建。支持 Anthropic、OpenAI、Ollama 等 15+ 模型供应商，并通过 MCP 协议接入 70+ 扩展，可执行代码、编辑文件、自动化工作流等任务。",
+  "scenarios": [
+    "在本地终端通过 CLI 让 AI 自动编写、运行并测试代码",
+    "调用 MCP 扩展连接数据库、浏览器等工具完成研究与数据分析",
+    "用桌面应用配合自有 Claude/ChatGPT 订阅处理写作与日常自动化",
+    "将 goose API 嵌入到企业内部系统作为智能体后端",
+    "结合 Ollama 等本地模型实现离线私有化 AI 助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供桌面安装包和 CLI，上手不难，但需配置模型供应商密钥、MCP 扩展及对智能体工作机制有一定理解。",
+  "alternatives": [
+    "Aider",
+    "OpenDevin",
+    "Cline"
+  ]
+}

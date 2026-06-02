@@ -1,0 +1,21 @@
+{
+  "id": "simstudioai/sim",
+  "source_hash": "d387551c6ac6daa648e57608b518a6f995c5be60b45027a954ad320d7041d045",
+  "generated_at": "2026-06-02T18:00:34.490Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Sim 是一个开源 AI 智能体编排平台，提供可视化工作流编辑器，可连接上千种第三方集成和主流大模型，用于搭建、部署并运行多智能体协作任务。",
+  "scenarios": [
+    "搭建自动化客服或销售助手工作流",
+    "将多个 LLM 与企业 SaaS 工具串联实现业务自动化",
+    "团队内部构建可复用的 AI Agent 流水线",
+    "为应用快速集成 RAG 与多步推理能力"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker Compose 一键部署，但涉及多服务、模型密钥与集成配置，需要一定运维基础。",
+  "alternatives": [
+    "n8n",
+    "Dify",
+    "Flowise",
+    "LangFlow"
+  ]
+}

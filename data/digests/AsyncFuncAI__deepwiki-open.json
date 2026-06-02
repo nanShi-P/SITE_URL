@@ -1,0 +1,21 @@
+{
+  "id": "AsyncFuncAI/deepwiki-open",
+  "source_hash": "baf14d7a64a886a79625e5e19f1a3ff08b7c2acb7a0bafe09989c79dba56546b",
+  "generated_at": "2026-06-02T18:15:56.474Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DeepWiki-Open 是 DeepWiki 的开源实现，输入 GitHub、GitLab 或 Bitbucket 仓库地址后，自动分析代码结构、生成文档说明和可视化架构图，并整理成可交互浏览的 Wiki 站点，帮助快速理解陌生项目。",
+  "scenarios": [
+    "快速了解陌生开源项目的整体架构",
+    "为团队内部代码库自动生成文档站点",
+    "新成员入职时辅助阅读项目源码",
+    "技术选型时对比多个仓库的实现思路",
+    "为开源项目补充缺失的文档与图示"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行部署前后端服务并配置大模型 API Key，README 提供基本指引但依赖较多。",
+  "alternatives": [
+    "DeepWiki",
+    "GitDocs",
+    "Sourcegraph Cody"
+  ]
+}

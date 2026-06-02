@@ -1,0 +1,21 @@
+{
+  "id": "Canner/WrenAI",
+  "source_hash": "12240e3beaafffb82ffee4f6d4d763f9c3eee451758a8ce1b1605a1de5abb523",
+  "generated_at": "2026-06-02T18:18:00.667Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "WrenAI 是一个开源的 AI 业务数据上下文层，为 AI Agent 提供语义模型、治理记忆和跨 20+ 数据源的 SQL 能力，用于构建文本转 SQL、生成式 BI、仪表盘和智能分析等场景。",
+  "scenarios": [
+    "让 AI Agent 基于企业语义自动生成准确的 SQL 查询",
+    "搭建自然语言问答式的 GenBI 数据分析平台",
+    "为业务团队提供 text-to-SQL 自助数据探索",
+    "构建带上下文记忆的智能分析仪表盘",
+    "统一接入多种异构数据源做联邦查询"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 部署和文档，但需配置 LLM、数据源和语义模型，涉及组件较多。",
+  "alternatives": [
+    "Vanna.ai",
+    "Dataherald",
+    "DB-GPT"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "eyaltoledano/claude-task-master",
+  "source_hash": "998d9e9d59c14338a1a6099070e72d2c908138979431a76e5ffa14c6af997642",
+  "generated_at": "2026-06-02T18:02:06.360Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Taskmaster 是一个面向 AI 驱动开发的任务管理系统，可通过 MCP 接入 Cursor、Windsurf、Roo、Claude 等 AI 编辑器，把 PRD 拆解为可追踪的子任务并辅助迭代执行。",
+  "scenarios": [
+    "在 Cursor 中将产品需求文档自动拆分为开发任务",
+    "结合 Claude Code 推进多步骤编码任务",
+    "团队用 CLI 管理 AI 协作的开发进度",
+    "在 Windsurf/Roo 等编辑器中跟踪子任务依赖"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "通过 npm 安装并配置 API Key 即可在主流 AI 编辑器中使用，文档齐全。",
+  "alternatives": [
+    "BMAD-Method",
+    "Roo Code Boomerang",
+    "Cline Memory Bank"
+  ]
+}

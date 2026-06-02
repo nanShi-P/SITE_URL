@@ -1,0 +1,21 @@
+{
+  "id": "danielmiessler/Fabric",
+  "source_hash": "af4e827ccce5842c5e5fdb8992c7c3aca048d145e14847e66c2a70d2adbab680",
+  "generated_at": "2026-06-02T17:53:48.855Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Fabric 是一个开源 AI 增强框架，通过命令行调用一套众包的 Prompt 模板（Patterns），把摘要、提取、分析等常见任务模块化，可与多种大模型对接，方便集成到脚本和日常工作流中。",
+  "scenarios": [
+    "用 summarize 模式对长文章或 YouTube 视频转录稿做要点摘要",
+    "提取论文或会议记录中的观点、待办事项和引用",
+    "在终端管道中调用 LLM 处理日志、代码或文本",
+    "为团队沉淀和复用一套标准化的 Prompt 库",
+    "通过 REST API 把 Pattern 能力集成到自有应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行安装 Go/CLI、配置 API Key 和模型，但官方文档详尽、Pattern 开箱即用。",
+  "alternatives": [
+    "LangChain",
+    "LlmCmd",
+    "Promptfoo"
+  ]
+}

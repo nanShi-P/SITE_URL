@@ -1,0 +1,20 @@
+{
+  "id": "github/spec-kit",
+  "source_hash": "1c3844296a414b2416ff6a23ce7ff09341c4fad9a094e3baa62d2fc61138af31",
+  "generated_at": "2026-06-02T17:46:08.371Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "GitHub 官方推出的规范驱动开发（Spec-Driven Development）工具包，提供 Specify CLI，帮助开发者先写清晰规范再让 AI 编码代理生成实现，覆盖从需求到代码的完整流程，可与多种 AI 编程助手集成。",
+  "scenarios": [
+    "在新项目启动时通过规范文档驱动 AI 生成初始代码骨架",
+    "团队协作中以规范作为单一真实来源，约束 AI 代理输出",
+    "为现有功能补写规范并由 AI 自动生成迭代实现",
+    "在多种 AI 编程助手（如 Copilot、Claude）之间复用同一套规范流程"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要安装 CLI、配置 AI 编程代理并理解规范驱动开发理念，对纯新手有一定门槛但文档较完善。",
+  "alternatives": [
+    "Cursor Rules",
+    "Aider",
+    "Cline"
+  ]
+}

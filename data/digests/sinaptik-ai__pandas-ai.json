@@ -1,0 +1,21 @@
+{
+  "id": "sinaptik-ai/pandas-ai",
+  "source_hash": "5f6b1cbd51f31ff68198ab0164c1bf5055d1f47dd0f526a2fdbde6f5d95770fc",
+  "generated_at": "2026-06-02T18:06:19.743Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PandasAI 是一个 Python 库，让用户用自然语言对 CSV、Parquet、SQL 等数据源进行提问和分析，底层结合 LLM 与 RAG 自动生成代码并返回结果，降低数据分析门槛。",
+  "scenarios": [
+    "业务人员无需写 SQL，直接用自然语言查询数据库",
+    "数据分析师快速对 CSV/Parquet 文件做探索性分析",
+    "在 Jupyter 中通过对话方式生成图表",
+    "为企业数据湖搭建对话式 BI 助手",
+    "技术团队基于其构建内部数据问答机器人"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 安装即可使用，API 简洁，但需要自备 LLM Key 并注意 Python 版本限制",
+  "alternatives": [
+    "LangChain Pandas Agent",
+    "Vanna.AI",
+    "LlamaIndex"
+  ]
+}

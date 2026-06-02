@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/semantic-kernel",
+  "source_hash": "fd730a2179d03c0c699967c97a5b9365af112118bbd8d7fca47bb4c3e0b81a6c",
+  "generated_at": "2026-06-02T18:01:28.680Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软开源的轻量级 SDK，帮助开发者把大语言模型快速集成到 C#、Python、Java 应用中，提供插件、记忆、规划器等抽象，方便构建 AI Agent 和工作流。",
+  "scenarios": [
+    "在企业 .NET 应用中接入 OpenAI 或 Azure OpenAI 构建聊天助手",
+    "通过插件机制让 LLM 调用业务 API 完成自动化任务",
+    "构建具备记忆和上下文管理的多轮对话 Agent",
+    "编排多步骤 AI 工作流，如自动撰写邮件并发送",
+    "在 Python 项目中混合使用多种模型实现 RAG 检索问答"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "概念抽象较多，需要理解插件、规划器等设计，但官方文档与示例较完善。",
+  "alternatives": [
+    "LangChain",
+    "LlamaIndex",
+    "Haystack"
+  ]
+}

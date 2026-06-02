@@ -1,0 +1,21 @@
+{
+  "id": "xtekky/gpt4free",
+  "source_hash": "8c52cc4a8eb03da3260d86d661fda44592fbad0374cec9657b7f44522eeddefd",
+  "generated_at": "2026-06-02T17:48:50.118Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "GPT4Free 是一个聚合多家可访问 LLM 与媒体生成服务提供商的社区项目，提供 OpenAI 兼容的 REST API、本地 GUI 以及 Python/JavaScript 客户端，让用户无需官方 API key 即可调用 GPT、Claude、Gemini、DeepSeek 等多种模型。",
+  "scenarios": [
+    "在不申请官方 API 的情况下试用各家大模型",
+    "通过本地 GUI 与多种 LLM 对话",
+    "以 OpenAI 兼容接口快速接入现有应用",
+    "在 Python/JS 项目中统一调用多家模型",
+    "图像等多模态内容生成测试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "pip 或 Docker 安装比较直接，但 provider 经常失效，需要排查和切换，对新手不太友好。",
+  "alternatives": [
+    "LiteLLM",
+    "OpenRouter",
+    "one-api"
+  ]
+}

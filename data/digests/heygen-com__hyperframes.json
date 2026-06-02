@@ -1,0 +1,20 @@
+{
+  "id": "heygen-com/hyperframes",
+  "source_hash": "1ba8226c03bd3f8e8c09bc06a7889b389d668ec3290cb4404b704da853640572",
+  "generated_at": "2026-06-02T18:06:32.722Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "HyperFrames 是 HeyGen 开源的视频渲染框架，把 HTML、CSS、媒体和可定位动画编译成确定性的 MP4 视频，可通过 CLI 本地使用，也能被 AI 编码代理调用，作为视频生成工作流的渲染内核。",
+  "scenarios": [
+    "让 AI 编码代理用 HTML/CSS 自动生成营销短视频",
+    "开发者用 CLI 把网页动画批量导出为 MP4",
+    "在 SaaS 产品中作为后端服务渲染数据图表视频",
+    "为社交媒体快速生成模板化的可编程视频内容"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Node.js 22+ 环境和前端基础，但提供了 CLI、文档和 Playground，上手相对顺畅。",
+  "alternatives": [
+    "Remotion",
+    "Motion Canvas",
+    "Revideo"
+  ]
+}

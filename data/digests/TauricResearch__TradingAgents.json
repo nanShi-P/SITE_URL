@@ -1,0 +1,21 @@
+{
+  "id": "TauricResearch/TradingAgents",
+  "source_hash": "0146d6772b248f9fd38e54be128dbf14a0de12b3efcd16f1c5f42d52284f9b5b",
+  "generated_at": "2026-06-02T17:46:48.557Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "TradingAgents 是一个基于多智能体大语言模型的金融交易研究框架，模拟分析师、研究员、交易员和风控等角色协作，对股票进行调研、辩论并生成交易决策，便于研究 LLM 在量化交易中的应用。",
+  "scenarios": [
+    "研究 LLM 多智能体协作在股票投研中的效果",
+    "对特定股票进行自动化基本面、技术面与情绪分析",
+    "回测多智能体生成的交易决策表现",
+    "作为量化策略生成的辅助决策工具",
+    "学术论文复现与多 Agent 框架教学示例"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Python 环境、LLM API Key 和金融数据源，文档清晰但依赖较多且涉及一定金融与 LLM 背景。",
+  "alternatives": [
+    "FinGPT",
+    "FinRL",
+    "AutoGen"
+  ]
+}

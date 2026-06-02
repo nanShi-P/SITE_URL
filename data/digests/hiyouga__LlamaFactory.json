@@ -1,0 +1,21 @@
+{
+  "id": "hiyouga/LlamaFactory",
+  "source_hash": "493dc6a0639df80d1fca613258056689a9745e60a5a2b596765209fa3a893fe1",
+  "generated_at": "2026-06-02T17:48:14.485Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "统一框架，支持百余种大语言模型与多模态模型的高效微调，集成 LoRA、QLoRA、全参数等多种训练方式，并提供 WebUI、命令行和 Docker 等多种使用方式。",
+  "scenarios": [
+    "在消费级显卡上用 LoRA 微调 Llama、Qwen 等开源模型",
+    "对多模态视觉语言模型进行指令微调",
+    "通过 WebUI 可视化配置训练任务，降低上手门槛",
+    "企业内部基于私有数据训练定制化对话模型",
+    "研究人员对比不同微调算法的效果"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档详尽并提供 WebUI 和 Colab，但仍需配置 GPU 环境和理解微调相关概念。",
+  "alternatives": [
+    "Axolotl",
+    "Unsloth",
+    "Firefly"
+  ]
+}

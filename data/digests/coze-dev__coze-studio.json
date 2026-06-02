@@ -1,0 +1,21 @@
+{
+  "id": "coze-dev/coze-studio",
+  "source_hash": "e299d61b05de2fb45ea884db805afb23f7e9a1d4f273cc6038dee1826b316c41",
+  "generated_at": "2026-06-02T18:09:24.159Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Coze Studio 是字节跳动开源的一站式 AI Agent 可视化开发平台，提供提示词、RAG、插件、工作流等核心能力，支持以低代码或无代码方式快速创建、调试和部署智能体与 AI 应用。",
+  "scenarios": [
+    "企业内部搭建客服或知识问答智能体",
+    "基于 RAG 构建私有知识库助手",
+    "通过可视化工作流编排多步骤业务自动化",
+    "开发者快速原型验证 AI Agent 创意",
+    "教育场景下教学 AI Agent 开发流程"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需 Go 1.23+ 环境与模型/插件配置，文档完整但涉及组件较多，部署有一定门槛。",
+  "alternatives": [
+    "Dify",
+    "FastGPT",
+    "LangFlow"
+  ]
+}

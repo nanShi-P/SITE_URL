@@ -1,0 +1,21 @@
+{
+  "id": "OtterMind/Chat2DB",
+  "source_hash": "075fb61c562b990d099450098def88b4c1f7635081385f980e7e29f5db8a73fb",
+  "generated_at": "2026-06-02T18:04:13.002Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Chat2DB 是一款集成 AI 能力的数据库客户端与 SQL 工作台，支持 MySQL、PostgreSQL、Oracle、SQL Server、ClickHouse 等多种数据库，可通过自然语言生成 SQL、查看数据结构并辅助报表分析，面向开发者、DBA 和数据团队。",
+  "scenarios": [
+    "开发者通过自然语言生成和优化 SQL 查询",
+    "DBA 管理多种异构数据库的连接与结构",
+    "数据分析师快速探索数据并生成报表",
+    "团队协作维护跨数据库的 SQL 脚本",
+    "学习 SQL 时借助 AI 解释和改写语句"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供桌面端安装包，开箱即用，无需复杂部署即可连接常见数据库。",
+  "alternatives": [
+    "DBeaver",
+    "Navicat",
+    "DataGrip"
+  ]
+}

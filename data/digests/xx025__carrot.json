@@ -1,0 +1,21 @@
+{
+  "id": "xx025/carrot",
+  "source_hash": "751295d9d0b270a197f5d62dcbce7042c372bb6d8bce026d91fc913407242be2",
+  "generated_at": "2026-06-02T18:15:18.630Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "汇总整理大量免费可用的 ChatGPT 镜像站点，附带图标、简介和直达链接，方便用户挑选无需登录、稳定好用的在线 AI 聊天入口，并持续更新失效情况。",
+  "scenarios": [
+    "想免费体验 ChatGPT 但无法访问官方站点",
+    "快速寻找免登录的在线 GPT 聊天网站",
+    "对比多个镜像站的功能和稳定性",
+    "收藏可分享给同事朋友的 AI 工具导航",
+    "查找特定模型（如 GPT-4）的免费可用入口"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯链接导航清单，无需安装部署，打开网页即可使用。",
+  "alternatives": [
+    "awesome-chatgpt",
+    "FreeGPT",
+    "awesome-free-chatgpt"
+  ]
+}

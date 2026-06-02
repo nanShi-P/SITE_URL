@@ -1,0 +1,20 @@
+{
+  "id": "esengine/DeepSeek-Reasonix",
+  "source_hash": "954cc15ebc72da7b972c919b632bbc60cb80c2d43433ccd8ae3da558141c261b",
+  "generated_at": "2026-06-02T18:16:04.242Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Reasonix 是一款面向终端的 DeepSeek 原生 AI 编程助手，1.0 版本用 Go 重写，围绕前缀缓存稳定性设计，可长时间常驻运行，辅助代码生成、调试与项目维护。",
+  "scenarios": [
+    "在终端中通过自然语言让 AI 生成或修改代码",
+    "让常驻 agent 持续协助调试和重构现有项目",
+    "调用 DeepSeek 模型进行代码审查与解释",
+    "在 CI 或日常开发流程中自动化执行编码任务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "通过 npm 一行安装较方便，但需要配置 DeepSeek API 与终端使用习惯，且 1.0 重写后文档仍在迁移中。",
+  "alternatives": [
+    "Aider",
+    "Claude Code",
+    "Cursor CLI"
+  ]
+}

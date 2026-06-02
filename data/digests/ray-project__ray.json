@@ -1,0 +1,21 @@
+{
+  "id": "ray-project/ray",
+  "source_hash": "198644a83ba7267c25f9903940ac397de837ec6111bfee203e75398824e3b8ba",
+  "generated_at": "2026-06-02T17:53:37.228Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Ray 是一个用于扩展 Python 与 AI 应用的统一分布式计算框架，包含核心运行时和数据、训练、调参、强化学习、模型服务等一整套机器学习库，帮助开发者把单机代码扩展到集群规模。",
+  "scenarios": [
+    "在多机集群上进行大规模分布式模型训练",
+    "对深度学习模型做大规模超参数搜索",
+    "构建可弹性扩缩的在线模型推理服务",
+    "处理 TB 级数据集的并行数据预处理",
+    "开展大规模强化学习实验"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "概念体系庞大、子库众多，集群部署与调优对运维和分布式知识要求较高。",
+  "alternatives": [
+    "Dask",
+    "Apache Spark",
+    "Horovod"
+  ]
+}

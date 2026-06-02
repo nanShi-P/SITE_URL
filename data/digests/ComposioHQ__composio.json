@@ -1,0 +1,21 @@
+{
+  "id": "ComposioHQ/composio",
+  "source_hash": "fd4e5ac0d7e63949cd9bdbd7b49ff6cafe64b5934cb3a4cb3f60f0998bdb54bb",
+  "generated_at": "2026-06-02T18:00:48.072Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Composio 是一个面向 AI Agent 的工具集成 SDK，提供 1000+ 第三方应用工具包、认证管理、工具检索和沙箱执行环境，支持 Python 和 TypeScript，可对接 OpenAI Agents、LangChain 等主流框架，让 Agent 真正执行操作。",
+  "scenarios": [
+    "为 OpenAI Agents 接入 Gmail、Slack、GitHub 等外部服务",
+    "构建自动处理 HackerNews、Notion 内容的助手",
+    "在 LangChain Agent 中统一管理第三方 OAuth 认证",
+    "为多用户 SaaS Agent 提供隔离的工具调用沙箱",
+    "快速原型验证需要调用大量 API 的智能体应用"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 npm/pip 一键安装和清晰快速上手示例，文档完善，但需要 API Key 和理解 Agent 框架概念。",
+  "alternatives": [
+    "LangChain Tools",
+    "Zapier AI Actions",
+    "Arcade AI"
+  ]
+}

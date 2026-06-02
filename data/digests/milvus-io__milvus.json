@@ -1,0 +1,21 @@
+{
+  "id": "milvus-io/milvus",
+  "source_hash": "bb6e04196fd913007415f4a4c41c654229baaabfbb7d0cc47dd7d9039a1b0624",
+  "generated_at": "2026-06-02T17:52:59.808Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Milvus 是用 Go 和 C++ 编写的高性能云原生向量数据库，专为大规模向量近似最近邻（ANN）检索设计，可高效组织和搜索文本、图像等海量非结构化数据，支撑各类 AI 应用。",
+  "scenarios": [
+    "为 RAG 大模型应用提供向量检索后端",
+    "图像、视频以图搜图与相似度匹配",
+    "电商和内容平台的语义搜索与推荐",
+    "多模态数据检索与去重",
+    "构建企业级知识库问答系统"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "单机版可通过 Docker 一键部署，但生产级集群涉及多组件和云原生环境，运维有一定门槛。",
+  "alternatives": [
+    "Qdrant",
+    "Weaviate",
+    "Pinecone"
+  ]
+}

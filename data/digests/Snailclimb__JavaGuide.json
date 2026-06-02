@@ -1,0 +1,21 @@
+{
+  "id": "Snailclimb/JavaGuide",
+  "source_hash": "b34ced0ffd12f20673a9eae838e073c2e778345bc07a7e1bb2eee4e8fc0dc17f",
+  "generated_at": "2026-06-02T17:45:13.152Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "面向 Java 后端开发者的开源面试与知识体系指南，系统梳理 Java 基础、并发、JVM、数据库、分布式、高并发、系统设计等核心知识点，并新增 AI 应用开发相关内容，配套在线阅读站点。",
+  "scenarios": [
+    "准备 Java 后端校招或社招面试",
+    "系统补齐计算机基础与分布式知识",
+    "回顾 JVM、并发、MySQL 等高频考点",
+    "了解 LLM、RAG 等 AI 应用开发面试方向",
+    "作为团队新人 Java 学习路线参考"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档项目，在线阅读即可，无需任何环境搭建。",
+  "alternatives": [
+    "CS-Notes",
+    "advanced-java",
+    "interviews"
+  ]
+}

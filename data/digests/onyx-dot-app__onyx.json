@@ -1,0 +1,21 @@
+{
+  "id": "onyx-dot-app/onyx",
+  "source_hash": "cdad95ddd6315e5303e3281a89c47642d1e3365750929a910b3e2bdbe9b6a636",
+  "generated_at": "2026-06-02T17:59:45.128Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Onyx 是一个开源 AI 应用平台，为各类大模型提供统一的聊天界面，内置 RAG、网页搜索、代码执行、文件生成、深度研究等能力，并通过 50 多个内置连接器或 MCP 接入企业数据源，支持自托管部署。",
+  "scenarios": [
+    "企业内部搭建私有 ChatGPT 式知识问答助手",
+    "对接 Confluence、Slack 等内部文档做 RAG 检索",
+    "作为统一前端切换调用多家 LLM 厂商",
+    "面向团队提供深度研究和代码执行工作流",
+    "通过 MCP 集成自定义业务系统数据"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供一键安装脚本，但作为含向量库与多连接器的完整平台，生产部署和配置仍需一定运维与 LLM 接入经验。",
+  "alternatives": [
+    "Danswer",
+    "AnythingLLM",
+    "Open WebUI"
+  ]
+}

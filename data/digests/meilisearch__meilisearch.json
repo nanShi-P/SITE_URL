@@ -1,0 +1,21 @@
+{
+  "id": "meilisearch/meilisearch",
+  "source_hash": "6487e22eabb2adf287074b3af2d80d88653db7e18eac8e7fbe1fc03f2890e7e5",
+  "generated_at": "2026-06-02T17:50:08.472Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Meilisearch 是一个用 Rust 编写的开源搜索引擎，提供 RESTful API，支持全文检索、向量检索与混合搜索，可快速集成到网站或应用中，实现毫秒级、带拼写容错的即时搜索体验。",
+  "scenarios": [
+    "为电商网站添加商品即时搜索与筛选",
+    "为文档站或博客构建站内搜索",
+    "在 SaaS 应用中实现用户、订单等数据的快速检索",
+    "结合 embedding 模型搭建语义/混合搜索",
+    "为移动 App 提供搜索后端 API"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供单二进制和 Docker 部署，文档完善，REST API 接入简单。",
+  "alternatives": [
+    "Typesense",
+    "Elasticsearch",
+    "Algolia"
+  ]
+}

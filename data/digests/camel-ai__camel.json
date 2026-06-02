@@ -1,0 +1,21 @@
+{
+  "id": "camel-ai/camel",
+  "source_hash": "b5e7053ba850592577106d5b18c517c2c8ee598021c1f26dc0f6605dd617adc7",
+  "generated_at": "2026-06-02T18:15:17.402Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CAMEL 是一个开源多智能体框架，支持构建、训练和模拟多个 LLM 智能体之间的协作与对话，提供丰富的智能体类型、任务、提示词、模型接口和模拟环境，用于研究智能体的扩展规律及行为能力。",
+  "scenarios": [
+    "搭建多智能体协作系统完成复杂任务分解",
+    "生成合成对话数据用于 LLM 微调",
+    "模拟社会或角色扮演场景研究智能体行为",
+    "构建集成多种工具的自动化 AI 助手",
+    "学术研究智能体扩展规律与协作机制"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI 安装和详尽文档示例，但涉及多模型 API 配置和多智能体概念，新手需一定 LLM 开发基础。",
+  "alternatives": [
+    "AutoGen",
+    "CrewAI",
+    "MetaGPT"
+  ]
+}

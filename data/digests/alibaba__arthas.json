@@ -1,0 +1,21 @@
+{
+  "id": "alibaba/arthas",
+  "source_hash": "292ceffd4c3f12a042ae0cc6bf33b4644f80726a1d4edb04f471270a2d024198",
+  "generated_at": "2026-06-02T17:55:46.740Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Arthas 是阿里巴巴开源的 Java 诊断工具，可在不修改代码、不重启服务的情况下，在线排查运行中 Java 应用的性能瓶颈、方法调用、类加载、线程状态等问题，支持命令行与 Web 交互。",
+  "scenarios": [
+    "生产环境 Java 应用 CPU 飙高或线程死锁的在线定位",
+    "查看方法入参、返回值和异常以排查线上 Bug",
+    "动态反编译已加载的类，确认实际运行的代码版本",
+    "监控接口耗时和调用链路，分析性能瓶颈",
+    "热更新某个类的字节码进行临时修复验证"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "一行命令即可下载启动并 attach 到 Java 进程，官方中文文档完善，上手成本低。",
+  "alternatives": [
+    "BTrace",
+    "async-profiler",
+    "JProfiler"
+  ]
+}

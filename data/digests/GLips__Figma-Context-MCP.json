@@ -1,0 +1,20 @@
+{
+  "id": "GLips/Figma-Context-MCP",
+  "source_hash": "3b9a99f973f3126ca5363c529c561ba808894aec99e75fc38481d73f3d00bde2",
+  "generated_at": "2026-06-02T18:18:35.276Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个基于 Model Context Protocol 的服务器，将 Figma 设计文件的布局数据提供给 Cursor 等 AI 编码助手，让其在还原设计稿时比基于截图的方式更准确，可一次性生成对应代码。",
+  "scenarios": [
+    "在 Cursor 中根据 Figma 链接直接生成前端组件代码",
+    "让 AI 助手按设计稿精确还原页面布局与样式",
+    "为团队搭建设计稿到代码的自动化转换流程",
+    "在多框架项目中快速实现 UI 原型"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 npm 包和快速上手文档，只需配置 Figma API Token 即可接入 MCP 客户端。",
+  "alternatives": [
+    "figma-to-code",
+    "Locofy",
+    "Anima"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "deepset-ai/haystack",
+  "source_hash": "ae70aa7fb76958e9e3f868c546206ef499e55a4e74d1b66c43008c2d198c175d",
+  "generated_at": "2026-06-02T18:04:20.649Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Haystack 是 deepset 推出的开源 LLM 应用编排框架，通过模块化管道和 Agent 工作流，把检索、路由、记忆、生成等环节显式串联起来，方便构建可投产的 RAG、语义搜索、多模态及对话系统。",
+  "scenarios": [
+    "搭建企业知识库的检索增强问答系统",
+    "构建带工具调用与记忆的多步 Agent 工作流",
+    "实现基于向量数据库的语义搜索引擎",
+    "开发多模态文档处理与摘要应用",
+    "为客服机器人定制可控的对话生成管道"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "概念清晰、文档完善，但涉及管道、组件与外部模型/向量库配置，需要一定 LLM 工程经验。",
+  "alternatives": [
+    "LangChain",
+    "LlamaIndex",
+    "Dify"
+  ]
+}

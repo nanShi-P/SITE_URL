@@ -1,0 +1,21 @@
+{
+  "id": "superset-sh/superset",
+  "source_hash": "c21aff3a1890b6c9c457ac4ed8650284b8969697b26c1255ab9aabcd2c3e5ea9",
+  "generated_at": "2026-06-02T18:21:45.395Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Superset 是一款 macOS 桌面代码编辑器，可在隔离的 git worktree 中并行编排 Claude Code、Codex 等多个 CLI 编码代理，内置终端、diff 审阅和一键跳转到外部编辑器的工作流，便于同时监控多个代理任务。",
+  "scenarios": [
+    "同时让多个 AI 代理处理不同的功能分支或 bug 修复",
+    "在隔离 worktree 中跑实验性重构，避免污染主分支",
+    "批量审阅多个代理产出的代码改动并快速合并",
+    "团队开发者并行调度 Claude Code 与 Codex 比较输出",
+    "本地一键接管代理生成的工作区进行手动调试"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 macOS 安装包，下载即用，但需自备 CLI 代理和 git 环境",
+  "alternatives": [
+    "Conductor",
+    "Crystal",
+    "Aider"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "HKUDS/DeepTutor",
+  "source_hash": "1a908f1cc1477e8351a6e33f02199971f5b132773c0ae7a0621c55bd66ec5524",
+  "generated_at": "2026-06-02T18:05:30.460Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DeepTutor 是港大数据智能实验室开源的智能体原生个性化辅导系统，可基于用户上传的学习材料（如 PDF）提供问答、讲解和定制化学习路径，目标是打造可自托管的 AI 私教平台。",
+  "scenarios": [
+    "上传论文 PDF 进行交互式讲解和答疑",
+    "学生针对教材章节生成个性化学习计划",
+    "教师搭建私有化 AI 助教辅助课程",
+    "自学者用其复习专业资料并测验自己"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 LLM API 密钥与本地运行环境，但提供较完善的文档和在线 Demo。",
+  "alternatives": [
+    "khanmigo",
+    "ChatPDF",
+    "PDFGPT"
+  ]
+}

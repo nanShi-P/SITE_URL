@@ -1,0 +1,21 @@
+{
+  "id": "langgenius/dify",
+  "source_hash": "d165d3c13e2fc43055c8a17efba466ed58488e738b397b63d9cc3c71195d8a69",
+  "generated_at": "2026-06-02T17:45:19.921Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Dify 是一个开源的 LLM 应用开发平台，提供可视化工作流编排、Agent 构建、RAG 流水线、模型管理和可观测性等能力，帮助团队从原型快速搭建并上线生产级 AI 应用。",
+  "scenarios": [
+    "搭建企业内部知识库问答机器人",
+    "可视化编排多步骤的 AI Agent 工作流",
+    "快速原型并部署面向客户的聊天助手",
+    "统一管理和切换多家 LLM 模型供应商",
+    "为业务系统提供 RAG 检索增强问答 API"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker Compose 一键部署且文档完善，但涉及多服务组件和模型配置，对初学者仍有一定门槛。",
+  "alternatives": [
+    "FastGPT",
+    "Flowise",
+    "LangFlow"
+  ]
+}

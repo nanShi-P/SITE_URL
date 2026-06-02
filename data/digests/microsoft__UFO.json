@@ -1,0 +1,20 @@
+{
+  "id": "microsoft/UFO",
+  "source_hash": "6739c44c842de8d75386ac00a99b3617b4ee0923a4f6e9a0c98835c0b2dd3528",
+  "generated_at": "2026-06-02T18:23:21.956Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软开源的 UFO³ 项目，旨在构建面向 Windows 等数字环境的智能体框架，将多个 AI Agent 串联协作完成跨应用的自动化任务。",
+  "scenarios": [
+    "自动操作 Windows 桌面应用完成日常办公",
+    "跨 Office 软件的文档处理与数据迁移",
+    "基于自然语言指令调度多应用工作流",
+    "研究多智能体协作与 GUI 自动化"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及多智能体编排和系统级 GUI 控制，依赖 LLM API 与 Windows 环境配置，且缺少 README 说明。",
+  "alternatives": [
+    "AutoGen",
+    "Open Interpreter",
+    "Self-Operating Computer"
+  ]
+}

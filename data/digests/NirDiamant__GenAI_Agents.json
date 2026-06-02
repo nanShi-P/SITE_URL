@@ -1,0 +1,21 @@
+{
+  "id": "NirDiamant/GenAI_Agents",
+  "source_hash": "616369e4c862bc43be324c100a6836c7a99ce63d96806ffb66a96fe454cfd364",
+  "generated_at": "2026-06-02T18:07:45.958Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "汇集 50 多个生成式 AI Agent 教程与实现案例，从基础对话机器人到复杂多 Agent 系统，配有 Jupyter Notebook 代码，适合系统学习 Agent 开发模式和技术栈。",
+  "scenarios": [
+    "学习 LangChain、LangGraph 等框架搭建 Agent",
+    "研究多 Agent 协作与任务分工架构",
+    "为自有项目寻找 Agent 设计参考实现",
+    "作为 GenAI 培训或课程教学素材",
+    "快速原型验证特定 Agent 应用场景"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "教程结构清晰但涉及多个框架和 LLM API，需要一定 Python 与大模型基础并配置密钥环境。",
+  "alternatives": [
+    "langchain-ai/langgraph",
+    "microsoft/autogen",
+    "crewAIInc/crewAI"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "eugeneyan/open-llms",
+  "source_hash": "f221d989b9244d7b1302fe5f71bc7cb005950f20667efb85c3a1ca46562d175e",
+  "generated_at": "2026-06-02T18:21:05.573Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库汇总了可商用的开源大语言模型清单，以表格形式列出各模型的发布时间、参数规模、上下文长度、许可证（如 Apache 2.0、MIT、OpenRAIL-M）及下载与论文链接，方便开发者快速对比选型。",
+  "scenarios": [
+    "为商业产品挑选可合法使用的开源 LLM",
+    "对比不同模型的参数规模和上下文长度",
+    "查找模型对应的论文与权重下载地址",
+    "团队技术选型时的参考资料",
+    "研究开源 LLM 生态发展现状"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯信息汇总型 README，无需安装或运行，直接查阅即可。",
+  "alternatives": [
+    "Awesome-LLM",
+    "LLMsPracticalGuide"
+  ]
+}

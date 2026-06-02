@@ -1,0 +1,21 @@
+{
+  "id": "RunanywhereAI/runanywhere-sdks",
+  "source_hash": "43ce149f51f8251f2c9b7fdffda282bd587a51f8189a02759de9af5da0548c02",
+  "generated_at": "2026-06-02T18:22:27.060Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "RunAnywhere 是一套面向 iOS 和 Android 的端侧 AI SDK，可在本地运行大语言模型、语音识别和语音合成，支持完全离线的 STT→LLM→TTS 流水线，强调隐私、低延迟与跨平台一致体验。",
+  "scenarios": [
+    "在移动应用中集成本地 LLM 实现离线聊天助手",
+    "构建无需联网的语音助手（语音输入到语音回复）",
+    "隐私敏感场景下的端侧文本生成与摘要",
+    "在弱网或无网环境提供 AI 功能的 App",
+    "开发者快速试用端侧多模态 AI 能力"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需具备 iOS/Android 原生开发经验并处理本地模型集成，但官方提供示例应用和成品 App 降低了上手门槛。",
+  "alternatives": [
+    "MLC LLM",
+    "llama.cpp",
+    "MediaPipe LLM Inference"
+  ]
+}

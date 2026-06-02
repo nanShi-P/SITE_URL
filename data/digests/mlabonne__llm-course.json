@@ -1,0 +1,21 @@
+{
+  "id": "mlabonne/llm-course",
+  "source_hash": "8d71de8a1926388b0a81fbe29f186f0ed24febb3965d718e4ed5da94d7585d21",
+  "generated_at": "2026-06-02T17:47:16.523Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "由 Maxime Labonne 维护的开源 LLM 学习路线，分为基础、科学家、工程师三部分，配套大量 Colab 笔记本和文章，覆盖数学、神经网络、微调、量化、合并、RAG 部署等主题。",
+  "scenarios": [
+    "系统学习大语言模型从理论到工程的完整路径",
+    "按路线图查漏补缺特定主题如微调或量化",
+    "直接运行 Colab 笔记本上手模型合并和评测",
+    "作为团队培训或大学课程的参考资料",
+    "准备 LLM 相关岗位面试的知识梳理"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "内容覆盖广且需要一定 Python 与深度学习基础，但提供路线图和可直接运行的 Colab 笔记本，降低了上手门槛。",
+  "alternatives": [
+    "rasbt/LLMs-from-scratch",
+    "huggingface/cookbook",
+    "karpathy/nn-zero-to-hero"
+  ]
+}

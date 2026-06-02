@@ -1,0 +1,20 @@
+{
+  "id": "transitive-bullshit/agentic",
+  "source_hash": "7d29c947dbec2552aeb2289316704e4361e63017569f2e554eb22bb328f58082",
+  "generated_at": "2026-06-02T18:12:42.091Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Agentic 是一个面向大模型工具调用的市场与网关，可将 OpenAPI 或 MCP 服务一键发布并按量计费，类似 LLM 工具版的 RapidAPI。项目已于 2026 年 2 月归档停止维护。",
+  "scenarios": [
+    "将已有 REST API 包装为 MCP 服务并对外收费",
+    "在 LLM Agent 中调用经过筛选的高质量工具",
+    "为 AI SDK 接入统一的工具调用层",
+    "搭建内部 MCP 网关聚合多个工具服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "涉及 MCP、OpenAPI 与计费网关等多层概念，且项目已归档，无后续支持。",
+  "alternatives": [
+    "Composio",
+    "RapidAPI",
+    "Toolhouse"
+  ]
+}

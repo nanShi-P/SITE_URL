@@ -1,0 +1,21 @@
+{
+  "id": "jnMetaCode/agency-agents-zh",
+  "source_hash": "b274c8034ab77793a513fbc08d6a4588cdfbfe357a1e2e8160ff2ec01e6404bf",
+  "generated_at": "2026-06-02T18:20:51.983Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "agency-agents 中文社区版，提供 215 个预设 AI 专家角色提示词，覆盖工程、设计、营销等 18 个部门，可直接导入 Claude Code、Cursor、Copilot 等 17 种 AI 编程工具，并新增 50 个针对小红书、抖音、飞书等中国市场场景的原创智能体。",
+  "scenarios": [
+    "在 Cursor 或 Claude Code 中调用工程类智能体辅助代码开发",
+    "用小红书/抖音运营智能体生成内容策划与文案",
+    "跨境电商团队按角色分工完成选品、营销、客服流程",
+    "ToG、医疗合规等垂直领域用专业角色起草方案",
+    "用 Orchestrator 编排多个智能体协作输出完整项目交付物"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "本质是 Markdown 提示词集合，下载放入对应工具目录即可使用，无需编译和复杂依赖。",
+  "alternatives": [
+    "wshobson/agents",
+    "contains-studio/agents",
+    "awesome-claude-prompts"
+  ]
+}

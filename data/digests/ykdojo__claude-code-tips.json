@@ -1,0 +1,20 @@
+{
+  "id": "ykdojo/claude-code-tips",
+  "source_hash": "89fd3f09a73926868f855ea25067b629c10cbe65cff62a303c33b304a186e219",
+  "generated_at": "2026-06-02T18:23:30.358Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "作者整理的 45 条 Claude Code 实用技巧合集，涵盖自定义状态栏脚本、精简系统提示、语音输入、用 Gemini CLI 作辅助、容器化运行 Claude Code 以及 dx 插件等，从入门到进阶帮助提升日常使用效率。",
+  "scenarios": [
+    "想系统了解 Claude Code 高级用法的开发者",
+    "希望自定义状态栏和终端别名提升效率",
+    "结合 Gemini CLI 和 Claude Code 做多工具协作",
+    "在容器中安全运行 Claude Code 自动化任务",
+    "通过语音和多实例工作流加速编码"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "本质是一份技巧文档，按需查阅即可，无需复杂安装。",
+  "alternatives": [
+    "awesome-claude-code",
+    "claude-code-cookbook"
+  ]
+}

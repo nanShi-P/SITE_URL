@@ -1,0 +1,21 @@
+{
+  "id": "GitHubDaily/GitHubDaily",
+  "source_hash": "91358040e96d6329bc710eac7fdb6ad78b8f7f26d3327c87361998044e145cd2",
+  "generated_at": "2026-06-02T17:52:18.972Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "GitHubDaily 是一个自 2015 年起持续运营的开源项目分享仓库，定期收集并推荐 GitHub 上有趣实用的开源工具、技术教程、编程网站及开发者资源，并按年度进行分类整理，方便开发者发现热门项目、跟踪技术动态。",
+  "scenarios": [
+    "寻找学习用的优质开源项目",
+    "了解当下流行的开发者工具与新技术趋势",
+    "按年份回顾历年推荐的热门 GitHub 项目",
+    "为自己的项目寻找类似实现的参考",
+    "推荐或自荐开源项目获取曝光"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯资源整理仓库，无需任何环境或依赖，浏览 README 即可使用。",
+  "alternatives": [
+    "ruanyf/weekly",
+    "521xueweihan/HelloGitHub",
+    "trendshift.io"
+  ]
+}

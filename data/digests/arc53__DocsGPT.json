@@ -1,0 +1,21 @@
+{
+  "id": "arc53/DocsGPT",
+  "source_hash": "3dca1d03ddd724e01ed9cddc32349f5d0dd3b6f8cc086ffe860c916d7999dda8",
+  "generated_at": "2026-06-02T18:13:17.759Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DocsGPT 是一个开源私有化 AI 平台，提供智能体构建、深度研究、文档分析（PDF、Office、网页、音频）和多模型支持，并通过 API 集成外部工具，可本地部署以保障数据隐私。",
+  "scenarios": [
+    "企业内部知识库与文档检索问答",
+    "基于私有数据搭建客服或助理智能体",
+    "对 PDF、Office 文件进行批量分析与总结",
+    "通过 Agent Builder 构建自动化研究流程",
+    "在本地部署 LLM 以满足数据合规要求"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 一键部署和详细文档，但涉及模型选择、向量库与 API 配置，对新手仍有一定门槛。",
+  "alternatives": [
+    "AnythingLLM",
+    "PrivateGPT",
+    "Dify"
+  ]
+}

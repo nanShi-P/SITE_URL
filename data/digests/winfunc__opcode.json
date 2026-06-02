@@ -1,0 +1,21 @@
+{
+  "id": "winfunc/opcode",
+  "source_hash": "08e32b79d00775dbf1c079ac7f62fe57bac188a02e11ca8ed81a4f22a93de430",
+  "generated_at": "2026-06-02T18:08:14.371Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "opcode 是基于 Tauri 2 构建的 Claude Code 桌面 GUI 客户端，提供会话管理、自定义智能体创建、后台安全运行、用量统计等功能，将命令行式的 Claude Code 转化为可视化工作台。",
+  "scenarios": [
+    "用图形界面管理多个 Claude Code 会话",
+    "创建并复用自定义编码 Agent",
+    "后台运行 AI 任务并隔离执行环境",
+    "跟踪 Claude API 使用量与成本",
+    "可视化浏览项目历史与对话记录"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需安装 Rust、Tauri 与 Claude Code CLI 等多项依赖，自行编译有一定门槛。",
+  "alternatives": [
+    "Claudia",
+    "Cursor",
+    "Open WebUI"
+  ]
+}

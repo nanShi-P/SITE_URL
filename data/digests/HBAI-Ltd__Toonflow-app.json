@@ -1,0 +1,20 @@
+{
+  "id": "HBAI-Ltd/Toonflow-app",
+  "source_hash": "53e209ef43834fbd816c0ed2d56e8815392f1f2b688717889ea5e5dd2f181152",
+  "generated_at": "2026-06-02T18:23:12.288Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Toonflow 是开源跨平台桌面应用，把小说或剧本通过 AI 自动转成动画短剧，内置 AI 编剧、智能分镜、角色设计与视频生成等环节，让创作者一站式批量产出短视频内容。",
+  "scenarios": [
+    "将网络小说改编为动画短剧发布到短视频平台",
+    "自媒体团队批量生产 AI 动画内容",
+    "编剧使用 AI 辅助生成分镜脚本",
+    "独立创作者低成本制作动画样片",
+    "教育培训场景将文字教材转为动画讲解"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "桌面端安装相对简单，但需配置多种 AI 模型 API 密钥并理解短剧生成流程。",
+  "alternatives": [
+    "MoneyPrinterTurbo",
+    "ShortGPT"
+  ]
+}

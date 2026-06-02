@@ -1,0 +1,20 @@
+{
+  "id": "microsoft/graphrag",
+  "source_hash": "7cd9d58cf58f577cf27b80cd4c2e43f975b025d53035c77dc6296277f72eead0",
+  "generated_at": "2026-06-02T17:58:15.984Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软开源的模块化基于图的检索增强生成（RAG）系统，通过从文本中抽取实体与关系构建知识图谱，再结合大语言模型进行更具上下文理解能力的问答和摘要。",
+  "scenarios": [
+    "对大量企业内部文档进行结构化知识抽取与问答",
+    "研究报告、新闻语料的主题聚类与全局摘要",
+    "构建领域知识图谱辅助分析调查",
+    "为传统向量RAG难以处理的跨文档关联问题提供解答"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要配置LLM接口、索引流水线和较高的算力与API成本，且概念和参数较多。",
+  "alternatives": [
+    "LlamaIndex",
+    "Haystack",
+    "LightRAG"
+  ]
+}

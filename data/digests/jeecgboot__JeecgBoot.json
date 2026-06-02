@@ -1,0 +1,21 @@
+{
+  "id": "jeecgboot/JeecgBoot",
+  "source_hash": "144a962537c6fdb3f2bec16e7e0a986af90a30ea0ecb90489b6311febb9870a1",
+  "generated_at": "2026-06-02T17:52:33.296Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "国产企业级AI低代码开发平台，基于Spring Boot 3与Vue 3，支持低代码生成前后端代码和零代码在线搭建业务系统，内置AI聊天、知识库、流程编排、MCP插件等能力，可通过自然语言生成表单、流程及完整系统。",
+  "scenarios": [
+    "企业内部管理系统快速搭建（OA、CRM、ERP等）",
+    "开发团队减少Java项目中的重复CRUD工作",
+    "通过自然语言一句话生成表单、流程图和报表大屏",
+    "集成大模型构建企业AI知识库与智能助手应用",
+    "政企信息化项目快速交付与二次开发"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "涉及Spring Boot、Vue3、SpringCloud Alibaba等较重技术栈，需配置数据库与中间件，但官方文档完善、社区活跃。",
+  "alternatives": [
+    "RuoYi-Vue-Plus",
+    "若依",
+    "pig"
+  ]
+}

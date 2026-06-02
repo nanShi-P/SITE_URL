@@ -1,0 +1,21 @@
+{
+  "id": "cocoindex-io/cocoindex",
+  "source_hash": "7e60c76d4da5a63c984346e7aebb64842b7b49d1248991b732e3112b81c4f571",
+  "generated_at": "2026-06-02T18:22:35.781Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "CocoIndex 是一个面向 AI 智能体的增量索引引擎，能持续将代码库、Slack、会议记录、文档等企业数据流式同步到向量库，只对变更部分（Δ）重新处理，为 RAG 和长时记忆场景提供始终新鲜的上下文。",
+  "scenarios": [
+    "为企业内部 AI 助手构建持续更新的 RAG 检索管道",
+    "将代码仓库实时索引到向量库，供编码 Agent 使用",
+    "同步 Slack、Notion、文档等多源数据形成统一知识库",
+    "为长周期 Agent 提供增量更新的记忆层",
+    "搭建低延迟的流式 ETL 数据处理管道"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Python 框架使用门槛适中，但需配置向量库、嵌入模型与数据源连接，涉及一定的工程集成。",
+  "alternatives": [
+    "LlamaIndex",
+    "Haystack",
+    "LangChain Indexing"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "deepseek-ai/Janus",
+  "source_hash": "5dd770c943341bad0d33f62f1ee6fb800ed4e3e0dcc5e96df1a1a53e9a5fb693",
+  "generated_at": "2026-06-02T18:13:48.284Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DeepSeek 开源的 Janus 系列多模态模型，将视觉理解与图像生成统一到同一框架中，支持图文问答、看图描述和文本生成图像等任务，提供多种规模的预训练权重和推理示例代码。",
+  "scenarios": [
+    "根据文本提示生成图像",
+    "对图片内容进行问答和描述",
+    "多模态研究人员对比统一架构与分离架构的效果",
+    "在本地部署一个同时支持理解与生成的多模态模型",
+    "基于预训练权重进行下游多模态任务微调"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 GPU 环境和 PyTorch 基础，依赖 HuggingFace 权重下载，但官方提供了快速上手示例。",
+  "alternatives": [
+    "LLaVA",
+    "Chameleon",
+    "Emu3"
+  ]
+}

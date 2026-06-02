@@ -1,0 +1,21 @@
+{
+  "id": "Tencent/WeKnora",
+  "source_hash": "3efc3c4475bf9010957df6673bfa094aaaf2298f8e2daf44f8ad8a459b100162",
+  "generated_at": "2026-06-02T18:16:57.301Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "腾讯开源的基于大语言模型的知识管理平台，可将文档解析入库构建 RAG 检索问答、自主推理 Agent 以及自维护 Wiki，并提供微信对话、Chrome 插件等接入方式。",
+  "scenarios": [
+    "企业内部文档构建知识库问答",
+    "个人资料整理为可检索的 Wiki",
+    "接入微信对话开放平台搭建客服机器人",
+    "通过 Chrome 插件对网页内容进行 RAG 问答",
+    "开发者基于其 API 构建自定义 Agent 应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需 Docker 部署并配置 LLM、向量库等多组件，但官方文档完善且提供多语言说明。",
+  "alternatives": [
+    "Dify",
+    "RAGFlow",
+    "FastGPT"
+  ]
+}

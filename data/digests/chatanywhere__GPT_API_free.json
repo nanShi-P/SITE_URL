@@ -1,0 +1,21 @@
+{
+  "id": "chatanywhere/GPT_API_free",
+  "source_hash": "9b8b7a1237193d3947d9ce5b84fe406ca0f09ae6fed2f6da170dec2aa45cce7b",
+  "generated_at": "2026-06-02T17:55:11.945Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该项目提供免费的大模型API中转服务，兼容OpenAI协议，支持GPT、DeepSeek、Claude、Gemini、Grok等主流模型，国内可直连无需代理，个人申请Key后即可按日额度免费调用。",
+  "scenarios": [
+    "国内开发者无需代理调用GPT、Claude等海外大模型",
+    "在ChatGPT客户端、插件中替换为免费API Key使用",
+    "低成本调试和验证AI应用原型",
+    "学生或个人用户体验DeepSeek-R1等推理模型",
+    "在LangChain等框架中统一接入多家厂商模型"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "申请Key后按OpenAI标准协议替换base_url即可调用，文档清晰，无需部署。",
+  "alternatives": [
+    "one-api",
+    "openai-forward",
+    "free-one-api"
+  ]
+}

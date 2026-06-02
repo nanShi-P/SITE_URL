@@ -1,0 +1,21 @@
+{
+  "id": "nesquena/hermes-webui",
+  "source_hash": "8df9cea1e577c689b3f4c02339105d7b091b75be9e255f0a27cf749a670178c2",
+  "generated_at": "2026-06-02T18:21:22.748Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Hermes WebUI 是为 Nous Research 的 Hermes Agent 提供的轻量级深色主题网页界面，基于 Python 和原生 JS，无需构建工具。采用三栏布局，包含会话侧栏、聊天区和工作区文件浏览器，功能与命令行完全对等，方便在浏览器或手机上使用。",
+  "scenarios": [
+    "在手机浏览器上远程访问服务器上运行的 Hermes Agent",
+    "通过网页查看和管理 Agent 的多个会话与项目",
+    "浏览 Agent 工作区文件并预览内容",
+    "切换模型、配置文件并实时监控 token 使用情况",
+    "团队共享一个带密码保护的 Agent 访问入口"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需先部署并理解 Hermes Agent，再配置 WebUI 服务，对非开发者有一定门槛。",
+  "alternatives": [
+    "Open WebUI",
+    "LibreChat",
+    "Lobe Chat"
+  ]
+}

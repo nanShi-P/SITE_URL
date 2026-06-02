@@ -1,0 +1,20 @@
+{
+  "id": "facebookarchive/caffe2",
+  "source_hash": "48a0b265902241e7fe5374f47806f82815685d0404dba449b24865195a7bf66c",
+  "generated_at": "2026-06-02T18:23:41.160Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Caffe2 是 Facebook 开源的轻量、模块化且可扩展的深度学习框架，源自 Caffe，注重表达力、速度和模块化设计。该仓库已归档，源码已合并进 PyTorch 主仓库，不再单独维护。",
+  "scenarios": [
+    "移动端和嵌入式设备上的模型推理部署",
+    "在生产环境中运行训练好的深度学习模型",
+    "研究高性能、跨平台的神经网络推理",
+    "作为历史项目用于了解 PyTorch 早期演进"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "项目已归档不再维护，编译依赖复杂、文档过时，新用户应直接迁移到 PyTorch。",
+  "alternatives": [
+    "PyTorch",
+    "TensorFlow",
+    "MXNet"
+  ]
+}

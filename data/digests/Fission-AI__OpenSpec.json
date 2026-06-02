@@ -1,0 +1,20 @@
+{
+  "id": "Fission-AI/OpenSpec",
+  "source_hash": "d1940f490311228040f6759febc8ea2f4401f5a2ee33f534d94e37f92bc8f7a5",
+  "generated_at": "2026-06-02T17:51:30.988Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenSpec 是面向 AI 编码助手的规范驱动开发(SDD)框架，通过先写规范再生成代码的工作流，让 Claude、Cursor 等助手在改造已有项目或新建项目时输出更可控、可迭代的实现。",
+  "scenarios": [
+    "在 Cursor/Claude Code 中先用 /opsx:propose 提出需求草案再落地编码",
+    "为已有(brownfield)项目补齐功能规范并指导 AI 改造",
+    "团队协作时统一 AI 生成代码的规范与口径",
+    "个人项目快速从想法到可执行的规范化迭代"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "通过 npm 安装的 CLI，配合斜杠命令即可使用，文档清晰、依赖少。",
+  "alternatives": [
+    "spec-kit",
+    "Kiro",
+    "BMAD-Method"
+  ]
+}

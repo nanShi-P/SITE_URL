@@ -1,0 +1,21 @@
+{
+  "id": "camel-ai/owl",
+  "source_hash": "e69e1a4eadd3e4f26749d6cf0842b3e0599b70d57389a6f1f2ad3f6d9cfc4812",
+  "generated_at": "2026-06-02T18:10:36.485Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OWL 是基于 CAMEL-AI 构建的多智能体协作框架，专注于真实世界任务自动化。通过动态智能体交互完成网页操作、文档处理、代码执行等复杂任务，在 GAIA 基准上取得 69.09 分，位居开源框架第一。",
+  "scenarios": [
+    "自动化网页浏览与信息检索",
+    "跨工具组合完成办公文档处理",
+    "执行代码与数据分析任务",
+    "研究 GAIA 类通用智能体基准",
+    "搭建多智能体协作的科研原型"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Python 环境、多种 API Key 和浏览器依赖，但文档示例较完整。",
+  "alternatives": [
+    "AutoGen",
+    "CrewAI",
+    "MetaGPT"
+  ]
+}

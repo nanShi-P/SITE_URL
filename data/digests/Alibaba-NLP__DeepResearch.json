@@ -1,0 +1,21 @@
+{
+  "id": "Alibaba-NLP/DeepResearch",
+  "source_hash": "6d987e53de17a5a9bc147521f8db1b76a13b87e5538e68b68a6caeab5b76f503",
+  "generated_at": "2026-06-02T18:11:19.937Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "阿里通义实验室开源的深度研究智能体，基于 30B-A3B 模型，专注长链路自主信息检索、网页浏览与复杂问题研究，提供模型权重、推理代码及在线 Demo。",
+  "scenarios": [
+    "让智能体自主完成多步网页搜索并撰写研究报告",
+    "学术文献调研与综述生成",
+    "构建企业内部的深度问答与情报分析助手",
+    "研究 Agent 训练方法与工具调用范式",
+    "在 ModelScope/HuggingFace 上体验交互式深度研究"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 30B 大模型本地部署、Agent 框架配置及外部搜索工具接入，对算力与工程能力要求较高。",
+  "alternatives": [
+    "GPT-Researcher",
+    "OpenManus",
+    "Stanford STORM"
+  ]
+}

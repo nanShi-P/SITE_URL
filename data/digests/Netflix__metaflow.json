@@ -1,0 +1,21 @@
+{
+  "id": "Netflix/metaflow",
+  "source_hash": "25752848468e3218eb795ef651e46d6b7609bd6d6e20d99e779b29fe434b800e",
+  "generated_at": "2026-06-02T18:22:34.122Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Metaflow 是 Netflix 开源的 Python 框架，用于构建、管理和部署 AI/ML 工作流，统一管理代码、数据和算力，覆盖从本地原型到生产部署的完整生命周期，支持版本追踪、扩展计算和云端调度。",
+  "scenarios": [
+    "数据科学家在本地 Notebook 中快速原型并无缝迁移到生产",
+    "团队管理大规模机器学习实验的版本与产物",
+    "将训练任务调度到 AWS Batch、Kubernetes 等云端算力",
+    "构建可复现的端到端 ML pipeline",
+    "在企业内部统一管理数千个 AI/ML 项目"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Python API 简洁易上手，但生产部署涉及云资源与基础设施配置，有一定门槛",
+  "alternatives": [
+    "Kubeflow",
+    "Airflow",
+    "Prefect"
+  ]
+}

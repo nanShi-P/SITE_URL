@@ -1,0 +1,21 @@
+{
+  "id": "plotly/dash",
+  "source_hash": "01ed0be70f34e1e7b6b57893ed8f303766e18d2f25cdf9e95aa4a957e08c1bd9",
+  "generated_at": "2026-06-02T18:05:52.513Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Dash 是基于 Plotly.js、React 和 Flask 的 Python Web 应用框架，让数据科学家无需写 JavaScript，仅用 Python 即可构建带交互组件和图表的数据分析仪表板与机器学习应用。",
+  "scenarios": [
+    "搭建企业内部数据分析仪表板",
+    "展示机器学习模型预测结果的交互式 Web 应用",
+    "科研数据可视化与在线探索工具",
+    "业务指标实时监控页面",
+    "为 Jupyter 分析成果做对外发布的可视化前端"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 安装即可，官方文档详尽，几十行 Python 就能跑通示例。",
+  "alternatives": [
+    "Streamlit",
+    "Gradio",
+    "Panel"
+  ]
+}

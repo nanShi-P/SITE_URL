@@ -1,0 +1,21 @@
+{
+  "id": "zai-org/ChatGLM2-6B",
+  "source_hash": "e94b36b1b660e092dda05863be73aa59651b25d916024b7a034231f090f8653a",
+  "generated_at": "2026-06-02T18:17:34.495Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ChatGLM2-6B 是清华开源的中英双语对话大模型第二代，6B 参数规模，相比初代在性能、上下文长度和推理效率上均有大幅提升，支持低门槛本地部署与微调。注：官方已推荐使用更新的 GLM-4 系列。",
+  "scenarios": [
+    "本地部署中英文对话机器人",
+    "在消费级显卡上做 LLM 微调实验",
+    "构建私有化知识问答与客服系统",
+    "学术研究中作为开源基座模型对比",
+    "离线环境下的文本生成与摘要"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需具备 Python 与 PyTorch 环境及一定显存，官方文档完善但模型加载和量化部署仍有一定门槛。",
+  "alternatives": [
+    "Qwen-7B",
+    "Baichuan2-7B",
+    "ChatGLM3-6B"
+  ]
+}

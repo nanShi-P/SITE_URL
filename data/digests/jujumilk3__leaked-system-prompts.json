@@ -1,0 +1,20 @@
+{
+  "id": "jujumilk3/leaked-system-prompts",
+  "source_hash": "d7f8cb933f17dca80b8986b9a28b86c19cbcd6163e0452c56faef4e8f910de7d",
+  "generated_at": "2026-06-02T18:19:53.192Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库收集了各类主流大语言模型服务（如 ChatGPT、Claude、Gemini 等）被泄露或通过提示词复现得到的系统提示词，按服务和版本分类整理，并要求贡献者提供可验证来源或可复现的提示词。",
+  "scenarios": [
+    "研究主流 LLM 产品的提示词工程写法",
+    "对比不同厂商对模型行为约束的差异",
+    "为自建 AI 助手编写系统提示词提供参考",
+    "学术论文中引用系统提示词案例",
+    "越狱与提示词安全相关研究"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯 Markdown 文档仓库，无需安装环境，直接阅读即可。",
+  "alternatives": [
+    "LouisShark/chatgpt_system_prompt",
+    "0xeb/TheBigPromptLibrary"
+  ]
+}

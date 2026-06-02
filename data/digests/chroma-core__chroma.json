@@ -1,0 +1,21 @@
+{
+  "id": "chroma-core/chroma",
+  "source_hash": "f9c4662459d3f8847bba5e82c9ed377dfc7a3d600189e5256c42caff04e1d2c6",
+  "generated_at": "2026-06-02T18:01:13.965Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Chroma 是面向 AI 应用的开源向量数据库，提供向量、混合及全文检索能力，内置嵌入与索引，4 个核心 API 即可完成集合创建、文档增删查改，支持内存、本地持久化和客户端-服务端模式，并提供托管云服务。",
+  "scenarios": [
+    "为 RAG 应用搭建本地向量检索后端",
+    "LLM 应用中存储与查询文档嵌入",
+    "原型阶段用内存模式快速测试语义搜索",
+    "通过 Chroma Cloud 部署无服务器向量搜索",
+    "构建带元数据过滤的混合检索系统"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "一行 pip 安装即可使用，API 极简且文档完善。",
+  "alternatives": [
+    "Qdrant",
+    "Weaviate",
+    "Milvus"
+  ]
+}

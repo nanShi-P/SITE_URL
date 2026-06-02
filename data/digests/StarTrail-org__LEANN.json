@@ -1,0 +1,21 @@
+{
+  "id": "StarTrail-org/LEANN",
+  "source_hash": "09b09ee891b80a9b295e8e169003ad2b54831ecca24aed9900d2e51d9b5e094d",
+  "generated_at": "2026-06-02T18:21:37.639Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LEANN 是一款本地化 RAG 框架，通过创新的向量索引压缩技术将存储占用降低约 97%，让用户在个人电脑上对文档、邮件、代码等数据进行快速、精准且完全私密的检索问答，并原生支持 MCP 集成。",
+  "scenarios": [
+    "在个人电脑上对本地文档构建私密知识库问答",
+    "用低存储成本索引海量邮件并进行语义搜索",
+    "为代码仓库搭建本地 RAG 辅助开发查询",
+    "通过 MCP 集成到 Claude 等客户端实现本地检索增强",
+    "离线环境下部署隐私敏感的企业内部知识检索"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 pip 安装和多平台支持，但涉及向量索引、嵌入模型与 MCP 配置，需要一定 RAG 与命令行基础。",
+  "alternatives": [
+    "LlamaIndex",
+    "PrivateGPT",
+    "Chroma"
+  ]
+}

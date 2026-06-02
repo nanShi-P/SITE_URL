@@ -1,0 +1,21 @@
+{
+  "id": "elie222/inbox-zero",
+  "source_hash": "a1ecef4ce7b8bb51fd1b129e4eb0dc4db176cdf6cb38182b5ac2892376c99d53",
+  "generated_at": "2026-06-02T18:22:18.810Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源AI邮件助手，帮助快速达成收件箱零未读。能按自然语言规则自动整理邮件、预拟回复、批量退订、屏蔽冷邮件、生成会议简报，支持从Slack或Telegram远程操作，是Fyxer的自托管替代品。",
+  "scenarios": [
+    "自托管个人邮箱AI助理，自动分类和起草回复",
+    "批量退订无用订阅邮件，清理历史邮件",
+    "屏蔽销售类冷邮件，过滤陌生联系人",
+    "在Slack/Telegram上随时处理收件箱",
+    "团队会议前自动生成与会者背景简报"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需自行部署Next.js全栈应用、配置数据库、Google OAuth及多个AI模型API密钥，环境依赖较多。",
+  "alternatives": [
+    "Fyxer",
+    "Shortwave",
+    "SaneBox"
+  ]
+}

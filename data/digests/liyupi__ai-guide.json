@@ -1,0 +1,21 @@
+{
+  "id": "liyupi/ai-guide",
+  "source_hash": "242e2e77f3e9f98c36ec4c7c3625c572d6c17a662d664915724f324adb1e887d",
+  "generated_at": "2026-06-02T18:18:29.442Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "程序员鱼皮整理的免费中文 AI 知识库与 Vibe Coding 零基础教程，汇总主流大模型、AI 编程工具、提示词、RAG/MCP 等概念解析与项目实战，配套在线导航站，帮助新手系统了解并上手 AI 工具与变现路径。",
+  "scenarios": [
+    "零基础小白系统学习 AI 编程和 Vibe Coding",
+    "查找 Cursor、Claude Code 等 AI 编程工具的使用教程",
+    "快速了解 RAG、MCP、Agent 等 AI 概念",
+    "寻找 AI 提示词模板与大模型选型参考",
+    "探索 AI 产品开发与变现思路"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档型项目，在线阅读即可，无需任何环境配置。",
+  "alternatives": [
+    "awesome-chatgpt-prompts",
+    "hua1995116/awesome-ai-painting",
+    "dair-ai/Prompt-Engineering-Guide"
+  ]
+}

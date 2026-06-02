@@ -1,0 +1,21 @@
+{
+  "id": "mcp-use/mcp-use",
+  "source_hash": "33f8830c92151aa30343d4dfd4f1a84ea79b045cd26ee200140f1b641ee90510",
+  "generated_at": "2026-06-02T18:22:44.453Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "mcp-use 是一个全栈 MCP 框架，提供 Python 和 TypeScript 双语言 SDK，既能开发面向 ChatGPT、Claude 等客户端的 MCP 应用，也能为 AI Agent 构建和连接 MCP 服务器，统一管理工具调用与多服务器会话。",
+  "scenarios": [
+    "让自建 LangChain Agent 通过 MCP 接入浏览器、文件系统等外部工具",
+    "为 ChatGPT 或 Claude Desktop 开发自定义 MCP 服务端扩展能力",
+    "在 Node.js 项目中用 TypeScript SDK 同时连接多个 MCP 服务器",
+    "快速原型验证：让 LLM 自动调用本地命令行工具完成任务",
+    "企业内部搭建统一的 MCP 工具网关供多个 AI Agent 调用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要理解 MCP 协议并配置 LLM 与服务器，但文档完善且提供 PyPI/NPM 包，上手成本可控。",
+  "alternatives": [
+    "LangChain MCP Adapters",
+    "FastMCP",
+    "Open-MCP-Client"
+  ]
+}

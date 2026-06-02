@@ -1,0 +1,21 @@
+{
+  "id": "wasp-lang/open-saas",
+  "source_hash": "367816f0c1cdd3d9c3b0d5c70c183c9c3fcc46353ea10f5b9f2cd8c1fade35ed",
+  "generated_at": "2026-06-02T18:20:00.010Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Wasp 全栈框架的免费开源 SaaS 模板，集成 React、Node.js、Prisma，内置多种登录方式、邮件、定时任务、Stripe/Polar 支付、S3 上传、Shadcn UI 及落地页，并预置 AI 编码助手配置，支持一键部署。",
+  "scenarios": [
+    "快速搭建带订阅付费的 SaaS 创业项目",
+    "开发内部工具时复用认证、邮件、文件上传等通用模块",
+    "学习 Wasp 全栈框架及现代 SaaS 架构",
+    "用 Claude Code/Cursor 等 AI 工具辅助开发完整产品",
+    "为客户交付带落地页和后台的 MVP"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要熟悉 Wasp 框架及配置 Stripe、S3、OAuth 等多项第三方服务，但文档完善且模板开箱即用。",
+  "alternatives": [
+    "SaaS Starter Kit",
+    "ShipFast",
+    "Next.js SaaS Starter"
+  ]
+}

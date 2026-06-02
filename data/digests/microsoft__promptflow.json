@@ -1,0 +1,20 @@
+{
+  "id": "microsoft/promptflow",
+  "source_hash": "4896ce2cec01712f4cef0a470ab9ccd48af1781de02535cdcda212f1bc3b6f51",
+  "generated_at": "2026-06-02T18:22:04.724Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软开源的 LLM 应用开发框架，覆盖从原型设计、提示词编排、批量测试评估到生产部署与监控的完整流程，帮助团队系统化地构建和迭代基于大模型的应用。",
+  "scenarios": [
+    "搭建基于 LLM 的问答或对话应用原型",
+    "对提示词进行批量测试与质量评估",
+    "将 LLM 工作流部署到生产环境并持续监控",
+    "在团队中协作管理和迭代提示词版本"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "概念较多且与 Azure 生态结合紧密，需要一定的 Python 和 LLM 开发基础。",
+  "alternatives": [
+    "LangChain",
+    "LlamaIndex",
+    "Haystack"
+  ]
+}

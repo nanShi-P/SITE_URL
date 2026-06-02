@@ -1,0 +1,20 @@
+{
+  "id": "pingcap/tidb",
+  "source_hash": "3403eb2c7f0d48ce8178403f1093763b801a3bda0edb82c666912116a9ba2852",
+  "generated_at": "2026-06-02T17:54:21.624Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "TiDB 是 PingCAP 开源的云原生分布式 SQL 数据库，兼容 MySQL 协议，支持 ACID 事务、水平扩展、强一致性，并原生集成 HTAP 分析与向量检索，适合数据规模快速增长的在线业务场景。",
+  "scenarios": [
+    "承载高并发 OLTP 业务，替代分库分表的 MySQL",
+    "HTAP 场景下同时跑事务和实时分析查询",
+    "为 AI 应用提供向量检索与结构化数据统一存储",
+    "跨地域多活部署，保证强一致与高可用"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "分布式架构涉及 TiKV、PD、TiDB 多组件部署运维，对集群环境和数据库经验要求高。",
+  "alternatives": [
+    "CockroachDB",
+    "YugabyteDB",
+    "OceanBase"
+  ]
+}

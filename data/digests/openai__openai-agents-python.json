@@ -1,0 +1,21 @@
+{
+  "id": "openai/openai-agents-python",
+  "source_hash": "8372d39fc77264cc18b46a670cf4bcfe5dde089fac3b4a24903edac216a2fa5e",
+  "generated_at": "2026-06-02T18:02:35.352Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenAI 官方推出的轻量级 Python 多智能体框架，提供 Agent、工具调用、任务交接、护栏、会话管理、追踪等核心能力，兼容 OpenAI Responses/Chat Completions API 及 100 多种第三方 LLM，可用于编排复杂的多智能体工作流。",
+  "scenarios": [
+    "搭建带工具调用和任务交接的多智能体客服系统",
+    "构建可长时间运行、在沙箱容器中执行任务的自主 Agent",
+    "开发带语音交互的实时 Agent 应用",
+    "为 LLM 应用增加输入输出安全护栏和人工审核环节",
+    "调试和追踪复杂 Agent 工作流的执行链路"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "API 设计简洁、文档完善，但要真正用好多智能体编排需理解 handoffs、tools、guardrails 等概念并具备 LLM 应用开发基础。",
+  "alternatives": [
+    "LangGraph",
+    "CrewAI",
+    "AutoGen"
+  ]
+}

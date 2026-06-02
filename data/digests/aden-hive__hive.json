@@ -1,0 +1,20 @@
+{
+  "id": "aden-hive/hive",
+  "source_hash": "91d1e64667f62c59bc8327ff0877f457d800c46b08352b69ff446ae2fc177613",
+  "generated_at": "2026-06-02T18:22:27.677Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Hive 是面向生产环境的多智能体运行时框架（Agent Harness），提供无头开发、人类在环、自我改进等能力，内置 102 个 MCP 工具，用于编排多个 AI 智能体协同完成复杂任务。",
+  "scenarios": [
+    "搭建多智能体协作完成软件开发任务",
+    "在生产环境中部署需要人工审核的 AI 工作流",
+    "通过 MCP 工具集成扩展 Agent 的外部能力",
+    "构建可自我改进的长期运行 AI 系统"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "多智能体编排框架涉及运行时部署、MCP 工具配置及生产级集成，对工程能力要求较高。",
+  "alternatives": [
+    "LangGraph",
+    "CrewAI",
+    "AutoGen"
+  ]
+}

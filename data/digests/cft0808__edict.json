@@ -1,0 +1,21 @@
+{
+  "id": "cft0808/edict",
+  "source_hash": "cd57d791a44dc164c9b1fd7f80b77ce38c2c6f2a1317146c7d8d41878dbda59c",
+  "generated_at": "2026-06-02T18:16:33.019Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于唐代三省六部制设计的多 Agent 协作框架，由 12 个 AI 角色分工承担任务分拣、规划、审核、派发与并行执行，依托 OpenClaw 运行，并配套实时看板、模型配置和完整审计日志，强调流程中的制衡与可观测性。",
+  "scenarios": [
+    "复杂任务的多 Agent 自动拆解与并行执行",
+    "需要审核与封驳环节的企业级 AI 工作流",
+    "研究多 Agent 编排架构的教学与示例",
+    "可视化观察 Agent 协作过程与调用链",
+    "对 AI 决策过程进行审计与合规追踪"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "依赖 OpenClaw 平台和 Python/React 前后端环境，角色与流程较多，但提供快速体验与中英日文档。",
+  "alternatives": [
+    "CrewAI",
+    "AutoGen",
+    "LangGraph"
+  ]
+}

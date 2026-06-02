@@ -1,0 +1,21 @@
+{
+  "id": "eosphoros-ai/DB-GPT",
+  "source_hash": "958b4616a85a0cc7f13cae8bf4d8515c6d8494395801755b27aa88259ff481ff",
+  "generated_at": "2026-06-02T18:11:52.663Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DB-GPT 是一个开源的智能体 AI 数据助手，将大模型与数据库结合，支持自然语言查询数据、生成报表与数据分析，并提供多智能体协作、RAG、Text2SQL、数据应用编排等能力，用于构建下一代 AI+数据产品。",
+  "scenarios": [
+    "用自然语言查询企业数据库并自动生成 SQL",
+    "基于私有数据搭建 RAG 知识问答助手",
+    "构建数据分析与 BI 报表的对话式应用",
+    "通过多智能体协作完成复杂数据处理任务",
+    "在本地部署私有化的 ChatDB 数据问答系统"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及大模型、向量库与数据库等多组件部署，依赖较重且配置复杂，对硬件和工程能力要求较高。",
+  "alternatives": [
+    "Vanna",
+    "Chat2DB",
+    "WrenAI"
+  ]
+}

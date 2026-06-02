@@ -1,0 +1,21 @@
+{
+  "id": "jamiepine/voicebox",
+  "source_hash": "f53f67ed2a4c21bb2c05084363e24c2e5d1056919739dc6505065ba3e4fbde24",
+  "generated_at": "2026-06-02T18:00:03.305Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源本地 AI 语音工作室，支持声音克隆、语音合成、系统级听写以及为 AI 智能体配音，整合完整语音输入输出流程并可在本地机器上运行。",
+  "scenarios": [
+    "克隆个人或他人声音用于配音创作",
+    "在任意应用中通过语音听写输入文字",
+    "为本地 AI 智能体赋予自定义语音进行对话",
+    "内容创作者批量生成旁白或播客音频",
+    "通过 API 集成到自有应用实现语音功能"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供桌面安装包可直接下载使用，但本地运行语音模型对硬件和环境配置有一定要求。",
+  "alternatives": [
+    "ElevenLabs",
+    "Coqui TTS",
+    "Whisper"
+  ]
+}

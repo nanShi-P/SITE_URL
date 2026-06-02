@@ -1,0 +1,21 @@
+{
+  "id": "TabbyML/tabby",
+  "source_hash": "59a4ab94fe0738b77c6e26d5e83fd32747bf3ccc471e7f12aaab8ece843438fb",
+  "generated_at": "2026-06-02T17:57:55.207Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Tabby 是一款可自托管的开源 AI 编码助手，作为 GitHub Copilot 的本地化替代方案，无需数据库或云服务，提供 OpenAPI 接口便于集成现有 IDE，并支持消费级 GPU 运行，可在本地完成代码补全与上下文检索。",
+  "scenarios": [
+    "企业内网部署私有代码补全服务，避免源码外泄",
+    "个人开发者用家用显卡搭建本地 AI 编程助手",
+    "在 VSCode、JetBrains 等 IDE 中接入自托管补全后端",
+    "结合 GitLab MR、GitHub Issue 做代码库上下文检索增强",
+    "为团队提供统一的 OpenAPI 代码智能服务接入内部平台"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 镜像和较完善文档，但需自备 GPU 并配置模型与 IDE 插件，对纯应用用户仍有一定门槛。",
+  "alternatives": [
+    "Continue",
+    "FauxPilot",
+    "Cody"
+  ]
+}

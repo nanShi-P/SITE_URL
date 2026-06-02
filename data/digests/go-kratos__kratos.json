@@ -1,0 +1,21 @@
+{
+  "id": "go-kratos/kratos",
+  "source_hash": "e9ffb9e1df979de99f69c191f129b8963ad2a1596a647ca97541194760ee9224",
+  "generated_at": "2026-06-02T18:04:20.229Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Kratos 是 B 站开源的 Go 微服务框架，提供 gRPC/HTTP 服务、服务注册发现、配置中心、日志、链路追踪、限流熔断等一整套云原生开发组件，配合脚手架工具帮助快速搭建标准化的微服务项目。",
+  "scenarios": [
+    "使用 Go 从零构建基于 gRPC 和 HTTP 的微服务后端",
+    "在 Kubernetes 等云原生环境下开发可观测、可治理的分布式系统",
+    "通过 Protobuf 统一定义 API 并自动生成服务代码",
+    "对接 Consul、Etcd、Nacos 等注册中心实现服务发现",
+    "基于 Wire 依赖注入搭建分层清晰的企业级 Go 项目"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "组件丰富、文档完善且有 CLI 脚手架，但需要熟悉 Go、Protobuf 和微服务相关概念。",
+  "alternatives": [
+    "go-zero",
+    "go-micro",
+    "kitex"
+  ]
+}

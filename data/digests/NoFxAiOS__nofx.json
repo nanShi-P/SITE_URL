@@ -1,0 +1,21 @@
+{
+  "id": "NoFxAiOS/nofx",
+  "source_hash": "fab9a14d286ea1430de018177651d999270d75a7fea0a55b1cbe448549db8e45",
+  "generated_at": "2026-06-02T18:21:21.845Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "NOFX 是一款开源 AI 交易终端，面向美股、商品、外汇和加密货币等全球流动性市场，集成市场研究、策略生成、执行与组合监控于一个工作台，由 Go 后端和 React 前端构成。",
+  "scenarios": [
+    "主动交易者在统一界面跟踪美股与加密多市场行情",
+    "用自然语言生成自选股清单和交易信号",
+    "开发与回测自定义交易策略",
+    "下单执行并实时监控持仓和组合表现",
+    "量化团队搭建自托管的 AI 辅助交易工作台"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需自建 Go+React 全栈环境，涉及行情、券商接入与 AI 配置，对接交易系统门槛较高。",
+  "alternatives": [
+    "OpenBB Terminal",
+    "Freqtrade",
+    "Hummingbot"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "lencx/ChatGPT",
+  "source_hash": "52160b2ba8d7a12754f46606abc8312df3ec2b9b89b975a8730a521c9a940ced",
+  "generated_at": "2026-06-02T17:51:00.348Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Tauri 封装的 ChatGPT 跨平台桌面客户端，支持 Mac、Windows 和 Linux，把网页版 ChatGPT 包装成原生应用，并提供导出、快捷键、自定义脚本等增强功能。作者已不再活跃维护，推荐迁移到后继项目 Noi。",
+  "scenarios": [
+    "在桌面端快速打开 ChatGPT 而不必每次打开浏览器",
+    "将 ChatGPT 对话导出为 PNG、PDF 或 Markdown 文件留档",
+    "通过全局快捷键唤起 AI 助手辅助写作和编程",
+    "使用自定义 UserScript 增强 ChatGPT 网页功能",
+    "在 Linux 上获得一个相对原生的 ChatGPT 客户端"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供各平台安装包，下载即用，无需配置开发环境。",
+  "alternatives": [
+    "Noi",
+    "ChatGPT-Next-Web",
+    "Lobe Chat"
+  ]
+}

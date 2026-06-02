@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/unilm",
+  "source_hash": "e80b5b2fd4332e06dd3b20656544f0dca6c1d5c8529dcc1dde1477a9c4736ad1",
+  "generated_at": "2026-06-02T18:08:00.217Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "微软推出的统一预训练模型集合，涵盖语言、视觉、语音、多模态及文档智能等方向的大规模自监督预训练研究项目，集成了BEiT、LayoutLM、WavLM等多个知名模型。",
+  "scenarios": [
+    "复现或微调BEiT进行图像分类等视觉任务",
+    "使用LayoutLM系列处理文档理解与表单信息抽取",
+    "基于WavLM做语音识别和说话人验证",
+    "利用多语言预训练模型进行跨语言NLP任务",
+    "研究多模态预训练方法的学术参考"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "项目庞大、子模块众多，依赖各异，需较强深度学习背景和GPU资源才能复现训练",
+  "alternatives": [
+    "huggingface/transformers",
+    "facebookresearch/fairseq",
+    "OpenGVLab/InternVL"
+  ]
+}

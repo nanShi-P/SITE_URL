@@ -1,0 +1,21 @@
+{
+  "id": "sgl-project/sglang",
+  "source_hash": "b0265caa64b379b74de5236b1520497142b41503d209e335db6ba82ba0af50eb",
+  "generated_at": "2026-06-02T18:00:12.672Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "SGLang 是面向大语言模型和多模态模型的高性能推理服务框架，提供高吞吐低延迟的部署能力，支持主流开源模型的快速接入与服务化，并配套调度、批处理等优化机制。",
+  "scenarios": [
+    "在 GPU 集群上自建 LLM 推理服务以替代闭源 API",
+    "部署多模态模型对外提供图文问答接口",
+    "为 Agent 应用提供低延迟的本地模型后端",
+    "在 NVIDIA 新硬件上压测和优化大模型推理性能",
+    "快速接入并服务最新发布的开源模型"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 GPU 环境、CUDA 依赖和分布式推理配置，对硬件和运维要求较高。",
+  "alternatives": [
+    "vLLM",
+    "TensorRT-LLM",
+    "TGI"
+  ]
+}

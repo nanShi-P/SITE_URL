@@ -1,0 +1,21 @@
+{
+  "id": "vercel/ai",
+  "source_hash": "079f099ed92bdbf14234650f1e0216babb4eccebaea33bb1fdb1478e26aca7ac",
+  "generated_at": "2026-06-02T18:05:23.058Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Vercel 出品的 TypeScript AI 开发工具包，提供统一 API 对接 OpenAI、Anthropic、Google 等主流模型，支持 Next.js、React、Svelte、Vue 等前端框架及 Node.js 运行时，简化文本生成、流式输出和 Agent 构建。",
+  "scenarios": [
+    "在 Next.js 应用中快速集成聊天机器人",
+    "切换不同 LLM 提供商而无需重写业务代码",
+    "构建带工具调用能力的 AI Agent",
+    "在前端实现流式输出的对话界面",
+    "在 Node.js 后端批量生成结构化文本"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "npm 一行安装，API 设计简洁，官方文档完善且示例丰富。",
+  "alternatives": [
+    "LangChain.js",
+    "LlamaIndex.TS",
+    "Mastra"
+  ]
+}

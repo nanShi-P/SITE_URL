@@ -1,0 +1,21 @@
+{
+  "id": "ScrapeGraphAI/Scrapegraph-ai",
+  "source_hash": "9e7fb2d1ea9ea4721a4680cb46f66dc73a09dc74fdd985adaa0dbc550430aea5",
+  "generated_at": "2026-06-02T18:03:06.841Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于大语言模型和图逻辑的 Python 网页抓取库，用户用自然语言描述要提取的信息，即可从网页或本地 XML/HTML/JSON/Markdown 文档中获得结构化结果，无需手写解析规则。",
+  "scenarios": [
+    "从电商网站批量抓取商品名称、价格等结构化数据",
+    "对本地 HTML/JSON/Markdown 文档进行信息抽取",
+    "构建 RAG 知识库前的网页内容采集与清洗",
+    "新闻或论文站点的自动化摘要与关键字段提取",
+    "集成到 LangChain/LlamaIndex 工作流中作为数据源"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装简单但需配置 OpenAI 等 LLM API Key 及相应费用，理解 graph pipeline 概念有一定学习成本。",
+  "alternatives": [
+    "Crawl4AI",
+    "FireCrawl",
+    "LLM Scraper"
+  ]
+}

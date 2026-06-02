@@ -1,0 +1,21 @@
+{
+  "id": "browseros-ai/BrowserOS",
+  "source_hash": "1534d0a911a36cf25bba1fcf86d3842ee2397d6cf041c56681de8f54d048b22c",
+  "generated_at": "2026-06-02T18:21:58.292Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "BrowserOS 是基于 Chromium 的开源分叉浏览器，原生集成 AI 智能体，可在本地运行自动化网页任务，强调隐私优先，定位为 ChatGPT Atlas、Perplexity Comet、Dia 的开源替代品，提供 macOS、Windows、Linux 安装包。",
+  "scenarios": [
+    "让 AI 代理自动浏览网页并完成多步操作",
+    "在浏览器内进行隐私优先的智能问答与摘要",
+    "自动化重复性的网页工作流，如表单填写、信息收集",
+    "作为 Perplexity Comet、ChatGPT Atlas 的开源替代日常使用",
+    "开发者基于 Chromium 分叉二次定制 Agentic 浏览器"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供 macOS、Windows、Linux 安装包，下载即用，无需自行编译。",
+  "alternatives": [
+    "Perplexity Comet",
+    "ChatGPT Atlas",
+    "Dia"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "livekit/agents",
+  "source_hash": "d01870b9cb76748c236991d8863e17dff2af5d37ca5230785023243ea991741a",
+  "generated_at": "2026-06-02T18:22:19.235Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LiveKit Agents 是一个用于构建实时语音 AI 智能体的 Python 框架，支持自由组合 STT、LLM、TTS 与 Realtime API，内置任务调度、WebRTC 通信和电话接入能力，可在服务器端运行可对话、看听理解的多模态语音助手。",
+  "scenarios": [
+    "搭建实时语音客服或电话呼叫机器人",
+    "构建多模态会议助手，实时听讲并响应",
+    "开发陪伴式语音 AI 应用",
+    "为在线教育/直播提供实时口语对话辅导",
+    "在 WebRTC 应用中嵌入可看可听的 AI 参与者"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档完善但需理解 WebRTC、STT/LLM/TTS 集成及服务器部署，对新手有一定门槛。",
+  "alternatives": [
+    "pipecat",
+    "vocode-python",
+    "ultravox"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "MiroMindAI/MiroThinker",
+  "source_hash": "79244ee200a92b00bc433872baab68d6e503b833fb26e09b1f65405a4d6507b5",
+  "generated_at": "2026-06-02T18:23:49.997Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "MiroMind 开源的深度研究智能体模型，针对复杂检索、推理与预测任务优化，在 BrowseComp 等基准上取得较高分数，提供模型权重、训练数据和评测代码，可本地部署或在线试用。",
+  "scenarios": [
+    "执行多步网络检索完成深度研究报告",
+    "回答 BrowseComp 类复杂事实查询",
+    "学术调研中自动汇总并交叉验证信息",
+    "作为基础模型进行 agent 能力微调与轨迹采集",
+    "在企业内部知识库上构建研究型问答助手"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要本地部署大模型、配置浏览器工具链和评测环境，对 GPU 资源和工程能力要求较高。",
+  "alternatives": [
+    "OpenAI Deep Research",
+    "WebThinker",
+    "Search-R1"
+  ]
+}

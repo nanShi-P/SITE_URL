@@ -1,0 +1,20 @@
+{
+  "id": "Infrasys-AI/AISystem",
+  "source_hash": "a4f429db24f5837e36d0eb2323399c7489d8f8963b994e83bebc9434ff099c62",
+  "generated_at": "2026-06-02T18:15:45.414Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源的AI系统全栈课程，系统讲解AI芯片与体系架构、AI编译器、推理系统与引擎、AI框架核心技术等底层技术，配套PPT、文字讲义和B站视频，面向高年级本科生、研究生及AI系统从业者。",
+  "scenarios": [
+    "高校学生系统学习AI底层技术与计算机体系结构",
+    "AI芯片或框架工程师补充全栈知识体系",
+    "研究者了解AI编译器与推理引擎前沿设计",
+    "技术分享或课程教学的备课参考材料",
+    "面试备战AI Infra相关岗位"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "以PPT、文档和视频学习资料为主，无需搭建运行环境，但内容深度较高需相关基础。",
+  "alternatives": [
+    "microsoft/AI-System",
+    "d2l-ai/d2l-zh"
+  ]
+}

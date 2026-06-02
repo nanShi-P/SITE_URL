@@ -1,0 +1,21 @@
+{
+  "id": "D4Vinci/Scrapling",
+  "source_hash": "05d6dd0beca6e408314f509a7b3b7d8ed3c1e829f2444ae679d2ca91a49c6a3c",
+  "generated_at": "2026-06-02T17:49:39.041Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Scrapling 是一个自适应的 Python 网页抓取框架，覆盖从单次请求到大规模爬取的场景，内置反检测浏览器、自动选择器修复和高性能解析能力，适合需要绕过反爬机制的数据采集任务。",
+  "scenarios": [
+    "对受反爬保护网站进行数据采集",
+    "页面结构变化后自动修复选择器，降低维护成本",
+    "结合无头浏览器模拟真人行为抓取动态渲染页面",
+    "构建大规模并发爬虫管道",
+    "为 LLM/AI Agent 提供网页内容抓取后端"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要安装 Python 及 Playwright 等浏览器依赖，但官方文档完善且 API 设计接近 BeautifulSoup，上手不算困难。",
+  "alternatives": [
+    "Scrapy",
+    "Playwright",
+    "Crawlee"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chaitin/PandaWiki",
+  "source_hash": "21b8df2b2558b1127394680b7d0f1746736a6c233691d814e92fc288675a0c9a",
+  "generated_at": "2026-06-02T18:22:51.673Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PandaWiki 是基于大模型的开源知识库系统，用于快速搭建产品文档、技术文档、FAQ 和博客，内置 AI 创作、AI 问答和 AI 搜索能力，支持富文本编辑、多格式导出，以及网页挂件和钉钉飞书企微等机器人集成。",
+  "scenarios": [
+    "企业搭建对外的产品使用文档与 FAQ 站点",
+    "技术团队内部沉淀技术文档与知识库",
+    "将 AI 问答挂件嵌入官网为访客提供智能客服",
+    "通过钉钉/飞书/企业微信机器人查询公司知识库",
+    "导入网站 Sitemap 或 RSS 内容快速构建博客系统"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供一键安装脚本，仅需 Docker 环境，文档清晰，配置 AI 模型也有引导界面。",
+  "alternatives": [
+    "Dify",
+    "FastGPT",
+    "MaxKB"
+  ]
+}

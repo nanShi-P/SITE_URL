@@ -1,0 +1,21 @@
+{
+  "id": "TransformerOptimus/SuperAGI",
+  "source_hash": "39ccf95a9ae1128a268d6099d514fe664f6f14d14e71843b11f9239318ce0be2",
+  "generated_at": "2026-06-02T18:14:16.683Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "SuperAGI 是一个面向开发者的开源自主 AI Agent 框架，提供图形化界面、工具市场和 API，帮助开发者快速构建、管理并并发运行多个具备记忆和工具调用能力的 LLM 智能体。",
+  "scenarios": [
+    "搭建可自动执行多步任务的研究或写作助手",
+    "并行运行多个 Agent 完成数据采集与分析",
+    "通过工具市场扩展 Agent 调用搜索、邮件等外部能力",
+    "为企业内部流程构建定制化的自动化机器人",
+    "学习和研究自主 AI Agent 的架构设计"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需 Docker、OpenAI API Key 和一定后端配置经验，但官方文档与 Web UI 较完善。",
+  "alternatives": [
+    "AutoGPT",
+    "BabyAGI",
+    "LangChain"
+  ]
+}

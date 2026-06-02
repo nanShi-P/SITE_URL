@@ -1,0 +1,21 @@
+{
+  "id": "kreuzberg-dev/kreuzberg",
+  "source_hash": "3eedef455ef22a9262b0e1fac50a89b23d7797c55d323cf7a8c2827cf138b52c",
+  "generated_at": "2026-06-02T18:23:39.002Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Rust 核心的多语言文档解析框架，支持从 PDF、Office、图片等 97+ 种格式中提取文本、元数据、图片及结构化信息，并提供 Python、Java、Go、Ruby、PHP、Node、WASM 等多语言绑定，也可通过 CLI、REST API 或 MCP 服务调用。",
+  "scenarios": [
+    "为 RAG 系统批量解析企业文档生成可检索文本",
+    "在 Node/Python 后端实现统一的文件上传内容提取接口",
+    "通过 MCP 服务器让 LLM 直接读取本地 PDF 与 Office 文件",
+    "在跨语言微服务中复用同一套文档解析能力",
+    "CLI 脚本批量抽取扫描件 OCR 文本与元数据"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "安装与调用本身简单，但多语言绑定众多、涉及 OCR 等原生依赖，部署配置需一定经验。",
+  "alternatives": [
+    "Apache Tika",
+    "unstructured",
+    "docling"
+  ]
+}

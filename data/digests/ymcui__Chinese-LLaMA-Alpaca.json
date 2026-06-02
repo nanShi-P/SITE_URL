@@ -1,0 +1,21 @@
+{
+  "id": "ymcui/Chinese-LLaMA-Alpaca",
+  "source_hash": "87997bbbe2537e3fba49162fd62fef1565a9be917cdd06893e8973d389c6bf74",
+  "generated_at": "2026-06-02T18:11:45.607Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该项目在原版LLaMA基础上扩充中文词表并用中文数据二次预训练，发布了中文LLaMA基础模型和经指令精调的中文Alpaca模型，并提供预训练、精调脚本及本地CPU/GPU量化部署方案，方便在个人电脑上体验中文大模型。",
+  "scenarios": [
+    "在个人笔记本上用llama.cpp量化部署中文对话模型",
+    "基于中文Alpaca进行领域指令精调，构建专属问答助手",
+    "结合LangChain搭建本地中文知识库问答系统",
+    "研究中文词表扩充与LLaMA二次预训练方法",
+    "通过text-generation-webui搭建本地中文聊天界面"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要自行获取原版LLaMA权重并合并，涉及预训练、LoRA精调和量化部署等多环节，对硬件和深度学习经验要求较高。",
+  "alternatives": [
+    "Chinese-LLaMA-Alpaca-2",
+    "Chinese-Vicuna",
+    "BELLE"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "alirezadir/Machine-Learning-Interviews",
+  "source_hash": "d76b703674da5724430a108266a10dc409c526ea32d55b7b84f92e3847bb6398",
+  "generated_at": "2026-06-02T18:23:56.065Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "面向机器学习与AI岗位技术面试的中文备考指南合集，涵盖编程算法、ML基础、深度学习、ML系统设计及行为面试等模块，整理了大量题目、知识点总结与参考资源，可作为求职者系统刷题与复习的学习路线图。",
+  "scenarios": [
+    "准备FAANG等大厂ML工程师岗位面试",
+    "系统复习机器学习与深度学习基础知识",
+    "学习ML系统设计题的解题框架与案例",
+    "校招/转行AI岗位前的知识梳理",
+    "面试官出题与考察点参考"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档与markdown资料，无需安装环境，按章节阅读即可。",
+  "alternatives": [
+    "eugeneyan/applied-ml",
+    "chiphuyen/machine-learning-systems-design",
+    "khangich/machine-learning-interview"
+  ]
+}

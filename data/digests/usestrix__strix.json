@@ -1,0 +1,20 @@
+{
+  "id": "usestrix/strix",
+  "source_hash": "6ca5a06bde92e4b9c28c00a41086c476556e0a4589bd97c6f3f4e2b9139c57dc",
+  "generated_at": "2026-06-02T18:04:06.145Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Strix 是一款开源的 AI 安全测试代理，能像渗透测试人员一样自主分析代码、动态运行应用并发现漏洞，可本地使用，也能集成到 GitHub Actions 和 CI/CD 流水线，在 PR 阶段自动扫描并阻断不安全代码。",
+  "scenarios": [
+    "开发者在本地对自己的 Web 应用进行自动化渗透测试",
+    "在 CI/CD 流水线中对每次 PR 进行安全扫描",
+    "安全团队对开源或第三方代码做漏洞审计",
+    "初创公司在无专职安全人员的情况下做上线前安全检查"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI 包和托管平台可快速上手，但本地运行需配置 LLM API、Docker 等依赖，且涉及安全测试场景需具备一定专业背景。",
+  "alternatives": [
+    "PentestGPT",
+    "Nuclei",
+    "ZAP"
+  ]
+}

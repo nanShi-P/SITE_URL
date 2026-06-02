@@ -1,0 +1,21 @@
+{
+  "id": "triggerdotdev/trigger.dev",
+  "source_hash": "77379a22fa83d3be0e439e68778de8e690e682446e0765ca4dff90027041ed40",
+  "generated_at": "2026-06-02T18:18:15.049Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Trigger.dev 是开源的 TypeScript 后台任务与 AI 工作流平台，支持长时间运行任务、自动重试、队列、可观测性和弹性扩缩容，可托管运行或自托管部署 AI 智能体及异步工作流。",
+  "scenarios": [
+    "用 TypeScript 编写并调度长时间运行的 AI 智能体任务",
+    "为 SaaS 应用实现可重试的异步后台作业队列",
+    "定时触发数据同步、ETL 或报表生成",
+    "处理大文件上传后的视频/图像 AI 处理流水线",
+    "自托管部署以满足数据合规需求"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供完善文档和 SDK，但涉及任务编排、部署与可选自托管，需要一定后端工程经验。",
+  "alternatives": [
+    "Inngest",
+    "Temporal",
+    "Hatchet"
+  ]
+}

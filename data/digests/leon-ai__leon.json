@@ -1,0 +1,21 @@
+{
+  "id": "leon-ai/leon",
+  "source_hash": "092709e6173ce740dd5ee1e8a6f451f117b19cc91b1be8d01cff65cd13568ac0",
+  "generated_at": "2026-06-02T18:14:49.390Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Leon 是一款开源的个人 AI 助手，强调工具调用、上下文、记忆与智能体式执行，可本地部署运行，注重隐私。当前 develop 分支聚焦 2.0 开发者预览版的新核心架构，master 分支则保留较稳定的旧版。",
+  "scenarios": [
+    "在本地搭建私有语音/文本 AI 助手处理日常指令",
+    "通过自定义技能（skill）扩展自动化任务",
+    "作为智能家居或物联网设备的语音控制中枢",
+    "开发者学习和实践 agent 架构与工具调用",
+    "离线场景下替代 Alexa/Siri 的隐私友好助手"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 Node.js、Python 等多语言依赖，2.0 新版文档尚未完善，配置和模型部署门槛较高。",
+  "alternatives": [
+    "Mycroft",
+    "Rhasspy",
+    "Open Assistant"
+  ]
+}

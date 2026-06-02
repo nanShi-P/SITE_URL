@@ -1,0 +1,21 @@
+{
+  "id": "mlc-ai/web-llm",
+  "source_hash": "905372480ce8acb4f22bbe441ca7268d7c1aea5d40903847f135ec161ca0cd52",
+  "generated_at": "2026-06-02T18:12:49.676Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "WebLLM 是基于 WebGPU 的浏览器内大语言模型推理引擎，无需服务器即可在本地运行开源模型，并完全兼容 OpenAI API，支持流式输出、JSON 模式等，可作为 npm 包集成到 Web 应用中。",
+  "scenarios": [
+    "在网页端构建无需后端的隐私聊天助手",
+    "为浏览器扩展或 Web 应用集成本地 LLM 能力",
+    "离线环境下运行开源模型进行问答与生成",
+    "教学和演示 LLM 推理原理",
+    "开发兼容 OpenAI API 的前端 Demo"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "npm 包接入简单，但需要支持 WebGPU 的浏览器和较高显存，对模型加载和性能调优有一定要求。",
+  "alternatives": [
+    "transformers.js",
+    "llama.cpp (wasm)",
+    "webllama"
+  ]
+}

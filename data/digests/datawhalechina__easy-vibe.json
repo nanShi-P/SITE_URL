@@ -1,0 +1,20 @@
+{
+  "id": "datawhalechina/easy-vibe",
+  "source_hash": "eedf92722f920924d4c2e3ce5abcb18b12f65cd0b3655f81539a986a3e06897b",
+  "generated_at": "2026-06-02T18:17:21.810Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Datawhale 出品的 vibe coding 入门教程，面向零基础学习者，用对话式 AI 编程方式带你一步步上手开发现代应用，目前已支持中英日韩等 10 种语言。",
+  "scenarios": [
+    "零基础新手入门 AI 辅助编程",
+    "学生快速学习用 AI 做出第一个应用",
+    "非程序员通过自然语言构建小工具",
+    "技术社区组织 vibe coding 学习活动",
+    "教师作为 AI 编程通识课参考教材"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯教程项目，文档完善且多语言支持，按章节阅读即可，无复杂环境依赖。",
+  "alternatives": [
+    "microsoft/generative-ai-for-beginners",
+    "anthropics/courses"
+  ]
+}

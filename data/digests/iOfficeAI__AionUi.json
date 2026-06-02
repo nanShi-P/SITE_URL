@@ -1,0 +1,21 @@
+{
+  "id": "iOfficeAI/AionUi",
+  "source_hash": "8804e7c172f364f8a476a32780b08278e5983803b265acf27b98814e42ee05fa",
+  "generated_at": "2026-06-02T18:01:59.534Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AionUi 是一款免费开源的跨平台桌面应用，为 Claude Code、Codex、Gemini CLI 等 20 多种 AI 编程命令行工具提供统一的图形界面，支持多 Agent 并行协作、远程访问和 24 小时自动化任务。",
+  "scenarios": [
+    "在本地用图形界面同时管理 Claude Code 和 Gemini CLI 等多个编码 Agent",
+    "让多个 AI Agent 并行处理不同代码仓库的任务",
+    "通过远程访问在手机或外网控制家里电脑上的 AI 编码助手",
+    "让 Agent 24 小时持续运行批量化重构或测试任务",
+    "为团队成员自定义个性化的 AI 编程助手配置"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 macOS/Windows/Linux 安装包，下载即用，无需复杂配置。",
+  "alternatives": [
+    "OpenWebUI",
+    "Cherry Studio",
+    "LobeChat"
+  ]
+}

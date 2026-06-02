@@ -1,0 +1,21 @@
+{
+  "id": "bigscience-workshop/petals",
+  "source_hash": "883e1493951e74ffede9b97d632a972bb47490cee46534903dc1388e4a59e4b2",
+  "generated_at": "2026-06-02T18:22:33.695Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Petals 通过 BitTorrent 式的分布式网络运行 Llama、Mixtral、Falcon、BLOOM 等超大模型，让个人电脑或 Colab 也能完成推理和微调，速度比本地 offloading 快约 10 倍。",
+  "scenarios": [
+    "在普通显卡上推理 Llama 3.1 405B 等超大模型",
+    "在 Colab 中对大模型做轻量化微调",
+    "贡献闲置 GPU 加入公共 swarm 共享算力",
+    "搭建私有 swarm 在团队内部分布式运行 LLM",
+    "研究分布式推理与协作式机器学习"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 pip 包和示例代码，但涉及分布式网络、GPU 环境及模型权限申请，对新手有一定门槛。",
+  "alternatives": [
+    "llama.cpp",
+    "vLLM",
+    "Hivemind"
+  ]
+}

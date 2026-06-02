@@ -1,0 +1,20 @@
+{
+  "id": "Usagi-org/ai-goofish-monitor",
+  "source_hash": "63088026414740ffefd27a1b309ca47f8eeb51aaf849824a4892de8ed64594b6",
+  "generated_at": "2026-06-02T18:21:29.378Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Playwright 和 AI 的闲鱼商品监控系统，支持多任务并发抓取、关键词与价格筛选、多模态模型分析，并提供 Web 管理后台、定时调度、多渠道通知和 Docker 一键部署。",
+  "scenarios": [
+    "监控二手数码产品低价捡漏",
+    "定时跟踪特定卖家或关键词的新发布商品",
+    "结合 AI 自动筛选符合个人需求的心仪商品",
+    "通过企业微信/Telegram 接收闲鱼新品推送",
+    "对闲鱼商品价格历史进行长期记录与分析"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "虽提供 Docker 一键部署和 Web UI，但需配置 OpenAI API、闲鱼登录 cookie 及多项环境变量。",
+  "alternatives": [
+    "xianyu-spider",
+    "XianyuAutoAgent"
+  ]
+}

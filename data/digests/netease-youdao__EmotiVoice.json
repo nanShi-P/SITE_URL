@@ -1,0 +1,20 @@
+{
+  "id": "netease-youdao/EmotiVoice",
+  "source_hash": "aa9d860e667329a27530f9d590b71b6b45d2ad22e20cea7b031b0326068204ff",
+  "generated_at": "2026-06-02T18:23:38.595Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "网易有道开源的中英双语 TTS 引擎，内置 2000 多种音色，支持通过情感提示词生成快乐、悲伤、愤怒等多种情绪语音，提供 Web 界面和脚本批量合成两种使用方式。",
+  "scenarios": [
+    "为有声书或播客生成带情绪表达的中英文旁白",
+    "短视频和游戏角色配音制作",
+    "客服或虚拟人产品中合成多样化音色",
+    "批量生成 TTS 数据用于模型训练或测试"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Python 环境、下载预训练模型并配置 GPU，官方提供 Docker 和文档但仍需一定深度学习部署经验。",
+  "alternatives": [
+    "Coqui TTS",
+    "Bark",
+    "ChatTTS"
+  ]
+}

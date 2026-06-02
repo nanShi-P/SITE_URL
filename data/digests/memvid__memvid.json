@@ -1,0 +1,20 @@
+{
+  "id": "memvid/memvid",
+  "source_hash": "cfd83261d37c1ccecafa8f695d3d6bcc15956c6c0b7a51bf2ffbc8de00ef6b77",
+  "generated_at": "2026-06-02T18:17:27.750Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Memvid 是一个面向 AI Agent 的单文件记忆层，用可移植、可版本化的本地文件替代传统 RAG 管道与向量数据库，提供长期记忆和即时检索能力，无需部署服务端。",
+  "scenarios": [
+    "为 LLM Agent 增加跨会话的长期记忆",
+    "在无服务器或边缘环境中嵌入轻量检索能力",
+    "将知识库打包成单文件随应用一起分发",
+    "快速原型验证替代复杂的 RAG 向量库方案"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "基于 Rust crate 提供，需熟悉 Rust 生态及 Agent 集成，但文档与沙箱较完善。",
+  "alternatives": [
+    "Chroma",
+    "LanceDB",
+    "Mem0"
+  ]
+}

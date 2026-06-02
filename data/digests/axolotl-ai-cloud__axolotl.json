@@ -1,0 +1,21 @@
+{
+  "id": "axolotl-ai-cloud/axolotl",
+  "source_hash": "f10bf569af02d42d43bb5d9906a336e3c8923c5b9bef32b189a86de039cf2f52",
+  "generated_at": "2026-06-02T18:21:41.690Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Axolotl 是一个开源的大语言模型微调框架，封装了 Hugging Face 生态，支持 LoRA、QLoRA、全参数微调等多种方式，通过 YAML 配置即可对主流开源模型进行训练，简化分布式训练与数据预处理流程。",
+  "scenarios": [
+    "对 Llama、Mistral 等开源模型进行 LoRA/QLoRA 微调",
+    "在多 GPU 环境下进行分布式全参数微调",
+    "通过 YAML 配置文件快速复现微调实验",
+    "对自有数据集进行指令微调以构建垂直领域模型",
+    "研究人员对比不同微调方法的效果"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需要 GPU 环境、熟悉 CUDA/PyTorch 与 LLM 训练原理，依赖较多且配置项复杂。",
+  "alternatives": [
+    "LLaMA-Factory",
+    "unsloth",
+    "trl"
+  ]
+}

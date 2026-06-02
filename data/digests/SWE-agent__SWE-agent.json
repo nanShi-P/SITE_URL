@@ -1,0 +1,21 @@
+{
+  "id": "SWE-agent/SWE-agent",
+  "source_hash": "50357d04fc6cdac7e6332ae4f212113c288d4e3a7423d32c09a7e8b6a7bda5af",
+  "generated_at": "2026-06-02T18:11:04.684Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "SWE-agent 让你选择的大语言模型自主调用工具，自动修复真实 GitHub 仓库的 issue，也可用于网络安全漏洞挖掘或编程竞赛任务，曾在 SWE-bench 上达到开源 SOTA，整体行为由单个 yaml 配置文件控制。",
+  "scenarios": [
+    "自动修复 GitHub 仓库中的 bug 或 issue",
+    "在 SWE-bench 等基准上评测 LLM 编程能力",
+    "参与 CTF 等网络安全漏洞挖掘任务",
+    "解决竞赛编程题目",
+    "研究人员用作可定制的 LLM Agent 实验框架"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 LLM API、Docker 环境和 yaml，文档齐全但涉及多组件集成",
+  "alternatives": [
+    "mini-swe-agent",
+    "OpenDevin",
+    "Aider"
+  ]
+}

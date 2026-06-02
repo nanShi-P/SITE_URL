@@ -1,0 +1,21 @@
+{
+  "id": "OpenBB-finance/OpenBB",
+  "source_hash": "e009588ee2fe3cff2cf6636dcf82f1201b3adcc595aa96c8673e71f5a15e0952",
+  "generated_at": "2026-06-02T17:48:34.498Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenBB 是一个开源金融数据平台，将公开、付费及私有数据源统一接入，可同时通过 Python、Excel、REST API 和 MCP 服务暴露给量化分析师、研究人员以及 AI Agent 使用。",
+  "scenarios": [
+    "量化研究员在 Python/Jupyter 中拉取股票、宏观等多源金融数据进行分析",
+    "分析师在 OpenBB Workspace 或 Excel 中查看统一的研究仪表盘",
+    "为 AI Agent/Copilot 通过 MCP 服务提供实时金融数据",
+    "团队搭建内部 REST API 网关聚合多家数据供应商",
+    "在 Google Colab 中快速试用金融数据回测"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 pip 包和 Dev Container，但涉及多数据源 API Key 配置和较大的平台架构，需要一定上手成本。",
+  "alternatives": [
+    "yfinance",
+    "FinancePy",
+    "Qlib"
+  ]
+}

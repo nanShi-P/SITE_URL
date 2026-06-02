@@ -1,0 +1,20 @@
+{
+  "id": "drivendataorg/cookiecutter-data-science",
+  "source_hash": "4ba8dd5909a28fcf0f7e425e5968d0a2c1c9e7952fe2960364c3069a9197ebac",
+  "generated_at": "2026-06-02T18:22:42.151Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Cookiecutter Data Science 是一个数据科学项目脚手架工具，基于 cookiecutter 模板，通过 ccds 命令一键生成标准化、可分享的项目目录结构，涵盖数据、notebook、模型、文档等常用目录约定。",
+  "scenarios": [
+    "团队启动新数据科学项目时统一目录规范",
+    "个人学习或竞赛项目快速搭建工程骨架",
+    "公司内部沉淀可复用的数据科学项目模板",
+    "教学场景下让学生遵循一致的项目组织方式"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pipx 一行安装后运行 ccds 即可，文档完善，无复杂依赖。",
+  "alternatives": [
+    "kedro",
+    "data-science-template",
+    "pyscaffold"
+  ]
+}

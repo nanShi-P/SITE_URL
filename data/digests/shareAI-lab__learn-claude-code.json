@@ -1,0 +1,20 @@
+{
+  "id": "shareAI-lab/learn-claude-code",
+  "source_hash": "59261342225f2b1412707e0e2a63a0ed882ec549db130ae1fbbbe76cecc7eb41",
+  "generated_at": "2026-06-02T17:49:03.075Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个从零到一构建的极简 Claude Code 风格 agent harness 教学项目，通过最小化代码示例讲解智能体的承载框架原理，强调智能来自模型本身，而 harness 只是让模型在特定环境中运行的载体。",
+  "scenarios": [
+    "学习智能体产品的底层架构原理",
+    "从零实现一个类 Claude Code 的命令行 agent",
+    "研究模型与外部代码编排的边界",
+    "作为 AI 工程师面试或培训的教学材料"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "概念性内容较深，需要一定的 LLM 和 agent 基础，但代码极简、文档清晰且多语言。",
+  "alternatives": [
+    "smol-developer",
+    "mini-agi",
+    "OpenHands"
+  ]
+}

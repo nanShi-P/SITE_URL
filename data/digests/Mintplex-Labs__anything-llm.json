@@ -1,0 +1,21 @@
+{
+  "id": "Mintplex-Labs/anything-llm",
+  "source_hash": "4c686293effcc7436ffe0750d34d588b21f1b511dc922855862e5136c2fa3858",
+  "generated_at": "2026-06-02T17:49:11.578Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AnythingLLM 是一款一体化的本地优先 AI 桌面与服务端应用，支持与本地文档对话、构建 AI Agent、多用户协作，并可灵活接入各类大模型与向量数据库，开箱即用无需复杂配置。",
+  "scenarios": [
+    "在本地与 PDF、Word 等私有文档进行问答检索",
+    "企业内部多用户共享知识库与权限管理",
+    "搭建可调用工具的自定义 AI Agent",
+    "对接 Ollama、OpenAI 等多种 LLM 做统一前端",
+    "作为 RAG 应用的快速原型平台"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 与桌面版安装较友好，但涉及模型与向量库配置，需要一定技术背景。",
+  "alternatives": [
+    "LobeChat",
+    "Open WebUI",
+    "LibreChat"
+  ]
+}

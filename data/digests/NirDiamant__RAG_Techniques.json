@@ -1,0 +1,20 @@
+{
+  "id": "NirDiamant/RAG_Techniques",
+  "source_hash": "2c00922d0d42a48210c803b967fba8146fc9ee8a5e26032875eca8d8bfad5072",
+  "generated_at": "2026-06-02T18:01:36.190Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "汇集多种进阶 RAG（检索增强生成）技术的教程合集，每种方法配有详细的 Jupyter Notebook 实战示例，涵盖从基础检索到复杂查询改写、重排序等技巧，便于学习与对比。",
+  "scenarios": [
+    "学习并比较不同 RAG 技术的效果",
+    "为企业知识库问答系统选型与原型验证",
+    "在课堂或培训中作为 RAG 教学材料",
+    "研究人员复现并改进检索增强方法"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需具备 Python、LLM API 和向量数据库基础，Notebook 文档清晰但依赖较多。",
+  "alternatives": [
+    "llama_index",
+    "langchain",
+    "haystack"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rasbt/LLMs-from-scratch",
+  "source_hash": "b899223ac97a5412237f5852448dd34760d8954546910ab3eb73e2ed5bfe5dac",
+  "generated_at": "2026-06-02T17:46:35.215Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "配套《Build a Large Language Model (From Scratch)》一书的官方代码仓库，使用 PyTorch 从零一步步实现类 ChatGPT 的大语言模型，涵盖分词、注意力机制、GPT 架构搭建、预训练以及指令微调与权重加载等完整流程。",
+  "scenarios": [
+    "系统学习 LLM 底层原理与 Transformer 实现",
+    "高校或培训课程的深度学习教学材料",
+    "研究者复现 GPT 架构并做小规模实验",
+    "加载 GPT-2 等预训练权重进行微调实践",
+    "面试准备时巩固 LLM 关键模块编码能力"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "代码结构清晰、文档与配图详尽，但需要扎实的 PyTorch 与深度学习基础，且训练环节对算力有一定要求。",
+  "alternatives": [
+    "karpathy/nanoGPT",
+    "karpathy/minGPT",
+    "huggingface/transformers"
+  ]
+}

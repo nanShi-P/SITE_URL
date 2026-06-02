@@ -1,0 +1,20 @@
+{
+  "id": "carson-katri/dream-textures",
+  "source_hash": "b05763bb184468570f425b8911fdcc0416dcfaa762f55cf6f36800d1f4a87d36",
+  "generated_at": "2026-06-02T18:23:56.166Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Dream Textures 是一款将 Stable Diffusion 集成进 Blender 的插件，可在 Blender 内通过文本提示生成贴图、概念图和背景素材，支持无缝贴图、基于深度图的场景投影贴图，以及利用 Cycles 渲染通道对动画进行风格化重绘，模型在本地运行无需联网服务。",
+  "scenarios": [
+    "在 Blender 内用文字提示快速生成模型贴图",
+    "制作可无缝平铺的纹理贴图",
+    "用深度图为整个 3D 场景投影 AI 贴图",
+    "对 Cycles 动画渲染结果进行 AI 风格化",
+    "快速生成概念美术和场景背景"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要安装 Blender 插件并配置 PyTorch 等依赖，macOS 还需处理隔离权限，但官方提供发布包和视频教程。",
+  "alternatives": [
+    "AI Render",
+    "Stability for Blender"
+  ]
+}

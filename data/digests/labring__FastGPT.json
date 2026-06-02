@@ -1,0 +1,21 @@
+{
+  "id": "labring/FastGPT",
+  "source_hash": "45fe63c21c00a074f7defe2fa8fdc5b1f62d5ee9b5d00afe3a2cb0467a902ce5",
+  "generated_at": "2026-06-02T18:01:00.430Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "FastGPT 是基于大语言模型的知识库与 AI Agent 构建平台，内置数据处理、RAG 检索和可视化工作流编排能力，支持 Docker 一键部署，帮助开发者快速搭建问答系统和复杂 AI 应用。",
+  "scenarios": [
+    "企业内部知识库问答机器人",
+    "客服系统接入与自动应答",
+    "基于私有文档的 RAG 检索应用",
+    "通过可视化 Flow 编排多步骤 AI Agent 工作流",
+    "教育培训领域的智能答疑助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 一键部署脚本和详细文档，但需自备模型 API 与服务器，配置项较多。",
+  "alternatives": [
+    "Dify",
+    "MaxKB",
+    "AnythingLLM"
+  ]
+}

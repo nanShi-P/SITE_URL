@@ -1,0 +1,21 @@
+{
+  "id": "toon-format/toon",
+  "source_hash": "0cd92d4b9832a854cc3ef8a6e49dc3e632cad94f23cbff6d128df79ced79cd70",
+  "generated_at": "2026-06-02T18:05:38.638Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "TOON 是一种面向 LLM 输入的紧凑、人类可读的 JSON 等价编码格式，结合 YAML 缩进与 CSV 表格风格，专为减少 token 消耗、提升模型解析结构化数据的准确性而设计，提供规范、基准测试与 TypeScript SDK。",
+  "scenarios": [
+    "将大型 JSON 数据集编码后作为 LLM prompt 输入以节省 token",
+    "在 RAG 流程中以更紧凑格式传递结构化检索结果",
+    "用表格化方式向模型呈现统一结构的对象数组",
+    "在 agent 工具调用中压缩参数或返回值",
+    "基准测试不同序列化格式的 token 成本"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 npm 包和 TypeScript SDK，调用 API 即可完成 JSON 与 TOON 互转，文档与规范完善。",
+  "alternatives": [
+    "YAML",
+    "JSON5",
+    "MessagePack"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "replicate/cog",
+  "source_hash": "39560074fb513e17f24082ad20a0620b53940a8f2f3ae7563d6bf5032f961a89",
+  "generated_at": "2026-06-02T18:23:04.878Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Cog 是一个开源工具，通过简单的 cog.yaml 配置文件将机器学习模型打包为标准化的 Docker 容器，自动处理 CUDA、Python、依赖等环境配置，并基于模型输入输出类型生成 HTTP 推理服务，便于部署到自有基础设施或 Replicate 平台。",
+  "scenarios": [
+    "将训练好的 PyTorch/TensorFlow 模型打包为可复现的推理容器",
+    "为模型快速生成带 OpenAPI 规范的 REST 推理服务",
+    "避免手写 Dockerfile 处理 CUDA 与 cuDNN 版本兼容问题",
+    "在自有 Kubernetes 或云服务器上部署 AI 模型",
+    "将模型发布到 Replicate 平台供他人调用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要掌握 Docker、Python 和机器学习基础，但配置文件设计简洁、文档完善，降低了上手门槛。",
+  "alternatives": [
+    "BentoML",
+    "TorchServe",
+    "Truss"
+  ]
+}

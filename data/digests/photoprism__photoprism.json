@@ -1,0 +1,21 @@
+{
+  "id": "photoprism/photoprism",
+  "source_hash": "91471899698518cc981031f5d5ff17dccd13f2703b2e843f6b245f0ea23f4619",
+  "generated_at": "2026-06-02T17:54:36.639Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "PhotoPrism 是一款自托管的 AI 照片管理应用，可在家庭服务器、私有云或本地运行，支持自动识别人脸、地点和物体并打标签，兼容 RAW、视频等多种格式，注重隐私与去中心化。",
+  "scenarios": [
+    "在家用 NAS 上搭建私人照片库替代 Google Photos",
+    "为家庭成员提供共享相册和人脸识别浏览",
+    "管理摄影师拍摄的大量 RAW 原片并自动分类",
+    "在 VPS 上部署个人云相册随时随地访问",
+    "归档整理多年积累的手机和相机照片"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 镜像和详尽文档，但需自行准备服务器、配置存储与反向代理，并对硬件有一定要求。",
+  "alternatives": [
+    "Immich",
+    "LibrePhotos",
+    "Piwigo"
+  ]
+}

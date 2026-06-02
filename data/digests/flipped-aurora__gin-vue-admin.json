@@ -1,0 +1,21 @@
+{
+  "id": "flipped-aurora/gin-vue-admin",
+  "source_hash": "c47a7e4ad3eafc136a31f9d7ae08d853d50a940492a04f9606deb769e909d1f6",
+  "generated_at": "2026-06-02T18:05:11.371Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Gin+Vue3+Vite 的全栈后台管理脚手架，集成 JWT 鉴权、RBAC 权限、动态路由、代码生成器、表单生成器及 MCP 等 AI 辅助能力，可一键生成前后端 CRUD 代码，适合快速搭建企业级管理系统。",
+  "scenarios": [
+    "快速搭建企业内部管理后台",
+    "作为学习 Gin+Vue3 全栈开发的参考项目",
+    "通过代码生成器批量生成业务模块 CRUD",
+    "基于 RBAC 构建带权限控制的 SaaS 系统",
+    "结合 MCP 在 AI 编辑器中辅助生成业务代码"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需具备 Go、Vue3、MySQL 等前后端基础并配置相应环境，但官方文档完善、社区活跃。",
+  "alternatives": [
+    "go-admin",
+    "vue-element-admin",
+    "go-vue-admin"
+  ]
+}

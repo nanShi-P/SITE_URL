@@ -1,0 +1,20 @@
+{
+  "id": "Pythagora-io/gpt-pilot",
+  "source_hash": "70eca00b4a6866dd439bd1fb983445b07d9f38379badc822a40a9c0a136471a9",
+  "generated_at": "2026-06-02T17:57:24.434Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "GPT Pilot 是 Pythagora 推出的 AI 开发者代理，能根据需求逐步生成完整应用代码，并作为 VS Code 插件 Pythagora 的核心引擎。项目仓库已停止维护，后续开发转移到 Pythagora.ai 平台。",
+  "scenarios": [
+    "从零开始用自然语言描述需求生成完整 Web 应用",
+    "快速搭建原型并由 AI 自动编写前后端代码",
+    "在 VS Code 中通过 Pythagora 插件辅助编码",
+    "学习 AI Agent 自动化软件开发的实现方式"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 LLM API Key 与 Python 环境，且仓库已停更，文档和支持有限。",
+  "alternatives": [
+    "AutoGPT",
+    "MetaGPT",
+    "Devin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "teambit/bit",
+  "source_hash": "f8c1e293eb148bef0e8a7f3306e31426168ff4d3e5037439f2c95f68eaba1cd8",
+  "generated_at": "2026-06-02T18:12:13.800Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Bit 是一个面向 AI 时代的组件化构建系统，将源代码拆分为可复用组件，统一开发、测试、CI 与部署流程，并通过 MCP 让 AI 智能体复用组件，避免重复造轮子。",
+  "scenarios": [
+    "在多个前端项目间共享 React/Vue UI 组件库",
+    "构建由可复用组件组合而成的微前端应用",
+    "让 AI 编码助手通过 MCP 检索并复用已有组件",
+    "为团队定义统一的组件模板和架构规范",
+    "对组件进行独立版本管理与原子化部署"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及全新的组件化工作流与 CLI 概念，学习曲线陡峭，需要改造现有项目结构。",
+  "alternatives": [
+    "Nx",
+    "Turborepo",
+    "Lerna"
+  ]
+}

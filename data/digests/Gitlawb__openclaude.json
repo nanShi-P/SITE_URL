@@ -1,0 +1,21 @@
+{
+  "id": "Gitlawb/openclaude",
+  "source_hash": "e500f5f86a3b164cec9bba3c00447e021dafe58dd66e13014592ca8529d0b5a4",
+  "generated_at": "2026-06-02T18:01:07.298Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenClaude 是一个开源的命令行编码代理工具，支持 OpenAI 兼容 API、Gemini、Ollama、Codex 等多种云端和本地模型后端，提供提示、工具、代理、MCP、斜杠命令和流式输出等终端优先的统一工作流。",
+  "scenarios": [
+    "在终端中调用本地 Ollama 模型完成代码编写与重构",
+    "通过 OpenAI 兼容 API 接入自定义模型进行项目辅助开发",
+    "使用 MCP 协议集成外部工具扩展代理能力",
+    "团队在多种 LLM 提供商之间切换以对比效果或控制成本",
+    "在 VS Code 扩展中使用统一的编码代理工作流"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 API 密钥与多种后端环境，CLI 使用本身不复杂但涉及 MCP、代理等概念有学习成本。",
+  "alternatives": [
+    "aider",
+    "Claude Code",
+    "OpenHands"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ludwig-ai/ludwig",
+  "source_hash": "9a13cd0d432f2603bf5f5dedef46d4cfed27b2cbaeca79490da472a46506b931",
+  "generated_at": "2026-06-02T18:21:43.823Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Ludwig 是声明式深度学习框架，通过 YAML 配置文件即可训练、微调和部署 LLM、多模态及表格类 AI 模型，无需编写样板 Python 代码，支持 LoRA 微调、分布式训练与多任务建模。",
+  "scenarios": [
+    "用 LoRA 配置文件微调 Llama-3.1 等开源大模型",
+    "对结构化表格数据做分类、回归任务",
+    "训练图文等多模态模型并部署推理服务",
+    "在 Ray 集群上做分布式大规模训练",
+    "非算法工程师通过 YAML 快速验证 AI 想法"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "配置式接口降低了上手成本，但涉及 PyTorch、Ray 等较重依赖，调优大模型仍需深度学习基础。",
+  "alternatives": [
+    "AutoGluon",
+    "H2O AutoML",
+    "LLaMA-Factory"
+  ]
+}

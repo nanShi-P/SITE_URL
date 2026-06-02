@@ -1,0 +1,21 @@
+{
+  "id": "rtk-ai/rtk",
+  "source_hash": "145677ae5618eeafc09a7b44136591c551c41d29d794d7f3a928af8da5f10809",
+  "generated_at": "2026-06-02T17:50:14.916Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个用 Rust 写的命令行代理，在常见开发命令（ls、cat、grep 等）输出送入 LLM 上下文前进行过滤和压缩，号称可减少 60-90% 的 token 消耗，单二进制零依赖，开销低于 10ms。",
+  "scenarios": [
+    "在 Claude Code 等编码助手中减少 ls/tree/cat 等命令输出的 token 占用",
+    "长会话中压缩日志和文件读取结果以延长上下文寿命",
+    "CI 或脚本中代理执行命令以降低 LLM API 费用",
+    "为本地 LLM 节省有限上下文窗口",
+    "团队统一接入以控制 LLM 调用成本"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "单个 Rust 二进制，支持 Homebrew 安装，无外部依赖，开箱即用。",
+  "alternatives": [
+    "llm-context",
+    "aider",
+    "repomix"
+  ]
+}

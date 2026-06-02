@@ -1,0 +1,21 @@
+{
+  "id": "huggingface/chat-ui",
+  "source_hash": "de9a47011cd40a3e6273226acee83233b9f8056acc9f00f0080f49beefd19102",
+  "generated_at": "2026-06-02T18:22:19.048Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "HuggingChat 背后的开源聊天界面，基于 SvelteKit 开发，通过 OpenAI 兼容 API 对接各类大模型服务，支持本地 llama.cpp、Ollama 及 OpenRouter 等，配合数据库可搭建私有 ChatGPT 式对话应用。",
+  "scenarios": [
+    "自建私有的 ChatGPT 风格 Web 聊天界面",
+    "为本地 Ollama 或 llama.cpp 服务配上现代化前端",
+    "团队内部基于 OpenRouter 等多模型路由提供统一对话入口",
+    "在 Hugging Face Spaces 上部署自定义 LLM 演示",
+    "企业搭建带历史记录和多用户的 AI 助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 SvelteKit、数据库和 OpenAI 兼容后端，文档清晰但涉及环境变量与部署步骤。",
+  "alternatives": [
+    "open-webui",
+    "LibreChat",
+    "Lobe Chat"
+  ]
+}

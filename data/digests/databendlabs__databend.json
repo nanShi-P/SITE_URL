@@ -1,0 +1,21 @@
+{
+  "id": "databendlabs/databend",
+  "source_hash": "1043d56e04be2fbc431d4cc32dde6c9940a0ea047a0612c81ccffd2d06222550",
+  "generated_at": "2026-06-02T18:23:13.634Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Databend 是用 Rust 构建的开源企业级数据仓库，基于 S3 等对象存储，统一支持大规模分析、向量检索、全文搜索和自动模式演进，并内置 Python UDF 沙箱与数据分支能力，面向 AI Agent 场景提供 SQL 编排和事务保障。",
+  "scenarios": [
+    "在对象存储上搭建云原生数据仓库做大规模 SQL 分析",
+    "为 AI Agent 提供向量检索与全文搜索的统一后端",
+    "用 Python UDF 沙箱安全执行 Agent 自定义逻辑",
+    "通过 Git 式数据分支在生产快照上做安全实验",
+    "替代 Snowflake 等做低成本弹性计算分析"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供云服务和 Docker 快速启动，但自建集群需配置对象存储与分布式组件，有一定运维门槛。",
+  "alternatives": [
+    "Snowflake",
+    "ClickHouse",
+    "StarRocks"
+  ]
+}

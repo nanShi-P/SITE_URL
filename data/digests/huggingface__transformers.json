@@ -1,0 +1,21 @@
+{
+  "id": "huggingface/transformers",
+  "source_hash": "b6c6333fdafe09d44ace401602ec5e3e3323c2975d3faf6b656d6b152ea05fe2",
+  "generated_at": "2026-06-02T17:45:06.617Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Hugging Face 出品的统一模型定义框架，集成文本、视觉、音频及多模态领域的主流预训练模型，提供加载、推理和训练的一致 API，并与 PyTorch 等深度学习框架无缝衔接。",
+  "scenarios": [
+    "加载 BERT、LLaMA 等预训练模型进行文本分类或问答",
+    "调用 Whisper、Wav2Vec2 实现语音识别",
+    "使用 ViT、CLIP 完成图像分类或图文匹配",
+    "在自有数据集上微调大语言模型",
+    "基于 pipeline 快速搭建 NLP 推理服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "API 封装良好且文档完善，但需要一定的深度学习基础和 GPU 环境才能流畅使用。",
+  "alternatives": [
+    "fairseq",
+    "OpenMMLab",
+    "spaCy"
+  ]
+}

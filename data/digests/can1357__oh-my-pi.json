@@ -1,0 +1,21 @@
+{
+  "id": "can1357/oh-my-pi",
+  "source_hash": "3a0e305fcba581c6940b067bed8c2ee7772c22cf6008396b0a356473a749b961",
+  "generated_at": "2026-06-02T18:22:43.256Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 Pi 二次开发的终端 AI 编码代理，集成 LSP、Python、浏览器和子代理，支持基于哈希锚点的精确文件编辑，号称对接 40 多个模型提供商，定位为开箱即用的命令行 IDE 助手。",
+  "scenarios": [
+    "在终端里让 AI 读写并修改本地代码库",
+    "借助 LSP 做跨文件重构与符号查找",
+    "调用 Python 或浏览器子代理执行脚本和网页任务",
+    "切换不同模型提供商进行编码对比",
+    "通过子代理拆解复杂的多步开发任务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "npm 一键安装但需配置模型 API、LSP 及运行时环境，文档偏简略。",
+  "alternatives": [
+    "aider",
+    "Claude Code",
+    "opencode"
+  ]
+}

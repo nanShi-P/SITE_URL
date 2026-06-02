@@ -1,0 +1,21 @@
+{
+  "id": "n8n-io/self-hosted-ai-starter-kit",
+  "source_hash": "2211111d43b9ab0114c968b493e03a5ff74d0034481e8a6e4c7fd3460f83d654",
+  "generated_at": "2026-06-02T18:18:41.700Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "由 n8n 官方整理的开源 Docker Compose 模板，一键部署本地 AI 与低代码开发环境，集成 n8n、Ollama、Qdrant 和 PostgreSQL，便于快速搭建自托管的 AI 工作流。",
+  "scenarios": [
+    "在本地搭建私有 AI 智能体处理日程安排",
+    "安全地对公司内部 PDF 文档进行摘要而不外泄数据",
+    "构建接入企业知识库的私有 Slack 机器人",
+    "低成本地分析财务文档等敏感资料",
+    "学习和原型验证基于本地 LLM 的 RAG 流程"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供现成 Docker Compose 与文档，但需配置环境变量、GPU 驱动以及理解 n8n 与向量库等组件。",
+  "alternatives": [
+    "LangFlow",
+    "Flowise",
+    "LocalAI"
+  ]
+}

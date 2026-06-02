@@ -1,0 +1,21 @@
+{
+  "id": "screenpipe/screenpipe",
+  "source_hash": "8a822285840811c0da128df53ffc878f87160428d6596350cad6be856229561a",
+  "generated_at": "2026-06-02T18:11:28.341Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "screenpipe 是一款 7×24 小时在本地记录你屏幕、麦克风和系统音频的桌面工具，所有数据本地存储以保护隐私，并通过 AI 让你检索、回顾和分析自己看过、说过、听过的内容。",
+  "scenarios": [
+    "回顾几天前看过却记不清出处的网页或视频内容",
+    "自动生成会议纪要和通话摘要",
+    "为日常工作记录可搜索的活动日志以做时间分析",
+    "开发基于个人屏幕数据的 AI Agent 或插件",
+    "为科研、写作积累可检索的素材库"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供桌面安装包，普通用户开箱即用，但二次开发或自建需配置 Rust、模型和系统级录屏权限。",
+  "alternatives": [
+    "Rewind.ai",
+    "Memex",
+    "OpenRecall"
+  ]
+}

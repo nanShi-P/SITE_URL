@@ -1,0 +1,21 @@
+{
+  "id": "google/langextract",
+  "source_hash": "99a4f69e1d3412cb8edbed0f1606cd89b565eeef78497511d9627b928ed2740d",
+  "generated_at": "2026-06-02T17:55:59.871Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LangExtract 是 Google 开源的 Python 库，借助大语言模型从非结构化文本中抽取结构化信息，可精确定位抽取内容在原文中的位置，并支持交互式可视化高亮，方便溯源核验。支持 Gemini、OpenAI 及本地 Ollama 等多种模型后端。",
+  "scenarios": [
+    "从临床病历中抽取药物名称、剂量等结构化信息",
+    "结构化处理放射科报告生成标准化字段",
+    "对法律合同、研究论文等长文档做信息抽取",
+    "从文学作品中提取人物、关系、情节等要素并可视化",
+    "构建带原文溯源的企业知识库或问答系统"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 即可安装，文档示例齐全，但需自备 LLM API Key 或本地模型。",
+  "alternatives": [
+    "LlamaIndex",
+    "Instructor",
+    "LangChain"
+  ]
+}

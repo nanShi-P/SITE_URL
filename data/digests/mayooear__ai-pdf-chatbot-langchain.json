@@ -1,0 +1,20 @@
+{
+  "id": "mayooear/ai-pdf-chatbot-langchain",
+  "source_hash": "f1eb721b778009d18f3925453310a6061ba423da68bc54b4960fbff79aa54823",
+  "generated_at": "2026-06-02T18:16:04.920Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "基于 LangChain 与 LangGraph 的 PDF 问答机器人模板，包含前后端 monorepo：将 PDF 解析为文档块后存入 Supabase 向量库，再由 OpenAI 等大模型结合检索图回答用户提问，可作为学习和二次开发的参考脚手架。",
+  "scenarios": [
+    "搭建企业内部 PDF 知识库问答系统",
+    "学习 LangGraph 编排检索增强生成流程",
+    "作为《Learning LangChain》一书的配套实践代码",
+    "快速原型化文档智能客服或论文阅读助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Supabase、OpenAI 等多项环境变量并启动前后端两端，但文档结构清晰、步骤完整。",
+  "alternatives": [
+    "danny-avila/LibreChat",
+    "imartinez/privateGPT",
+    "langchain-ai/chat-langchain"
+  ]
+}

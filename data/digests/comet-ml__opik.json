@@ -1,0 +1,21 @@
+{
+  "id": "comet-ml/opik",
+  "source_hash": "ec4eb763a39f6788b759a4d13cb135123ed026d68a22fc3c43678046688c411d",
+  "generated_at": "2026-06-02T18:10:58.559Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Opik 是 Comet 推出的开源 LLM 可观测性平台，为生成式 AI 应用提供链路追踪、自动化评估、提示词与工具优化以及生产级监控面板，覆盖 RAG、聊天机器人、智能体等场景的全生命周期调试与质量管控。",
+  "scenarios": [
+    "调试 RAG 聊天机器人的检索与生成链路",
+    "对 LLM 输出进行自动化评估和回归测试",
+    "监控生产环境中智能体工作流的延迟与成本",
+    "对比不同提示词版本并自动优化",
+    "团队协作管理 LLM 实验与数据集"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Python SDK 和托管服务上手简单，但自托管需 Docker 部署后端及前端组件，存在一定运维成本",
+  "alternatives": [
+    "LangSmith",
+    "Langfuse",
+    "Phoenix (Arize)"
+  ]
+}

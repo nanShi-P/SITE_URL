@@ -1,0 +1,21 @@
+{
+  "id": "Lightning-AI/litgpt",
+  "source_hash": "a0fd52d676d819335d602f4380ecbb851f8e41d44aed20a9dbc77d378dc40be5",
+  "generated_at": "2026-06-02T18:20:58.961Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LitGPT 由 Lightning AI 出品，提供 20 多种主流大语言模型的从零实现，内置预训练、微调（LoRA/QLoRA/Adapter）、量化和部署的完整脚本与 YAML 配方，支持 Flash Attention、FSDP，可在单卡到上千卡 GPU/TPU 上扩展运行。",
+  "scenarios": [
+    "在自有数据上对 Llama、Mistral 等开源模型进行 LoRA/QLoRA 微调",
+    "从零预训练自定义大语言模型",
+    "使用 FSDP 在多机多卡集群上分布式训练",
+    "将微调好的模型量化并部署为推理服务",
+    "学习主流 LLM 的内部实现原理"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档与配方齐全且封装良好，但涉及 GPU 环境、分布式训练和模型权重管理，对硬件和深度学习基础有一定要求。",
+  "alternatives": [
+    "axolotl",
+    "LLaMA-Factory",
+    "unsloth"
+  ]
+}

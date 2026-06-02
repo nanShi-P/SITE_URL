@@ -1,0 +1,20 @@
+{
+  "id": "cloudwego/eino",
+  "source_hash": "1ef72191dc6831c597c9fc510b7e54434f4c70b428aa3a31cf9ee869a091194d",
+  "generated_at": "2026-06-02T18:21:43.354Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Eino 是字节 CloudWeGo 团队推出的 Go 语言 LLM 应用开发框架，借鉴 LangChain 和 Google ADK，提供 ChatModel、Tool、Retriever 等可复用组件，并内置 Agent 开发套件与图式编排能力，用于构建带工具调用、多智能体协作和人类介入的 AI 应用。",
+  "scenarios": [
+    "用 Go 构建带工具调用的 ChatModel Agent",
+    "编排多个 LLM 组件形成复杂工作流图",
+    "实现多智能体协作并支持中断恢复的人机交互",
+    "集成 OpenAI、Ollama 等模型搭建 RAG 检索应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 Go 开发基础和对 LLM 应用编排概念的理解，但官方文档和示例较完整。",
+  "alternatives": [
+    "LangChainGo",
+    "langgraph",
+    "Google ADK"
+  ]
+}

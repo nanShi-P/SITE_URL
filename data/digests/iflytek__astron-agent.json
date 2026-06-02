@@ -1,0 +1,21 @@
+{
+  "id": "iflytek/astron-agent",
+  "source_hash": "8d30cfbd26bbdcef6a271d4190faa90d423b2fbe452729424124a2fa77e06402",
+  "generated_at": "2026-06-02T18:23:44.637Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "科大讯飞开源的企业级智能体工作流开发平台，集成AI工作流编排、模型管理、MCP工具接入、RPA自动化和团队协作功能，支持高可用部署，基于Apache 2.0协议可自由商用，用于快速构建生产级智能体应用。",
+  "scenarios": [
+    "企业内部搭建AI智能体平台并对接OA、ERP等系统",
+    "通过RPA自动化打通新旧业务系统的跨系统流程",
+    "团队协作开发和管理多个AI Agent应用",
+    "集成多家厂商大模型进行统一编排和调用",
+    "构建面向客户的对话式智能客服或助手"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "企业级平台涉及多模块、高可用部署和外部系统对接，环境依赖复杂，运维门槛较高。",
+  "alternatives": [
+    "Dify",
+    "FastGPT",
+    "Coze"
+  ]
+}

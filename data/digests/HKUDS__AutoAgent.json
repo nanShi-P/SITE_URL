@@ -1,0 +1,21 @@
+{
+  "id": "HKUDS/AutoAgent",
+  "source_hash": "0be05eba0d29ece483821a86bde043ed823c5e2408577aeb93c03adf669b22ae",
+  "generated_at": "2026-06-02T18:23:05.170Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "AutoAgent 是港大数据智能实验室开源的全自动、零代码 LLM 智能体框架，用户用自然语言即可创建和编排多智能体与工作流，内置工具调用、RAG 与文件管理能力，在 GAIA 基准上表现领先，适合无编程背景者快速构建通用 AI 助手。",
+  "scenarios": [
+    "用自然语言搭建可执行网页浏览和文件操作的个人 AI 助手",
+    "为企业知识库构建基于 RAG 的问答智能体",
+    "在 GAIA 等基准上复现和评测通用智能体能力",
+    "编排多智能体协作完成数据分析或报告生成任务",
+    "非程序员快速原型化自定义工作流应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Docker 和多家 LLM API Key，但提供 CLI、文档和零代码界面，上手门槛适中。",
+  "alternatives": [
+    "AutoGen",
+    "CrewAI",
+    "OpenHands"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "mudler/LocalAI",
+  "source_hash": "39f32250b4dddc8c3aa5b3fa7d7fcb72a64594a59d3ce53291889c9f108563cc",
+  "generated_at": "2026-06-02T17:52:25.514Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LocalAI 是一个开源本地 AI 推理引擎，提供与 OpenAI 兼容的 API，可在普通 CPU 或 GPU 上运行大语言模型、视觉、语音、图像、视频等多种模型。采用按需加载的后端架构，集成 llama.cpp、vLLM、whisper.cpp、stable-diffusion 等主流引擎。",
+  "scenarios": [
+    "在本地私有环境部署 LLM 替代 OpenAI API",
+    "无 GPU 服务器上运行语音转写或图像生成",
+    "企业内网搭建多模态 AI 服务",
+    "离线开发调试 AI 应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 Docker 镜像和文档较完整，但涉及模型选型、后端配置和硬件适配，初学者需要一定学习成本。",
+  "alternatives": [
+    "Ollama",
+    "LM Studio",
+    "vLLM"
+  ]
+}

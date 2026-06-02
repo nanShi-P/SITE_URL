@@ -1,0 +1,20 @@
+{
+  "id": "JCodesMore/ai-website-cloner-template",
+  "source_hash": "a9a1b9fa2fa17ee26c0eddc4c014081dc991744b9285a04af95c01e22d99ff7e",
+  "generated_at": "2026-06-02T18:16:26.091Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个基于 Next.js 的项目模板，配合 Claude Code 等 AI 编码代理，通过 /clone-website 命令解析目标网址，提取设计令牌与资源，并由并行的 AI 构建者重建各个页面区块，从而快速复刻任意网站。",
+  "scenarios": [
+    "快速复刻竞品落地页用于学习参考",
+    "为设计稿原型生成 Next.js 代码骨架",
+    "批量重建旧站点到现代技术栈",
+    "教学演示 AI 编码代理的协作流程"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 Claude Code 等付费 AI 代理及 Next.js 环境，但模板和命令流程已封装好。",
+  "alternatives": [
+    "GPT-Engineer",
+    "v0.dev",
+    "Devin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "jeecgboot/jimureport",
+  "source_hash": "57f32b8c5b1033e2409536794c28aba0ce65ad7ae6c8a105c408103c9a0e940f",
+  "generated_at": "2026-06-02T18:24:05.619Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "积木报表是一款免费的可视化报表与大屏工具，提供类Excel在线拖拽设计器，支持复杂报表、打印、填报、移动端等场景，兼容30余种数据源，并内置AI能力可根据自然语言一句话生成报表和数据大屏，定位为帆软、Tableau的开源替代。",
+  "scenarios": [
+    "企业财务、销售等复杂中国式报表设计与打印",
+    "数据大屏和领导驾驶舱可视化展示",
+    "业务人员通过自然语言一句话快速生成报表",
+    "在线数据填报与多Sheet套打、发票打印",
+    "在JeecgBoot等Java项目中集成报表模块"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需Java后端环境与数据库配置，但官方文档完善、社区活跃，集成流程相对清晰。",
+  "alternatives": [
+    "UReport2",
+    "AJ-Report",
+    "DataEase"
+  ]
+}

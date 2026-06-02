@@ -1,0 +1,21 @@
+{
+  "id": "yzhao062/anomaly-detection-resources",
+  "source_hash": "db81c627b8156ea16d86b1e2fb5d1edc8ad491221dd2f54a4fedd09b7a524ae5",
+  "generated_at": "2026-06-02T18:23:13.506Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个持续更新的异常检测学习资源合集，汇总了相关书籍、论文、在线课程、视频、公开数据集、开源与商业工具库以及重要会议期刊，2025 年底新增了 LLM 和 VLM 相关工作的整理。",
+  "scenarios": [
+    "研究者快速查找异常检测领域经典与最新论文",
+    "学生系统入门异常检测，找书籍和课程资源",
+    "工程师挑选合适的开源异常检测工具库",
+    "调研 LLM/VLM 在异常检测中的应用进展",
+    "寻找公开异常检测数据集用于基准测试"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯资源清单仓库，无需安装或运行环境，按目录浏览即可。",
+  "alternatives": [
+    "awesome-anomaly-detection",
+    "PyOD",
+    "ADBench"
+  ]
+}

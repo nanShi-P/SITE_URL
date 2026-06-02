@@ -1,0 +1,21 @@
+{
+  "id": "FoundationVision/VAR",
+  "source_hash": "5ee782213d7d8cae530ed160bb7621932c1a9efa2fac8f924f6f688113b99a7a",
+  "generated_at": "2026-06-02T18:23:31.490Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "VAR 是 NeurIPS 2024 最佳论文的官方实现，提出'下一尺度预测'的视觉自回归建模方法，让 GPT 风格模型在 ImageNet 图像生成任务上首次超越扩散模型，并展现出类似大语言模型的缩放规律，提供训练、推理与预训练权重。",
+  "scenarios": [
+    "复现论文结果，在 ImageNet 上做类别条件图像生成实验",
+    "研究自回归视觉模型的 scaling laws 与架构设计",
+    "基于预训练 VAR 权重做下游图像生成或编辑任务微调",
+    "作为扩散模型的对比基线进行学术评测",
+    "学习多尺度 VQ-VAE 与自回归 Transformer 的工程实现"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需多卡 GPU 训练、依赖 PyTorch 深度学习栈，且涉及自回归生成模型的复杂训练流程，对硬件与研究背景要求较高。",
+  "alternatives": [
+    "MAR",
+    "LlamaGen",
+    "DiT"
+  ]
+}

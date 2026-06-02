@@ -1,0 +1,21 @@
+{
+  "id": "safishamsi/graphify",
+  "source_hash": "fc97f5a7c69d1f89d954b70b2f8348b2cd37fcafff1097d5dcea368010e3ab6d",
+  "generated_at": "2026-06-02T17:50:02.181Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Graphify 是面向 Claude Code、Cursor、Gemini CLI 等 AI 编程助手的技能插件，可把代码、SQL Schema、R/Shell 脚本、文档、论文、图片和视频等任意文件夹内容构建成可查询的知识图谱，让应用代码、数据库结构与基础设施统一在同一张图中检索。",
+  "scenarios": [
+    "让 AI 助手在大型代码库中跨文件追溯函数与依赖关系",
+    "将应用代码与数据库 schema 关联，辅助排查数据流问题",
+    "把论文、文档和图表整理成知识图谱供 RAG 查询",
+    "梳理基础设施脚本与配置之间的关联",
+    "为遗留项目快速构建可视化的代码地图"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 AI 编程助手并搭建图数据库环境，但官方提供多语言文档和插件式集成。",
+  "alternatives": [
+    "GraphRAG",
+    "Sourcegraph Cody",
+    "Aider"
+  ]
+}

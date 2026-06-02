@@ -1,0 +1,21 @@
+{
+  "id": "nukeop/nuclear",
+  "source_hash": "a002faf0bc3e342bcd3eedc23940c6698a358e39624c5dc021e24c2b73493064",
+  "generated_at": "2026-06-02T18:13:55.894Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Nuclear 是一款免费开源的跨平台桌面音乐播放器，可从多个免费来源搜索并播放歌曲，支持创建播放列表、插件扩展和多主题切换，无广告无追踪，运行于 Windows、macOS 和 Linux。",
+  "scenarios": [
+    "在桌面端聆听和管理免费在线音乐",
+    "搜索特定歌手或专辑并创建个人播放列表",
+    "通过插件商店扩展音源和功能",
+    "替代 Spotify 等付费流媒体的轻量方案",
+    "在 Linux 系统上使用统一的音乐播放器"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "官方提供 Windows/macOS/Linux 安装包，普通用户下载即用，无需配置环境。",
+  "alternatives": [
+    "Spotify",
+    "Audacious",
+    "Clementine"
+  ]
+}

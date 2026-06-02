@@ -1,0 +1,21 @@
+{
+  "id": "mrexodia/ida-pro-mcp",
+  "source_hash": "c58e9fc535198cb17aee86168a4a2b25af4f8f9dc7d94af55cc0e826b101e4f1",
+  "generated_at": "2026-06-02T18:23:13.379Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个为 IDA Pro 提供 MCP 服务的插件，让 Claude、Cursor 等大模型客户端直接调用 IDA 的反编译与分析功能，辅助进行交互式逆向工程。",
+  "scenarios": [
+    "让 AI 自动分析二进制函数并生成中文注释",
+    "通过对话方式重命名变量、推断结构体",
+    "结合 Claude Code 进行 CTF 逆向题求解",
+    "在 Cursor 中边看反编译代码边让 LLM 解释逻辑",
+    "批量分析恶意软件样本的关键行为"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自备 IDA Pro 授权并配置 Python 3.11 及 MCP 客户端，安装步骤本身不复杂但前置门槛较高。",
+  "alternatives": [
+    "Gepetto",
+    "ida_gpt",
+    "binja-mcp"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "continuedev/continue",
+  "source_hash": "f7cd10973106a104665989be0ea2e04fbfd2113db7f4749a1e815e4f985ff7f3",
+  "generated_at": "2026-06-02T17:58:01.674Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Continue 是一个开源 CLI 工具，可在 CI 流程中执行受版本管控的 AI 代码检查，把 AI 评审规则纳入仓库管理，便于团队协作和自动化质量把关。",
+  "scenarios": [
+    "在 Pull Request 中自动运行 AI 代码审查",
+    "在 CI 流水线中强制执行编码规范",
+    "团队共享和版本化 AI 检查规则",
+    "本地开发时通过 CLI 调用 AI 辅助检查代码",
+    "结合现有 lint 工具进行更智能的代码质量管控"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 CI 环境和 LLM API 密钥，但官方文档完善，CLI 使用门槛不高。",
+  "alternatives": [
+    "GitHub Copilot",
+    "Cursor",
+    "Sourcegraph Cody"
+  ]
+}

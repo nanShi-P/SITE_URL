@@ -1,0 +1,21 @@
+{
+  "id": "vectordotdev/vector",
+  "source_hash": "aef81c0a586ac0d882e2fa151f6ed9cec74c0c357342798a26f4c72b6a8be1eb",
+  "generated_at": "2026-06-02T18:08:21.649Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Vector 是用 Rust 编写的高性能可观测性数据管道，可作为 agent 或 aggregator 部署，统一采集、转换并路由日志和指标到各类后端，帮助降低成本、避免厂商锁定。",
+  "scenarios": [
+    "在 Kubernetes 节点上以 DaemonSet 采集容器日志并转发到 Elasticsearch",
+    "作为聚合层接收多源指标并分发到 Prometheus、Datadog 等多个后端",
+    "对日志进行脱敏、采样和过滤以降低 SaaS 可观测性账单",
+    "跨云环境统一日志/指标管道，替换 Logstash 或 Fluentd",
+    "使用 VRL 对事件进行实时富化和格式转换"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "二进制安装与基础配置简单，但 VRL 语法和多组件管道调优需要一定学习成本。",
+  "alternatives": [
+    "Fluent Bit",
+    "Logstash",
+    "OpenTelemetry Collector"
+  ]
+}

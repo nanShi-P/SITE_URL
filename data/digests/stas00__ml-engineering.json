@@ -1,0 +1,21 @@
+{
+  "id": "stas00/ml-engineering",
+  "source_hash": "39433c51bf23f8a4f08db2b43532d44d43d298a55548495a2a1217e55464779b",
+  "generated_at": "2026-06-02T18:13:03.726Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一本开源的机器学习工程实战手册，汇集作者训练 BLOOM-176B、IDEFICS-80B 等大模型的经验，覆盖硬件选型、存储网络、SLURM 编排、训练调优与推理部署，提供大量可直接复用的脚本与命令。",
+  "scenarios": [
+    "LLM/VLM 训练工程师排查分布式训练中的硬件与网络瓶颈",
+    "团队选型 GPU 云服务商和存储方案时参考决策清单",
+    "使用 SLURM 搭建多节点训练集群并调试作业脚本",
+    "为大模型推理部署做性能优化与显存测算",
+    "新人入门大规模模型训练运维知识体系"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "内容偏文档与脚本片段，无需安装，但需要读者具备分布式训练和系统运维背景才能理解应用。",
+  "alternatives": [
+    "DeepSpeed",
+    "huggingface/transformers",
+    "NVIDIA/Megatron-LM"
+  ]
+}

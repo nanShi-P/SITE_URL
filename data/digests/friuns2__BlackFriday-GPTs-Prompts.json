@@ -1,0 +1,21 @@
+{
+  "id": "friuns2/BlackFriday-GPTs-Prompts",
+  "source_hash": "7ed3472f688a88dad0080fd24bb809a6d02188de81d15b417b8770fd17edfcb6",
+  "generated_at": "2026-06-02T18:22:51.018Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "该仓库收集了大量无需 ChatGPT Plus 订阅即可使用的 GPTs 提示词，按编程、营销、学术、求职、游戏、创意、提示工程、商业、生产力以及越狱等类别整理，方便用户直接复制使用。",
+  "scenarios": [
+    "寻找编程辅助类提示词以加速开发",
+    "查找营销文案和商业策略提示模板",
+    "学生用于学术写作和论文润色",
+    "研究 ChatGPT 越狱提示绕过限制",
+    "提示工程学习与参考"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯 Markdown 提示词集合，直接复制粘贴即可使用，无需任何环境配置。",
+  "alternatives": [
+    "awesome-chatgpt-prompts",
+    "leaked-system-prompts",
+    "awesome-gpts-prompts"
+  ]
+}

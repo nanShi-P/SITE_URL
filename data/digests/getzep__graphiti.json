@@ -1,0 +1,20 @@
+{
+  "id": "getzep/graphiti",
+  "source_hash": "d930b7db78b6d877ece10bf1966d4251d0a4a3b2c59f46bd9fc0f911f5b899b7",
+  "generated_at": "2026-06-02T18:02:28.214Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Graphiti 是面向 AI Agent 的实时时序知识图谱构建框架，能将对话和事件数据增量写入图数据库，支持时间维度的上下文检索与推理，为智能体提供持久化记忆。",
+  "scenarios": [
+    "为 LLM 智能体构建带时间维度的长期记忆",
+    "客服对话历史的结构化存储与检索",
+    "用户画像和偏好的动态追踪",
+    "多源事件数据的实时知识融合"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Neo4j 图数据库和 LLM API，对知识图谱概念有一定门槛，但文档完善。",
+  "alternatives": [
+    "mem0",
+    "Zep",
+    "LangGraph"
+  ]
+}

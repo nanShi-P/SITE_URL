@@ -1,0 +1,21 @@
+{
+  "id": "OpenPipe/ART",
+  "source_hash": "32bff30877a735d1c874975ce7aec08dc2e14f7f8b37338f653292a29ec05f2d",
+  "generated_at": "2026-06-02T18:22:43.594Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "ART 是 OpenPipe 开源的智能体强化学习训练框架，基于 GRPO 算法训练 Qwen3、GPT-OSS、Llama 等模型在多步任务中的表现，支持自定义环境与奖励函数，并提供 W&B Serverless RL 托管推理与训练基础设施。",
+  "scenarios": [
+    "训练客服或语音对话智能体完成多轮交互任务",
+    "为代码或工具调用 Agent 做基于反馈的强化微调",
+    "训练智能体玩游戏（如 2048）等多步决策任务",
+    "为检索/RAG Agent 优化检索与回答策略",
+    "在生产环境中持续用线上数据对模型做在岗训练"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 GRPO 强化学习、GPU 训练与多步环境编排，需机器学习基础和较重的算力配置。",
+  "alternatives": [
+    "TRL",
+    "verl",
+    "trlx"
+  ]
+}

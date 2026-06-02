@@ -1,0 +1,21 @@
+{
+  "id": "AMAI-GmbH/AI-Expert-Roadmap",
+  "source_hash": "35fd496110668a7cf86a107d4a693e23e31597c0e4fd1862051c4183f84e4630",
+  "generated_at": "2026-06-02T17:59:09.159Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一份以图表形式呈现的 AI 专家成长路线图，覆盖数据科学、机器学习、深度学习、数据工程等方向所需掌握的知识与工具，帮助初学者和团队规划学习路径。",
+  "scenarios": [
+    "新人入门 AI 时规划学习路线",
+    "团队培训新员工成为 AI 工程师",
+    "自学者查漏补缺各技术栈",
+    "面试前梳理知识体系",
+    "教学课程设计参考"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯文档与图表项目，无需安装依赖，浏览网页即可使用。",
+  "alternatives": [
+    "developer-roadmap",
+    "Machine-Learning-Tutorials",
+    "ML-YouTube-Courses"
+  ]
+}

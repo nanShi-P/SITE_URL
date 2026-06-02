@@ -1,0 +1,21 @@
+{
+  "id": "dair-ai/AI-Papers-of-the-Week",
+  "source_hash": "85dcf3d53d59b62793d579a136f0cb0154960d644c9a1e70c81b3671af98a753",
+  "generated_at": "2026-06-02T18:21:21.765Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "DAIR.AI 维护的一份每周精选 AI 论文清单，按周和年份归档到 Markdown 文件中，方便快速跟踪机器学习领域最新进展，并配套邮件订阅渠道。",
+  "scenarios": [
+    "每周快速浏览本周值得读的 AI 论文",
+    "研究者追踪 LLM 等热门方向的最新进展",
+    "学生入门时按周回溯近年重要论文",
+    "技术博主或讲师寻找选题素材",
+    "团队周会分享前沿研究的参考来源"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯 Markdown 论文索引仓库，无需安装或运行任何代码，点开链接即可阅读。",
+  "alternatives": [
+    "huggingface/papers",
+    "labmlai/annotated_deep_learning_paper_implementations",
+    "aimerou/awesome-ai-papers"
+  ]
+}

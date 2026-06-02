@@ -1,0 +1,20 @@
+{
+  "id": "rohitg00/agentmemory",
+  "source_hash": "bfe27a30c9de3709dbcdcdfa0dc5de5191b0a4ac43840b75a14ee62922fd4d1d",
+  "generated_at": "2026-06-02T18:09:36.945Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "为 Claude Code、Cursor、Copilot CLI 等 AI 编程助手提供持久化记忆的工具，基于 iii 引擎，通过 MCP 协议让 Agent 跨会话记住项目上下文、偏好与历史决策，无需重复解释。",
+  "scenarios": [
+    "在 Cursor 中让 AI 记住项目架构与编码规范",
+    "跨会话保留 Claude Code 的调试上下文",
+    "团队多人共享 Agent 的项目知识库",
+    "切换不同 AI 编程工具时复用同一份记忆"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 MCP 客户端与对应 AI 工具的集成，对初学者有一定门槛。",
+  "alternatives": [
+    "mem0",
+    "Letta",
+    "cursor-memory-bank"
+  ]
+}

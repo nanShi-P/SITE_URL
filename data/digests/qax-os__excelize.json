@@ -1,0 +1,21 @@
+{
+  "id": "qax-os/excelize",
+  "source_hash": "d0370a3ad62d7677a92eec1839e1e93076a9e4776ae742ff529808754e25fe3f",
+  "generated_at": "2026-06-02T18:09:43.421Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "纯 Go 编写的 Excel 文件读写库，支持 XLSX、XLSM、XLTX 等 Office 2007+ 格式，兼容图表、透视表、公式等复杂组件，并提供流式 API 处理大数据量工作表。",
+  "scenarios": [
+    "在 Go 后端服务中导出业务报表为 Excel",
+    "批量读取并解析用户上传的 Excel 数据",
+    "使用流式 API 生成百万行级别的大型工作表",
+    "在 Excel 模板中填充数据生成发票、合同等文档",
+    "读取含图表、透视表的复杂 Excel 文件做数据迁移"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "go get 一行安装，API 文档完善，仅依赖 Go 环境，无外部依赖。",
+  "alternatives": [
+    "tealeg/xlsx",
+    "360EntSecGroup-Skylar/excelize",
+    "unidoc/unioffice"
+  ]
+}

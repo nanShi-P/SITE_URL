@@ -1,0 +1,21 @@
+{
+  "id": "FoundationAgents/MetaGPT",
+  "source_hash": "a748a5cce48815c1e78a9f13b4e142550bc16cfdb97d2630e601059547d758a7",
+  "generated_at": "2026-06-02T17:48:27.616Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "MetaGPT 是一个多智能体协作框架，将产品经理、架构师、工程师等角色分配给多个 LLM，从一句话需求出发，自动产出用户故事、竞品分析、需求文档、设计与代码，模拟一个 AI 软件公司协同完成复杂开发任务。",
+  "scenarios": [
+    "输入一句话需求自动生成完整软件项目原型",
+    "研究多智能体协作与角色分工的学术实验",
+    "快速生成产品需求文档与竞品分析",
+    "作为自动化编程流水线探索自然语言编程",
+    "构建定制化 AI 开发团队完成内部工具开发"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需配置 Python 环境和 LLM API Key，理解角色与工作流概念，但官方文档与示例较完善。",
+  "alternatives": [
+    "AutoGen",
+    "ChatDev",
+    "CrewAI"
+  ]
+}

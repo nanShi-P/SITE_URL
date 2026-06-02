@@ -1,0 +1,21 @@
+{
+  "id": "pipecat-ai/pipecat",
+  "source_hash": "53bb17e0f988a6891442eac1866f3ba2b5b1d6196f90959fdd5fe128bb08606c",
+  "generated_at": "2026-06-02T18:21:21.478Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Pipecat 是一个开源 Python 框架，用于构建实时语音和多模态对话式 AI 智能体，支持串接语音识别、LLM、TTS 及音视频传输，可搭建单一语音助手或多智能体协作系统。",
+  "scenarios": [
+    "搭建实时流式语音助手",
+    "构建客服电话机器人或业务接待 Agent",
+    "开发 AI 陪伴、教练或会议助手",
+    "实现多智能体协作与任务分发",
+    "制作交互式语音故事或多模态创作工具"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 quickstart 和完善文档，但涉及 STT/LLM/TTS 等多服务集成与实时音视频管线，对依赖配置有一定要求。",
+  "alternatives": [
+    "LiveKit Agents",
+    "Vocode",
+    "LangChain"
+  ]
+}

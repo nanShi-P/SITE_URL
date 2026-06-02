@@ -1,0 +1,20 @@
+{
+  "id": "LMCache/LMCache",
+  "source_hash": "aef88ee3d90733fc8313914bf6af2bd2c972aa554f68354689a9ed75b95d4dec",
+  "generated_at": "2026-06-02T18:23:39.240Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LMCache 是面向大语言模型推理的 KV Cache 缓存层，可将常用上下文的 KV 张量缓存到 GPU、CPU 内存或本地磁盘并跨实例复用，与 vLLM 等推理引擎集成，从而降低首 Token 延迟和 GPU 计算开销，尤其适用于长文档问答、多轮对话等重复上下文场景。",
+  "scenarios": [
+    "在 vLLM 部署中复用长系统提示词的 KV 缓存以加速首 Token 响应",
+    "RAG 场景下缓存检索文档的 KV，避免重复 prefill",
+    "多轮对话服务中跨请求复用历史对话上下文",
+    "多副本推理集群间共享 KV Cache 降低整体 GPU 成本"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "需熟悉 vLLM、GPU 推理栈与分布式缓存配置，部署调优门槛较高。",
+  "alternatives": [
+    "vLLM PagedAttention",
+    "SGLang RadixAttention",
+    "NVIDIA TensorRT-LLM KV Cache Reuse"
+  ]
+}

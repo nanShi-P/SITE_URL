@@ -1,0 +1,21 @@
+{
+  "id": "vercel/chatbot",
+  "source_hash": "727d89d83c33de76fc31dc18b16897f765cb16375aedcf1535c688302bce95fc",
+  "generated_at": "2026-06-02T18:10:05.489Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Vercel 官方开源的 Next.js AI 聊天机器人模板，基于 AI SDK 和 App Router，集成多模型供应商、Auth.js 认证、Neon Postgres 聊天记录存储与 Vercel Blob 文件存储，开箱即用且可自由二次开发。",
+  "scenarios": [
+    "快速搭建自己的 ChatGPT 风格 Web 应用",
+    "为 SaaS 产品集成 AI 对话功能",
+    "学习 Next.js App Router 与 AI SDK 的最佳实践",
+    "在 Vercel 上一键部署带用户系统的 AI 助手",
+    "多模型对比测试与 Prompt 调试平台"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "模板文档完善且支持一键部署，但需配置数据库、Blob 存储、AI Gateway 密钥等多项云服务。",
+  "alternatives": [
+    "langchain-nextjs-template",
+    "lobe-chat",
+    "chatbot-ui"
+  ]
+}

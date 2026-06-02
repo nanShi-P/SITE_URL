@@ -1,0 +1,20 @@
+{
+  "id": "MemoriLabs/Memori",
+  "source_hash": "d8333b9a1cb0008fc4deb635321cbfdad4eb437e42bcc48b5106c9eb14f01b48",
+  "generated_at": "2026-06-02T18:18:21.542Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Memori 是一个与 LLM、数据存储和框架无关的智能体记忆基础设施，把 Agent 的执行过程与对话沉淀为结构化、可持久化的状态，便于在生产系统中复用。提供 Python、Node SDK 及托管的 Memori Cloud。",
+  "scenarios": [
+    "为多轮对话 Agent 保留长期上下文记忆",
+    "记录并复用 Agent 工具调用与执行轨迹",
+    "跨多个 LLM 框架共享统一的用户画像与偏好",
+    "在生产 AI 应用中持久化会话状态以便审计与回放"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 pip/npm 包及 Memori Cloud 托管，文档与示例完善，开箱即用。",
+  "alternatives": [
+    "Mem0",
+    "Zep",
+    "Letta"
+  ]
+}

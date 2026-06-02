@@ -1,0 +1,21 @@
+{
+  "id": "xitu/gold-miner",
+  "source_hash": "b9c47ab3c96823af479ed217667fbe641193c1023da1bdac49dd3f74f2c224b4",
+  "generated_at": "2026-06-02T17:57:18.301Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "掘金翻译计划是一个将优质英文技术文章翻译为中文的开源社区，涵盖前端、后端、Android、iOS、AI、区块链、设计等领域，已积累四千多篇译文和十余份官方文档手册，由上千名译者协作完成。",
+  "scenarios": [
+    "开发者查找已翻译的优质英文技术文章中文版",
+    "译者参与开源翻译贡献，提升英语和技术能力",
+    "团队学习国外前沿技术资讯和最佳实践",
+    "查阅 React、Vue 等框架官方文档的中文翻译",
+    "推荐优质英文文章供社区翻译"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "纯 Markdown 文档仓库，无需环境配置，按 Wiki 指南 fork 提 PR 即可参与。",
+  "alternatives": [
+    "awesome-chinese-programmer",
+    "FrontendMasters/front-end-handbook",
+    "Aufree/trip-to-iOS"
+  ]
+}

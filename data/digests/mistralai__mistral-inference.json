@@ -1,0 +1,21 @@
+{
+  "id": "mistralai/mistral-inference",
+  "source_hash": "46724842e6fe8ab7e9a505eb9f0ab071886d6d677312bf27fd6f2ed351e52950",
+  "generated_at": "2026-06-02T18:22:18.273Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Mistral 官方推理库，提供运行 Mistral 系列模型（7B、8x7B、8x22B、Codestral、Nemo、Pixtral、Mistral Large 2 等）的最小化代码，支持模型下载、命令行交互和 Python 调用。",
+  "scenarios": [
+    "在本地 GPU 服务器上部署 Mistral 7B 进行对话推理",
+    "运行 Codestral 实现代码补全和生成",
+    "加载 Pixtral 12B 进行图文多模态推理",
+    "在 Colab 上快速体验 Mistral 模型",
+    "基于官方权重做模型评测或二次开发"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要 GPU 环境并依赖 xformers，模型权重较大，但官方文档和 Colab 示例较完善。",
+  "alternatives": [
+    "vllm",
+    "llama.cpp",
+    "text-generation-inference"
+  ]
+}

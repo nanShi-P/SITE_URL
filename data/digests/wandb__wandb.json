@@ -1,0 +1,21 @@
+{
+  "id": "wandb/wandb",
+  "source_hash": "4b567da079c32358f772ecc9998d01895a472fc100a70cc0f9a14f7349c07a22",
+  "generated_at": "2026-06-02T18:22:11.242Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Weights & Biases 官方 Python 客户端，用于追踪、可视化和管理机器学习实验，记录超参数、指标、模型与数据集，并支持模型版本管理及从实验到生产的全流程协作。",
+  "scenarios": [
+    "训练深度学习模型时记录损失、指标曲线并在网页端可视化对比",
+    "团队协作管理实验超参数与模型版本，复现训练结果",
+    "进行超参数搜索（Sweeps）自动寻找最优配置",
+    "微调 LLM 时跟踪训练过程并保存 checkpoint 工件",
+    "将训练好的模型注册到 Model Registry 用于生产部署"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 安装即可，文档完善，但需注册账号并联网上传数据。",
+  "alternatives": [
+    "MLflow",
+    "TensorBoard",
+    "Comet ML"
+  ]
+}

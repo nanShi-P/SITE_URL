@@ -1,0 +1,21 @@
+{
+  "id": "lencx/Noi",
+  "source_hash": "7e22a3139dea5b34cb266c7cc1839e45c8b78585478f0dab12e29f8fff8c5806",
+  "generated_at": "2026-06-02T18:23:22.897Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Noi 是一款面向 AI 时代的多功能浏览器/工作台，主打多窗口并行、会话隔离与本地数据存储，集成 AI 聊天的提示词管理、内置终端，并提供 noi CLI 可被 Claude Code、Codex、Gemini CLI 等工具调用，帮助用户在多个 AI 服务间高效切换。",
+  "scenarios": [
+    "在多个 AI 聊天服务（ChatGPT、Claude、Gemini 等）之间并行切换比较答案",
+    "通过提示词管理功能复用和迭代常用 AI 工作流",
+    "用会话隔离功能分别登录多个账号互不干扰",
+    "在内置终端中结合 noi CLI 与 Claude Code 等工具联动操作",
+    "作为本地化的 AI 浏览器替代传统浏览器进行日常研究和写作"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供各平台安装包，下载即用，无需自行编译或配置复杂依赖。",
+  "alternatives": [
+    "ChatHub",
+    "OpenCat",
+    "Poe"
+  ]
+}

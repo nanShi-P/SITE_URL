@@ -1,0 +1,20 @@
+{
+  "id": "lastmile-ai/mcp-agent",
+  "source_hash": "fdb93b22944c21001380bf4a1ba5049ba276591e2cacb282215dadbb0d4d0ad6",
+  "generated_at": "2026-06-02T18:23:39.601Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "mcp-agent 是基于 Model Context Protocol 的轻量级 Python 智能体框架，通过可组合的简单工作流模式（如 Building Effective Agents 中的路由、并行、编排等）来构建可靠的 LLM 智能体，强调以 MCP 为核心、用最小抽象替代复杂架构。",
+  "scenarios": [
+    "快速搭建可调用多种 MCP 服务器工具的聊天/任务智能体",
+    "实现 Anthropic 提出的 Orchestrator、Router、Parallel 等多智能体工作流",
+    "为企业内部知识库、邮件、数据库等接入统一的 MCP 工具层",
+    "作为研究或教学项目演示 MCP 协议下的智能体编排模式"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需熟悉 Python、LLM API 与 MCP 协议概念，但文档示例齐全、安装通过 pip 即可。",
+  "alternatives": [
+    "LangGraph",
+    "CrewAI",
+    "OpenAI Swarm"
+  ]
+}

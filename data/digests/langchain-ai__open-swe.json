@@ -1,0 +1,20 @@
+{
+  "id": "langchain-ai/open-swe",
+  "source_hash": "2d23c2eb5466b2df105d90b421ca00a28afe95ed995ecde031c4cdaaf9ac5f8d",
+  "generated_at": "2026-06-02T18:22:44.324Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "LangChain 出品的开源异步编码 Agent 框架，基于 LangGraph 和 Deep Agents 构建，提供云端沙箱、Slack/Linear 集成、子 Agent 编排等能力，方便企业搭建自己的内部编码助手。",
+  "scenarios": [
+    "企业搭建内部 Slackbot 编码助手处理日常开发任务",
+    "通过 Linear 工单自动触发 Agent 完成代码修改与 PR",
+    "在云沙箱中异步运行多个编码任务并行处理",
+    "团队定制带权限和安全边界的内部 CLI 编码工具"
+  ],
+  "difficulty": "困难",
+  "difficulty_reason": "涉及 LangGraph、云沙箱、Slack/Linear 集成等多组件部署，需要较强工程能力和基础设施配置。",
+  "alternatives": [
+    "OpenDevin",
+    "SWE-agent",
+    "Aider"
+  ]
+}

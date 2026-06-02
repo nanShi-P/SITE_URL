@@ -1,0 +1,21 @@
+{
+  "id": "oraios/serena",
+  "source_hash": "d133f7a925e6d7b38108c37119b17232d8da6b6e9d31b31498975d1c6c8f75b8",
+  "generated_at": "2026-06-02T18:05:04.468Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Serena 是一个基于 MCP 协议的编程工具包，为 AI 编码代理提供类似 IDE 的语义级代码检索、编辑、重构和调试能力，在符号层面操作，帮助代理在大型代码库中更快、更可靠地完成任务。",
+  "scenarios": [
+    "为 Claude、Cursor 等支持 MCP 的客户端添加语义化代码理解能力",
+    "让 AI 代理在大型项目中按符号查找和重构代码",
+    "辅助 AI 完成跨文件的代码修改和调试",
+    "作为 LLM 智能体的代码导航中间层",
+    "在自动化编码工作流中替代基于行号的原始搜索方式"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 MCP 客户端并按官方 Quick Start 安装，依赖语言服务环境，文档详尽但有一定上手成本。",
+  "alternatives": [
+    "Aider",
+    "Continue",
+    "Cline"
+  ]
+}

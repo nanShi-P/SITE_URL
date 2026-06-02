@@ -1,0 +1,21 @@
+{
+  "id": "llmware-ai/llmware",
+  "source_hash": "8527474db034b5b11f7a4d8f8ec8de3b6022b5aac6bb1519d66063171893cff0",
+  "generated_at": "2026-06-02T18:19:03.821Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "llmware 是一个面向企业级 RAG 应用的统一开发框架，内置 300+ 量化优化的小型专用模型目录，并提供从文档解析、知识库构建到本地推理的完整流水线，支持 GGUF、OpenVINO、ONNX 等多种后端，可在 PC、笔记本和边缘设备上私有化部署。",
+  "scenarios": [
+    "在本地笔记本搭建私有文档问答系统",
+    "企业合同与财报的结构化信息抽取",
+    "构建行业知识库并对接小型专用 SLIM 模型",
+    "边缘设备上离线运行 RAG 管道",
+    "金融、法律等敏感场景的私有化 LLM 应用开发"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档较完整且有预打包模型，但涉及多种推理后端和 RAG 组件，需要一定的 Python 与模型部署经验。",
+  "alternatives": [
+    "LangChain",
+    "LlamaIndex",
+    "Haystack"
+  ]
+}

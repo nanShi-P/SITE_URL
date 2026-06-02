@@ -1,0 +1,21 @@
+{
+  "id": "linshenkx/prompt-optimizer",
+  "source_hash": "69f9b14a183d63cd3e92ce8c2d5b17935bd4d8938a4025fd52920b14443462ab",
+  "generated_at": "2026-06-02T17:59:39.085Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一个开源的 AI 提示词优化工具，可对原始 Prompt 进行迭代改写和效果对比，支持 Web、Chrome 插件、Docker 自部署及 Vercel/Cloudflare 一键部署，并提供 MCP 服务接入，适配多家主流大模型 API。",
+  "scenarios": [
+    "将粗糙的中文需求改写成结构化、可复用的高质量 Prompt",
+    "对比优化前后提示词在同一模型下的输出效果",
+    "通过 Chrome 扩展在任意网页中快速优化提示词",
+    "团队自托管 Docker 实例，统一管理 Prompt 模板",
+    "通过 MCP Server 将提示词优化能力接入 Claude/Cursor 等客户端"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供在线网站、Chrome 商店扩展和一键 Vercel 部署，无需本地配置即可使用。",
+  "alternatives": [
+    "PromptPerfect",
+    "Promptist",
+    "Agenta"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "f/prompts.chat",
+  "source_hash": "9486648dea37364bc5ad1179bb4d31929e2dbac90f1fc6228888a985d5228e5c",
+  "generated_at": "2026-06-02T17:45:00.466Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "全球最大的开源 AI 提示词库，原名 Awesome ChatGPT Prompts，收集并分享适用于 ChatGPT、Claude、Gemini 等主流大模型的高质量提示词，支持网页浏览、社区贡献，也可自托管以满足组织内部隐私需求。",
+  "scenarios": [
+    "寻找现成的角色扮演或专业领域提示词直接套用到 ChatGPT",
+    "学习提示词工程写法以提升与大模型对话效果",
+    "企业内部自托管搭建私有提示词共享平台",
+    "作为数据集用于训练或微调自有模型",
+    "教学与研究中作为提示词案例参考"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "主要是 Markdown 文本资源，直接浏览即可使用，无需安装依赖。",
+  "alternatives": [
+    "awesome-prompts",
+    "PromptHub",
+    "FlowGPT"
+  ]
+}

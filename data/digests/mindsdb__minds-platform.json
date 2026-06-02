@@ -1,0 +1,21 @@
+{
+  "id": "mindsdb/minds-platform",
+  "source_hash": "d6aee64ce4714bc2c39575d62f8f9da49a2549fc5692789e3ec6878916c98596",
+  "generated_at": "2026-06-02T17:54:51.534Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Minds Platform 是 MindsDB 推出的开源 AI 基础平台，聚焦自动化与语义搜索两大能力，包含自我改进的自动化 Agent（Anton）和可索引海量数据的查询引擎，支持在 VPC、本地或云端自主部署。",
+  "scenarios": [
+    "在企业内网部署可控的 AI 自动化助手",
+    "用自然语言驱动 Agent 自动生成报表、发邮件、调 API",
+    "对接多源数据构建统一的语义搜索引擎",
+    "在私有云中搭建生产级 RAG 应用",
+    "为业务系统添加定时任务和自动化数据处理"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "涉及多组件部署和数据源集成，但提供 Docker 镜像与较完善的文档。",
+  "alternatives": [
+    "Dify",
+    "LangChain",
+    "Flowise"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "FlagOpen/FlagEmbedding",
+  "source_hash": "164d4fb2aa58b8ae516e26485c38b75bf0ce106216017b68f9b0f8423c223a2d",
+  "generated_at": "2026-06-02T18:21:37.049Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "BGE 是智源研究院推出的一站式文本与多模态检索工具包，提供从嵌入模型、重排模型到训练、微调和评测的完整方案，覆盖中英文及多语言场景，广泛用于搜索和 RAG 系统的向量化与召回环节。",
+  "scenarios": [
+    "为 RAG 系统构建知识库的向量化与召回",
+    "搭建中英文语义搜索引擎",
+    "对召回结果进行 reranker 重排提升精度",
+    "在自有领域数据上微调嵌入模型",
+    "跨模态图文检索应用"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "依赖 PyTorch 与 HuggingFace 生态，调用 API 简洁，但训练微调和模型选择需要一定的检索与深度学习背景。",
+  "alternatives": [
+    "sentence-transformers",
+    "Cohere Embed",
+    "OpenAI text-embedding-3"
+  ]
+}

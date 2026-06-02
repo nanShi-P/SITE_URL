@@ -1,0 +1,20 @@
+{
+  "id": "reorproject/reor",
+  "source_hash": "7da420318d884eafca7394f9d0ad6acf17ba43debdd364ca469f85fac14d5cff",
+  "generated_at": "2026-06-02T18:23:31.940Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Reor 是一款本地运行的 AI 个人知识管理桌面应用，集成 Ollama、Transformers.js 和 LanceDB，将笔记自动向量化，实现相关笔记自动关联、语义搜索及基于 RAG 的问答，并提供类 Obsidian 的 Markdown 编辑器，所有数据本地存储。",
+  "scenarios": [
+    "研究人员整理论文笔记并通过语义搜索快速查找相关内容",
+    "写作者构建个人知识库并让本地 LLM 基于笔记回答问题",
+    "学生用 Markdown 记笔记并自动发现概念之间的关联",
+    "注重隐私的用户在离线环境下管理敏感笔记和资料"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供桌面安装包可直接使用，但配置本地 LLM（如 Ollama）和嵌入模型需一定技术背景。",
+  "alternatives": [
+    "Obsidian",
+    "Khoj",
+    "AnythingLLM"
+  ]
+}

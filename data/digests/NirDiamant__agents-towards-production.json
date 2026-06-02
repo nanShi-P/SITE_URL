@@ -1,0 +1,21 @@
+{
+  "id": "NirDiamant/agents-towards-production",
+  "source_hash": "3e8c8ae9420997eb475e4be708a82f5fe1956774bbe94ed7be23c1dd16ecdbde",
+  "generated_at": "2026-06-02T18:09:52.372Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "一套面向生产环境的开源 GenAI Agent 实战教程合集，以代码为主，覆盖有状态工作流、向量记忆、RAG、Docker 部署、FastAPI 服务、安全护栏、GPU 扩展、浏览器自动化、微调、多智能体协作、可观测性与评估等环节，帮助开发者将原型推进到企业级落地。",
+  "scenarios": [
+    "学习如何将 LangGraph 智能体打包成 Docker 容器并通过 FastAPI 对外提供服务",
+    "为企业 RAG 应用搭建向量记忆与实时网络搜索能力",
+    "为生产环境的 LLM Agent 增加安全护栏与可观测性监控",
+    "构建多智能体协作系统并进行评估与微调",
+    "团队培训：从原型到生产部署的端到端参考教程"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "教程结构清晰且代码完整，但内容覆盖广、涉及部署运维与多种框架，需要一定的工程与 LLM 基础。",
+  "alternatives": [
+    "GenAI_Agents",
+    "RAG_Techniques",
+    "langgraph-examples"
+  ]
+}

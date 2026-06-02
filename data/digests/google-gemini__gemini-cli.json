@@ -1,0 +1,21 @@
+{
+  "id": "google-gemini/gemini-cli",
+  "source_hash": "8a30c3675ca2ba0aa94f1e466f17bb40db31a2e0780042d15f701017ddcab7f9",
+  "generated_at": "2026-06-02T17:46:14.722Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Google 官方开源的命令行 AI 代理，把 Gemini 模型直接带入终端，支持文件操作、Shell 命令、Google 搜索接地和网页抓取，并通过 MCP 协议扩展自定义工具，个人账号可享免费额度。",
+  "scenarios": [
+    "在终端中用自然语言生成或修改代码",
+    "让 AI 调用 Shell 命令完成自动化运维任务",
+    "结合 Google 搜索进行带引用的实时问答",
+    "通过 MCP 接入自定义工具构建专属开发助手",
+    "大上下文窗口下分析整个代码仓库"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 npx 一行命令安装，使用 Google 账号即可登录，文档完善。",
+  "alternatives": [
+    "Claude Code",
+    "Aider",
+    "OpenAI Codex CLI"
+  ]
+}

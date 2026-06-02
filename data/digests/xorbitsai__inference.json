@@ -1,0 +1,21 @@
+{
+  "id": "xorbitsai/inference",
+  "source_hash": "59de8a9d535996f5aa2d8be5cdad608496a82880ec803ec7997390f9e3a990d1",
+  "generated_at": "2026-06-02T18:23:05.670Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Xinference 是一个开源模型推理服务框架，支持一行代码替换 GPT，统一部署和调用大语言、语音识别及多模态模型，可运行于云端、本地服务器或个人电脑，并提供生产级 API。",
+  "scenarios": [
+    "在本地笔记本部署开源大模型进行测试",
+    "企业内网私有化部署 LLM 推理服务",
+    "统一接入语音识别和多模态模型",
+    "用兼容 OpenAI 的 API 替换现有 GPT 调用",
+    "多 GPU 集群上集中管理多模型服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "文档完善且有 Docker 镜像，但涉及模型部署、GPU 环境和分布式配置，对新手有一定门槛。",
+  "alternatives": [
+    "Ollama",
+    "vLLM",
+    "LocalAI"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "AntonOsika/gpt-engineer",
+  "source_hash": "478baff420dd0729e7147eabae6a7dd3a055085023fb85d210c5f0aa1d2d95a8",
+  "generated_at": "2026-06-02T17:50:53.679Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "gpt-engineer 是一个基于自然语言生成代码的命令行实验平台：用户用自然语言描述软件需求，AI 自动编写、执行代码并可根据反馈迭代改进，支持 OpenAI 及自定义模型，是早期 AI 代码生成工具的代表项目。",
+  "scenarios": [
+    "快速将一段需求描述生成项目原型代码",
+    "学习和研究 LLM 驱动的代码生成流程",
+    "为已有代码库提出改进并由 AI 自动实现",
+    "在本地用自定义模型做 codegen 实验"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "pip 一行安装，仅需配置 OpenAI API key 即可运行，文档清晰。",
+  "alternatives": [
+    "aider",
+    "SWE-agent",
+    "MetaGPT"
+  ]
+}

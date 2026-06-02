@@ -1,0 +1,21 @@
+{
+  "id": "bytedance/flowgram.ai",
+  "source_hash": "4c5a6aef4c2970df045af049c882faaa4cb8e1c2bdbdaf47117f6b1150330061",
+  "generated_at": "2026-06-02T18:23:56.880Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "字节跳动开源的可视化工作流开发框架，内置画布、节点表单、变量作用域和 LLM、条件、代码编辑等常用物料，帮助开发者更快搭建自己的 AI 工作流平台。它不是开箱即用的工作流产品，而是面向前端集成的底层框架和工具集。",
+  "scenarios": [
+    "自研 AI Agent 编排平台的前端可视化画布",
+    "企业内部低代码自动化工作流系统开发",
+    "LLM 应用的节点式 Prompt 编排与调试工具",
+    "数据处理 ETL 流程的可视化配置界面",
+    "教学或演示场景下的流程图交互组件"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "作为框架需要前端工程能力和对节点/表单/变量体系的理解，但文档齐全且提供在线 Demo。",
+  "alternatives": [
+    "react-flow",
+    "Dify",
+    "LangFlow"
+  ]
+}

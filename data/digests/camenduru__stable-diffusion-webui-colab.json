@@ -1,0 +1,21 @@
+{
+  "id": "camenduru/stable-diffusion-webui-colab",
+  "source_hash": "598969f7ed9df6c99308446bccb34a7046f4e16d4c70dc1c3e2879694c4e113c",
+  "generated_at": "2026-06-02T18:16:40.679Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "在 Google Colab 上一键部署 Stable Diffusion WebUI 的笔记本集合，提供 lite、stable、nightly 三种分支，内置 ControlNet 等常用扩展和大量预设模型，方便用户免本地显卡运行绘图。仓库已停更，作者推荐迁移到 TostUI。",
+  "scenarios": [
+    "无独立显卡用户在 Colab 上免费体验 Stable Diffusion 出图",
+    "快速试用各种社区模型和 LoRA 而无需本地配置",
+    "在 Colab 上使用 ControlNet 做姿态/线稿控制生成",
+    "通过 drive 分支把 WebUI 安装到 Google Drive 持久化使用",
+    "利用 training 分支在云端进行 DreamBooth/LoRA 训练"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "打开 Colab 笔记本一键运行即可，无需本地环境配置，文档示例清晰。",
+  "alternatives": [
+    "AUTOMATIC1111/stable-diffusion-webui",
+    "TheLastBen/fast-stable-diffusion",
+    "camenduru/TostUI"
+  ]
+}

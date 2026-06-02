@@ -1,0 +1,21 @@
+{
+  "id": "OpenHands/OpenHands",
+  "source_hash": "c34ff0297d43b699436a5e834d57d37ec5a3113a9bdbcdd5912dc15b14bf1c61",
+  "generated_at": "2026-06-02T17:47:58.418Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "OpenHands 是一个面向 AI 驱动软件开发的开源项目，提供可自主完成编码、调试、运行测试等任务的智能体框架，并附带 SDK 与文档，在 SWE-Bench 上取得 77.6 分的成绩，支持开发者构建和部署自己的编程 Agent。",
+  "scenarios": [
+    "让 AI 自动修复 GitHub Issue 并提交 PR",
+    "在本地沙箱中让智能体执行多步骤编码任务",
+    "基于 SDK 构建自定义的编程 Agent",
+    "批量运行 SWE-Bench 等基准测试评估模型能力",
+    "团队内部搭建 AI 结对编程助手"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需要配置 LLM API、Docker 沙箱等运行环境，但官方文档完整、社区活跃。",
+  "alternatives": [
+    "SWE-agent",
+    "Aider",
+    "Devin"
+  ]
+}

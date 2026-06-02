@@ -1,0 +1,21 @@
+{
+  "id": "Unstructured-IO/unstructured",
+  "source_hash": "456fabc2498225326a5ad2c2546e8aaad4ec65fc164161c6351e39c4090d9405",
+  "generated_at": "2026-06-02T18:19:17.653Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "开源文档解析与ETL工具，可将PDF、Word、HTML、图片等多种格式文档转换为结构化数据，便于喂给大模型进行RAG、微调或检索等下游处理。",
+  "scenarios": [
+    "为RAG系统预处理企业内部PDF和Word文档",
+    "从扫描件和图片中提取文本及表格",
+    "批量清洗HTML网页内容用于LLM训练",
+    "将邮件、PPT等异构文档统一转为JSON结构",
+    "构建文档分块和嵌入的数据管道"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "Python库本身安装简单，但完整功能依赖tesseract、poppler等系统级组件，处理复杂文档时配置较繁琐。",
+  "alternatives": [
+    "LlamaParse",
+    "Docling",
+    "Apache Tika"
+  ]
+}

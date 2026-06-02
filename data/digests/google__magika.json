@@ -1,0 +1,21 @@
+{
+  "id": "google/magika",
+  "source_hash": "cb62b40744e15814288b3309d7f131e38acd9139ee3a19d675bcbe9c82b20e04",
+  "generated_at": "2026-06-02T18:15:26.540Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Magika 是 Google 推出的基于深度学习的文件类型识别工具，使用仅几 MB 的轻量模型，可在单 CPU 上毫秒级识别 200 多种二进制与文本格式，测试集平均准确率约 99%，提供 Python、NPM、Go 等多语言库及命令行。",
+  "scenarios": [
+    "在安全扫描流程中精准识别上传文件真实类型，防止伪装扩展名攻击",
+    "数据治理时对大规模未知文件批量分类归档",
+    "邮件或网盘服务中检测附件类型以决定后续处理策略",
+    "取证分析中快速识别无扩展名或残缺文件的格式",
+    "作为库集成到应用中替代 libmagic 做文件类型判断"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 pip/npm 安装的命令行和 SDK，开箱即用，无需自行训练模型。",
+  "alternatives": [
+    "libmagic",
+    "trid",
+    "file"
+  ]
+}

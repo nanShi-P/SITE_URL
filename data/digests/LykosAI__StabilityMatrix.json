@@ -1,0 +1,21 @@
+{
+  "id": "LykosAI/StabilityMatrix",
+  "source_hash": "b2440651c52ace534d667b40f484437d331394209d47354329266aa3c4a762fc",
+  "generated_at": "2026-06-02T18:23:48.580Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Stability Matrix 是一款跨平台的 Stable Diffusion 包管理器，提供图形界面用于一键安装、更新和管理多种主流 WebUI（如 A1111、ComfyUI、SD.Next 等），并统一管理模型、扩展和配置，简化本地部署流程。",
+  "scenarios": [
+    "新手在 Windows/Linux/macOS 上一键安装 Stable Diffusion WebUI",
+    "同时管理多个 WebUI 发行版并共享模型库",
+    "批量从 CivitAI 下载和组织模型文件",
+    "在不同 WebUI 之间快速切换测试效果",
+    "管理 Python 环境与依赖以避免冲突"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供打包好的桌面安装程序，图形界面引导完成安装与配置，无需手动处理 Python 环境。",
+  "alternatives": [
+    "Pinokio",
+    "A1111 WebUI Easy Installer",
+    "SD.Next"
+  ]
+}

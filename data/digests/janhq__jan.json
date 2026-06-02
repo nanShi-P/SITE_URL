@@ -1,0 +1,20 @@
+{
+  "id": "janhq/jan",
+  "source_hash": "5dc80e51b7231a54ff4e71a8feb17a71abdc85abba355c7d7a1b75a5834b0a7b",
+  "generated_at": "2026-06-02T17:53:29.826Z",
+  "model": "***REDACTED-MODEL***",
+  "summary_zh": "Jan 是一款开源的 ChatGPT 桌面替代品，可在本地完全离线运行各类大语言模型，支持 Windows、macOS、Linux，强调隐私和用户对模型的完全控制。",
+  "scenarios": [
+    "在个人电脑上离线使用 LLM 进行对话和写作",
+    "对隐私敏感场景下处理本地文档与数据",
+    "开发者本地测试和切换不同开源模型",
+    "无网络环境中部署本地 AI 助手"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "提供 Windows、macOS、Linux 安装包，开箱即用，无需自行编译。",
+  "alternatives": [
+    "LM Studio",
+    "Ollama",
+    "GPT4All"
+  ]
+}
