@@ -17,14 +17,14 @@
 
 ### 2. 在 GitHub 创建一个空仓库
 1. https://github.com/new
-2. 仓库名：**GoogleAdv**（或你喜欢的名字，但 `SITE_URL` 要相应调整）
+2. 仓库名：**SITE_URL**（或你喜欢的名字，`SITE_URL` 环境变量值要相应调整）
 3. **不要** Initialize with README（本地已经有内容）
 4. 创建后复制 SSH/HTTPS clone URL
 
 ### 3. 推送本地代码
 在 `E:\project\GoogleAdv` 打开 bash/PowerShell：
 ```bash
-git remote add origin https://github.com/你的用户名/GoogleAdv.git
+git remote add origin https://github.com/你的用户名/SITE_URL.git
 git branch -M main
 git push -u origin main
 ```
@@ -37,11 +37,11 @@ git push -u origin main
 ### 5. 配置 SITE_URL 变量（可选但推荐）
 - 仓库 → **Settings** → **Secrets and variables** → **Actions** → **Variables** 标签 → **New repository variable**
 - Name: `SITE_URL`
-- Value: `https://你的用户名.github.io/GoogleAdv`（注意末尾不要斜杠）
+- Value: `https://你的用户名.github.io/SITE_URL`（注意末尾不要斜杠）
 
 ### 6. 触发首次部署
 - 仓库 → **Actions** → 左侧 **Deploy** workflow → **Run workflow** → main
-- 等 2-3 分钟 → 完成后访问 `https://你的用户名.github.io/GoogleAdv`
+- 等 2-3 分钟 → 完成后访问 `https://你的用户名.github.io/SITE_URL`
 
 ### 7. 检查 MVP 站
 - 首页 9 个分类入口可点

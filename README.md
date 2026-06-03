@@ -89,7 +89,7 @@ GITHUB_TOKEN=                  # public_repo 权限
 ANTHROPIC_BASE_URL=            # 你的 LLM API/反代地址
 ANTHROPIC_AUTH_TOKEN=          # 对应 token
 ANTHROPIC_MODEL=claude-opus-4.7
-SITE_URL=https://你的用户名.github.io/GoogleAdv
+SITE_URL=https://你的用户名.github.io/SITE_URL
 LLM_CALL_BUDGET=600            # 单次 enrich 最多调用次数
 ```
 
