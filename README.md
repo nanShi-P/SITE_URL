@@ -1,4 +1,4 @@
-# GoogleAdv — AI 开源仓库中文榜单站
+# AI 开源仓库中文榜单站
 
 > 一个静态站点：从 GitHub 抓取 Top 500 AI 开源项目 → 调 LLM 生成中文解读（一句话简介、适用场景、上手难度、同类替代）→ Astro 构建静态页 → 部署 GitHub Pages。
 
@@ -58,7 +58,7 @@ GitHub Actions: deploy.yml 自动跑 npm run build → 推到 gh-pages
 ## 四、文件结构
 
 ```
-GoogleAdv/
+.
 ├── scripts/
 │   ├── fetch.ts        # GitHub Search API → repos.raw.json
 │   ├── classify.ts     # 分类 + rank_delta → repos.json
