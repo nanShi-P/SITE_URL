@@ -1,0 +1,108 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
+---
+<div class="search-box relative w-full max-w-xs">
+  <div class="relative">
+    <svg
+      class="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-neutral-400"
+      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+    >
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.5-3.5" />
+    </svg>
+    <input
+      type="search"
+      placeholder="搜索仓库 / 作者 / 关键字…"
+      aria-label="搜索"
+      autocomplete="off"
+      spellcheck="false"
+      class="search-input w-full pl-8 pr-3 py-1.5 text-sm bg-white border border-neutral-300 rounded-md text-neutral-800 placeholder-neutral-400 transition-[box-shadow,border-color,background-color] duration-150 focus:outline-none focus:border-blue-500 focus:bg-white focus:shadow-[0_0_0_3px_rgba(59,130,246,0.15)]"
+      data-search-input
+    />
+  </div>
+  <ul
+    role="listbox"
+    aria-label="搜索结果"
+    class="search-results absolute left-0 right-0 mt-1.5 bg-white border border-neutral-200 rounded-md shadow-lg shadow-neutral-900/5 max-h-96 overflow-y-auto z-50 hidden ring-1 ring-black/[0.04]"
+    data-search-results
+  ></ul>
+</div>
+
+<style>
+  .search-results:not(.hidden) {
+    animation: search-dropdown-in 140ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  @keyframes search-dropdown-in {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .search-results:not(.hidden) { animation: none; }
+    .search-input { transition: none; }
+  }
+  /* Remove the native clear button to keep the field clean */
+  .search-input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+</style>
+
+<script is:inline define:vars={{ base }}>
+  (() => {
+    const input = document.querySelector('[data-search-input]');
+    const list = document.querySelector('[data-search-results]');
+    if (!input || !list) return;
+    let index = null, loading = null;
+    async function ensureIndex() {
+      if (index) return index;
+      if (!loading) loading = fetch(base + 'search-index.json').then(r => r.json());
+      index = await loading;
+      return index;
+    }
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, c =>
+        ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+    function open() { list.classList.remove('hidden'); }
+    function close() { list.classList.add('hidden'); }
+    function render(matches) {
+      if (matches.length === 0) {
+        list.innerHTML = '<li class="px-3 py-3 text-sm text-neutral-500 text-center">未找到匹配项</li>';
+      } else {
+        list.innerHTML = matches.slice(0, 8).map(m => `
+          <li role="option">
+            <a href="${base.replace(/\/$/, '')}${m.url}"
+               class="group block px-3 py-2 border-l-2 border-transparent hover:bg-neutral-50 hover:border-blue-200 focus:bg-blue-50/60 focus:border-blue-500 focus:outline-none transition-colors duration-100">
+              <div class="text-sm font-medium text-blue-700 group-hover:text-blue-800">${escapeHtml(m.owner)}<span class="text-neutral-400">/</span>${escapeHtml(m.name)}</div>
+              <div class="text-xs text-neutral-500 truncate mt-0.5">${escapeHtml((m.summary || '').slice(0, 60))}</div>
+            </a>
+          </li>`).join('');
+      }
+      open();
+    }
+    let debounce;
+    input.addEventListener('input', () => {
+      clearTimeout(debounce);
+      const q = input.value.trim().toLowerCase();
+      if (!q) { close(); return; }
+      debounce = setTimeout(async () => {
+        const data = await ensureIndex();
+        const matches = data.filter(m =>
+          m.owner.toLowerCase().includes(q) ||
+          m.name.toLowerCase().includes(q) ||
+          (m.summary || '').toLowerCase().includes(q)
+        );
+        render(matches);
+      }, 80);
+    });
+    input.addEventListener('focus', () => { if (input.value.trim()) input.dispatchEvent(new Event('input')); });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') { close(); input.blur(); }
+      if (e.key === 'Enter') {
+        const first = list.querySelector('a');
+        if (first) { e.preventDefault(); window.location.href = first.href; }
+      }
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.search-box')) close();
+    });
+  })();
+</script>
