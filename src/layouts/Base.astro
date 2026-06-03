@@ -14,6 +14,15 @@ const gcCode = import.meta.env.PUBLIC_GOATCOUNTER_CODE;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>
+      (() => {
+        try {
+          if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch {}
+      })();
+    </script>
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={url} />
@@ -31,20 +40,29 @@ const gcCode = import.meta.env.PUBLIC_GOATCOUNTER_CODE;
       ></script>
     )}
   </head>
-  <body class="bg-neutral-50 text-neutral-900 min-h-screen flex flex-col">
-    <header class="border-b bg-white relative">
-      <div class="max-w-5xl mx-auto px-4 pt-4 md:py-3 flex flex-wrap md:flex-nowrap items-center gap-3">
-        <a href={base} class="font-bold text-lg shrink-0">AI 开源榜</a>
+  <body class="bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 min-h-screen flex flex-col">
+    <header class="border-b border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 relative">
+      <div class="max-w-5xl mx-auto px-4 pt-4 lg:py-3 flex flex-wrap lg:flex-nowrap items-center gap-3">
+        <a href={base} class="font-bold text-lg shrink-0 dark:text-neutral-100">AI 开源榜</a>
+        <button
+          id="theme-toggle"
+          type="button"
+          aria-label="切换暗色模式"
+          class="ml-auto lg:ml-0 lg:order-last shrink-0 p-2 text-lg leading-none text-neutral-600 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-white"
+        >
+          <span class="theme-icon-light">☀️</span>
+          <span class="theme-icon-dark hidden">🌙</span>
+        </button>
         <input id="nav-toggle" type="checkbox" class="peer hidden" aria-label="菜单" />
-        <label for="nav-toggle" class="hamburger md:hidden ml-auto cursor-pointer select-none p-2 -mr-2" aria-controls="mobile-drawer">
+        <label for="nav-toggle" class="hamburger lg:hidden cursor-pointer select-none p-2 -mr-2" aria-controls="mobile-drawer">
           <span class="hb-bar"></span>
           <span class="hb-bar"></span>
           <span class="hb-bar"></span>
         </label>
-        <div class="hidden md:block md:flex-1"><CategoryNav /></div>
-        <div class="order-last md:order-none w-full md:w-72 pb-4 md:pb-0"><SearchBox /></div>
+        <div class="hidden lg:block lg:flex-1"><CategoryNav /></div>
+        <div class="order-last lg:order-none w-full lg:w-72 pb-4 lg:pb-0"><SearchBox /></div>
         <div id="mobile-drawer"
-             class="mobile-drawer md:hidden absolute left-0 right-0 top-full bg-white border-t shadow-lg z-40">
+             class="mobile-drawer lg:hidden absolute left-0 right-0 top-full bg-white dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-800 shadow-lg z-40">
           <CategoryNav mobile={true} />
         </div>
       </div>
@@ -67,6 +85,7 @@ const gcCode = import.meta.env.PUBLIC_GOATCOUNTER_CODE;
           transition: transform 220ms ease, opacity 180ms ease;
           transform-origin: center;
         }
+        .dark .hb-bar { background: #e5e7eb; }
         #nav-toggle:checked ~ .hamburger .hb-bar:nth-child(1) {
           transform: translateY(7px) rotate(45deg);
         }
@@ -103,11 +122,29 @@ const gcCode = import.meta.env.PUBLIC_GOATCOUNTER_CODE;
             if (t && t.checked) t.checked = false;
           }
         });
+        (() => {
+          const btn = document.getElementById('theme-toggle');
+          if (!btn) return;
+          const sun = btn.querySelector('.theme-icon-light');
+          const moon = btn.querySelector('.theme-icon-dark');
+          function sync() {
+            const isDark = document.documentElement.classList.contains('dark');
+            sun.classList.toggle('hidden', isDark);
+            moon.classList.toggle('hidden', !isDark);
+          }
+          sync();
+          btn.addEventListener('click', () => {
+            const next = !document.documentElement.classList.contains('dark');
+            document.documentElement.classList.toggle('dark', next);
+            try { localStorage.setItem('theme', next ? 'dark' : 'light'); } catch {}
+            sync();
+          });
+        })();
       </script>
     </header>
     <main class="flex-1 max-w-5xl mx-auto px-4 py-8 w-full"><slot /></main>
-    <footer class="border-t bg-white">
-      <div class="max-w-5xl mx-auto px-4 py-6 text-sm text-neutral-600 flex flex-wrap gap-4 items-center">
+    <footer class="border-t border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
+      <div class="max-w-5xl mx-auto px-4 py-6 text-sm text-neutral-600 dark:text-neutral-400 flex flex-wrap gap-4 items-center">
         <a href={`${base}about`}>关于</a><a href={`${base}privacy`}>隐私</a>
         <a href={`${base}terms`}>条款</a><a href={`${base}contact`}>联系</a>
         <SiteCounter />
