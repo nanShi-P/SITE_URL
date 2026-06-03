@@ -24,6 +24,7 @@ jobs:
       - run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL || 'https://example.github.io' }}
+          PUBLIC_GOATCOUNTER_CODE: ${{ vars.PUBLIC_GOATCOUNTER_CODE }}
       - uses: actions/upload-pages-artifact@v3
         with: { path: dist }
   deploy:
