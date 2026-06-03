@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import CategoryNav from '../components/CategoryNav.astro';
+import SiteCounter from '../components/SiteCounter.astro';
 interface Props { title: string; description: string; canonical?: string; }
 const { title, description, canonical } = Astro.props;
 const url = canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
@@ -38,9 +39,10 @@ const gcCode = import.meta.env.PUBLIC_GOATCOUNTER_CODE;
     </header>
     <main class="flex-1 max-w-5xl mx-auto px-4 py-8 w-full"><slot /></main>
     <footer class="border-t bg-white">
-      <div class="max-w-5xl mx-auto px-4 py-6 text-sm text-neutral-600 flex gap-4">
+      <div class="max-w-5xl mx-auto px-4 py-6 text-sm text-neutral-600 flex flex-wrap gap-4 items-center">
         <a href={`${base}about`}>关于</a><a href={`${base}privacy`}>隐私</a>
         <a href={`${base}terms`}>条款</a><a href={`${base}contact`}>联系</a>
+        <SiteCounter />
       </div>
     </footer>
   </body>
