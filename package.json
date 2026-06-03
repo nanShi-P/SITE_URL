@@ -12,6 +12,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "prebuild": "tsx scripts/build-search-index.ts",
     "test": "vitest run",
     "fetch": "tsx scripts/fetch.ts",
     "classify": "tsx scripts/classify.ts",

@@ -6,3 +6,4 @@ dist
 GitHubToken.txt
 docs/superpowers/
 .claude/
+public/search-index.json
