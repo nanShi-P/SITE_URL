@@ -45,3 +45,10 @@ export function relatedRepos(repo: Repo, limit = 5): Repo[] {
 export const dataUpdatedAt: Date = (() => {
   try { return statSync('data/repos.json').mtime; } catch { return new Date(); }
 })();
+
+export function trendingRepos(minStars = 1000, limit = 10): Repo[] {
+  return allRepos
+    .filter(r => r.stars >= minStars && r.rank_delta > 0)
+    .sort((a, b) => b.rank_delta - a.rank_delta)
+    .slice(0, limit);
+}
