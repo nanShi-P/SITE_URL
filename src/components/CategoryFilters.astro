@@ -49,34 +49,41 @@
 
 <script is:inline>
   (() => {
-    const filters = document.querySelector('[data-category-filters]');
-    const list = document.querySelector('[data-repo-list]');
-    if (!filters || !list) return;
-    const DIFF_ORDER = { '简单': 0, '中等': 1, '困难': 2 };
-    const sortSel = filters.querySelector('[data-sort]');
-    const diffBoxes = filters.querySelectorAll('[data-diff]');
-    const cards = Array.from(list.children);
-    function apply() {
-      const sort = sortSel.value;
-      const checked = Array.from(diffBoxes).filter(b => b.checked).map(b => b.value);
-      const filterOn = checked.length > 0;
-      const sorted = cards.slice().sort((a, b) => {
-        if (sort === 'stars') return Number(b.dataset.stars) - Number(a.dataset.stars);
-        if (sort === 'delta') return Number(b.dataset.delta) - Number(a.dataset.delta);
-        if (sort === 'difficulty') {
-          const da = DIFF_ORDER[a.dataset.difficulty] ?? 99;
-          const db = DIFF_ORDER[b.dataset.difficulty] ?? 99;
-          return da - db;
-        }
-        return 0;
-      });
-      sorted.forEach(c => list.appendChild(c));
-      cards.forEach(c => {
-        const d = c.dataset.difficulty || '';
-        c.style.display = filterOn && !checked.includes(d) ? 'none' : '';
-      });
+    function init() {
+      const filters = document.querySelector('[data-category-filters]');
+      const list = document.querySelector('[data-repo-list]');
+      if (!filters || !list) return;
+      const DIFF_ORDER = { '简单': 0, '中等': 1, '困难': 2 };
+      const sortSel = filters.querySelector('[data-sort]');
+      const diffBoxes = filters.querySelectorAll('[data-diff]');
+      const cards = Array.from(list.children);
+      function apply() {
+        const sort = sortSel.value;
+        const checked = Array.from(diffBoxes).filter(b => b.checked).map(b => b.value);
+        const filterOn = checked.length > 0;
+        const sorted = cards.slice().sort((a, b) => {
+          if (sort === 'stars') return Number(b.dataset.stars) - Number(a.dataset.stars);
+          if (sort === 'delta') return Number(b.dataset.delta) - Number(a.dataset.delta);
+          if (sort === 'difficulty') {
+            const da = DIFF_ORDER[a.dataset.difficulty] ?? 99;
+            const db = DIFF_ORDER[b.dataset.difficulty] ?? 99;
+            return da - db;
+          }
+          return 0;
+        });
+        sorted.forEach(c => list.appendChild(c));
+        cards.forEach(c => {
+          const d = c.dataset.difficulty || '';
+          c.style.display = filterOn && !checked.includes(d) ? 'none' : '';
+        });
+      }
+      sortSel.addEventListener('change', apply);
+      diffBoxes.forEach(b => b.addEventListener('change', apply));
     }
-    sortSel.addEventListener('change', apply);
-    diffBoxes.forEach(b => b.addEventListener('change', apply));
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
   })();
 </script>
