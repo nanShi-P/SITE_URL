@@ -39,6 +39,16 @@
 
 ---
 
+## 访问统计
+
+站点接入 GoatCounter（无 Cookie）。本地开发可留空：
+
+- 本地：`.env` 中 `PUBLIC_GOATCOUNTER_CODE` 留空 → 不注入脚本
+- 部署：在 GitHub 仓库 **Settings → Secrets and variables → Actions → Variables**
+  新建 `PUBLIC_GOATCOUNTER_CODE`，值为 GoatCounter 子域前缀（如 `nanship`）
+
+---
+
 ## 反馈与建议
 
 - 内容错误、希望收录的项目、合作意向：欢迎 [提 Issue](https://github.com/nanShi-P/SITE_URL/issues)
