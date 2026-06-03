@@ -1,19 +1,20 @@
 {
   "id": "shanraisshan/claude-code-best-practice",
-  "source_hash": "4f3cf75c851d47ff994ec095a0f1c1d8bfb2fe20840916128f30802eee24707c",
-  "generated_at": "2026-06-02T17:50:34.580Z",
-  "model": "***REDACTED-MODEL***",
-  "summary_zh": "该仓库汇总了使用 Claude Code 的最佳实践，涵盖 Subagents、Commands、Skills 等概念，并提供编排工作流示例和实现案例，帮助开发者从随性编码过渡到面向智能体的工程化开发。",
+  "source_hash": "49e829e1d2aed1714b761c5536d4cf7762e75b91d30d3308c2f619f0d926963b",
+  "generated_at": "2026-06-03T06:09:06.683Z",
+  "model": "claude-opus-4.7",
+  "summary_zh": "该仓库整理了 Claude Code 的最佳实践，涵盖子代理、命令、技能、编排工作流等概念，并提供示例实现与社区资源，帮助用户从随性编码过渡到代理式工程开发。",
   "scenarios": [
-    "学习 Claude Code 的子代理与命令机制",
-    "参考编排工作流搭建多代理协作项目",
-    "查阅社区整理的提示词与技巧",
-    "在团队内推广 Claude Code 的规范用法"
+    "学习 Claude Code 的子代理和自定义命令用法",
+    "搭建多代理编排工作流处理复杂开发任务",
+    "参考社区示例配置项目级 CLAUDE.md",
+    "查阅 Boris Cherny 等官方人员的使用技巧",
+    "团队内部制定 Claude Code 使用规范"
   ],
   "difficulty": "简单",
-  "difficulty_reason": "以文档和示例为主，无需复杂环境配置，按需阅读即可。",
+  "difficulty_reason": "以 Markdown 文档和配置示例为主，无需复杂环境，但需已熟悉 Claude Code 工具。",
   "alternatives": [
     "awesome-claude-code",
-    "claude-code-cookbook"
+    "claude-code-templates"
   ]
 }

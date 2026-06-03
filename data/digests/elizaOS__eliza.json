@@ -1,18 +1,18 @@
 {
   "id": "elizaOS/eliza",
-  "source_hash": "9eda687c68fbd31cc0a72b3c8b5af6405597cb99543123b5bd0e34b50800feda",
-  "generated_at": "2026-06-02T18:12:06.683Z",
-  "model": "***REDACTED-MODEL***",
-  "summary_zh": "elizaOS 是一个开源的智能体框架，提供模块化架构、CLI 和 Web 管理界面，支持接入 Discord、Telegram 等平台，兼容 OpenAI、Anthropic、Llama 等主流模型，可用于构建聊天机器人、自动化业务代理及多智能体协作系统，并支持文档 RAG 与插件扩展。",
+  "source_hash": "ef283894f6d2c8bd52975583be671ba3c37fbb73f3b2c6f279dce0096ad0e81c",
+  "generated_at": "2026-06-03T06:10:01.384Z",
+  "model": "claude-opus-4.7",
+  "summary_zh": "elizaOS 是一个开源的 AI Agent 开发框架，提供模块化架构、CLI 工具和 Web 管理界面，支持多 Agent 协作、文档检索（RAG）以及 Discord、Telegram 等渠道接入，兼容 OpenAI、Anthropic、Llama 等主流大模型，可用于构建聊天机器人、自动化业务流程或游戏 NPC。",
   "scenarios": [
-    "搭建接入 Discord/Telegram 的 AI 聊天机器人",
-    "构建多个专业化智能体协同处理业务流程",
-    "基于内部文档实现 RAG 问答助手",
+    "搭建接入 Discord/Telegram 的多平台聊天机器人",
+    "基于内部文档构建可问答的 RAG 知识助手",
+    "编排多个专业 Agent 协同完成业务流程自动化",
     "为游戏开发智能 NPC 角色",
-    "通过插件扩展自定义智能体能力"
+    "快速验证不同大模型在 Agent 任务上的效果"
   ],
   "difficulty": "中等",
-  "difficulty_reason": "提供 CLI 与 Web UI 降低上手门槛，但涉及多模型配置、插件体系与多智能体编排，需要一定开发经验。",
+  "difficulty_reason": "功能丰富、文档完善且有 CLI 与 Web UI，但涉及多模型配置、插件体系和 Node 开发环境，新手仍需一定上手成本。",
   "alternatives": [
     "LangChain",
     "AutoGen",

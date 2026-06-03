@@ -53,7 +53,7 @@ async function main() {
     console.log(`[${elapsed}s] done=${done}/${total} calls=${calls} hits=${hits} fails=${fails}`);
   };
 
-  async function process(r: any): Promise<void> {
+  async function processRepo(r: any): Promise<void> {
     if (stopped) { done++; return; }
     try {
       const readme = await githubLimit(() => fetchReadme(octokit, r.owner, r.name));
@@ -79,7 +79,7 @@ async function main() {
     }
   }
 
-  await Promise.all(repos.map(r => llmLimit(() => process(r))));
+  await Promise.all(repos.map(r => llmLimit(() => processRepo(r))));
   logProgress();
   console.log(`Done in ${((Date.now() - t0) / 1000).toFixed(1)}s. calls=${calls} hits=${hits} fails=${fails}${stopped ? ' (budget hit)' : ''}`);
 }

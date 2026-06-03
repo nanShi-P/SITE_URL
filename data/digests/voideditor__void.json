@@ -1,18 +1,18 @@
 {
   "id": "voideditor/void",
-  "source_hash": "603252d7d7b5ebca7ad6143d0e7414aec23517cbbffe26159288e29571c0d811",
-  "generated_at": "2026-06-02T18:00:20.716Z",
-  "model": "***REDACTED-MODEL***",
-  "summary_zh": "Void 是基于 VS Code 二次开发的开源 AI 编辑器，支持在代码库上运行 AI 代理、对变更进行检查点和可视化，并可接入任意云端或本地模型，消息直发供应商不留存数据。项目目前已停止维护，仓库主要作为 fork VS Code 的参考实现保留。",
+  "source_hash": "c4585fe16ec3ca4f9ed513c2e5707338ab475fae274a1c6b5c3d5f59acda2a45",
+  "generated_at": "2026-06-03T06:09:35.782Z",
+  "model": "claude-opus-4.7",
+  "summary_zh": "Void 是一个基于 VS Code 的开源 AI 编辑器分支，集成 AI 智能体、代码自动补全（FIM）、流式 diff 编辑等功能。项目已停止维护，但代码完全开源，可作为 fork VS Code 时的参考实现，包含 React+Tailwind 集成、打包签名自动更新、自研 AI 服务等组件。",
   "scenarios": [
-    "想 fork VS Code 并集成 React/Tailwind 时参考其构建管线",
-    "在本地用 Ollama 等模型搭建私有 AI 编程助手",
-    "研究如何为 VS Code 添加自定义 Service 与 IPC",
-    "学习给 fork 版编辑器做签名、打包和自动更新",
-    "构建支持 FIM 自动补全的自定义 AI Provider"
+    "想要 fork VS Code 制作自己的 AI 编辑器时参考其架构",
+    "学习如何在 VS Code 中集成 React 和 Tailwind",
+    "研究流式 diff 渲染和代码编辑服务的实现",
+    "参考 GitHub Actions 实现 VS Code 分支的打包签名与自动更新",
+    "学习自研 AI provider 与 IPC/CSP 处理方案"
   ],
   "difficulty": "困难",
-  "difficulty_reason": "项目已废弃且涉及 VS Code 源码级二次开发，构建链复杂、文档有限。",
+  "difficulty_reason": "基于 VS Code 源码深度二次开发，构建链路复杂且项目已停止维护，缺少持续支持。",
   "alternatives": [
     "Cursor",
     "Continue",

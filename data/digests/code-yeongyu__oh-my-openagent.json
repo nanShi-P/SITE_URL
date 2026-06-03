@@ -1,20 +1,20 @@
 {
   "id": "code-yeongyu/oh-my-openagent",
-  "source_hash": "83aacac1570da5283f068c051f548a595e2e57d1f29a65d7f7f15b63a5349a97",
-  "generated_at": "2026-06-02T17:49:24.962Z",
-  "model": "***REDACTED-MODEL***",
-  "summary_zh": "omo 是一个面向复杂代码库的智能体配置框架，通过预设提示词、规则与工作流增强 Codex CLI、OpenCode 等 AI 编码助手，让其在大型工程中表现更稳定，并内置计算机操作型 QA 能力。",
+  "source_hash": "2ce996f2ac630ed0f609b3b76ec97f1cb2673c131745f63c91f42f8eb53729b6",
+  "generated_at": "2026-06-03T06:09:01.422Z",
+  "model": "claude-opus-4.7",
+  "summary_zh": "oh-my-openagent（omo）是一个面向复杂代码库的 AI 编码代理增强工具，为 Codex CLI、OpenCode 等代理提供统一的 harness 配置，免去手写复杂 JSON，并内置 computer-use QA 能力，让代理在大型工程项目中更可靠地完成任务。",
   "scenarios": [
-    "在大型遗留代码库中使用 Codex CLI 完成重构任务",
-    "为团队统一配置 AI 编码助手的提示与规则",
-    "在复杂工程中借助 AI 自动完成开发并自检",
-    "快速一键初始化 Codex 工作环境，免去手写 JSON 配置"
+    "为 Codex CLI 一键安装预设配置以处理大型代码库",
+    "在 OpenCode 中接入统一的代理 harness",
+    "让 AI 助手自动完成软件工程任务并进行 QA 验证",
+    "团队协作中统一多种代理工具的配置规范"
   ],
   "difficulty": "简单",
-  "difficulty_reason": "通过 npx 一行命令即可安装，无需复杂配置，但需自备 Codex CLI 等底层工具。",
+  "difficulty_reason": "通过 npx 一行命令即可安装，无需复杂配置，但需要已有 Codex 或 OpenCode 等代理环境。",
   "alternatives": [
     "aider",
     "continue",
-    "cursor-rules"
+    "cline"
   ]
 }

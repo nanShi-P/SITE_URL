@@ -1,21 +1,21 @@
 {
   "id": "ollama/ollama",
-  "source_hash": "13ee7744c89517a4ca4dfff4084ae887333da5b289c63cca105fd45f38ed1ec8",
-  "generated_at": "2026-06-02T17:44:45.833Z",
-  "model": "***REDACTED-MODEL***",
-  "summary_zh": "Ollama 是一款本地运行开源大模型的工具，支持在 macOS、Windows、Linux 和 Docker 上一键安装，命令行即可下载并运行 Gemma、Qwen、DeepSeek 等模型，也可对接 Claude Code、Codex、Copilot 等编程助手与聊天集成。",
+  "source_hash": "4b4f2e111b1a9f448a9bb92ce0975b4e526664a0edffd123c407b12f4a146f5a",
+  "generated_at": "2026-06-03T06:08:48.116Z",
+  "model": "claude-opus-4.7",
+  "summary_zh": "Ollama 是一个本地运行开源大模型的工具，支持在 macOS、Windows、Linux 和 Docker 上一键安装，通过命令行即可下载并对话 Gemma、Qwen、DeepSeek、Kimi 等主流模型，并能对接 Claude Code、Codex、Copilot 等编码助手和 IM 平台。",
   "scenarios": [
-    "本地离线运行开源大模型进行对话",
-    "为 Claude Code、Codex 等编程工具提供本地模型后端",
-    "通过 Python/JS SDK 在应用中调用本地 LLM",
-    "在 Docker 中部署私有模型服务",
-    "接入 WhatsApp、Telegram 等聊天平台搭建 AI 助手"
+    "在本地离线运行大模型进行隐私敏感的对话或问答",
+    "为 Claude Code、Codex 等编码工具提供本地模型后端",
+    "通过 Python/JS SDK 在自有应用中集成本地 LLM 推理",
+    "搭建跨 WhatsApp、Telegram、Slack 的个人 AI 助手",
+    "在 Docker 容器中部署模型服务供团队内网调用"
   ],
   "difficulty": "简单",
-  "difficulty_reason": "一行命令即可安装，CLI 上手直观，文档完善",
+  "difficulty_reason": "提供一键安装脚本和 Docker 镜像，命令行使用直观，文档完善，无需复杂配置即可上手。",
   "alternatives": [
     "LM Studio",
     "llama.cpp",
-    "LocalAI"
+    "vLLM"
   ]
 }

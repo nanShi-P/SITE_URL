@@ -9,8 +9,15 @@ export interface Digest {
   alternatives: string[];
 }
 
-// 如需把用户侧模型名映射成反代真实接受的 id，可在此扩展
-const MODEL_ALIASES: Record<string, string> = {};
+// 模型 alias 映射从 .env 的 MODEL_ALIAS_MAP 读取（JSON 字符串），
+// 例如：MODEL_ALIAS_MAP={"用户写法":"反代真实id"}
+// 这样不把内部模型名硬编码进代码仓库。
+function loadAliases(): Record<string, string> {
+  const raw = process.env.MODEL_ALIAS_MAP;
+  if (!raw) return {};
+  try { return JSON.parse(raw); } catch { return {}; }
+}
+const MODEL_ALIASES = loadAliases();
 
 function resolveModel(name: string): string {
   return MODEL_ALIASES[name] ?? name;
