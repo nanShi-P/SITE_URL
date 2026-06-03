@@ -3,8 +3,6 @@
 > 一个静态站点：从 GitHub 抓取 Top 500 AI 开源项目 → 调 LLM 生成中文解读（一句话简介、适用场景、上手难度、同类替代）→ Astro 构建静态页 → 部署 GitHub Pages。
 
 📚 完整设计与计划：
-- 设计：[docs/superpowers/specs/2026-06-03-ai-repo-ranking-site-design.md](docs/superpowers/specs/2026-06-03-ai-repo-ranking-site-design.md)
-- 实施计划：[docs/superpowers/plans/2026-06-03-ai-repo-ranking-site.md](docs/superpowers/plans/2026-06-03-ai-repo-ranking-site.md)
 - **用户操作手册（必读）**：[docs/USER_HANDBOOK.md](docs/USER_HANDBOOK.md)
 
 ---
@@ -87,12 +85,12 @@ GoogleAdv/
 ## 五、环境变量（`.env`，不入 git）
 
 ```
-GITHUB_TOKEN=ghp_...                              # public_repo 权限
-ANTHROPIC_BASE_URL=***REDACTED-LLM-URL***          # 本地 LLM 反代
-ANTHROPIC_AUTH_TOKEN=dummy                         # 反代不校验
-ANTHROPIC_MODEL=claude-opus-4-7[1m]               # 经 alias 映射到 ***REDACTED-MODEL***
-SITE_URL=https://你的用户名.github.io/GoogleAdv    # GitHub Pages 完整 URL
-LLM_CALL_BUDGET=600                                # 单次 enrich 最多调用次数
+GITHUB_TOKEN=                  # public_repo 权限
+ANTHROPIC_BASE_URL=            # 你的 LLM API/反代地址
+ANTHROPIC_AUTH_TOKEN=          # 对应 token
+ANTHROPIC_MODEL=claude-opus-4.7
+SITE_URL=https://你的用户名.github.io/GoogleAdv
+LLM_CALL_BUDGET=600            # 单次 enrich 最多调用次数
 ```
 
-模型 alias 映射定义在 `scripts/lib/llm.ts` 的 `MODEL_ALIASES`。
+如需把用户侧模型名映射到反代真实模型 id，可在 `scripts/lib/llm.ts` 的 `MODEL_ALIASES` 中扩展。

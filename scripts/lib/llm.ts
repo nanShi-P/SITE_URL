@@ -9,18 +9,14 @@ export interface Digest {
   alternatives: string[];
 }
 
-// 用户/Claude Code 习惯写法 → 反代真实接受的 model id
-const MODEL_ALIASES: Record<string, string> = {
-  'claude-opus-4-7[1m]': '***REDACTED-MODEL***',
-  'claude-opus-4.7[1m]': '***REDACTED-MODEL***',
-  'claude-opus-4-7': 'claude-opus-4.7',
-};
+// 如需把用户侧模型名映射成反代真实接受的 id，可在此扩展
+const MODEL_ALIASES: Record<string, string> = {};
 
 function resolveModel(name: string): string {
   return MODEL_ALIASES[name] ?? name;
 }
 
-export const MODEL = resolveModel(process.env.ANTHROPIC_MODEL || 'claude-opus-4-7[1m]');
+export const MODEL = resolveModel(process.env.ANTHROPIC_MODEL || 'claude-opus-4.7');
 
 export function createLlm() {
   return new Anthropic({

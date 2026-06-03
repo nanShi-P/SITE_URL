@@ -6,17 +6,10 @@
 
 ## ⚠️ 立即要做（安全相关）
 
-### 1. 撤销 GitHub Token 并重发
-你那个 `***REVOKED***` token 在以下几处出现过：
-- 你磁盘上的 `GitHubToken.txt`（请删除）
-- 我们这次对话历史
-- 项目 `.env`（这个安全，不入 git）
-
-**操作**：
-1. https://github.com/settings/tokens → 找到这个 token → **Revoke**
-2. **Generate new token (classic)** → 只勾 `public_repo` → 90 days
-3. 复制新 token，编辑 `E:\project\GoogleAdv\.env` 的 `GITHUB_TOKEN=` 那行替换掉
-4. 删除 `E:\project\GoogleAdv\GitHubToken.txt`
+### 1. 准备 GitHub Token
+1. https://github.com/settings/tokens → **Generate new token (classic)** → 只勾 `public_repo` → 90 days
+2. 复制 token，编辑 `E:\project\GoogleAdv\.env` 的 `GITHUB_TOKEN=` 那行填入
+3. 确保本机 `.env`、`GitHubToken.txt` 等含 token 的文件**不要**入 git（已在 `.gitignore`）
 
 ---
 
@@ -134,7 +127,7 @@ git push               # 触发 Deploy workflow 自动构建
 ```
 
 ### 17. 监控 LLM 反代是否在跑
-enrich 依赖 `***REDACTED-LLM-URL***`，跑 `npm run update` 前确认它已启动。
+enrich 依赖 `.env` 中配置的 `ANTHROPIC_BASE_URL`，跑 `npm run update` 前确认它已启动且可达。
 
 ### 18. 想增删分类
 编辑 `scripts/lib/categories.ts` 的 `CATEGORIES` 和 `RULES` → 重跑 `npm run classify`。
