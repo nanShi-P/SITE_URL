@@ -26,3 +26,7 @@ description: 本站不收集任何个人信息。
 ## 二、联系
 
 如有问题，请通过 [联系方式](/contact) 与我们联系。
+
+## 访问统计
+
+本站使用 [GoatCounter](https://www.goatcounter.com) 记录匿名访问数据，仅用于了解访问趋势。GoatCounter 不使用 Cookie，不记录完整 IP 地址，不进行跨站追踪。详见其 [隐私说明](https://www.goatcounter.com/help/privacy)。
