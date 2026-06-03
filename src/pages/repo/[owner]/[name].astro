@@ -19,6 +19,7 @@ const { repo } = Astro.props;
 const digest = getDigest(repo.id);
 const related = relatedRepos(repo);
 const categoryLabel = CATEGORIES.find(c => c.slug === repo.category)?.label ?? '其他';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -34,8 +35,8 @@ const jsonLd = {
 <Base title={repoTitle(repo)} description={repoDescription(repo, digest)}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <Breadcrumb items={[
-    { href: '/', label: '首页' },
-    { href: `/category/${repo.category}`, label: categoryLabel },
+    { href: base, label: '首页' },
+    { href: `${base}category/${repo.category}`, label: categoryLabel },
     { label: `${repo.owner}/${repo.name}` },
   ]} />
 
