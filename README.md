@@ -61,9 +61,6 @@
 
 站点接入 GoatCounter（无 Cookie、不记录完整 IP、不跨站追踪），footer 公开展示"累计访问 N 次 · 今日 M"。
 
-- 本地：`.env` 中 `PUBLIC_GOATCOUNTER_CODE` 留空 → 不注入脚本
-- 部署：在 GitHub 仓库 **Settings → Secrets and variables → Actions → Variables** 新建 `PUBLIC_GOATCOUNTER_CODE`，值为你的 GoatCounter 子域前缀（在 GoatCounter 后台还需勾选 "Allow adding visitor counts on your website" 与 Dashboard "Everyone" 才能让前端读到聚合数）
-
 ---
 
 ## 反馈与建议
