@@ -5,3 +5,4 @@ dist
 .astro
 GitHubToken.txt
 docs/superpowers/
+.claude/

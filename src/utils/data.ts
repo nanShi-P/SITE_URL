@@ -1,5 +1,5 @@
 import repos from '@data/repos.json';
-import { readdirSync, readFileSync, existsSync } from 'node:fs';
+import { readdirSync, readFileSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 export interface Repo {
@@ -41,3 +41,7 @@ export function reposByCategory(slug: string): Repo[] {
 export function relatedRepos(repo: Repo, limit = 5): Repo[] {
   return allRepos.filter(r => r.category === repo.category && r.id !== repo.id).slice(0, limit);
 }
+
+export const dataUpdatedAt: Date = (() => {
+  try { return statSync('data/repos.json').mtime; } catch { return new Date(); }
+})();
