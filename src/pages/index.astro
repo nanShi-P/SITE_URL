@@ -30,7 +30,7 @@ const updatedLabel = dataUpdatedAt.toLocaleString('zh-CN', {
   {trending.length > 0 && (
     <section class="mb-8">
       <h2 class="text-xl font-semibold mb-4">📈 本周窜升</h2>
-      <div class="grid gap-3 md:grid-cols-2">
+      <div class="grid gap-3">
         {trending.map(r => <RepoCard repo={r} digest={getDigest(r.id)} />)}
       </div>
     </section>
