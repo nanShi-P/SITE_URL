@@ -1,7 +1,7 @@
 ---
 const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 ---
-<div class="search-box relative w-full max-w-xs">
+<div class="search-box relative w-full">
   <div class="relative">
     <svg
       class="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 h-4 w-4 text-neutral-400"
@@ -93,7 +93,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
         render(matches);
       }, 80);
     });
-    input.addEventListener('focus', () => { if (input.value.trim()) input.dispatchEvent(new Event('input')); });
+    input.addEventListener('focus', () => {
+      const q = input.value.trim();
+      if (q) { input.dispatchEvent(new Event('input')); return; }
+      list.innerHTML = '<li class="px-3 py-3 text-sm text-neutral-400 text-center">键入以搜索 项目名 / 简介…</li>';
+      open();
+    });
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') { close(); input.blur(); }
       if (e.key === 'Enter') {

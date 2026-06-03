@@ -1,8 +1,8 @@
 ---
 import { formatStars, formatDelta } from '../utils/format';
 import type { Repo, Digest } from '../utils/data';
-interface Props { repo: Repo; digest: Digest | null; }
-const { repo, digest } = Astro.props;
+interface Props { repo: Repo; digest: Digest | null; hideDelta?: boolean; }
+const { repo, digest, hideDelta = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 
 const DIFF_LEVELS: Record<string, { filled: number; color: string; text: string }> = {
@@ -13,20 +13,20 @@ const DIFF_LEVELS: Record<string, { filled: number; color: string; text: string 
 const diff = digest ? (DIFF_LEVELS[digest.difficulty] ?? { filled: 0, color: 'bg-neutral-400', text: 'text-neutral-600' }) : null;
 const scenarios = digest?.scenarios?.slice(0, 3) ?? [];
 ---
-<article class="bg-white border rounded-lg p-4 hover:shadow-md transition">
+<article class="bg-white border rounded-lg p-4 hover:shadow-md transition h-full flex flex-col">
   <div class="flex items-baseline gap-2">
     <a href={`${base}repo/${repo.owner}/${repo.name}`} class="text-lg font-semibold text-blue-700 hover:underline">
       {repo.owner}/{repo.name}
     </a>
     <span class="text-sm text-neutral-500">⭐ {formatStars(repo.stars)}</span>
-    {repo.rank_delta !== 0 && (
+    {!hideDelta && repo.rank_delta !== 0 && (
       <span class={`text-xs ${repo.rank_delta > 0 ? 'text-green-600' : 'text-red-600'}`}>
         {formatDelta(repo.rank_delta)}
       </span>
     )}
   </div>
   {repo.language && <span class="text-xs text-neutral-500">{repo.language}</span>}
-  <p class="mt-2 text-sm text-neutral-700">{digest?.summary_zh ?? repo.description}</p>
+  <p class="mt-2 text-sm text-neutral-700 line-clamp-2 min-h-[2.5rem]">{digest?.summary_zh ?? repo.description}</p>
   {digest && (
     <div class="mt-3 flex flex-wrap items-center gap-2">
       <span class="inline-flex items-center gap-1.5 text-xs">
