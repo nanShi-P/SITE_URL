@@ -1,8 +1,13 @@
 ---
 import { CATEGORIES } from '../../scripts/lib/categories';
+interface Props { mobile?: boolean }
+const { mobile = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
+const navClass = mobile
+  ? 'flex flex-col gap-3 text-sm p-4'
+  : 'flex flex-wrap gap-3 text-sm';
 ---
-<nav class="flex flex-wrap gap-3 text-sm">
+<nav class={navClass}>
   {CATEGORIES.filter(c => c.slug !== 'other').map(c => (
     <a href={`${base}category/${c.slug}`} class="text-neutral-700 hover:text-blue-600">{c.label}</a>
   ))}
