@@ -18,8 +18,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 ---
 <Base title={categoryTitle(label)} description={`${label}分类下的开源项目榜单，共 ${repos.length} 个。`}>
   <Breadcrumb items={[{ href: base, label: '首页' }, { label }]} />
-  <h1 class="text-2xl font-bold mb-2">{label}</h1>
-  <p class="text-neutral-600 mb-6">共 {repos.length} 个项目。</p>
+  <h1 class="text-2xl font-bold mb-2 dark:text-neutral-100">{label}</h1>
+  <p class="text-neutral-600 dark:text-neutral-400 leading-relaxed mb-6">共 {repos.length} 个项目。</p>
   <CategoryFilters />
   <AdSlot slot="category-top" />
   <div class="grid gap-3" data-repo-list>

@@ -15,13 +15,13 @@ const updatedLabel = dataUpdatedAt.toLocaleString('zh-CN', {
 });
 ---
 <Base title={homeTitle()} description={homeDescription()}>
-  <h1 class="text-2xl font-bold mb-2">AI 开源项目中文榜单</h1>
-  <p class="text-neutral-600 mb-1">收录 Top 500 个 GitHub AI 开源项目，每个都有中文一句话简介、适用场景、上手难度。</p>
-  <p class="text-xs text-neutral-500 mb-6">数据更新时间：{updatedLabel}（北京时间）</p>
+  <h1 class="text-2xl font-bold mb-2 dark:text-neutral-100">AI 开源项目中文榜单</h1>
+  <p class="text-neutral-600 dark:text-neutral-400 leading-relaxed mb-1">收录 Top 500 个 GitHub AI 开源项目，每个都有中文一句话简介、适用场景、上手难度。</p>
+  <p class="text-xs text-neutral-500 dark:text-neutral-500 mb-6">数据更新时间：{updatedLabel}（北京时间）</p>
 
   <section class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
     {CATEGORIES.filter(c => c.slug !== 'other').map(c => (
-      <a href={`${base}category/${c.slug}`} class="bg-white border rounded p-3 text-center hover:border-blue-400">
+      <a href={`${base}category/${c.slug}`} class="bg-white dark:bg-neutral-900 border dark:border-neutral-700 rounded p-3 text-center text-neutral-800 dark:text-neutral-200 hover:border-blue-400 dark:hover:border-blue-500">
         {c.label}
       </a>
     ))}
@@ -29,7 +29,7 @@ const updatedLabel = dataUpdatedAt.toLocaleString('zh-CN', {
 
   {trending.length > 0 && (
     <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-4">📈 本周窜升</h2>
+      <h2 class="text-xl font-semibold mb-4 dark:text-neutral-100">📈 本周窜升</h2>
       <div class="grid gap-3">
         {trending.map(r => <RepoCard repo={r} digest={getDigest(r.id)} />)}
       </div>
@@ -38,8 +38,10 @@ const updatedLabel = dataUpdatedAt.toLocaleString('zh-CN', {
 
   <AdSlot slot="home-top" />
 
-  <h2 class="text-xl font-semibold mb-4">Top 100 总榜</h2>
-  <div class="grid gap-3">
-    {top.map(r => <RepoCard repo={r} digest={getDigest(r.id)} />)}
-  </div>
+  <section class="mb-8">
+    <h2 class="text-xl font-semibold mb-4 dark:text-neutral-100">Top 100 总榜</h2>
+    <div class="grid gap-3">
+      {top.map(r => <RepoCard repo={r} digest={getDigest(r.id)} />)}
+    </div>
+  </section>
 </Base>
