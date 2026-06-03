@@ -19,8 +19,26 @@
 - **上手难度** — 简单 / 中等 / 困难，附理由（依赖、文档质量、社区活跃度）
 - **同类替代** — 列出可类比的项目，便于横向比较
 
-### 📈 Star 走势与排名变化
-每次数据更新都会记录排名变化（`rank_delta`），可以看到哪些项目最近窜升、哪些在掉。
+### 🔎 站内搜索
+顶栏搜索框可按 owner/name + 中文简介即时匹配，回车直达项目详情页。
+
+### 📈 本周窜升 Top 10
+首页突出"本周排名上升幅度最大的 10 个项目"（star ≥ 1k 过滤掉冷门刷榜）。
+
+### 🧭 分类页排序与难度筛选
+分类页内可按 Star 数 / 最近窜升 / 难度由易到难排序，并按难度多选筛选。
+
+### 🃏 卡片信息更全
+每张项目卡片直接呈现：难度三段进度条、3 个场景标签、Star 与排名变化，列表层就能"30 秒看懂"。
+
+### 🌓 暗色模式
+顶栏一键切换，本地记忆偏好，对开发者友好。
+
+### 📱 移动端友好
+响应式布局 + 汉堡菜单抽屉，手机/平板/桌面一致体验。
+
+### 📊 Star 走势与排名变化
+每次数据更新都会记录排名变化（`rank_delta`）。详情页顶部还提供"快速跳转"chips（场景｜难度｜替代｜走势｜原始），直达对应区块。
 
 ### 🔍 适合谁
 - 想跟进 AI 圈但被英文 README 劝退的开发者
@@ -41,11 +59,10 @@
 
 ## 访问统计
 
-站点接入 GoatCounter（无 Cookie）。本地开发可留空：
+站点接入 GoatCounter（无 Cookie、不记录完整 IP、不跨站追踪），footer 公开展示"累计访问 N 次 · 今日 M"。
 
 - 本地：`.env` 中 `PUBLIC_GOATCOUNTER_CODE` 留空 → 不注入脚本
-- 部署：在 GitHub 仓库 **Settings → Secrets and variables → Actions → Variables**
-  新建 `PUBLIC_GOATCOUNTER_CODE`，值为 GoatCounter 子域前缀（如 `nanship`）
+- 部署：在 GitHub 仓库 **Settings → Secrets and variables → Actions → Variables** 新建 `PUBLIC_GOATCOUNTER_CODE`，值为你的 GoatCounter 子域前缀（在 GoatCounter 后台还需勾选 "Allow adding visitor counts on your website" 与 Dashboard "Everyone" 才能让前端读到聚合数）
 
 ---
 
