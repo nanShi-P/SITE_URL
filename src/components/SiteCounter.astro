@@ -1,0 +1,37 @@
+---
+const gcCode = import.meta.env.PUBLIC_GOATCOUNTER_CODE;
+---
+{gcCode && (
+  <span class="site-counter" data-gc={gcCode} style="display:none">
+    累计访问 <span data-total>—</span> 次 · 今日 <span data-today>—</span>
+  </span>
+)}
+
+{gcCode && (
+  <script is:inline>
+    (async () => {
+      const el = document.querySelector('.site-counter');
+      if (!el) return;
+      const code = el.getAttribute('data-gc');
+      const base = `https://${code}.goatcounter.com/counter/TOTAL.json`;
+      const pad = (n) => String(n).padStart(2, '0');
+      const d = new Date();
+      const today = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+      try {
+        const [totalRes, todayRes] = await Promise.all([
+          fetch(base),
+          fetch(`${base}?start=${today}&end=${today}`),
+        ]);
+        if (!totalRes.ok || !todayRes.ok) return;
+        const totalJson = await totalRes.json();
+        const todayJson = await todayRes.json();
+        const fmt = (n) => Number(n || 0).toLocaleString();
+        el.querySelector('[data-total]').textContent = fmt(totalJson.count);
+        el.querySelector('[data-today]').textContent = fmt(todayJson.count);
+        el.style.display = '';
+      } catch {
+        /* silent: leave hidden */
+      }
+    })();
+  </script>
+)}
