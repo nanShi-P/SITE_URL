@@ -4,6 +4,7 @@ import CategoryNav from '../components/CategoryNav.astro';
 interface Props { title: string; description: string; canonical?: string; }
 const { title, description, canonical } = Astro.props;
 const url = canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
+const base = import.meta.env.BASE_URL;
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -23,16 +24,16 @@ const url = canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
   <body class="bg-neutral-50 text-neutral-900 min-h-screen flex flex-col">
     <header class="border-b bg-white">
       <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="/" class="font-bold text-lg">AI 开源榜</a>
+        <a href={base} class="font-bold text-lg">AI 开源榜</a>
         <CategoryNav />
       </div>
     </header>
     <main class="flex-1 max-w-5xl mx-auto px-4 py-8 w-full"><slot /></main>
     <footer class="border-t bg-white">
       <div class="max-w-5xl mx-auto px-4 py-6 text-sm text-neutral-600 flex gap-4">
-        <a href="/about">关于</a><a href="/privacy">隐私</a>
-        <a href="/terms">条款</a><a href="/contact">联系</a>
-        <a href="/rss.xml">RSS</a>
+        <a href={`${base}about`}>关于</a><a href={`${base}privacy`}>隐私</a>
+        <a href={`${base}terms`}>条款</a><a href={`${base}contact`}>联系</a>
+        <a href={`${base}rss.xml`}>RSS</a>
       </div>
     </footer>
   </body>

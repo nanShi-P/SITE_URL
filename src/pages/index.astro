@@ -7,6 +7,7 @@ import { CATEGORIES } from '../../scripts/lib/categories';
 import { homeTitle, homeDescription } from '../utils/seo';
 
 const top = allRepos.slice(0, 100);
+const base = import.meta.env.BASE_URL;
 ---
 <Base title={homeTitle()} description={homeDescription()}>
   <h1 class="text-2xl font-bold mb-2">AI 开源项目中文榜单</h1>
@@ -14,7 +15,7 @@ const top = allRepos.slice(0, 100);
 
   <section class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
     {CATEGORIES.filter(c => c.slug !== 'other').map(c => (
-      <a href={`/category/${c.slug}`} class="bg-white border rounded p-3 text-center hover:border-blue-400">
+      <a href={`${base}category/${c.slug}`} class="bg-white border rounded p-3 text-center hover:border-blue-400">
         {c.label}
       </a>
     ))}

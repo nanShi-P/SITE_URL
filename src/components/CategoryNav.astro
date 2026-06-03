@@ -1,8 +1,9 @@
 ---
 import { CATEGORIES } from '../../scripts/lib/categories';
+const base = import.meta.env.BASE_URL;
 ---
 <nav class="flex flex-wrap gap-3 text-sm">
   {CATEGORIES.filter(c => c.slug !== 'other').map(c => (
-    <a href={`/category/${c.slug}`} class="text-neutral-700 hover:text-blue-600">{c.label}</a>
+    <a href={`${base}category/${c.slug}`} class="text-neutral-700 hover:text-blue-600">{c.label}</a>
   ))}
 </nav>
