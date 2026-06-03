@@ -7,7 +7,7 @@ import { CATEGORIES } from '../../scripts/lib/categories';
 import { homeTitle, homeDescription } from '../utils/seo';
 
 const top = allRepos.slice(0, 100);
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 ---
 <Base title={homeTitle()} description={homeDescription()}>
   <h1 class="text-2xl font-bold mb-2">AI 开源项目中文榜单</h1>

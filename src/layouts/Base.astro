@@ -4,7 +4,7 @@ import CategoryNav from '../components/CategoryNav.astro';
 interface Props { title: string; description: string; canonical?: string; }
 const { title, description, canonical } = Astro.props;
 const url = canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 ---
 <!doctype html>
 <html lang="zh-CN">
