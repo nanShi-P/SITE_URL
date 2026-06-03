@@ -5,6 +5,7 @@ interface Props { title: string; description: string; canonical?: string; }
 const { title, description, canonical } = Astro.props;
 const url = canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
 const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
+const gcCode = import.meta.env.PUBLIC_GOATCOUNTER_CODE;
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -20,6 +21,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
     <!-- AdSense 脚本占位：审核通过后取消注释并填 client id
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXX" crossorigin="anonymous"></script>
     -->
+    {gcCode && (
+      <script
+        data-goatcounter={`https://${gcCode}.goatcounter.com/count`}
+        async
+        src="//gc.zgo.at/count.js"
+      ></script>
+    )}
   </head>
   <body class="bg-neutral-50 text-neutral-900 min-h-screen flex flex-col">
     <header class="border-b bg-white">
