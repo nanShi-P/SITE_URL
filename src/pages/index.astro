@@ -2,11 +2,12 @@
 import Base from '../layouts/Base.astro';
 import RepoCard from '../components/RepoCard.astro';
 import AdSlot from '../components/AdSlot.astro';
-import { allRepos, getDigest, dataUpdatedAt } from '../utils/data';
+import { allRepos, getDigest, dataUpdatedAt, trendingRepos } from '../utils/data';
 import { CATEGORIES } from '../../scripts/lib/categories';
 import { homeTitle, homeDescription } from '../utils/seo';
 
 const top = allRepos.slice(0, 100);
+const trending = trendingRepos(1000, 10);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 const updatedLabel = dataUpdatedAt.toLocaleString('zh-CN', {
   timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
@@ -25,6 +26,22 @@ const updatedLabel = dataUpdatedAt.toLocaleString('zh-CN', {
       </a>
     ))}
   </section>
+
+  {trending.length > 0 && (
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">📈 本周窜升</h2>
+      <div class="grid gap-3 md:grid-cols-2">
+        {trending.map(r => (
+          <div class="relative">
+            <span class="absolute top-2 right-2 z-10 text-xs font-semibold text-green-700 bg-green-50 border border-green-200 rounded px-1.5 py-0.5">
+              ↑{r.rank_delta}
+            </span>
+            <RepoCard repo={r} digest={getDigest(r.id)} />
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
 
   <AdSlot slot="home-top" />
 
