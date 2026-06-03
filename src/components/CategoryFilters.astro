@@ -1,0 +1,82 @@
+---
+---
+<div
+  class="mb-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-neutral-700"
+  data-category-filters
+>
+  <label class="flex items-center gap-2">
+    <span class="text-neutral-500">排序</span>
+    <select
+      data-sort
+      class="rounded-md border border-neutral-300 bg-white px-2.5 py-1 text-neutral-800 shadow-sm transition hover:border-blue-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/30"
+    >
+      <option value="stars">Star 数 ↓</option>
+      <option value="delta">最近窜升</option>
+      <option value="difficulty">难度 易→难</option>
+    </select>
+  </label>
+  <fieldset class="flex flex-wrap items-center gap-3">
+    <legend class="sr-only">难度筛选</legend>
+    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 hover:bg-neutral-50">
+      <input
+        type="checkbox"
+        data-diff
+        value="简单"
+        class="h-3.5 w-3.5 rounded border-neutral-300 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
+      />
+      <span>简单</span>
+    </label>
+    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 hover:bg-neutral-50">
+      <input
+        type="checkbox"
+        data-diff
+        value="中等"
+        class="h-3.5 w-3.5 rounded border-neutral-300 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
+      />
+      <span>中等</span>
+    </label>
+    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 hover:bg-neutral-50">
+      <input
+        type="checkbox"
+        data-diff
+        value="困难"
+        class="h-3.5 w-3.5 rounded border-neutral-300 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
+      />
+      <span>困难</span>
+    </label>
+  </fieldset>
+</div>
+
+<script is:inline>
+  (() => {
+    const filters = document.querySelector('[data-category-filters]');
+    const list = document.querySelector('[data-repo-list]');
+    if (!filters || !list) return;
+    const DIFF_ORDER = { '简单': 0, '中等': 1, '困难': 2 };
+    const sortSel = filters.querySelector('[data-sort]');
+    const diffBoxes = filters.querySelectorAll('[data-diff]');
+    const cards = Array.from(list.children);
+    function apply() {
+      const sort = sortSel.value;
+      const checked = Array.from(diffBoxes).filter(b => b.checked).map(b => b.value);
+      const filterOn = checked.length > 0;
+      const sorted = cards.slice().sort((a, b) => {
+        if (sort === 'stars') return Number(b.dataset.stars) - Number(a.dataset.stars);
+        if (sort === 'delta') return Number(b.dataset.delta) - Number(a.dataset.delta);
+        if (sort === 'difficulty') {
+          const da = DIFF_ORDER[a.dataset.difficulty] ?? 99;
+          const db = DIFF_ORDER[b.dataset.difficulty] ?? 99;
+          return da - db;
+        }
+        return 0;
+      });
+      sorted.forEach(c => list.appendChild(c));
+      cards.forEach(c => {
+        const d = c.dataset.difficulty || '';
+        c.style.display = filterOn && !checked.includes(d) ? 'none' : '';
+      });
+    }
+    sortSel.addEventListener('change', apply);
+    diffBoxes.forEach(b => b.addEventListener('change', apply));
+  })();
+</script>
