@@ -3,12 +3,24 @@ import { CATEGORIES } from '../../scripts/lib/categories';
 interface Props { mobile?: boolean }
 const { mobile = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
+const SHORT: Record<string, string> = {
+  llm: 'LLM',
+  agent: 'Agent',
+  rag: 'RAG',
+  multimodal: '多模态',
+  voice: '语音',
+  devtools: '工具',
+  framework: '框架',
+  data: '数据',
+};
 const navClass = mobile
   ? 'flex flex-col gap-3 text-sm p-4'
-  : 'flex flex-wrap gap-3 text-sm';
+  : 'flex flex-wrap gap-x-4 gap-y-1 text-sm';
 ---
 <nav class={navClass}>
   {CATEGORIES.filter(c => c.slug !== 'other').map(c => (
-    <a href={`${base}category/${c.slug}`} class="text-neutral-700 hover:text-blue-600">{c.label}</a>
+    <a href={`${base}category/${c.slug}`} class="text-neutral-700 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400 whitespace-nowrap">
+      {mobile ? c.label : (SHORT[c.slug] ?? c.label)}
+    </a>
   ))}
 </nav>

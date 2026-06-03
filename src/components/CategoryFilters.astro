@@ -1,14 +1,14 @@
 ---
 ---
 <div
-  class="mb-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-neutral-700"
+  class="mb-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-neutral-700 dark:text-neutral-300"
   data-category-filters
 >
   <label class="flex items-center gap-2">
-    <span class="text-neutral-500">排序</span>
+    <span class="text-neutral-500 dark:text-neutral-400">排序</span>
     <select
       data-sort
-      class="rounded-md border border-neutral-300 bg-white px-2.5 py-1 text-neutral-800 shadow-sm transition hover:border-blue-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/30"
+      class="rounded-md border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 px-2.5 py-1 text-neutral-800 dark:text-neutral-100 shadow-sm transition hover:border-blue-400 dark:hover:border-blue-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/30"
     >
       <option value="stars">Star 数 ↓</option>
       <option value="delta">最近窜升</option>
@@ -17,30 +17,30 @@
   </label>
   <fieldset class="flex flex-wrap items-center gap-3">
     <legend class="sr-only">难度筛选</legend>
-    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 hover:bg-neutral-50">
+    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800">
       <input
         type="checkbox"
         data-diff
         value="简单"
-        class="h-3.5 w-3.5 rounded border-neutral-300 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
+        class="h-3.5 w-3.5 rounded border-neutral-300 dark:border-neutral-700 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
       />
       <span>简单</span>
     </label>
-    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 hover:bg-neutral-50">
+    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800">
       <input
         type="checkbox"
         data-diff
         value="中等"
-        class="h-3.5 w-3.5 rounded border-neutral-300 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
+        class="h-3.5 w-3.5 rounded border-neutral-300 dark:border-neutral-700 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
       />
       <span>中等</span>
     </label>
-    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 hover:bg-neutral-50">
+    <label class="flex cursor-pointer items-center gap-1.5 rounded-md border border-transparent px-1.5 py-1 transition hover:border-neutral-200 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800">
       <input
         type="checkbox"
         data-diff
         value="困难"
-        class="h-3.5 w-3.5 rounded border-neutral-300 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
+        class="h-3.5 w-3.5 rounded border-neutral-300 dark:border-neutral-700 text-blue-600 focus:ring-2 focus:ring-blue-500/30 focus:ring-offset-0"
       />
       <span>困难</span>
     </label>
