@@ -1,0 +1,21 @@
+{
+  "id": "zylon-ai/private-gpt",
+  "source_hash": "425198dac037c6f5f100af1b1a7c359c88ab2cd8cfda45a066bc6bb9b007281a",
+  "generated_at": "2026-06-04T13:57:32.994Z",
+  "model": "claude-opus-4.7-1m-internal",
+  "summary_zh": "PrivateGPT 是一个开源 API 层，将本地或任意 OpenAI 兼容的推理服务（Ollama、llama.cpp、vLLM 等）封装成可用于生产的私有 AI 应用后端，支持文档问答等场景，并自带用于测试与演示的 Web 工作台界面。",
+  "scenarios": [
+    "在企业内网部署私有文档问答系统，避免数据外泄",
+    "基于本地大模型搭建知识库 RAG 应用",
+    "为自研 Agent/工作流提供统一的兼容 Claude/OpenAI 风格的 API 后端",
+    "开发演示阶段使用内置 UI 快速验证本地模型效果",
+    "为受合规约束的行业（医疗、法律、金融）构建本地 AI 服务"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "需自行部署 OpenAI 兼容推理服务并配置环境变量，但官方文档完善且有社区支持。",
+  "alternatives": [
+    "LocalGPT",
+    "AnythingLLM",
+    "Ollama WebUI"
+  ]
+}

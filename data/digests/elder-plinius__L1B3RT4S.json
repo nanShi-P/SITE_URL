@@ -1,0 +1,19 @@
+{
+  "id": "elder-plinius/L1B3RT4S",
+  "source_hash": "0a44c90c7598db6c8ae70d474bae6be3c67d82d075188e6bf1678fc0dc898c40",
+  "generated_at": "2026-06-04T13:57:43.039Z",
+  "model": "claude-opus-4.7-1m-internal",
+  "summary_zh": "该仓库收集了针对各主流大语言模型（如 GPT、Claude、Gemini 等）的越狱提示词（jailbreak prompts），通过特殊措辞绕过模型的安全限制，使其输出原本被拒绝的内容，按模型分文件整理。",
+  "scenarios": [
+    "AI 安全研究人员测试模型对抗提示注入的鲁棒性",
+    "红队评估大模型的安全护栏与对齐效果",
+    "学术研究越狱攻击与防御机制",
+    "模型厂商收集越狱样本以改进安全训练"
+  ],
+  "difficulty": "简单",
+  "difficulty_reason": "仅为文本提示词集合，复制粘贴即可使用，无需环境配置或依赖。",
+  "alternatives": [
+    "ChatGPT_DAN",
+    "llm-attacks"
+  ]
+}

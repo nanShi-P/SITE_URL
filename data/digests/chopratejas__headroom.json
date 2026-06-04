@@ -1,0 +1,21 @@
+{
+  "id": "chopratejas/headroom",
+  "source_hash": "c7a07e29607592a731def495db58fac7de7461583c02ab1909831fb2f7051484",
+  "generated_at": "2026-06-04T13:57:54.321Z",
+  "model": "claude-opus-4.7-1m-internal",
+  "summary_zh": "Headroom 是一个面向 AI 智能体的上下文压缩层，可在工具输出、日志、文件和 RAG 片段送入 LLM 前进行压缩，宣称在保持答案一致的同时减少 60%–95% 的 token。提供库、代理和 MCP 服务器三种接入方式，内置 6 种算法，支持本地运行和可逆还原。",
+  "scenarios": [
+    "压缩长工具输出后再喂给 LLM 智能体以降低成本",
+    "对 RAG 检索片段做预压缩以容纳更多上下文",
+    "通过代理透明压缩调用大模型 API 的请求",
+    "在 MCP 兼容客户端中接入压缩服务",
+    "压缩冗长日志后交由 LLM 分析排查问题"
+  ],
+  "difficulty": "中等",
+  "difficulty_reason": "提供 PyPI/npm 包和文档，安装直接，但涉及代理、MCP 集成与多算法选择，需要一定的工程配置。",
+  "alternatives": [
+    "LLMLingua",
+    "Microsoft LLMLingua-2",
+    "Selective-Context"
+  ]
+}
